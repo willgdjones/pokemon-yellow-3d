@@ -1,0 +1,1753 @@
+{
+  "blocked_edges": [
+    {
+      "dir": "east",
+      "x": 1,
+      "y": 2
+    },
+    {
+      "dir": "west",
+      "x": 2,
+      "y": 2
+    },
+    {
+      "dir": "east",
+      "x": 13,
+      "y": 2
+    },
+    {
+      "dir": "west",
+      "x": 14,
+      "y": 2
+    },
+    {
+      "dir": "east",
+      "x": 1,
+      "y": 3
+    },
+    {
+      "dir": "west",
+      "x": 2,
+      "y": 3
+    },
+    {
+      "dir": "east",
+      "x": 13,
+      "y": 3
+    },
+    {
+      "dir": "west",
+      "x": 14,
+      "y": 3
+    },
+    {
+      "dir": "east",
+      "x": 1,
+      "y": 4
+    },
+    {
+      "dir": "west",
+      "x": 2,
+      "y": 4
+    },
+    {
+      "dir": "east",
+      "x": 13,
+      "y": 4
+    },
+    {
+      "dir": "west",
+      "x": 14,
+      "y": 4
+    },
+    {
+      "dir": "east",
+      "x": 1,
+      "y": 5
+    },
+    {
+      "dir": "west",
+      "x": 2,
+      "y": 5
+    },
+    {
+      "dir": "east",
+      "x": 13,
+      "y": 5
+    },
+    {
+      "dir": "west",
+      "x": 14,
+      "y": 5
+    },
+    {
+      "dir": "east",
+      "x": 1,
+      "y": 6
+    },
+    {
+      "dir": "west",
+      "x": 2,
+      "y": 6
+    },
+    {
+      "dir": "east",
+      "x": 13,
+      "y": 6
+    },
+    {
+      "dir": "west",
+      "x": 14,
+      "y": 6
+    },
+    {
+      "dir": "east",
+      "x": 1,
+      "y": 7
+    },
+    {
+      "dir": "west",
+      "x": 2,
+      "y": 7
+    },
+    {
+      "dir": "east",
+      "x": 13,
+      "y": 7
+    },
+    {
+      "dir": "west",
+      "x": 14,
+      "y": 7
+    },
+    {
+      "dir": "south",
+      "x": 19,
+      "y": 7
+    },
+    {
+      "dir": "south",
+      "x": 20,
+      "y": 7
+    },
+    {
+      "dir": "south",
+      "x": 21,
+      "y": 7
+    },
+    {
+      "dir": "south",
+      "x": 23,
+      "y": 7
+    },
+    {
+      "dir": "south",
+      "x": 24,
+      "y": 7
+    },
+    {
+      "dir": "south",
+      "x": 25,
+      "y": 7
+    },
+    {
+      "dir": "south",
+      "x": 27,
+      "y": 7
+    },
+    {
+      "dir": "south",
+      "x": 28,
+      "y": 7
+    },
+    {
+      "dir": "south",
+      "x": 29,
+      "y": 7
+    },
+    {
+      "dir": "east",
+      "x": 1,
+      "y": 8
+    },
+    {
+      "dir": "west",
+      "x": 2,
+      "y": 8
+    },
+    {
+      "dir": "east",
+      "x": 13,
+      "y": 8
+    },
+    {
+      "dir": "west",
+      "x": 14,
+      "y": 8
+    },
+    {
+      "dir": "north",
+      "x": 19,
+      "y": 8
+    },
+    {
+      "dir": "north",
+      "x": 20,
+      "y": 8
+    },
+    {
+      "dir": "north",
+      "x": 21,
+      "y": 8
+    },
+    {
+      "dir": "north",
+      "x": 23,
+      "y": 8
+    },
+    {
+      "dir": "north",
+      "x": 24,
+      "y": 8
+    },
+    {
+      "dir": "north",
+      "x": 25,
+      "y": 8
+    },
+    {
+      "dir": "north",
+      "x": 27,
+      "y": 8
+    },
+    {
+      "dir": "north",
+      "x": 28,
+      "y": 8
+    },
+    {
+      "dir": "east",
+      "x": 29,
+      "y": 8
+    },
+    {
+      "dir": "north",
+      "x": 29,
+      "y": 8
+    },
+    {
+      "dir": "west",
+      "x": 30,
+      "y": 8
+    },
+    {
+      "dir": "east",
+      "x": 1,
+      "y": 9
+    },
+    {
+      "dir": "west",
+      "x": 2,
+      "y": 9
+    },
+    {
+      "dir": "east",
+      "x": 13,
+      "y": 9
+    },
+    {
+      "dir": "west",
+      "x": 14,
+      "y": 9
+    },
+    {
+      "dir": "east",
+      "x": 1,
+      "y": 10
+    },
+    {
+      "dir": "west",
+      "x": 2,
+      "y": 10
+    },
+    {
+      "dir": "east",
+      "x": 13,
+      "y": 10
+    },
+    {
+      "dir": "west",
+      "x": 14,
+      "y": 10
+    },
+    {
+      "dir": "east",
+      "x": 19,
+      "y": 10
+    },
+    {
+      "dir": "west",
+      "x": 20,
+      "y": 10
+    },
+    {
+      "dir": "east",
+      "x": 1,
+      "y": 11
+    },
+    {
+      "dir": "west",
+      "x": 2,
+      "y": 11
+    },
+    {
+      "dir": "east",
+      "x": 13,
+      "y": 11
+    },
+    {
+      "dir": "west",
+      "x": 14,
+      "y": 11
+    },
+    {
+      "dir": "east",
+      "x": 19,
+      "y": 11
+    },
+    {
+      "dir": "west",
+      "x": 20,
+      "y": 11
+    },
+    {
+      "dir": "south",
+      "x": 33,
+      "y": 11
+    },
+    {
+      "dir": "east",
+      "x": 1,
+      "y": 12
+    },
+    {
+      "dir": "west",
+      "x": 2,
+      "y": 12
+    },
+    {
+      "dir": "east",
+      "x": 13,
+      "y": 12
+    },
+    {
+      "dir": "west",
+      "x": 14,
+      "y": 12
+    },
+    {
+      "dir": "east",
+      "x": 19,
+      "y": 12
+    },
+    {
+      "dir": "west",
+      "x": 20,
+      "y": 12
+    },
+    {
+      "dir": "east",
+      "x": 33,
+      "y": 12
+    },
+    {
+      "dir": "north",
+      "x": 33,
+      "y": 12
+    },
+    {
+      "dir": "west",
+      "x": 34,
+      "y": 12
+    },
+    {
+      "dir": "east",
+      "x": 1,
+      "y": 13
+    },
+    {
+      "dir": "west",
+      "x": 2,
+      "y": 13
+    },
+    {
+      "dir": "east",
+      "x": 13,
+      "y": 13
+    },
+    {
+      "dir": "west",
+      "x": 14,
+      "y": 13
+    },
+    {
+      "dir": "east",
+      "x": 33,
+      "y": 13
+    },
+    {
+      "dir": "west",
+      "x": 34,
+      "y": 13
+    },
+    {
+      "dir": "east",
+      "x": 1,
+      "y": 14
+    },
+    {
+      "dir": "west",
+      "x": 2,
+      "y": 14
+    },
+    {
+      "dir": "east",
+      "x": 13,
+      "y": 14
+    },
+    {
+      "dir": "west",
+      "x": 14,
+      "y": 14
+    },
+    {
+      "dir": "east",
+      "x": 19,
+      "y": 14
+    },
+    {
+      "dir": "west",
+      "x": 20,
+      "y": 14
+    },
+    {
+      "dir": "east",
+      "x": 33,
+      "y": 14
+    },
+    {
+      "dir": "west",
+      "x": 34,
+      "y": 14
+    },
+    {
+      "dir": "east",
+      "x": 1,
+      "y": 15
+    },
+    {
+      "dir": "west",
+      "x": 2,
+      "y": 15
+    },
+    {
+      "dir": "east",
+      "x": 19,
+      "y": 15
+    },
+    {
+      "dir": "west",
+      "x": 20,
+      "y": 15
+    },
+    {
+      "dir": "south",
+      "x": 23,
+      "y": 15
+    },
+    {
+      "dir": "east",
+      "x": 1,
+      "y": 16
+    },
+    {
+      "dir": "west",
+      "x": 2,
+      "y": 16
+    },
+    {
+      "dir": "east",
+      "x": 19,
+      "y": 16
+    },
+    {
+      "dir": "west",
+      "x": 20,
+      "y": 16
+    },
+    {
+      "dir": "east",
+      "x": 23,
+      "y": 16
+    },
+    {
+      "dir": "north",
+      "x": 23,
+      "y": 16
+    },
+    {
+      "dir": "west",
+      "x": 24,
+      "y": 16
+    },
+    {
+      "dir": "east",
+      "x": 33,
+      "y": 16
+    },
+    {
+      "dir": "west",
+      "x": 34,
+      "y": 16
+    },
+    {
+      "dir": "east",
+      "x": 1,
+      "y": 17
+    },
+    {
+      "dir": "west",
+      "x": 2,
+      "y": 17
+    },
+    {
+      "dir": "south",
+      "x": 3,
+      "y": 17
+    },
+    {
+      "dir": "south",
+      "x": 4,
+      "y": 17
+    },
+    {
+      "dir": "south",
+      "x": 5,
+      "y": 17
+    },
+    {
+      "dir": "south",
+      "x": 6,
+      "y": 17
+    },
+    {
+      "dir": "south",
+      "x": 7,
+      "y": 17
+    },
+    {
+      "dir": "south",
+      "x": 9,
+      "y": 17
+    },
+    {
+      "dir": "east",
+      "x": 23,
+      "y": 17
+    },
+    {
+      "dir": "west",
+      "x": 24,
+      "y": 17
+    },
+    {
+      "dir": "east",
+      "x": 33,
+      "y": 17
+    },
+    {
+      "dir": "west",
+      "x": 34,
+      "y": 17
+    },
+    {
+      "dir": "north",
+      "x": 3,
+      "y": 18
+    },
+    {
+      "dir": "north",
+      "x": 4,
+      "y": 18
+    },
+    {
+      "dir": "north",
+      "x": 5,
+      "y": 18
+    },
+    {
+      "dir": "north",
+      "x": 6,
+      "y": 18
+    },
+    {
+      "dir": "north",
+      "x": 7,
+      "y": 18
+    },
+    {
+      "dir": "east",
+      "x": 9,
+      "y": 18
+    },
+    {
+      "dir": "north",
+      "x": 9,
+      "y": 18
+    },
+    {
+      "dir": "west",
+      "x": 10,
+      "y": 18
+    },
+    {
+      "dir": "east",
+      "x": 19,
+      "y": 18
+    },
+    {
+      "dir": "west",
+      "x": 20,
+      "y": 18
+    },
+    {
+      "dir": "east",
+      "x": 23,
+      "y": 18
+    },
+    {
+      "dir": "west",
+      "x": 24,
+      "y": 18
+    },
+    {
+      "dir": "east",
+      "x": 33,
+      "y": 18
+    },
+    {
+      "dir": "west",
+      "x": 34,
+      "y": 18
+    },
+    {
+      "dir": "east",
+      "x": 9,
+      "y": 19
+    },
+    {
+      "dir": "west",
+      "x": 10,
+      "y": 19
+    },
+    {
+      "dir": "south",
+      "x": 11,
+      "y": 19
+    },
+    {
+      "dir": "south",
+      "x": 12,
+      "y": 19
+    },
+    {
+      "dir": "south",
+      "x": 13,
+      "y": 19
+    },
+    {
+      "dir": "south",
+      "x": 14,
+      "y": 19
+    },
+    {
+      "dir": "south",
+      "x": 15,
+      "y": 19
+    },
+    {
+      "dir": "south",
+      "x": 16,
+      "y": 19
+    },
+    {
+      "dir": "south",
+      "x": 17,
+      "y": 19
+    },
+    {
+      "dir": "east",
+      "x": 19,
+      "y": 19
+    },
+    {
+      "dir": "west",
+      "x": 20,
+      "y": 19
+    },
+    {
+      "dir": "east",
+      "x": 1,
+      "y": 20
+    },
+    {
+      "dir": "west",
+      "x": 2,
+      "y": 20
+    },
+    {
+      "dir": "north",
+      "x": 11,
+      "y": 20
+    },
+    {
+      "dir": "north",
+      "x": 12,
+      "y": 20
+    },
+    {
+      "dir": "north",
+      "x": 13,
+      "y": 20
+    },
+    {
+      "dir": "north",
+      "x": 14,
+      "y": 20
+    },
+    {
+      "dir": "north",
+      "x": 15,
+      "y": 20
+    },
+    {
+      "dir": "north",
+      "x": 16,
+      "y": 20
+    },
+    {
+      "dir": "north",
+      "x": 17,
+      "y": 20
+    },
+    {
+      "dir": "east",
+      "x": 19,
+      "y": 20
+    },
+    {
+      "dir": "west",
+      "x": 20,
+      "y": 20
+    },
+    {
+      "dir": "east",
+      "x": 23,
+      "y": 20
+    },
+    {
+      "dir": "west",
+      "x": 24,
+      "y": 20
+    },
+    {
+      "dir": "east",
+      "x": 33,
+      "y": 20
+    },
+    {
+      "dir": "west",
+      "x": 34,
+      "y": 20
+    },
+    {
+      "dir": "east",
+      "x": 1,
+      "y": 21
+    },
+    {
+      "dir": "west",
+      "x": 2,
+      "y": 21
+    },
+    {
+      "dir": "east",
+      "x": 23,
+      "y": 21
+    },
+    {
+      "dir": "west",
+      "x": 24,
+      "y": 21
+    },
+    {
+      "dir": "east",
+      "x": 33,
+      "y": 21
+    },
+    {
+      "dir": "west",
+      "x": 34,
+      "y": 21
+    },
+    {
+      "dir": "east",
+      "x": 1,
+      "y": 22
+    },
+    {
+      "dir": "west",
+      "x": 2,
+      "y": 22
+    },
+    {
+      "dir": "east",
+      "x": 9,
+      "y": 22
+    },
+    {
+      "dir": "west",
+      "x": 10,
+      "y": 22
+    },
+    {
+      "dir": "east",
+      "x": 23,
+      "y": 22
+    },
+    {
+      "dir": "west",
+      "x": 24,
+      "y": 22
+    },
+    {
+      "dir": "east",
+      "x": 33,
+      "y": 22
+    },
+    {
+      "dir": "west",
+      "x": 34,
+      "y": 22
+    },
+    {
+      "dir": "east",
+      "x": 1,
+      "y": 23
+    },
+    {
+      "dir": "west",
+      "x": 2,
+      "y": 23
+    },
+    {
+      "dir": "east",
+      "x": 1,
+      "y": 24
+    },
+    {
+      "dir": "west",
+      "x": 2,
+      "y": 24
+    },
+    {
+      "dir": "east",
+      "x": 23,
+      "y": 24
+    },
+    {
+      "dir": "west",
+      "x": 24,
+      "y": 24
+    },
+    {
+      "dir": "east",
+      "x": 33,
+      "y": 24
+    },
+    {
+      "dir": "west",
+      "x": 34,
+      "y": 24
+    },
+    {
+      "dir": "east",
+      "x": 1,
+      "y": 25
+    },
+    {
+      "dir": "west",
+      "x": 2,
+      "y": 25
+    },
+    {
+      "dir": "south",
+      "x": 17,
+      "y": 25
+    },
+    {
+      "dir": "south",
+      "x": 18,
+      "y": 25
+    },
+    {
+      "dir": "south",
+      "x": 21,
+      "y": 25
+    },
+    {
+      "dir": "south",
+      "x": 27,
+      "y": 25
+    },
+    {
+      "dir": "south",
+      "x": 28,
+      "y": 25
+    },
+    {
+      "dir": "east",
+      "x": 33,
+      "y": 25
+    },
+    {
+      "dir": "west",
+      "x": 34,
+      "y": 25
+    },
+    {
+      "dir": "east",
+      "x": 1,
+      "y": 26
+    },
+    {
+      "dir": "west",
+      "x": 2,
+      "y": 26
+    },
+    {
+      "dir": "north",
+      "x": 17,
+      "y": 26
+    },
+    {
+      "dir": "north",
+      "x": 18,
+      "y": 26
+    },
+    {
+      "dir": "north",
+      "x": 21,
+      "y": 26
+    },
+    {
+      "dir": "east",
+      "x": 23,
+      "y": 26
+    },
+    {
+      "dir": "west",
+      "x": 24,
+      "y": 26
+    },
+    {
+      "dir": "north",
+      "x": 27,
+      "y": 26
+    },
+    {
+      "dir": "north",
+      "x": 28,
+      "y": 26
+    },
+    {
+      "dir": "east",
+      "x": 33,
+      "y": 26
+    },
+    {
+      "dir": "west",
+      "x": 34,
+      "y": 26
+    },
+    {
+      "dir": "east",
+      "x": 1,
+      "y": 27
+    },
+    {
+      "dir": "west",
+      "x": 2,
+      "y": 27
+    },
+    {
+      "dir": "east",
+      "x": 1,
+      "y": 28
+    },
+    {
+      "dir": "west",
+      "x": 2,
+      "y": 28
+    },
+    {
+      "dir": "east",
+      "x": 1,
+      "y": 29
+    },
+    {
+      "dir": "west",
+      "x": 2,
+      "y": 29
+    },
+    {
+      "dir": "south",
+      "x": 11,
+      "y": 29
+    },
+    {
+      "dir": "south",
+      "x": 12,
+      "y": 29
+    },
+    {
+      "dir": "east",
+      "x": 1,
+      "y": 30
+    },
+    {
+      "dir": "west",
+      "x": 2,
+      "y": 30
+    },
+    {
+      "dir": "north",
+      "x": 11,
+      "y": 30
+    },
+    {
+      "dir": "north",
+      "x": 12,
+      "y": 30
+    },
+    {
+      "dir": "east",
+      "x": 1,
+      "y": 31
+    },
+    {
+      "dir": "west",
+      "x": 2,
+      "y": 31
+    },
+    {
+      "dir": "east",
+      "x": 1,
+      "y": 32
+    },
+    {
+      "dir": "west",
+      "x": 2,
+      "y": 32
+    },
+    {
+      "dir": "east",
+      "x": 1,
+      "y": 33
+    },
+    {
+      "dir": "west",
+      "x": 2,
+      "y": 33
+    },
+    {
+      "dir": "south",
+      "x": 3,
+      "y": 33
+    },
+    {
+      "dir": "south",
+      "x": 4,
+      "y": 33
+    },
+    {
+      "dir": "south",
+      "x": 5,
+      "y": 33
+    },
+    {
+      "dir": "south",
+      "x": 6,
+      "y": 33
+    },
+    {
+      "dir": "south",
+      "x": 7,
+      "y": 33
+    },
+    {
+      "dir": "south",
+      "x": 8,
+      "y": 33
+    },
+    {
+      "dir": "south",
+      "x": 9,
+      "y": 33
+    },
+    {
+      "dir": "south",
+      "x": 21,
+      "y": 33
+    },
+    {
+      "dir": "south",
+      "x": 22,
+      "y": 33
+    },
+    {
+      "dir": "south",
+      "x": 23,
+      "y": 33
+    },
+    {
+      "dir": "south",
+      "x": 24,
+      "y": 33
+    },
+    {
+      "dir": "south",
+      "x": 25,
+      "y": 33
+    },
+    {
+      "dir": "south",
+      "x": 26,
+      "y": 33
+    },
+    {
+      "dir": "south",
+      "x": 27,
+      "y": 33
+    },
+    {
+      "dir": "south",
+      "x": 28,
+      "y": 33
+    },
+    {
+      "dir": "south",
+      "x": 29,
+      "y": 33
+    },
+    {
+      "dir": "south",
+      "x": 30,
+      "y": 33
+    },
+    {
+      "dir": "south",
+      "x": 31,
+      "y": 33
+    },
+    {
+      "dir": "south",
+      "x": 32,
+      "y": 33
+    },
+    {
+      "dir": "south",
+      "x": 33,
+      "y": 33
+    },
+    {
+      "dir": "south",
+      "x": 34,
+      "y": 33
+    },
+    {
+      "dir": "south",
+      "x": 35,
+      "y": 33
+    },
+    {
+      "dir": "south",
+      "x": 36,
+      "y": 33
+    },
+    {
+      "dir": "south",
+      "x": 37,
+      "y": 33
+    },
+    {
+      "dir": "north",
+      "x": 3,
+      "y": 34
+    },
+    {
+      "dir": "north",
+      "x": 4,
+      "y": 34
+    },
+    {
+      "dir": "north",
+      "x": 5,
+      "y": 34
+    },
+    {
+      "dir": "north",
+      "x": 6,
+      "y": 34
+    },
+    {
+      "dir": "north",
+      "x": 7,
+      "y": 34
+    },
+    {
+      "dir": "north",
+      "x": 8,
+      "y": 34
+    },
+    {
+      "dir": "north",
+      "x": 9,
+      "y": 34
+    },
+    {
+      "dir": "north",
+      "x": 21,
+      "y": 34
+    },
+    {
+      "dir": "north",
+      "x": 22,
+      "y": 34
+    },
+    {
+      "dir": "north",
+      "x": 23,
+      "y": 34
+    },
+    {
+      "dir": "north",
+      "x": 24,
+      "y": 34
+    },
+    {
+      "dir": "north",
+      "x": 25,
+      "y": 34
+    },
+    {
+      "dir": "north",
+      "x": 26,
+      "y": 34
+    },
+    {
+      "dir": "north",
+      "x": 27,
+      "y": 34
+    },
+    {
+      "dir": "north",
+      "x": 28,
+      "y": 34
+    },
+    {
+      "dir": "north",
+      "x": 29,
+      "y": 34
+    },
+    {
+      "dir": "north",
+      "x": 30,
+      "y": 34
+    },
+    {
+      "dir": "north",
+      "x": 31,
+      "y": 34
+    },
+    {
+      "dir": "north",
+      "x": 32,
+      "y": 34
+    },
+    {
+      "dir": "north",
+      "x": 33,
+      "y": 34
+    },
+    {
+      "dir": "north",
+      "x": 34,
+      "y": 34
+    },
+    {
+      "dir": "north",
+      "x": 35,
+      "y": 34
+    },
+    {
+      "dir": "north",
+      "x": 36,
+      "y": 34
+    },
+    {
+      "dir": "north",
+      "x": 37,
+      "y": 34
+    }
+  ],
+  "border_block": 3,
+  "cave": true,
+  "connections": {},
+  "encounter_rate": 10,
+  "height": 36,
+  "hidden": [],
+  "hidden_events": [],
+  "id": "MT_MOON_1F",
+  "items": [
+    {
+      "facing": "none",
+      "hidden_at_start": false,
+      "id": "MTMOON1F_POTION1",
+      "item": "POTION",
+      "movement": "stay",
+      "script": "PickUpItemText",
+      "sprite": "SPRITE_POKE_BALL",
+      "text": "TEXT_MTMOON1F_POTION1",
+      "text_handler": "PickUpItemText",
+      "text_id": "TEXT_MTMOON1F_POTION1",
+      "texts": [
+        "FoundItemText",
+        "NoMoreRoomForItemText"
+      ],
+      "toggle": "MTMOON1F_POTION1",
+      "x": 2,
+      "y": 20
+    },
+    {
+      "facing": "none",
+      "hidden_at_start": false,
+      "id": "MTMOON1F_MOON_STONE",
+      "item": "MOON_STONE",
+      "movement": "stay",
+      "script": "PickUpItemText",
+      "sprite": "SPRITE_POKE_BALL",
+      "text": "TEXT_MTMOON1F_MOON_STONE",
+      "text_handler": "PickUpItemText",
+      "text_id": "TEXT_MTMOON1F_MOON_STONE",
+      "texts": [
+        "FoundItemText",
+        "NoMoreRoomForItemText"
+      ],
+      "toggle": "MTMOON1F_MOON_STONE",
+      "x": 2,
+      "y": 2
+    },
+    {
+      "facing": "none",
+      "hidden_at_start": false,
+      "id": "MTMOON1F_RARE_CANDY",
+      "item": "RARE_CANDY",
+      "movement": "stay",
+      "script": "PickUpItemText",
+      "sprite": "SPRITE_POKE_BALL",
+      "text": "TEXT_MTMOON1F_RARE_CANDY",
+      "text_handler": "PickUpItemText",
+      "text_id": "TEXT_MTMOON1F_RARE_CANDY",
+      "texts": [
+        "FoundItemText",
+        "NoMoreRoomForItemText"
+      ],
+      "toggle": "MTMOON1F_RARE_CANDY",
+      "x": 35,
+      "y": 31
+    },
+    {
+      "facing": "none",
+      "hidden_at_start": false,
+      "id": "MTMOON1F_ESCAPE_ROPE",
+      "item": "ESCAPE_ROPE",
+      "movement": "stay",
+      "script": "PickUpItemText",
+      "sprite": "SPRITE_POKE_BALL",
+      "text": "TEXT_MTMOON1F_ESCAPE_ROPE",
+      "text_handler": "PickUpItemText",
+      "text_id": "TEXT_MTMOON1F_ESCAPE_ROPE",
+      "texts": [
+        "FoundItemText",
+        "NoMoreRoomForItemText"
+      ],
+      "toggle": "MTMOON1F_ESCAPE_ROPE",
+      "x": 36,
+      "y": 23
+    },
+    {
+      "facing": "none",
+      "hidden_at_start": false,
+      "id": "MTMOON1F_POTION2",
+      "item": "POTION",
+      "movement": "stay",
+      "script": "PickUpItemText",
+      "sprite": "SPRITE_POKE_BALL",
+      "text": "TEXT_MTMOON1F_POTION2",
+      "text_handler": "PickUpItemText",
+      "text_id": "TEXT_MTMOON1F_POTION2",
+      "texts": [
+        "FoundItemText",
+        "NoMoreRoomForItemText"
+      ],
+      "toggle": "MTMOON1F_POTION2",
+      "x": 20,
+      "y": 33
+    },
+    {
+      "facing": "none",
+      "hidden_at_start": false,
+      "id": "MTMOON1F_TM_WATER_GUN",
+      "item": "TM_WATER_GUN",
+      "movement": "stay",
+      "script": "PickUpItemText",
+      "sprite": "SPRITE_POKE_BALL",
+      "text": "TEXT_MTMOON1F_TM_WATER_GUN",
+      "text_handler": "PickUpItemText",
+      "text_id": "TEXT_MTMOON1F_TM_WATER_GUN",
+      "texts": [
+        "FoundItemText",
+        "NoMoreRoomForItemText"
+      ],
+      "toggle": "MTMOON1F_TM_WATER_GUN",
+      "x": 5,
+      "y": 32
+    }
+  ],
+  "label": "MtMoon1F",
+  "looks": [
+    "CcCccccccccccccccccccccccccccccccccccccc",
+    "CcCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC",
+    "CcccccccccccCcccccccccccccccccccccccccCc",
+    "CcccccccccccCcccccccccccccccccccccccccCc",
+    "CcccccccccccCcccccccccccccccccccccccccCc",
+    "CccccuccccccCcccccccccccccccccccccccccCc",
+    "CcccccccccccCcccccccccccccccccccccccccCc",
+    "CcccccccccccCcccccccccccccccccccccccccCc",
+    "CcccccccccccCcccccCcccCcccCcccccccccccCc",
+    "CcccccccccccCcccccCCCCCCCCCCCCccccccccCc",
+    "CcccccccccccCcccccCcccccccccccccccccccCc",
+    "CcccccccccccCccccuCcccccccccccccccccccCc",
+    "CcccccccccccCcccccCcccccccccccccCcccccCc",
+    "CcccccccccccCcccccCCccccccccccccCcccccCc",
+    "CcccccccccccCcccccCcccccccccccccCcccccCc",
+    "CcccccccccccCCccccCccccccuccccccCCccccCc",
+    "CcccccccccccccccccCcccCcccccccccCcccccCc",
+    "CcccccccccccccccccCCccCcccccccccCcccccCc",
+    "CcCcccccCcccccccccCcccCcccccccccCcccccCc",
+    "CcCCCCCCCcccccccccCcccCCccccccccCCccccCc",
+    "CcccccccCcCcccccccCcccCcccccccccCcccccCc",
+    "CcccccccCcCCCCCCCCCCccCcccccccccCcccccCc",
+    "CcccccccCcccccccccccccCcccccccccCcccccCc",
+    "CcccccccCCcccccrccccccCCccccccccCCccccCc",
+    "CcccccccccccccccccccccCcccccccccCcccccCc",
+    "CcccccccccccccccccccccCCccccccccCcccccCc",
+    "CcccccccccccccccCccCCcccccCccCccCcccccCc",
+    "CcccccccccccccccCccCCCCCccCccCccCCccccCc",
+    "CcccccccccccccccCccCccccccCccCccccccccCc",
+    "CcccccccccccccccCccCccccccCccCccccccccCc",
+    "CcccccccccCccCccCccCccccccCccCccccccccCc",
+    "CcccccccccCccCccCccCccccccCCCCccccccccCc",
+    "CcccccccccCccCccCccCccccccccccccccccccCc",
+    "CcccccccccCccCccCccCccccccccccccccccccCC",
+    "CcCcccccccCccCccCccCCccccccccccccccccccc",
+    "CCCCCCCCCCCCCCmmCCCCCCCCCCCCCCCCCCCCCCCC"
+  ],
+  "looks_unknown": 0,
+  "music": "dungeon3",
+  "name": "Mt. Moon 1F",
+  "npcs": [
+    {
+      "facing": "down",
+      "id": "MTMOON1F_HIKER",
+      "movement": "stay",
+      "sprite": "SPRITE_HIKER",
+      "text": "TEXT_MTMOON1F_HIKER",
+      "text_handler": "MtMoon1FHikerText",
+      "text_id": "TEXT_MTMOON1F_HIKER",
+      "texts": [
+        "MtMoon1FHikerBattleText",
+        "MtMoon1FHikerEndBattleText",
+        "MtMoon1FHikerAfterBattleText"
+      ],
+      "trainer": {
+        "after_text": "MtMoon1FHikerAfterBattleText",
+        "battle_text": "MtMoon1FHikerBattleText",
+        "class": "HIKER",
+        "end_text": "MtMoon1FHikerEndBattleText",
+        "event": "EVENT_BEAT_MT_MOON_1_TRAINER_0",
+        "party": 1,
+        "sight": 2
+      },
+      "x": 5,
+      "y": 6
+    },
+    {
+      "facing": "right",
+      "id": "MTMOON1F_YOUNGSTER1",
+      "movement": "stay",
+      "sprite": "SPRITE_YOUNGSTER",
+      "text": "TEXT_MTMOON1F_YOUNGSTER1",
+      "text_handler": "MtMoon1FYoungster1Text",
+      "text_id": "TEXT_MTMOON1F_YOUNGSTER1",
+      "texts": [
+        "MtMoon1FYoungster1BattleText",
+        "MtMoon1FYoungster1EndBattleText",
+        "MtMoon1FYoungster1AfterBattleText"
+      ],
+      "trainer": {
+        "after_text": "MtMoon1FYoungster1AfterBattleText",
+        "battle_text": "MtMoon1FYoungster1BattleText",
+        "class": "YOUNGSTER",
+        "end_text": "MtMoon1FYoungster1EndBattleText",
+        "event": "EVENT_BEAT_MT_MOON_1_TRAINER_1",
+        "party": 3,
+        "sight": 3
+      },
+      "x": 12,
+      "y": 16
+    },
+    {
+      "facing": "down",
+      "id": "MTMOON1F_COOLTRAINER_F1",
+      "movement": "stay",
+      "sprite": "SPRITE_COOLTRAINER_F",
+      "text": "TEXT_MTMOON1F_COOLTRAINER_F1",
+      "text_handler": "MtMoon1FCooltrainerF1Text",
+      "text_id": "TEXT_MTMOON1F_COOLTRAINER_F1",
+      "texts": [
+        "MtMoon1FCooltrainerF1BattleText",
+        "MtMoon1FCooltrainerF1EndBattleText",
+        "MtMoon1FCooltrainerF1AfterBattleText"
+      ],
+      "trainer": {
+        "after_text": "MtMoon1FCooltrainerF1AfterBattleText",
+        "battle_text": "MtMoon1FCooltrainerF1BattleText",
+        "class": "LASS",
+        "end_text": "MtMoon1FCooltrainerF1EndBattleText",
+        "event": "EVENT_BEAT_MT_MOON_1_TRAINER_2",
+        "party": 5,
+        "sight": 3
+      },
+      "x": 30,
+      "y": 4
+    },
+    {
+      "facing": "up",
+      "id": "MTMOON1F_SUPER_NERD",
+      "movement": "stay",
+      "sprite": "SPRITE_SUPER_NERD",
+      "text": "TEXT_MTMOON1F_SUPER_NERD",
+      "text_handler": "MtMoon1FSuperNerdText",
+      "text_id": "TEXT_MTMOON1F_SUPER_NERD",
+      "texts": [
+        "MtMoon1FSuperNerdBattleText",
+        "MtMoon1FSuperNerdEndBattleText",
+        "MtMoon1FSuperNerdAfterBattleText"
+      ],
+      "trainer": {
+        "after_text": "MtMoon1FSuperNerdAfterBattleText",
+        "battle_text": "MtMoon1FSuperNerdBattleText",
+        "class": "SUPER_NERD",
+        "end_text": "MtMoon1FSuperNerdEndBattleText",
+        "event": "EVENT_BEAT_MT_MOON_1_TRAINER_3",
+        "party": 1,
+        "sight": 3
+      },
+      "x": 24,
+      "y": 31
+    },
+    {
+      "facing": "down",
+      "id": "MTMOON1F_COOLTRAINER_F2",
+      "movement": "stay",
+      "sprite": "SPRITE_COOLTRAINER_F",
+      "text": "TEXT_MTMOON1F_COOLTRAINER_F2",
+      "text_handler": "MtMoon1FCooltrainerF2Text",
+      "text_id": "TEXT_MTMOON1F_COOLTRAINER_F2",
+      "texts": [
+        "MtMoon1FCooltrainerF2BattleText",
+        "MtMoon1FCooltrainerF2EndBattleText",
+        "MtMoon1FCooltrainerF2AfterBattleText"
+      ],
+      "trainer": {
+        "after_text": "MtMoon1FCooltrainerF2AfterBattleText",
+        "battle_text": "MtMoon1FCooltrainerF2BattleText",
+        "class": "LASS",
+        "end_text": "MtMoon1FCooltrainerF2EndBattleText",
+        "event": "EVENT_BEAT_MT_MOON_1_TRAINER_4",
+        "party": 6,
+        "sight": 3
+      },
+      "x": 16,
+      "y": 23
+    },
+    {
+      "facing": "down",
+      "id": "MTMOON1F_YOUNGSTER2",
+      "movement": "stay",
+      "sprite": "SPRITE_YOUNGSTER",
+      "text": "TEXT_MTMOON1F_YOUNGSTER2",
+      "text_handler": "MtMoon1FYoungster2Text",
+      "text_id": "TEXT_MTMOON1F_YOUNGSTER2",
+      "texts": [
+        "MtMoon1FYoungster2BattleText",
+        "MtMoon1FYoungster2EndBattleText",
+        "MtMoon1FYoungster2AfterBattleText"
+      ],
+      "trainer": {
+        "after_text": "MtMoon1FYoungster2AfterBattleText",
+        "battle_text": "MtMoon1FYoungster2BattleText",
+        "class": "BUG_CATCHER",
+        "end_text": "MtMoon1FYoungster2EndBattleText",
+        "event": "EVENT_BEAT_MT_MOON_1_TRAINER_5",
+        "party": 7,
+        "sight": 3
+      },
+      "x": 7,
+      "y": 22
+    },
+    {
+      "facing": "right",
+      "id": "MTMOON1F_YOUNGSTER3",
+      "movement": "stay",
+      "sprite": "SPRITE_YOUNGSTER",
+      "text": "TEXT_MTMOON1F_YOUNGSTER3",
+      "text_handler": "MtMoon1FYoungster3Text",
+      "text_id": "TEXT_MTMOON1F_YOUNGSTER3",
+      "texts": [
+        "MtMoon1FYoungster3BattleText",
+        "MtMoon1FYoungster3EndBattleText",
+        "MtMoon1FYoungster3AfterBattleText"
+      ],
+      "trainer": {
+        "after_text": "MtMoon1FYoungster3AfterBattleText",
+        "battle_text": "MtMoon1FYoungster3BattleText",
+        "class": "BUG_CATCHER",
+        "end_text": "MtMoon1FYoungster3EndBattleText",
+        "event": "EVENT_BEAT_MT_MOON_1_TRAINER_6",
+        "party": 8,
+        "sight": 3
+      },
+      "x": 30,
+      "y": 27
+    }
+  ],
+  "origin": {
+    "x": 122,
+    "y": 1086
+  },
+  "outdoor": false,
+  "palette": "PAL_CAVE",
+  "signs": [
+    {
+      "text": "TEXT_MTMOON1F_BEWARE_ZUBAT_SIGN",
+      "texts": [
+        "MtMoon1FBewareZubatSign"
+      ],
+      "x": 15,
+      "y": 23
+    }
+  ],
+  "source": {
+    "blocks": "maps/MtMoon1F.blk",
+    "header": "data/maps/headers/MtMoon1F.asm",
+    "objects": "data/maps/objects/MtMoon1F.asm",
+    "script": "scripts/MtMoon1F.asm"
+  },
+  "tiles": [
+    "#c#ccccccccccccccccccccccccccccccccccccc",
+    "#c######################################",
+    "#ccccccccccc#ccccccccccccccccccccccccc#c",
+    "#ccccccccccc#ccccccccccccccccccccccccc#c",
+    "#ccccccccccc#ccccccccccccccccccccccccc#c",
+    "#ccccdcccccc#ccccccccccccccccccccccccc#c",
+    "#ccccccccccc#ccccccccccccccccccccccccc#c",
+    "#ccccccccccc#ccccccccccccccccccccccccc#c",
+    "#ccccccccccc#ccccc#ccc#ccc#ccccccccccc#c",
+    "#ccccccccccc#ccccc############cccccccc#c",
+    "#ccccccccccc#ccccc#ccccccccccccccccccc#c",
+    "#ccccccccccc#ccccd#ccccccccccccccccccc#c",
+    "#ccccccccccc#ccccc#ccccccccccccc#ccccc#c",
+    "#ccccccccccc#ccccc##cccccccccccc#ccccc#c",
+    "#ccccccccccc#ccccc#ccccccccccccc#ccccc#c",
+    "#ccccccccccc##cccc#ccccccdcccccc##cccc#c",
+    "#ccccccccccccccccc#ccc#ccccccccc#ccccc#c",
+    "#ccccccccccccccccc##cc#ccccccccc#ccccc#c",
+    "#c#ccccc#ccccccccc#ccc#ccccccccc#ccccc#c",
+    "#c#######ccccccccc#ccc##cccccccc##cccc#c",
+    "#ccccccc#c#ccccccc#ccc#ccccccccc#ccccc#c",
+    "#ccccccc#c##########cc#ccccccccc#ccccc#c",
+    "#ccccccc#ccccccccccccc#ccccccccc#ccccc#c",
+    "#ccccccc##ccccc#cccccc##cccccccc##cccc#c",
+    "#ccccccccccccccccccccc#ccccccccc#ccccc#c",
+    "#ccccccccccccccccccccc##cccccccc#ccccc#c",
+    "#ccccccccccccccc#cc##ccccc#cc#cc#ccccc#c",
+    "#ccccccccccccccc#cc#####cc#cc#cc##cccc#c",
+    "#ccccccccccccccc#cc#cccccc#cc#cccccccc#c",
+    "#ccccccccccccccc#cc#cccccc#cc#cccccccc#c",
+    "#ccccccccc#cc#cc#cc#cccccc#cc#cccccccc#c",
+    "#ccccccccc#cc#cc#cc#cccccc####cccccccc#c",
+    "#ccccccccc#cc#cc#cc#cccccccccccccccccc#c",
+    "#ccccccccc#cc#cc#cc#cccccccccccccccccc##",
+    "#c#ccccccc#cc#cc#cc##ccccccccccccccccccc",
+    "##############dd########################"
+  ],
+  "tileset": "CAVERN",
+  "warps": [
+    {
+      "last_map": true,
+      "to_map": "ROUTE_4",
+      "to_warp": 2,
+      "x": 14,
+      "y": 35
+    },
+    {
+      "last_map": true,
+      "to_map": "ROUTE_4",
+      "to_warp": 2,
+      "x": 15,
+      "y": 35
+    },
+    {
+      "to_map": "MT_MOON_B1F",
+      "to_warp": 1,
+      "x": 5,
+      "y": 5
+    },
+    {
+      "to_map": "MT_MOON_B1F",
+      "to_warp": 3,
+      "x": 17,
+      "y": 11
+    },
+    {
+      "to_map": "MT_MOON_B1F",
+      "to_warp": 4,
+      "x": 25,
+      "y": 15
+    }
+  ],
+  "width": 40
+}

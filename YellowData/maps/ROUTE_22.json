@@ -1,0 +1,135 @@
+{
+  "blocked_edges": [],
+  "border_block": 44,
+  "cave": false,
+  "connections": {
+    "east": {
+      "map": "VIRIDIAN_CITY",
+      "offset": -8
+    },
+    "north": {
+      "map": "ROUTE_23",
+      "offset": 0,
+      "out_of_scope": true
+    }
+  },
+  "encounter_rate": 25,
+  "height": 18,
+  "hidden": [],
+  "hidden_events": [],
+  "id": "ROUTE_22",
+  "items": [],
+  "label": "Route22",
+  "looks": [
+    "FFRRRRRRRRRRRRrrrrrrrrrrrrrrrrrrrrrrrrrr",
+    "FFRRRRRRRRRRRRrrrrrrrrrrrrrrrrrrrrrrrrrr",
+    "rrnnnnnnnnnnnnrrrrrrrrrrrrrrrrssssssrrrr",
+    "rrnnnnnnnnnnnnrrrrrrrrrrrrrrrrLLLsLLrrrr",
+    "rrnnnnnnnnnnnnFFyyyyyyyyyyyyyyyyyyyyrrrr",
+    "rrnnnnnnDnnnnnFFyyyyyyyyyyyyyyyyyyyyrrrr",
+    "rryyyyyyyyyyyyFFssssssWWWWrrrrssssFFssss",
+    "rryyyyyyyyyyyyFFLLLLLLWWWWrrrrLsLLFsssss",
+    "rrssssssssssssFFGGGGGGWWWWrrrrGGGGFspppp",
+    "rrLLLLLLLLLsLLFFGGGGGGWWWWrrrrGGGGFspppp",
+    "rrppppppppppppFFGGGGGGyyyyrrrrGGGGFspprr",
+    "rrppppFSFFFFFFFFGGGGGGyyyyrrrrGGGGFspprr",
+    "rrssssssssssssssssssssssssrrrrssssssssrr",
+    "rrLLLLLLLLLLLLLLLLLLLLLLLLrrrrLLLsLLLLrr",
+    "rryyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyrr",
+    "rryyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyrr",
+    "rrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr",
+    "rrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr"
+  ],
+  "looks_unknown": 0,
+  "music": "routes3",
+  "name": "ROUTE 22",
+  "npcs": [
+    {
+      "facing": "none",
+      "hidden_at_start": true,
+      "id": "ROUTE22_RIVAL1",
+      "movement": "stay",
+      "sprite": "SPRITE_BLUE",
+      "text": "TEXT_ROUTE22_RIVAL1",
+      "text_handler": "Route22Rival1Text",
+      "text_id": "TEXT_ROUTE22_RIVAL1",
+      "texts": [
+        "Route22RivalAfterBattleText1",
+        "Route22RivalBeforeBattleText1"
+      ],
+      "toggle": "ROUTE22_RIVAL1",
+      "x": 25,
+      "y": 5
+    },
+    {
+      "facing": "none",
+      "hidden_at_start": true,
+      "id": "ROUTE22_RIVAL2",
+      "movement": "stay",
+      "sprite": "SPRITE_BLUE",
+      "text": "TEXT_ROUTE22_RIVAL2",
+      "text_handler": "Route22Rival2Text",
+      "text_id": "TEXT_ROUTE22_RIVAL2",
+      "texts": [
+        "Route22RivalAfterBattleText2",
+        "Route22RivalBeforeBattleText2"
+      ],
+      "toggle": "ROUTE22_RIVAL2",
+      "x": 25,
+      "y": 5
+    }
+  ],
+  "origin": {
+    "x": -50,
+    "y": -64
+  },
+  "outdoor": true,
+  "palette": "PAL_ROUTE",
+  "signs": [
+    {
+      "text": "TEXT_ROUTE22_POKEMON_LEAGUE_SIGN",
+      "texts": [
+        "Route22PrintPokemonLeagueSignText.text"
+      ],
+      "x": 7,
+      "y": 11
+    }
+  ],
+  "source": {
+    "blocks": "maps/Route22.blk",
+    "header": "data/maps/headers/Route22.asm",
+    "objects": "data/maps/objects/Route22.asm",
+    "script": "scripts/Route22.asm"
+  },
+  "tiles": [
+    "########################################",
+    "########################################",
+    "##############################......####",
+    "##############################vvv.vv####",
+    "################....................####",
+    "########d#######....................####",
+    "##............##......wwww####....##....",
+    "##............##vvvvvvwwww####v.vv#.....",
+    "##............##ggggggwwww####gggg#.....",
+    "##vvvvvvvvv.vv##ggggggwwww####gggg#.....",
+    "##............##gggggg....####gggg#...##",
+    "##....##########gggggg....####gggg#...##",
+    "##........................####........##",
+    "##vvvvvvvvvvvvvvvvvvvvvvvv####vvv.vvvv##",
+    "##....................................##",
+    "##....................................##",
+    "########################################",
+    "########################################"
+  ],
+  "tileset": "OVERWORLD",
+  "warps": [
+    {
+      "door": true,
+      "to_map": "ROUTE_22_GATE",
+      "to_warp": 1,
+      "x": 8,
+      "y": 5
+    }
+  ],
+  "width": 40
+}

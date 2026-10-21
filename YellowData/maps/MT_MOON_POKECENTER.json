@@ -1,0 +1,196 @@
+{
+  "blocked_edges": [],
+  "border_block": 0,
+  "cave": false,
+  "connections": {},
+  "encounter_rate": 0,
+  "height": 8,
+  "hidden": [],
+  "hidden_events": [
+    {
+      "arg": "SPRITE_FACING_LEFT",
+      "kind": "PrintBenchGuyText",
+      "x": 0,
+      "y": 4
+    },
+    {
+      "arg": "SPRITE_FACING_UP",
+      "kind": "OpenPokemonCenterPC",
+      "x": 13,
+      "y": 3
+    }
+  ],
+  "id": "MT_MOON_POKECENTER",
+  "items": [],
+  "label": "MtMoonPokecenter",
+  "looks": [
+    "BllbBBllBBDBDB",
+    "BbbooBbboooooo",
+    "kkkkkkkkkkkokk",
+    "kooooooooooooP",
+    "tooooooooooooo",
+    "tooooooooooooo",
+    "hhoooohhoooohh",
+    "hhommohhoooohh"
+  ],
+  "looks_unknown": 0,
+  "music": "pokecenter",
+  "name": "Mt. Moon Pokemon Center",
+  "npcs": [
+    {
+      "facing": "down",
+      "id": "MTMOONPOKECENTER_NURSE",
+      "movement": "stay",
+      "script": "script_pokecenter_nurse",
+      "sprite": "SPRITE_NURSE",
+      "text": "TEXT_MTMOONPOKECENTER_NURSE",
+      "text_handler": "MtMoonPokecenterNurseText",
+      "text_id": "TEXT_MTMOONPOKECENTER_NURSE",
+      "texts": [
+        "PokemonCenterWelcomeText",
+        "ShallWeHealYourPokemonText",
+        "NeedYourPokemonText",
+        "PokemonFightingFitText",
+        "PokemonCenterFarewellText",
+        "LooksContentText"
+      ],
+      "x": 3,
+      "y": 1
+    },
+    {
+      "facing": "up",
+      "id": "MTMOONPOKECENTER_YOUNGSTER",
+      "movement": "stay",
+      "sprite": "SPRITE_YOUNGSTER",
+      "text": "TEXT_MTMOONPOKECENTER_YOUNGSTER",
+      "text_handler": "MtMoonPokecenterYoungsterText",
+      "text_id": "TEXT_MTMOONPOKECENTER_YOUNGSTER",
+      "texts": [
+        "MtMoonPokecenterYoungsterText"
+      ],
+      "x": 4,
+      "y": 3
+    },
+    {
+      "facing": "up",
+      "id": "MTMOONPOKECENTER_GENTLEMAN",
+      "movement": "stay",
+      "sprite": "SPRITE_GENTLEMAN",
+      "text": "TEXT_MTMOONPOKECENTER_GENTLEMAN",
+      "text_handler": "MtMoonPokecenterGentlemanText",
+      "text_id": "TEXT_MTMOONPOKECENTER_GENTLEMAN",
+      "texts": [
+        "MtMoonPokecenterGentlemanText"
+      ],
+      "x": 7,
+      "y": 3
+    },
+    {
+      "facing": "left_right",
+      "id": "MTMOONPOKECENTER_MAGIKARP_SALESMAN",
+      "movement": "walk",
+      "sprite": "SPRITE_MIDDLE_AGED_MAN",
+      "text": "TEXT_MTMOONPOKECENTER_MAGIKARP_SALESMAN",
+      "text_handler": "MtMoonPokecenterMagikarpSalesmanText",
+      "text_id": "TEXT_MTMOONPOKECENTER_MAGIKARP_SALESMAN",
+      "texts": [
+        "MagikarpSalesman.IGotADealText",
+        "MagikarpSalesman.NoMoneyText",
+        "MagikarpSalesman.NoText",
+        "MagikarpSalesman.NoRefundsText"
+      ],
+      "x": 10,
+      "y": 6
+    },
+    {
+      "facing": "none",
+      "id": "MTMOONPOKECENTER_CLIPBOARD",
+      "movement": "stay",
+      "sprite": "SPRITE_CLIPBOARD",
+      "text": "TEXT_MTMOONPOKECENTER_CLIPBOARD",
+      "text_handler": "MtMoonPokecenterClipboardText",
+      "text_id": "TEXT_MTMOONPOKECENTER_CLIPBOARD",
+      "texts": [
+        "MtMoonPokecenterClipboardText"
+      ],
+      "x": 7,
+      "y": 2
+    },
+    {
+      "facing": "down",
+      "id": "MTMOONPOKECENTER_LINK_RECEPTIONIST",
+      "movement": "stay",
+      "script": "script_cable_club_receptionist",
+      "sprite": "SPRITE_LINK_RECEPTIONIST",
+      "text": "TEXT_MTMOONPOKECENTER_LINK_RECEPTIONIST",
+      "text_handler": "MtMoonPokecenterLinkReceptionistText",
+      "text_id": "TEXT_MTMOONPOKECENTER_LINK_RECEPTIONIST",
+      "texts": [
+        "CableClubNPCWelcomeText",
+        "CableClubNPCPleaseApplyHereHaveToSaveText",
+        "CableClubNPCPleaseWaitText",
+        "CableClubNPCLinkClosedBecauseOfInactivityText",
+        "CableClubNPCPleaseComeAgainText",
+        "CableClubNPCMakingPreparationsText",
+        "CableClubNPCAreaReservedFor2FriendsLinkedByCableText"
+      ],
+      "x": 11,
+      "y": 2
+    },
+    {
+      "facing": "down",
+      "id": "MTMOONPOKECENTER_CHANSEY",
+      "movement": "stay",
+      "sprite": "SPRITE_CHANSEY",
+      "text": "TEXT_MTMOONPOKECENTER_CHANSEY",
+      "text_handler": "MtMoonPokecenterChanseyText",
+      "text_id": "TEXT_MTMOONPOKECENTER_CHANSEY",
+      "texts": [
+        "NurseChanseyText"
+      ],
+      "x": 4,
+      "y": 1
+    }
+  ],
+  "origin": {
+    "x": 98,
+    "y": 1086
+  },
+  "outdoor": false,
+  "palette": "PAL_ROUTE",
+  "signs": [],
+  "source": {
+    "blocks": "maps/MtMoonPokecenter.blk",
+    "header": "data/maps/headers/MtMoonPokecenter.asm",
+    "objects": "data/maps/objects/MtMoonPokecenter.asm",
+    "script": "scripts/MtMoonPokecenter.asm"
+  },
+  "tiles": [
+    "##########.#.#",
+    "###..###......",
+    "#====#=====.==",
+    "=............#",
+    "#.............",
+    "#.............",
+    "##....##....##",
+    "##.dd.##....##"
+  ],
+  "tileset": "POKECENTER",
+  "warps": [
+    {
+      "last_map": true,
+      "to_map": "ROUTE_4",
+      "to_warp": 1,
+      "x": 3,
+      "y": 7
+    },
+    {
+      "last_map": true,
+      "to_map": "ROUTE_4",
+      "to_warp": 1,
+      "x": 4,
+      "y": 7
+    }
+  ],
+  "width": 14
+}

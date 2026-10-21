@@ -1,0 +1,180 @@
+{
+  "beats": [
+    {
+      "id": "oak-stops-you",
+      "title": "Wait! It's unsafe!",
+      "text": "Red steps toward the tall grass of Route 1. Oak runs up shouting, a wild Pikachu leaps out, and Oak catches it before leading Red back to the lab.",
+      "place": "pallet-town",
+      "moment": {
+        "caption": "Oak throwing a Poke Ball at a wild Pikachu in the grass edge while Red stands startled"
+      },
+      "in_slice": true
+    },
+    {
+      "id": "rival-takes-eevee",
+      "title": "Gary's pick",
+      "text": "In the lab, Gary grabs the Eevee off the table, and Oak gives Red the Pikachu he just caught.",
+      "place": "pallet-town",
+      "in_slice": true
+    },
+    {
+      "id": "lab-battle",
+      "title": "Gary's challenge",
+      "text": "Gary challenges Red on the spot, and Pikachu faces Eevee on the lab floor. Win or lose, the journey goes on.",
+      "place": "pallet-town",
+      "moment": {
+        "caption": "Pikachu and Eevee squaring up between the lab's bookshelves, seen from above, Oak watching"
+      },
+      "in_slice": true
+    },
+    {
+      "id": "pikachu-refuses-ball",
+      "title": "The Pikachu that won't go in",
+      "text": "Outside the lab, Pikachu pops out of its ball and won't go back. From now on it walks at Red's heels.",
+      "place": "pallet-town",
+      "moment": {
+        "caption": "Pikachu turning its back on an offered Poke Ball while Red crouches beside it"
+      },
+      "in_slice": true
+    },
+    {
+      "id": "first-wild-battle",
+      "title": "The first ring",
+      "text": "A Pidgey bursts from the Route 1 grass. The ground flattens into a ring with a ledge through it, the camera rises, the world dims and drums and fiddle join the road tune. Red learns to steer Pikachu, read the Gust coming, dodge and time Thundershock, then walks on as the colour returns.",
+      "place": "route-1",
+      "moment": {
+        "caption": "Seen from high above, Pikachu dashing clear of a Pidgey's Gust inside a ring of flattened grass, Route 1 dimmed beyond it and Red at the edge"
+      },
+      "in_slice": true
+    },
+    {
+      "id": "oaks-parcel",
+      "title": "Oak's Parcel",
+      "text": "The Viridian Mart clerk hands Red a parcel for Oak. Red carries it back to Pallet, and Oak gives him the Pokedex. Gary, back at the lab, gets one too.",
+      "place": "viridian-city",
+      "in_slice": true
+    },
+    {
+      "id": "viridian-centre",
+      "title": "A place to rest",
+      "text": "At the Viridian Pokemon Centre, Nurse Joy heals the party. Next door, the Mart now sells Poke Balls and Potions.",
+      "place": "viridian-city",
+      "in_slice": true
+    },
+    {
+      "id": "old-man-in-the-road",
+      "title": "Coffee first",
+      "text": "The old man who lay across the north road is up after his coffee. He shows Red how to weaken a wild Pokemon and throw a ball.",
+      "place": "viridian-city",
+      "moment": {
+        "caption": "The old man mid-throw in a ring, a Poke Ball arcing toward a wild Pokemon while Red and Pikachu watch from the edge"
+      },
+      "in_slice": true
+    },
+    {
+      "id": "first-catch",
+      "title": "Gotcha",
+      "text": "With the catch meter green, Red throws his first Poke Ball. It wobbles three times and clicks shut, and the Pokedex fills its first entry.",
+      "place": "route-1",
+      "in_slice": true
+    },
+    {
+      "id": "route-22-rival",
+      "title": "Gary on Route 22",
+      "text": "Gary waits on the road west to the League, now with a Spearow and his Eevee, and a closed ring forms around them.",
+      "place": "route-22",
+      "in_slice": true
+    },
+    {
+      "id": "forest-trainer",
+      "title": "Bug Catcher ambush",
+      "text": "Bug Catchers spring out of the Viridian Forest undergrowth with Caterpie, Weedle, Metapod and Kakuna. Their crawlers slip under Pikachu's attacks, which gives Red his first real reason to swap to a different body.",
+      "place": "viridian-forest",
+      "in_slice": true
+    },
+    {
+      "id": "pewter-museum",
+      "title": "The Museum of Science",
+      "text": "Red visits Pewter's museum, with its Kabutops fossil and moon stone, before the boy at the east exit marches him to the gym.",
+      "place": "pewter-city",
+      "in_slice": true
+    },
+    {
+      "id": "brock-challenge",
+      "title": "The rock wall",
+      "text": "Red beats the Jr. Trainer's Diglett and Sandshrew. Then Brock sends out Geodude and a towering Onix, and Pikachu's Thundershock does nothing. Onix glows orange for Bide, and Red must stop attacking or get out of the shockwave. If Red's team falls, he wakes at Pewter's Centre and walks back.",
+      "place": "pewter-gym",
+      "moment": {
+        "caption": "Onix rearing over a small Butterfree in the stone arena, glowing orange as it stores up Bide, a No effect caption fading nearby"
+      },
+      "in_slice": true
+    },
+    {
+      "id": "sprinkler-finish",
+      "title": "The Boulder Badge",
+      "text": "Onix crashes down. Brock hands over the Boulder Badge and TM34 Bide, and the boy at Pewter's east exit steps aside.",
+      "place": "pewter-gym",
+      "moment": {
+        "caption": "Brock holding out the Boulder Badge to Red as Pikachu cheers on his shoulder"
+      },
+      "in_slice": true
+    },
+    {
+      "id": "rockets-at-mt-moon",
+      "title": "Prepare for trouble",
+      "text": "Jessie and James ambush Red in Mt. Moon over the fossils, just as in Yellow.",
+      "place": "mt-moon",
+      "in_slice": false
+    },
+    {
+      "id": "misty-waterflower",
+      "title": "All-out offensive",
+      "text": "Misty's pool arena makes Red fight across floating platforms while Staryu and Starmie dive under and strike from below.",
+      "place": "cerulean-gym",
+      "in_slice": false
+    },
+    {
+      "id": "ss-anne",
+      "title": "The S.S. Anne",
+      "text": "Red boards the S.S. Anne in Vermilion, beats Gary again and gets Cut from the captain.",
+      "place": "vermilion-city",
+      "in_slice": false
+    },
+    {
+      "id": "rocket-hideout",
+      "title": "Under the Game Corner",
+      "text": "Red finds Team Rocket's hideout beneath Celadon's Game Corner, beats Giovanni and takes the Silph Scope.",
+      "place": "celadon-city",
+      "in_slice": false
+    },
+    {
+      "id": "lavender-tower-ghost",
+      "title": "The tower's ghost",
+      "text": "With the Silph Scope, Red lays the ghost Marowak in Pokemon Tower to rest and frees Mr. Fuji, who gives him the Poke Flute that wakes Snorlax.",
+      "place": "lavender-town",
+      "in_slice": false
+    },
+    {
+      "id": "silph-takeover",
+      "title": "Silph Co. under siege",
+      "text": "Team Rocket has seized the Silph Co. tower. Red climbs it floor by floor and drives Giovanni out.",
+      "place": "saffron-city",
+      "in_slice": false
+    },
+    {
+      "id": "giovanni-viridian-gym",
+      "title": "The locked gym",
+      "text": "Viridian Gym finally opens, and its leader is Giovanni.",
+      "place": "viridian-city",
+      "in_slice": false
+    },
+    {
+      "id": "rival-champion",
+      "title": "Smell ya later",
+      "text": "Gary is waiting as Champion at the Indigo Plateau, and his Eevee has evolved.",
+      "place": "indigo-plateau",
+      "in_slice": false
+    }
+  ],
+  "version": 1
+}

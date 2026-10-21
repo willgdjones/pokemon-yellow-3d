@@ -1,0 +1,23 @@
+{
+  "comment": "The on-screen phone controls the touch layout keeps clear of (Source/PokemonYellowReimagine/Hud/PYRPhoneLayout.h). Keys are browser keyCodes. RUN (X) in the battle row runs from a wild battle; Shift (running on the road) is labelled Sprint so the two never read alike.",
+  "stick": { "up": 87, "down": 83, "left": 65, "right": 68 },
+  "look": "mouse",
+  "buttons": [
+    { "label": "START", "key": 13 },
+    { "label": "B / Back", "key": 81 },
+    { "label": "A / Talk", "key": 69 },
+    { "label": "Dodge", "key": 32 },
+    { "label": "Sprint", "key": 16 },
+    { "label": "Party", "key": 9 },
+    { "label": "Throw", "key": 70 }
+  ],
+  "extra": [
+    { "label": "1", "key": 49 },
+    { "label": "2", "key": 50 },
+    { "label": "3", "key": 51 },
+    { "label": "4", "key": 52 },
+    { "label": "RUN", "key": 88 }
+  ],
+  "system": [],
+  "help": "WASD move · mouse look · E confirm · Q back · Enter START · Space dodge · RUN (X) flees a wild battle · Party opens the switch menu (the fight waits)"
+}

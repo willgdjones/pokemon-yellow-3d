@@ -1,0 +1,27 @@
+{
+  "_comment": "Hand table: texts shown by the engine's shared text scripts, which map text pointers use instead of their own text. Keys are the script macro (macros/scripts/text.asm, dispatched in home/text_script.asm) or a shared handler label; values list the text labels it prints, in the order a player sees them. The first is the npc's 'text'.",
+  "script_pokecenter_nurse": {
+    "_source": "home/text_script.asm DisplayPokemonCenterDialogue -> engine/events/pokecenter.asm",
+    "texts": ["PokemonCenterWelcomeText", "ShallWeHealYourPokemonText", "NeedYourPokemonText", "PokemonFightingFitText", "PokemonCenterFarewellText", "LooksContentText"]
+  },
+  "script_mart": {
+    "_source": "home/text_script.asm PokemartGreetingText -> engine/events/pokemart.asm",
+    "texts": ["PokemartGreetingText", "PokemartBuyingGreetingText", "PokemartTellBuyPriceText", "PokemartBoughtItemText", "PokemartNotEnoughMoneyText", "PokemartItemBagFullText", "PokemonSellingGreetingText", "PokemartTellSellPriceText", "PokemartItemBagEmptyText", "PokemartUnsellableItemText", "PokemartThankYouText", "PokemartAnythingElseText"]
+  },
+  "script_pokecenter_pc": {
+    "_source": "engine/menus/pc.asm",
+    "texts": ["TurnedOnPC1Text", "AccessedBillsPCText", "AccessedSomeonesPCText", "AccessedMyPCText"]
+  },
+  "script_cable_club_receptionist": {
+    "_source": "engine/link/cable_club_npc.asm CableClubNPC",
+    "texts": ["CableClubNPCWelcomeText", "CableClubNPCPleaseApplyHereHaveToSaveText", "CableClubNPCPleaseWaitText", "CableClubNPCLinkClosedBecauseOfInactivityText", "CableClubNPCPleaseComeAgainText", "CableClubNPCMakingPreparationsText", "CableClubNPCAreaReservedFor2FriendsLinkedByCableText"]
+  },
+  "PickUpItemText": {
+    "_source": "home/overworld_text.asm PickUpItemText -> engine/events/pick_up_item.asm",
+    "texts": ["FoundItemText", "NoMoreRoomForItemText"]
+  },
+  "Route2TradeHouseGameboyKidText": {
+    "_source": "scripts/Route2TradeHouse.asm: TRADE_FOR_MILES uses TRADE_DIALOGSET_CASUAL (data/events/trades.asm) -> TradeTextPointers1 in engine/events/in_game_trades.asm",
+    "texts": ["WannaTrade1Text", "NoTrade1Text", "WrongMon1Text", "Thanks1Text", "AfterTrade1Text", "ConnectCableText", "TradedForText"]
+  }
+}

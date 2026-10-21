@@ -1,0 +1,185 @@
+{
+  "blocked_edges": [],
+  "border_block": 10,
+  "cave": false,
+  "connections": {},
+  "encounter_rate": 0,
+  "height": 8,
+  "hidden": [],
+  "hidden_events": [
+    {
+      "arg": "SPRITE_FACING_UP",
+      "kind": "AerodactylFossil",
+      "x": 2,
+      "y": 3
+    },
+    {
+      "arg": "SPRITE_FACING_UP",
+      "kind": "KabutopsFossil",
+      "x": 2,
+      "y": 6
+    }
+  ],
+  "id": "MUSEUM_1F",
+  "items": [],
+  "label": "Museum1F",
+  "looks": [
+    "BBBBBBBlBlBkkkkkkkkk",
+    "oooooooooookbbbbbbbb",
+    "ollllooooooktooolooo",
+    "okkkkooooooktooooooo",
+    "oooooooooookoooooooo",
+    "olllloookookkkkooooo",
+    "okkkkoookoooohkooooh",
+    "oooooooukommohkommoh"
+  ],
+  "looks_unknown": 0,
+  "music": "cities1",
+  "name": "Museum 1F",
+  "npcs": [
+    {
+      "facing": "left",
+      "id": "MUSEUM1F_SCIENTIST1",
+      "movement": "stay",
+      "sprite": "SPRITE_SCIENTIST",
+      "text": "TEXT_MUSEUM1F_SCIENTIST1",
+      "text_handler": "Museum1FScientist1Text",
+      "text_id": "TEXT_MUSEUM1F_SCIENTIST1",
+      "texts": [
+        "Museum1FPrintScientist1Text.GoToOtherSideText",
+        "Museum1FPrintScientist1Text.TakePlentyOfTimeText",
+        "Museum1FPrintScientist1Text.WouldYouLikeToComeInText",
+        "Museum1FPrintScientist1Text.DontHaveEnoughMoneyText",
+        "Museum1FPrintScientist1Text.ThankYouText",
+        "Museum1FPrintScientist1Text.ComeAgainText",
+        "Museum1FPrintScientist1Text.DoYouKnowWhatAmberIsText",
+        "Museum1FPrintScientist1Text.TheresALabSomewhereText",
+        "Museum1FPrintScientist1Text.AmberIsFossilizedTreeSapText"
+      ],
+      "x": 12,
+      "y": 4
+    },
+    {
+      "facing": "none",
+      "id": "MUSEUM1F_GAMBLER",
+      "movement": "stay",
+      "sprite": "SPRITE_GAMBLER",
+      "text": "TEXT_MUSEUM1F_GAMBLER",
+      "text_handler": "Museum1FGamblerText",
+      "text_id": "TEXT_MUSEUM1F_GAMBLER",
+      "texts": [
+        "Museum1FPrintGamblerText.Text"
+      ],
+      "x": 1,
+      "y": 4
+    },
+    {
+      "facing": "down",
+      "id": "MUSEUM1F_SCIENTIST2",
+      "movement": "stay",
+      "sprite": "SPRITE_SCIENTIST",
+      "text": "TEXT_MUSEUM1F_SCIENTIST2",
+      "text_handler": "Museum1FScientist2Text",
+      "text_id": "TEXT_MUSEUM1F_SCIENTIST2",
+      "texts": [
+        "Museum1FPrintScientist2Text.TakeThisToAPokemonLabText",
+        "Museum1FPrintScientist2Text.ReceivedOldAmberText",
+        "Museum1FPrintScientist2Text.YouDontHaveSpaceText",
+        "Museum1FPrintScientist2Text.GetTheOldAmberCheckText"
+      ],
+      "x": 15,
+      "y": 2
+    },
+    {
+      "facing": "none",
+      "id": "MUSEUM1F_SCIENTIST3",
+      "movement": "stay",
+      "sprite": "SPRITE_SCIENTIST",
+      "text": "TEXT_MUSEUM1F_SCIENTIST3",
+      "text_handler": "Museum1FScientist3Text",
+      "text_id": "TEXT_MUSEUM1F_SCIENTIST3",
+      "texts": [
+        "Museum1FPrintScientist3Text.Text"
+      ],
+      "x": 17,
+      "y": 4
+    },
+    {
+      "facing": "none",
+      "hidden_at_start": false,
+      "id": "MUSEUM1F_OLD_AMBER",
+      "movement": "stay",
+      "sprite": "SPRITE_OLD_AMBER",
+      "text": "TEXT_MUSEUM1F_OLD_AMBER",
+      "text_handler": "Museum1FOldAmberText",
+      "text_id": "TEXT_MUSEUM1F_OLD_AMBER",
+      "texts": [
+        "Museum1FPrintOldAmberText.Text"
+      ],
+      "toggle": "MUSEUM1F_OLD_AMBER",
+      "x": 16,
+      "y": 2
+    }
+  ],
+  "origin": {
+    "x": 140,
+    "y": 1028
+  },
+  "outdoor": false,
+  "palette": "PAL_PEWTER",
+  "signs": [],
+  "source": {
+    "blocks": "maps/Museum1F.blk",
+    "header": "data/maps/headers/Museum1F.asm",
+    "objects": "data/maps/objects/Museum1F.asm",
+    "script": "scripts/Museum1F.asm"
+  },
+  "tiles": [
+    "####################",
+    "...........=########",
+    ".####......=....#...",
+    ".====......=........",
+    "...........=........",
+    ".####...=..====.....",
+    ".====...=....#=....#",
+    ".......d=.dd.#=.dd.#"
+  ],
+  "tileset": "MUSEUM",
+  "warps": [
+    {
+      "last_map": true,
+      "to_map": "PEWTER_CITY",
+      "to_warp": 1,
+      "x": 10,
+      "y": 7
+    },
+    {
+      "last_map": true,
+      "to_map": "PEWTER_CITY",
+      "to_warp": 1,
+      "x": 11,
+      "y": 7
+    },
+    {
+      "last_map": true,
+      "to_map": "PEWTER_CITY",
+      "to_warp": 2,
+      "x": 16,
+      "y": 7
+    },
+    {
+      "last_map": true,
+      "to_map": "PEWTER_CITY",
+      "to_warp": 2,
+      "x": 17,
+      "y": 7
+    },
+    {
+      "to_map": "MUSEUM_2F",
+      "to_warp": 1,
+      "x": 7,
+      "y": 7
+    }
+  ],
+  "width": 20
+}

@@ -1,0 +1,143 @@
+{
+  "blocked_edges": [],
+  "border_block": 3,
+  "cave": true,
+  "connections": {},
+  "encounter_rate": 10,
+  "height": 28,
+  "hidden": [],
+  "hidden_events": [],
+  "id": "MT_MOON_B1F",
+  "items": [],
+  "label": "MtMoonB1F",
+  "looks": [
+    "VVVVVVVVVVVVVVVVVVVVVVVVVVVV",
+    "VVVVVVVVVVVVVVVVVVVVCCCCCCCC",
+    "VVVVVVVVVVVVVVVVVVVVcccccccc",
+    "VVVVCCCCVVVVVVVVVVVVcccucccu",
+    "VVVVccccVVVVVVVVVVVVVVVVVVVV",
+    "VVVVcuccVVVVVVVVVVVVVVVVVVVV",
+    "VVVVccccVVVVVVVVVVVVVVVVVVVV",
+    "VVVVccccVVVVVVCCCCCCCCCCCCVV",
+    "VVVVccccVVVVVVccccccccccccVV",
+    "VVVVccccVVVVVVcccccccccccuVV",
+    "VVVVccccVVVVVVccccccccccccVV",
+    "VVVVccccVVVVVVcccuccccccccVV",
+    "VVVVccccVVVVVVVVVVVVVVVVVVVV",
+    "VVVVccccVVVVVVVVVVVVVVVVCCCC",
+    "VVVVccccVVVVVVVVVVVVVVVVcccc",
+    "VVVVccccCCCCCCCCCCCCCCVVcucc",
+    "VVVVccccccccccccccccccVVcccc",
+    "VVVVcccccccccccccccccuVVcccc",
+    "VVVVVVVVVVVVVVVVVVVVVVVVcccc",
+    "VVVVVVVVVVVVVVVVVVVVVVVVcccc",
+    "VVVVVVVVVVVVVVVVVVVVVVVVcccc",
+    "VVVVVVVVVVVVVVVVVVVVVVVVcccc",
+    "VVVVVVVVVVVVVVVVVVVVVVVVcccc",
+    "VVVVVVVVVVVVVVVVVVVVVVVVcccc",
+    "VVVVVVVVVVVVVVVVVVVVVVVVcccc",
+    "VVVVVVVVVVCCCCCCCCCCCCCCcccc",
+    "VVVVVVVVVVcccccccccccccccccc",
+    "VVVVVVVVVVcccucccccccccccccc"
+  ],
+  "looks_unknown": 0,
+  "music": "dungeon3",
+  "name": "Mt. Moon B1F",
+  "npcs": [],
+  "origin": {
+    "x": 172,
+    "y": 1086
+  },
+  "outdoor": false,
+  "palette": "PAL_CAVE",
+  "signs": [],
+  "source": {
+    "blocks": "maps/MtMoonB1F.blk",
+    "header": "data/maps/headers/MtMoonB1F.asm",
+    "objects": "data/maps/objects/MtMoonB1F.asm",
+    "script": "scripts/MtMoonB1F.asm"
+  },
+  "tiles": [
+    "############################",
+    "############################",
+    "####################cccccccc",
+    "####################cccdcccd",
+    "####cccc####################",
+    "####cdcc####################",
+    "####cccc####################",
+    "####cccc####################",
+    "####cccc######cccccccccccc##",
+    "####cccc######cccccccccccd##",
+    "####cccc######cccccccccccc##",
+    "####cccc######cccdcccccccc##",
+    "####cccc####################",
+    "####cccc####################",
+    "####cccc################cccc",
+    "####cccc################cdcc",
+    "####cccccccccccccccccc##cccc",
+    "####cccccccccccccccccd##cccc",
+    "########################cccc",
+    "########################cccc",
+    "########################cccc",
+    "########################cccc",
+    "########################cccc",
+    "########################cccc",
+    "########################cccc",
+    "########################cccc",
+    "##########cccccccccccccccccc",
+    "##########cccdcccccccccccccc"
+  ],
+  "tileset": "CAVERN",
+  "warps": [
+    {
+      "to_map": "MT_MOON_1F",
+      "to_warp": 3,
+      "x": 5,
+      "y": 5
+    },
+    {
+      "to_map": "MT_MOON_B2F",
+      "to_warp": 1,
+      "x": 17,
+      "y": 11
+    },
+    {
+      "to_map": "MT_MOON_1F",
+      "to_warp": 4,
+      "x": 25,
+      "y": 9
+    },
+    {
+      "to_map": "MT_MOON_1F",
+      "to_warp": 5,
+      "x": 25,
+      "y": 15
+    },
+    {
+      "to_map": "MT_MOON_B2F",
+      "to_warp": 2,
+      "x": 21,
+      "y": 17
+    },
+    {
+      "to_map": "MT_MOON_B2F",
+      "to_warp": 3,
+      "x": 13,
+      "y": 27
+    },
+    {
+      "to_map": "MT_MOON_B2F",
+      "to_warp": 4,
+      "x": 23,
+      "y": 3
+    },
+    {
+      "last_map": true,
+      "to_map": "ROUTE_4",
+      "to_warp": 3,
+      "x": 27,
+      "y": 3
+    }
+  ],
+  "width": 28
+}

@@ -1,0 +1,12 @@
+[
+  {
+    "dialog": "TRADE_DIALOGSET_CASUAL",
+    "get": "MR_MIME",
+    "give": "CLEFAIRY",
+    "map": "ROUTE_2_TRADE_HOUSE",
+    "nickname": "MILES",
+    "source": "data/events/trades.asm",
+    "text_handler": "Route2TradeHouseGameboyKidText",
+    "trade": "TRADE_FOR_MILES"
+  }
+]

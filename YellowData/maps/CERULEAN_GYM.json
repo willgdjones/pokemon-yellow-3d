@@ -1,0 +1,180 @@
+{
+  "blocked_edges": [],
+  "border_block": 3,
+  "cave": false,
+  "connections": {},
+  "encounter_rate": 0,
+  "height": 14,
+  "hidden": [],
+  "hidden_events": [
+    {
+      "arg": "SPRITE_FACING_UP",
+      "kind": "GymStatues",
+      "x": 3,
+      "y": 11
+    },
+    {
+      "arg": "SPRITE_FACING_UP",
+      "kind": "GymStatues",
+      "x": 6,
+      "y": 11
+    }
+  ],
+  "id": "CERULEAN_GYM",
+  "items": [],
+  "label": "CeruleanGym",
+  "looks": [
+    "BBBBBBBBBB",
+    "ooooWWoooo",
+    "oWWWooWWWo",
+    "oWooooooWo",
+    "oWWWWWWoWo",
+    "oWooooooWo",
+    "oWoWWoWWWo",
+    "oWoWWoWWWo",
+    "oWooooWWWo",
+    "oWWWooWWWo",
+    "oWWlooloWo",
+    "oWWlooloWo",
+    "oooooooooo",
+    "oooommoooo"
+  ],
+  "looks_unknown": 0,
+  "music": "gym",
+  "name": "Cerulean Gym",
+  "npcs": [
+    {
+      "facing": "down",
+      "id": "CERULEANGYM_MISTY",
+      "movement": "stay",
+      "sprite": "SPRITE_BRUNETTE_GIRL",
+      "text": "TEXT_CERULEANGYM_MISTY",
+      "text_handler": "CeruleanGymMistyText",
+      "text_id": "TEXT_CERULEANGYM_MISTY",
+      "texts": [
+        "CeruleanGymMistyText.TM11ExplanationText",
+        "CeruleanGymMistyText.PreBattleText",
+        "CeruleanGymMistyReceivedCascadeBadgeText"
+      ],
+      "trainer": {
+        "class": "MISTY",
+        "party": 1,
+        "sight": 0
+      },
+      "x": 4,
+      "y": 2
+    },
+    {
+      "facing": "right",
+      "id": "CERULEANGYM_COOLTRAINER_F",
+      "movement": "stay",
+      "sprite": "SPRITE_COOLTRAINER_F",
+      "text": "TEXT_CERULEANGYM_COOLTRAINER_F",
+      "text_handler": "CeruleanGymCooltrainerFText",
+      "text_id": "TEXT_CERULEANGYM_COOLTRAINER_F",
+      "texts": [
+        "CeruleanGymBattleText1",
+        "CeruleanGymEndBattleText1",
+        "CeruleanGymAfterBattleText1"
+      ],
+      "trainer": {
+        "after_text": "CeruleanGymAfterBattleText1",
+        "battle_text": "CeruleanGymBattleText1",
+        "class": "JR_TRAINER_F",
+        "end_text": "CeruleanGymEndBattleText1",
+        "event": "EVENT_BEAT_CERULEAN_GYM_TRAINER_0",
+        "party": 1,
+        "sight": 3
+      },
+      "x": 2,
+      "y": 3
+    },
+    {
+      "facing": "left",
+      "id": "CERULEANGYM_SWIMMER",
+      "movement": "stay",
+      "sprite": "SPRITE_SWIMMER",
+      "text": "TEXT_CERULEANGYM_SWIMMER",
+      "text_handler": "CeruleanGymSwimmerText",
+      "text_id": "TEXT_CERULEANGYM_SWIMMER",
+      "texts": [
+        "CeruleanGymBattleText2",
+        "CeruleanGymEndBattleText2",
+        "CeruleanGymAfterBattleText2"
+      ],
+      "trainer": {
+        "after_text": "CeruleanGymAfterBattleText2",
+        "battle_text": "CeruleanGymBattleText2",
+        "class": "SWIMMER",
+        "end_text": "CeruleanGymEndBattleText2",
+        "event": "EVENT_BEAT_CERULEAN_GYM_TRAINER_1",
+        "party": 1,
+        "sight": 3
+      },
+      "x": 8,
+      "y": 7
+    },
+    {
+      "facing": "down",
+      "id": "CERULEANGYM_GYM_GUIDE",
+      "movement": "stay",
+      "sprite": "SPRITE_GYM_GUIDE",
+      "text": "TEXT_CERULEANGYM_GYM_GUIDE",
+      "text_handler": "CeruleanGymGymGuideText",
+      "text_id": "TEXT_CERULEANGYM_GYM_GUIDE",
+      "texts": [
+        "CeruleanGymGymGuideText.ChampInMakingText",
+        "CeruleanGymGymGuideText.BeatMistyText"
+      ],
+      "x": 7,
+      "y": 10
+    }
+  ],
+  "origin": {
+    "x": 110,
+    "y": 1132
+  },
+  "outdoor": false,
+  "palette": "PAL_CERULEAN",
+  "signs": [],
+  "source": {
+    "blocks": "maps/CeruleanGym.blk",
+    "header": "data/maps/headers/CeruleanGym.asm",
+    "objects": "data/maps/objects/CeruleanGym.asm",
+    "script": "scripts/CeruleanGym.asm"
+  },
+  "tiles": [
+    "##########",
+    "....ww....",
+    ".www..www.",
+    ".w......w.",
+    ".wwwwww.w.",
+    ".w......w.",
+    ".w.ww.www.",
+    ".w.ww.www.",
+    ".w....www.",
+    ".www..www.",
+    ".ww#..#.w.",
+    ".ww#..#.w.",
+    "..........",
+    "....dd...."
+  ],
+  "tileset": "GYM",
+  "warps": [
+    {
+      "last_map": true,
+      "to_map": "CERULEAN_CITY",
+      "to_warp": 4,
+      "x": 4,
+      "y": 13
+    },
+    {
+      "last_map": true,
+      "to_map": "CERULEAN_CITY",
+      "to_warp": 4,
+      "x": 5,
+      "y": 13
+    }
+  ],
+  "width": 10
+}

@@ -1,0 +1,27 @@
+{
+  "title": "Pokemon Yellow: Live Battle",
+  "logline": "Walk Game Boy Pokemon Yellow's Kanto in 3D, drawn like the anime, with Pikachu at your heels, and fight every wild Pokemon, trainer and gym leader in real time: dodge, time four moves and swap mid-fight.",
+  "genre": "open world action RPG",
+  "pillars": [
+    "Battles you fight, not menus you pick",
+    "Pikachu is your partner, not a party slot",
+    "Kanto worth wandering"
+  ],
+  "audience": "Players aged 10 and up who grew up with Red, Blue, Yellow and the anime, and action RPG fans who always wanted Pokemon battles to be fought live",
+  "references": [
+    "Pokemon Yellow",
+    "Pokemon Legends: Arceus",
+    "The Legend of Zelda: Breath of the Wild",
+    "Kingdom Hearts",
+    "Pokken Tournament"
+  ],
+  "store": {
+    "tagline": "Don't pick the move. Make it.",
+    "features": [
+      "Yellow's whole journey, from Oak's lab to the Hall of Fame, with every route, trainer and Pokemon in its place",
+      "Real-time battles: dodge, time four moves and swap mid-fight to a Pokemon that runs, flies or crawls",
+      "A seamless, cel-shaded Kanto straight out of the anime, where Pikachu walks with you and every fight happens where you stand"
+    ]
+  },
+  "version": 1
+}

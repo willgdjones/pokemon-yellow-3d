@@ -1,0 +1,306 @@
+{
+  "blocked_edges": [],
+  "border_block": 44,
+  "cave": false,
+  "connections": {
+    "north": {
+      "map": "ROUTE_4",
+      "offset": 50
+    },
+    "west": {
+      "map": "PEWTER_CITY",
+      "offset": -8
+    }
+  },
+  "encounter_rate": 20,
+  "height": 18,
+  "hidden": [],
+  "hidden_events": [],
+  "id": "ROUTE_3",
+  "items": [],
+  "label": "Route3",
+  "looks": [
+    "rrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrTspppppprrrrrr",
+    "rrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrTspppppprrrrrr",
+    "rrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrsspppppprrrrrr",
+    "rrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrsspppppprrrrrr",
+    "rrrrrrrrrrssssssssssssssssffrrrrrrssssssssssssssssrrrrrrsspprrrrrrrrrr",
+    "rrrrrrrrrrssssssssssssssssffrrrrrrssssssssssssssssrrrrrrsspprrrrrrrrrr",
+    "rrrrrrrrrrsssssssTsssssTssssrrrrrrssssrrrrrrssssssrrrrrrssssrrrrrrrrrr",
+    "rrrrrrrrrrLsLLLLLTLLLLLTLLLsrrrrrrLLLsrrrrrrLLLLLsrrrrrrLLLsrrrrrrrrrr",
+    "ppssFssssssssssssTsssssTssssssssssssssrrrrrrssssssrrrrrrssppGGGGGGrrrr",
+    "ppsssssssssssssssTsssssTssssssssssssssrrrrrrssssssrrrrrrssFSGGGGGGrrrr",
+    "ppsssssssTsssssssTsssssTGGGGGGGGGGGGGGrrrrrrffffssssssssssGGGGGGGGrrrr",
+    "ppssFssssTLLLLLsLTLLLLLTGGGGGGGGGGGGGGrrrrrrffffssssssssssGGGGGGGGrrrr",
+    "rrrrrrrrrrsssssssssssssTGGGGGGGGGGGGGGrrrrrrffffffssssssssGGGGGGGGrrrr",
+    "rrrrrrrrrrsssssssssssssTGGGGGGGGGGGGGGrrrrrrffffffssssssssGGGGGGGGrrrr",
+    "rrrrrrrrrrrrrrrrrrrrrrrrrrTTTTTTTTTTTTrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr",
+    "rrrrrrrrrrrrrrrrrrrrrrrrrrTTTTTTTTTTTTrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr",
+    "rrrrrrrrrrrrrrrrrrrrrrrrrrTTTTTTTTTTTTrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr",
+    "rrrrrrrrrrrrrrrrrrrrrrrrrrTTTTTTTTTTTTrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr"
+  ],
+  "looks_unknown": 0,
+  "music": "routes3",
+  "name": "ROUTE 3",
+  "npcs": [
+    {
+      "facing": "none",
+      "id": "ROUTE3_SUPER_NERD",
+      "movement": "stay",
+      "sprite": "SPRITE_SUPER_NERD",
+      "text": "TEXT_ROUTE3_SUPER_NERD",
+      "text_handler": "Route3SuperNerdText",
+      "text_id": "TEXT_ROUTE3_SUPER_NERD",
+      "texts": [
+        "Route3SuperNerdText"
+      ],
+      "x": 57,
+      "y": 11
+    },
+    {
+      "facing": "right",
+      "id": "ROUTE3_YOUNGSTER1",
+      "movement": "stay",
+      "sprite": "SPRITE_YOUNGSTER",
+      "text": "TEXT_ROUTE3_YOUNGSTER1",
+      "text_handler": "Route3Youngster1Text",
+      "text_id": "TEXT_ROUTE3_YOUNGSTER1",
+      "texts": [
+        "Route3Youngster1BattleText",
+        "Route3Youngster1EndBattleText",
+        "Route3Youngster1AfterBattleText"
+      ],
+      "trainer": {
+        "after_text": "Route3Youngster1AfterBattleText",
+        "battle_text": "Route3Youngster1BattleText",
+        "class": "BUG_CATCHER",
+        "end_text": "Route3Youngster1EndBattleText",
+        "event": "EVENT_BEAT_ROUTE_3_TRAINER_0",
+        "party": 4,
+        "sight": 2
+      },
+      "x": 10,
+      "y": 6
+    },
+    {
+      "facing": "down",
+      "id": "ROUTE3_YOUNGSTER2",
+      "movement": "stay",
+      "sprite": "SPRITE_YOUNGSTER",
+      "text": "TEXT_ROUTE3_YOUNGSTER2",
+      "text_handler": "Route3Youngster2Text",
+      "text_id": "TEXT_ROUTE3_YOUNGSTER2",
+      "texts": [
+        "Route3Youngster2BattleText",
+        "Route3Youngster2EndBattleText",
+        "Route3Youngster2AfterBattleText"
+      ],
+      "trainer": {
+        "after_text": "Route3Youngster2AfterBattleText",
+        "battle_text": "Route3Youngster2BattleText",
+        "class": "YOUNGSTER",
+        "end_text": "Route3Youngster2EndBattleText",
+        "event": "EVENT_BEAT_ROUTE_3_TRAINER_1",
+        "party": 1,
+        "sight": 3
+      },
+      "x": 14,
+      "y": 4
+    },
+    {
+      "facing": "left",
+      "id": "ROUTE3_COOLTRAINER_F1",
+      "movement": "stay",
+      "sprite": "SPRITE_COOLTRAINER_F",
+      "text": "TEXT_ROUTE3_COOLTRAINER_F1",
+      "text_handler": "Route3CooltrainerF1Text",
+      "text_id": "TEXT_ROUTE3_COOLTRAINER_F1",
+      "texts": [
+        "Route3CooltrainerF1BattleText",
+        "Route3CooltrainerF1EndBattleText",
+        "Route3CooltrainerF1AfterBattleText"
+      ],
+      "trainer": {
+        "after_text": "Route3CooltrainerF1AfterBattleText",
+        "battle_text": "Route3CooltrainerF1BattleText",
+        "class": "LASS",
+        "end_text": "Route3CooltrainerF1EndBattleText",
+        "event": "EVENT_BEAT_ROUTE_3_TRAINER_2",
+        "party": 1,
+        "sight": 2
+      },
+      "x": 16,
+      "y": 9
+    },
+    {
+      "facing": "down",
+      "id": "ROUTE3_YOUNGSTER3",
+      "movement": "stay",
+      "sprite": "SPRITE_YOUNGSTER",
+      "text": "TEXT_ROUTE3_YOUNGSTER3",
+      "text_handler": "Route3Youngster3Text",
+      "text_id": "TEXT_ROUTE3_YOUNGSTER3",
+      "texts": [
+        "Route3Youngster3BattleText",
+        "Route3Youngster3EndBattleText",
+        "Route3Youngster3AfterBattleText"
+      ],
+      "trainer": {
+        "after_text": "Route3Youngster3AfterBattleText",
+        "battle_text": "Route3Youngster3BattleText",
+        "class": "BUG_CATCHER",
+        "end_text": "Route3Youngster3EndBattleText",
+        "event": "EVENT_BEAT_ROUTE_3_TRAINER_3",
+        "party": 5,
+        "sight": 1
+      },
+      "x": 19,
+      "y": 5
+    },
+    {
+      "facing": "left",
+      "id": "ROUTE3_COOLTRAINER_F2",
+      "movement": "stay",
+      "sprite": "SPRITE_COOLTRAINER_F",
+      "text": "TEXT_ROUTE3_COOLTRAINER_F2",
+      "text_handler": "Route3CooltrainerF2Text",
+      "text_id": "TEXT_ROUTE3_COOLTRAINER_F2",
+      "texts": [
+        "Route3CooltrainerF2BattleText",
+        "Route3CooltrainerF2EndBattleText",
+        "Route3CooltrainerF2AfterBattleText"
+      ],
+      "trainer": {
+        "after_text": "Route3CooltrainerF2AfterBattleText",
+        "battle_text": "Route3CooltrainerF2BattleText",
+        "class": "LASS",
+        "end_text": "Route3CooltrainerF2EndBattleText",
+        "event": "EVENT_BEAT_ROUTE_3_TRAINER_4",
+        "party": 2,
+        "sight": 4
+      },
+      "x": 23,
+      "y": 4
+    },
+    {
+      "facing": "left",
+      "id": "ROUTE3_YOUNGSTER4",
+      "movement": "stay",
+      "sprite": "SPRITE_YOUNGSTER",
+      "text": "TEXT_ROUTE3_YOUNGSTER4",
+      "text_handler": "Route3Youngster4Text",
+      "text_id": "TEXT_ROUTE3_YOUNGSTER4",
+      "texts": [
+        "Route3Youngster4BattleText",
+        "Route3Youngster4EndBattleText",
+        "Route3Youngster4AfterBattleText"
+      ],
+      "trainer": {
+        "after_text": "Route3Youngster4AfterBattleText",
+        "battle_text": "Route3Youngster4BattleText",
+        "class": "YOUNGSTER",
+        "end_text": "Route3Youngster4EndBattleText",
+        "event": "EVENT_BEAT_ROUTE_3_TRAINER_5",
+        "party": 2,
+        "sight": 3
+      },
+      "x": 22,
+      "y": 9
+    },
+    {
+      "facing": "right",
+      "id": "ROUTE3_YOUNGSTER5",
+      "movement": "stay",
+      "sprite": "SPRITE_YOUNGSTER",
+      "text": "TEXT_ROUTE3_YOUNGSTER5",
+      "text_handler": "Route3Youngster5Text",
+      "text_id": "TEXT_ROUTE3_YOUNGSTER5",
+      "texts": [
+        "Route3Youngster5BattleText",
+        "Route3Youngster5EndBattleText",
+        "Route3Youngster5AfterBattleText"
+      ],
+      "trainer": {
+        "after_text": "Route3Youngster5AfterBattleText",
+        "battle_text": "Route3Youngster5BattleText",
+        "class": "BUG_CATCHER",
+        "end_text": "Route3Youngster5EndBattleText",
+        "event": "EVENT_BEAT_ROUTE_3_TRAINER_6",
+        "party": 6,
+        "sight": 3
+      },
+      "x": 24,
+      "y": 6
+    },
+    {
+      "facing": "up",
+      "id": "ROUTE3_COOLTRAINER_F3",
+      "movement": "stay",
+      "sprite": "SPRITE_COOLTRAINER_F",
+      "text": "TEXT_ROUTE3_COOLTRAINER_F3",
+      "text_handler": "Route3CooltrainerF3Text",
+      "text_id": "TEXT_ROUTE3_COOLTRAINER_F3",
+      "texts": [
+        "Route3CooltrainerF3BattleText",
+        "Route3CooltrainerF3EndBattleText",
+        "Route3CooltrainerF3AfterBattleText"
+      ],
+      "trainer": {
+        "after_text": "Route3CooltrainerF3AfterBattleText",
+        "battle_text": "Route3CooltrainerF3BattleText",
+        "class": "LASS",
+        "end_text": "Route3CooltrainerF3EndBattleText",
+        "event": "EVENT_BEAT_ROUTE_3_TRAINER_7",
+        "party": 3,
+        "sight": 2
+      },
+      "x": 33,
+      "y": 10
+    }
+  ],
+  "origin": {
+    "x": 30,
+    "y": -172
+  },
+  "outdoor": true,
+  "palette": "PAL_ROUTE",
+  "signs": [
+    {
+      "text": "TEXT_ROUTE3_SIGN",
+      "texts": [
+        "Route3SignText"
+      ],
+      "x": 59,
+      "y": 9
+    }
+  ],
+  "source": {
+    "blocks": "maps/Route3.blk",
+    "header": "data/maps/headers/Route3.asm",
+    "objects": "data/maps/objects/Route3.asm",
+    "script": "scripts/Route3.asm"
+  },
+  "tiles": [
+    "#########################################################.......######",
+    "#########################################################.......######",
+    "########################################################........######",
+    "########################################################........######",
+    "##########..................######................######....##########",
+    "##########..................######................######....##########",
+    "##########.......#.....#....######....######......######....##########",
+    "##########v.vvvvv#vvvvv#vvv.######vvv.######vvvvv.######vvv.##########",
+    "....#............#.....#..............######......######....gggggg####",
+    ".................#.....#..............######......######..##gggggg####",
+    ".........#.......#.....#gggggggggggggg######..............gggggggg####",
+    "....#....#vvvvv.v#vvvvv#gggggggggggggg######..............gggggggg####",
+    "##########.............#gggggggggggggg######..............gggggggg####",
+    "##########.............#gggggggggggggg######..............gggggggg####",
+    "######################################################################",
+    "######################################################################",
+    "######################################################################",
+    "######################################################################"
+  ],
+  "tileset": "OVERWORLD",
+  "warps": [],
+  "width": 70
+}

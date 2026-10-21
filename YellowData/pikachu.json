@@ -1,0 +1,410 @@
+{
+  "_note": "happiness changes by deltas[event].delta_by_happiness[band] (engine/events/pikachu_happiness.asm ModifyPikachuHappiness, clamped 0-255). mood_target: a rise moves mood up to it (unless an emotion modifier is active), a fall moves it down to it; null = mood unchanged ($80 in PikachuMoods). The face shown when talking to Pikachu is face_table: first row whose happiness_at_most >= happiness, then the first by_mood entry whose mood_at_most >= mood (engine/pikachu/pikachu_pic_animation.asm). Face names describe the pictures; the game only numbers them.",
+  "deltas": {
+    "careless_trainer": {
+      "const": "PIKAHAPPY_CARELESSTRAINER",
+      "delta_by_happiness": {
+        "0-99": -5,
+        "100-199": -5,
+        "200-255": -10
+      },
+      "mood_target": 108
+    },
+    "deposited": {
+      "const": "PIKAHAPPY_DEPOSITED",
+      "delta_by_happiness": {
+        "0-99": -3,
+        "100-199": -3,
+        "200-255": -5
+      },
+      "mood_target": 98
+    },
+    "fainted": {
+      "const": "PIKAHAPPY_FAINTED",
+      "delta_by_happiness": {
+        "0-99": -1,
+        "100-199": -1,
+        "200-255": -1
+      },
+      "mood_target": 108
+    },
+    "gym_leader": {
+      "const": "PIKAHAPPY_GYMLEADER",
+      "delta_by_happiness": {
+        "0-99": 3,
+        "100-199": 2,
+        "200-255": 1
+      },
+      "mood_target": null
+    },
+    "levelup": {
+      "const": "PIKAHAPPY_LEVELUP",
+      "delta_by_happiness": {
+        "0-99": 5,
+        "100-199": 3,
+        "200-255": 2
+      },
+      "mood_target": 138
+    },
+    "poison_fainted": {
+      "const": "PIKAHAPPY_PSNFNT",
+      "delta_by_happiness": {
+        "0-99": -5,
+        "100-199": -5,
+        "200-255": -10
+      },
+      "mood_target": 98
+    },
+    "traded": {
+      "const": "PIKAHAPPY_TRADE",
+      "delta_by_happiness": {
+        "0-99": -10,
+        "100-199": -10,
+        "200-255": -20
+      },
+      "mood_target": 0
+    },
+    "used_item": {
+      "const": "PIKAHAPPY_USEDITEM",
+      "delta_by_happiness": {
+        "0-99": 5,
+        "100-199": 3,
+        "200-255": 2
+      },
+      "mood_target": 131
+    },
+    "used_tm_hm": {
+      "const": "PIKAHAPPY_USEDTMHM",
+      "delta_by_happiness": {
+        "0-99": 1,
+        "100-199": 1,
+        "200-255": 0
+      },
+      "mood_target": 148
+    },
+    "used_x_item": {
+      "const": "PIKAHAPPY_USEDXITEM",
+      "delta_by_happiness": {
+        "0-99": 1,
+        "100-199": 1,
+        "200-255": 0
+      },
+      "mood_target": null
+    },
+    "walking": {
+      "const": "PIKAHAPPY_WALKING",
+      "delta_by_happiness": {
+        "0-99": 2,
+        "100-199": 1,
+        "200-255": 1
+      },
+      "mood_target": null
+    }
+  },
+  "face_table": [
+    {
+      "by_mood": [
+        {
+          "face": "angry",
+          "mood_at_most": 40
+        },
+        {
+          "face": "angry",
+          "mood_at_most": 127
+        },
+        {
+          "face": "turned_away",
+          "mood_at_most": 128
+        },
+        {
+          "face": "sulking",
+          "mood_at_most": 210
+        },
+        {
+          "face": "sulking",
+          "mood_at_most": 255
+        }
+      ],
+      "happiness_at_most": 50
+    },
+    {
+      "by_mood": [
+        {
+          "face": "back_turned",
+          "mood_at_most": 40
+        },
+        {
+          "face": "back_turned",
+          "mood_at_most": 127
+        },
+        {
+          "face": "displeased",
+          "mood_at_most": 128
+        },
+        {
+          "face": "unsure",
+          "mood_at_most": 210
+        },
+        {
+          "face": "unsure",
+          "mood_at_most": 255
+        }
+      ],
+      "happiness_at_most": 100
+    },
+    {
+      "by_mood": [
+        {
+          "face": "grumpy",
+          "mood_at_most": 40
+        },
+        {
+          "face": "grumpy",
+          "mood_at_most": 127
+        },
+        {
+          "face": "neutral",
+          "mood_at_most": 128
+        },
+        {
+          "face": "content",
+          "mood_at_most": 210
+        },
+        {
+          "face": "content",
+          "mood_at_most": 255
+        }
+      ],
+      "happiness_at_most": 130
+    },
+    {
+      "by_mood": [
+        {
+          "face": "grumpy",
+          "mood_at_most": 40
+        },
+        {
+          "face": "grumpy",
+          "mood_at_most": 127
+        },
+        {
+          "face": "happy",
+          "mood_at_most": 128
+        },
+        {
+          "face": "cheerful",
+          "mood_at_most": 210
+        },
+        {
+          "face": "cheerful",
+          "mood_at_most": 255
+        }
+      ],
+      "happiness_at_most": 160
+    },
+    {
+      "by_mood": [
+        {
+          "face": "calm",
+          "mood_at_most": 40
+        },
+        {
+          "face": "calm",
+          "mood_at_most": 127
+        },
+        {
+          "face": "excited",
+          "mood_at_most": 128
+        },
+        {
+          "face": "delighted",
+          "mood_at_most": 210
+        },
+        {
+          "face": "delighted",
+          "mood_at_most": 255
+        }
+      ],
+      "happiness_at_most": 200
+    },
+    {
+      "by_mood": [
+        {
+          "face": "calm",
+          "mood_at_most": 40
+        },
+        {
+          "face": "calm",
+          "mood_at_most": 127
+        },
+        {
+          "face": "loving",
+          "mood_at_most": 128
+        },
+        {
+          "face": "affectionate",
+          "mood_at_most": 210
+        },
+        {
+          "face": "affectionate",
+          "mood_at_most": 255
+        }
+      ],
+      "happiness_at_most": 250
+    },
+    {
+      "by_mood": [
+        {
+          "face": "calm",
+          "mood_at_most": 40
+        },
+        {
+          "face": "calm",
+          "mood_at_most": 127
+        },
+        {
+          "face": "adoring",
+          "mood_at_most": 128
+        },
+        {
+          "face": "overjoyed",
+          "mood_at_most": 210
+        },
+        {
+          "face": "overjoyed",
+          "mood_at_most": 255
+        }
+      ],
+      "happiness_at_most": 255
+    }
+  ],
+  "faces": {
+    "adoring": {
+      "anim_script": "PikaPicAnimScript19",
+      "file": "pikachu/adoring.png",
+      "picture": "gfx/pikachu/unknown_e6340.png"
+    },
+    "affectionate": {
+      "anim_script": "PikaPicAnimScript10",
+      "file": "pikachu/affectionate.png",
+      "picture": "gfx/pikachu/unknown_e4c3e.png"
+    },
+    "angry": {
+      "anim_script": "PikaPicAnimScript14",
+      "file": "pikachu/angry.png",
+      "picture": "gfx/pikachu/unknown_e56d1.png"
+    },
+    "back_turned": {
+      "anim_script": "PikaPicAnimScript9",
+      "file": "pikachu/back_turned.png",
+      "picture": "gfx/pikachu/unknown_e4b39.png"
+    },
+    "calm": {
+      "anim_script": "PikaPicAnimScript17",
+      "file": "pikachu/calm.png",
+      "picture": "gfx/pikachu/unknown_e5ddd.png"
+    },
+    "cheerful": {
+      "anim_script": "PikaPicAnimScript15",
+      "file": "pikachu/cheerful.png",
+      "picture": "gfx/pikachu/unknown_e5924.png"
+    },
+    "content": {
+      "anim_script": "PikaPicAnimScript8",
+      "file": "pikachu/content.png",
+      "picture": "gfx/pikachu/unknown_e49d1.png"
+    },
+    "delighted": {
+      "anim_script": "PikaPicAnimScript2",
+      "file": "pikachu/delighted.png",
+      "picture": "gfx/pikachu/unknown_e411c.png"
+    },
+    "displeased": {
+      "anim_script": "PikaPicAnimScript5",
+      "file": "pikachu/displeased.png",
+      "picture": "gfx/pikachu/unknown_e458b.png"
+    },
+    "excited": {
+      "anim_script": "PikaPicAnimScript7",
+      "file": "pikachu/excited.png",
+      "picture": "gfx/pikachu/unknown_e476e.png"
+    },
+    "grumpy": {
+      "anim_script": "PikaPicAnimScript3",
+      "file": "pikachu/grumpy.png",
+      "picture": "gfx/pikachu/unknown_e4272.png"
+    },
+    "happy": {
+      "anim_script": "PikaPicAnimScript4",
+      "file": "pikachu/happy.png",
+      "picture": "gfx/pikachu/unknown_e4383.png"
+    },
+    "loving": {
+      "anim_script": "PikaPicAnimScript16",
+      "file": "pikachu/loving.png",
+      "picture": "gfx/pikachu/unknown_e5b7d.png"
+    },
+    "neutral": {
+      "anim_script": "PikaPicAnimScript1",
+      "file": "pikachu/neutral.png",
+      "picture": "gfx/pikachu/unknown_e4000.png"
+    },
+    "overjoyed": {
+      "anim_script": "PikaPicAnimScript20",
+      "file": "pikachu/overjoyed.png",
+      "picture": "gfx/pikachu/unknown_e6587.png"
+    },
+    "sulking": {
+      "anim_script": "PikaPicAnimScript13",
+      "file": "pikachu/sulking.png",
+      "picture": "gfx/pikachu/unknown_e548e.png"
+    },
+    "turned_away": {
+      "anim_script": "PikaPicAnimScript6",
+      "file": "pikachu/turned_away.png",
+      "picture": "gfx/pikachu/unknown_e467b.png"
+    },
+    "unsure": {
+      "anim_script": "PikaPicAnimScript12",
+      "file": "pikachu/unsure.png",
+      "picture": "gfx/pikachu/unknown_e523f.png"
+    }
+  },
+  "happiness_range": [
+    0,
+    255
+  ],
+  "mood_range": [
+    0,
+    255
+  ],
+  "moods": [
+    "neutral",
+    "delighted",
+    "grumpy",
+    "happy",
+    "displeased",
+    "turned_away",
+    "excited",
+    "content",
+    "back_turned",
+    "affectionate",
+    "unsure",
+    "sulking",
+    "angry",
+    "cheerful",
+    "loving",
+    "calm",
+    "adoring",
+    "overjoyed"
+  ],
+  "source": [
+    "engine/events/pikachu_happiness.asm",
+    "engine/movie/oak_speech/init_player_data.asm",
+    "engine/pikachu/pikachu_pic_animation.asm",
+    "data/pikachu/pikachu_pic_animation.asm",
+    "constants/pikachu_emotion_constants.asm"
+  ],
+  "start_happiness": 90,
+  "start_mood": 128
+}

@@ -1,0 +1,1354 @@
+{
+  "ANTIDOTE": {
+    "battle_use": true,
+    "field_use": true,
+    "handler": "ItemUseMedicine",
+    "id": 11,
+    "key": false,
+    "name": "ANTIDOTE",
+    "price": 100
+  },
+  "AWAKENING": {
+    "battle_use": true,
+    "field_use": true,
+    "handler": "ItemUseMedicine",
+    "id": 14,
+    "key": false,
+    "name": "AWAKENING",
+    "price": 200
+  },
+  "BICYCLE": {
+    "battle_use": false,
+    "field_use": true,
+    "handler": "ItemUseBicycle",
+    "id": 6,
+    "key": true,
+    "name": "BICYCLE",
+    "price": 0
+  },
+  "BIKE_VOUCHER": {
+    "battle_use": false,
+    "field_use": false,
+    "handler": "UnusableItem",
+    "id": 45,
+    "key": true,
+    "name": "BIKE VOUCHER",
+    "price": 0
+  },
+  "BOULDERBADGE": {
+    "battle_use": true,
+    "field_use": false,
+    "handler": "ItemUseBait",
+    "id": 21,
+    "key": true,
+    "name": "BOULDERBADGE",
+    "price": 0
+  },
+  "BURN_HEAL": {
+    "battle_use": true,
+    "field_use": true,
+    "handler": "ItemUseMedicine",
+    "id": 12,
+    "key": false,
+    "name": "BURN HEAL",
+    "price": 250
+  },
+  "CALCIUM": {
+    "battle_use": false,
+    "field_use": true,
+    "handler": "ItemUseVitamin",
+    "id": 39,
+    "key": false,
+    "name": "CALCIUM",
+    "price": 9800
+  },
+  "CARBOS": {
+    "battle_use": false,
+    "field_use": true,
+    "handler": "ItemUseVitamin",
+    "id": 38,
+    "key": false,
+    "name": "CARBOS",
+    "price": 9800
+  },
+  "CARD_KEY": {
+    "battle_use": false,
+    "field_use": true,
+    "handler": "ItemUseCardKey",
+    "id": 48,
+    "key": true,
+    "name": "CARD KEY",
+    "price": 0
+  },
+  "CASCADEBADGE": {
+    "battle_use": true,
+    "field_use": false,
+    "handler": "ItemUseRock",
+    "id": 22,
+    "key": true,
+    "name": "CASCADEBADGE",
+    "price": 0
+  },
+  "COIN": {
+    "battle_use": false,
+    "field_use": false,
+    "handler": "UnusableItem",
+    "id": 59,
+    "key": false,
+    "name": "COIN",
+    "price": 10
+  },
+  "COIN_CASE": {
+    "battle_use": false,
+    "field_use": true,
+    "handler": "ItemUseCoinCase",
+    "id": 69,
+    "key": true,
+    "name": "COIN CASE",
+    "price": 0
+  },
+  "DIRE_HIT": {
+    "battle_use": true,
+    "field_use": false,
+    "handler": "ItemUseDireHit",
+    "id": 58,
+    "key": false,
+    "name": "DIRE HIT",
+    "price": 650
+  },
+  "DOME_FOSSIL": {
+    "battle_use": false,
+    "field_use": false,
+    "handler": "UnusableItem",
+    "id": 41,
+    "key": true,
+    "name": "DOME FOSSIL",
+    "price": 0
+  },
+  "EARTHBADGE": {
+    "battle_use": false,
+    "field_use": false,
+    "handler": "UnusableItem",
+    "id": 28,
+    "key": true,
+    "name": "EARTHBADGE",
+    "price": 0
+  },
+  "ELIXER": {
+    "battle_use": true,
+    "field_use": true,
+    "handler": "ItemUsePPRestore",
+    "id": 82,
+    "key": false,
+    "name": "ELIXER",
+    "price": 0
+  },
+  "ESCAPE_ROPE": {
+    "battle_use": false,
+    "field_use": true,
+    "handler": "ItemUseEscapeRope",
+    "id": 29,
+    "key": false,
+    "name": "ESCAPE ROPE",
+    "price": 550
+  },
+  "ETHER": {
+    "battle_use": true,
+    "field_use": true,
+    "handler": "ItemUsePPRestore",
+    "id": 80,
+    "key": false,
+    "name": "ETHER",
+    "price": 0
+  },
+  "EXP_ALL": {
+    "battle_use": false,
+    "field_use": false,
+    "handler": "UnusableItem",
+    "id": 75,
+    "key": false,
+    "name": "EXP.ALL",
+    "price": 0
+  },
+  "FIRE_STONE": {
+    "battle_use": false,
+    "field_use": true,
+    "handler": "ItemUseEvoStone",
+    "id": 32,
+    "key": false,
+    "name": "FIRE STONE",
+    "price": 2100
+  },
+  "FRESH_WATER": {
+    "battle_use": true,
+    "field_use": true,
+    "handler": "ItemUseMedicine",
+    "id": 60,
+    "key": false,
+    "name": "FRESH WATER",
+    "price": 200
+  },
+  "FULL_HEAL": {
+    "battle_use": true,
+    "field_use": true,
+    "handler": "ItemUseMedicine",
+    "id": 52,
+    "key": false,
+    "name": "FULL HEAL",
+    "price": 600
+  },
+  "FULL_RESTORE": {
+    "battle_use": true,
+    "field_use": true,
+    "handler": "ItemUseMedicine",
+    "id": 16,
+    "key": false,
+    "name": "FULL RESTORE",
+    "price": 3000
+  },
+  "GOLD_TEETH": {
+    "battle_use": false,
+    "field_use": false,
+    "handler": "UnusableItem",
+    "id": 64,
+    "key": true,
+    "name": "GOLD TEETH",
+    "price": 0
+  },
+  "GOOD_ROD": {
+    "battle_use": false,
+    "field_use": true,
+    "handler": "ItemUseGoodRod",
+    "id": 77,
+    "key": true,
+    "name": "GOOD ROD",
+    "price": 0
+  },
+  "GREAT_BALL": {
+    "battle_use": true,
+    "field_use": false,
+    "handler": "ItemUseBall",
+    "id": 3,
+    "key": false,
+    "name": "GREAT BALL",
+    "price": 600
+  },
+  "GUARD_SPEC": {
+    "battle_use": true,
+    "field_use": false,
+    "handler": "ItemUseGuardSpec",
+    "id": 55,
+    "key": false,
+    "name": "GUARD SPEC.",
+    "price": 700
+  },
+  "HELIX_FOSSIL": {
+    "battle_use": false,
+    "field_use": false,
+    "handler": "UnusableItem",
+    "id": 42,
+    "key": true,
+    "name": "HELIX FOSSIL",
+    "price": 0
+  },
+  "HM_CUT": {
+    "battle_use": false,
+    "field_use": true,
+    "handler": "ItemUseTMHM",
+    "hm": 1,
+    "id": 196,
+    "key": true,
+    "move": "CUT",
+    "name": "HM01",
+    "price": 0
+  },
+  "HM_FLASH": {
+    "battle_use": false,
+    "field_use": true,
+    "handler": "ItemUseTMHM",
+    "hm": 5,
+    "id": 200,
+    "key": true,
+    "move": "FLASH",
+    "name": "HM05",
+    "price": 0
+  },
+  "HM_FLY": {
+    "battle_use": false,
+    "field_use": true,
+    "handler": "ItemUseTMHM",
+    "hm": 2,
+    "id": 197,
+    "key": true,
+    "move": "FLY",
+    "name": "HM02",
+    "price": 0
+  },
+  "HM_STRENGTH": {
+    "battle_use": false,
+    "field_use": true,
+    "handler": "ItemUseTMHM",
+    "hm": 4,
+    "id": 199,
+    "key": true,
+    "move": "STRENGTH",
+    "name": "HM04",
+    "price": 0
+  },
+  "HM_SURF": {
+    "battle_use": false,
+    "field_use": true,
+    "handler": "ItemUseTMHM",
+    "hm": 3,
+    "id": 198,
+    "key": true,
+    "move": "SURF",
+    "name": "HM03",
+    "price": 0
+  },
+  "HP_UP": {
+    "battle_use": false,
+    "field_use": true,
+    "handler": "ItemUseVitamin",
+    "id": 35,
+    "key": false,
+    "name": "HP UP",
+    "price": 9800
+  },
+  "HYPER_POTION": {
+    "battle_use": true,
+    "field_use": true,
+    "handler": "ItemUseMedicine",
+    "id": 18,
+    "key": false,
+    "name": "HYPER POTION",
+    "price": 1500
+  },
+  "ICE_HEAL": {
+    "battle_use": true,
+    "field_use": true,
+    "handler": "ItemUseMedicine",
+    "id": 13,
+    "key": false,
+    "name": "ICE HEAL",
+    "price": 250
+  },
+  "IRON": {
+    "battle_use": false,
+    "field_use": true,
+    "handler": "ItemUseVitamin",
+    "id": 37,
+    "key": false,
+    "name": "IRON",
+    "price": 9800
+  },
+  "ITEMFINDER": {
+    "battle_use": false,
+    "field_use": true,
+    "handler": "ItemUseItemfinder",
+    "id": 71,
+    "key": true,
+    "name": "ITEMFINDER",
+    "price": 0
+  },
+  "ITEM_2C": {
+    "battle_use": false,
+    "field_use": false,
+    "handler": "UnusableItem",
+    "id": 44,
+    "key": true,
+    "name": "?????",
+    "price": 0
+  },
+  "ITEM_32": {
+    "battle_use": false,
+    "field_use": false,
+    "handler": "UnusableItem",
+    "id": 50,
+    "key": false,
+    "name": "PP UP",
+    "price": 9800
+  },
+  "LEAF_STONE": {
+    "battle_use": false,
+    "field_use": true,
+    "handler": "ItemUseEvoStone",
+    "id": 47,
+    "key": false,
+    "name": "LEAF STONE",
+    "price": 2100
+  },
+  "LEMONADE": {
+    "battle_use": true,
+    "field_use": true,
+    "handler": "ItemUseMedicine",
+    "id": 62,
+    "key": false,
+    "name": "LEMONADE",
+    "price": 350
+  },
+  "LIFT_KEY": {
+    "battle_use": false,
+    "field_use": false,
+    "handler": "UnusableItem",
+    "id": 74,
+    "key": true,
+    "name": "LIFT KEY",
+    "price": 0
+  },
+  "MARSHBADGE": {
+    "battle_use": false,
+    "field_use": false,
+    "handler": "UnusableItem",
+    "id": 26,
+    "key": true,
+    "name": "MARSHBADGE",
+    "price": 0
+  },
+  "MASTER_BALL": {
+    "battle_use": true,
+    "field_use": false,
+    "handler": "ItemUseBall",
+    "id": 1,
+    "key": false,
+    "name": "MASTER BALL",
+    "price": 0
+  },
+  "MAX_ELIXER": {
+    "battle_use": true,
+    "field_use": true,
+    "handler": "ItemUsePPRestore",
+    "id": 83,
+    "key": false,
+    "name": "MAX ELIXER",
+    "price": 0
+  },
+  "MAX_ETHER": {
+    "battle_use": true,
+    "field_use": true,
+    "handler": "ItemUsePPRestore",
+    "id": 81,
+    "key": false,
+    "name": "MAX ETHER",
+    "price": 0
+  },
+  "MAX_POTION": {
+    "battle_use": true,
+    "field_use": true,
+    "handler": "ItemUseMedicine",
+    "id": 17,
+    "key": false,
+    "name": "MAX POTION",
+    "price": 2500
+  },
+  "MAX_REPEL": {
+    "battle_use": false,
+    "field_use": true,
+    "handler": "ItemUseMaxRepel",
+    "id": 57,
+    "key": false,
+    "name": "MAX REPEL",
+    "price": 700
+  },
+  "MAX_REVIVE": {
+    "battle_use": true,
+    "field_use": true,
+    "handler": "ItemUseMedicine",
+    "id": 54,
+    "key": false,
+    "name": "MAX REVIVE",
+    "price": 4000
+  },
+  "MOON_STONE": {
+    "battle_use": false,
+    "field_use": true,
+    "handler": "ItemUseEvoStone",
+    "id": 10,
+    "key": false,
+    "name": "MOON STONE",
+    "price": 0
+  },
+  "NUGGET": {
+    "battle_use": false,
+    "field_use": false,
+    "handler": "UnusableItem",
+    "id": 49,
+    "key": false,
+    "name": "NUGGET",
+    "price": 10000
+  },
+  "OAKS_PARCEL": {
+    "battle_use": false,
+    "field_use": false,
+    "handler": "ItemUseOaksParcel",
+    "id": 70,
+    "key": true,
+    "name": "OAK's PARCEL",
+    "price": 0
+  },
+  "OLD_AMBER": {
+    "battle_use": false,
+    "field_use": false,
+    "handler": "UnusableItem",
+    "id": 31,
+    "key": true,
+    "name": "OLD AMBER",
+    "price": 0
+  },
+  "OLD_ROD": {
+    "battle_use": false,
+    "field_use": true,
+    "handler": "ItemUseOldRod",
+    "id": 76,
+    "key": true,
+    "name": "OLD ROD",
+    "price": 0
+  },
+  "PARLYZ_HEAL": {
+    "battle_use": true,
+    "field_use": true,
+    "handler": "ItemUseMedicine",
+    "id": 15,
+    "key": false,
+    "name": "PARLYZ HEAL",
+    "price": 200
+  },
+  "POKEDEX": {
+    "battle_use": false,
+    "field_use": true,
+    "handler": "ItemUsePokedex",
+    "id": 9,
+    "key": true,
+    "name": "POKéDEX",
+    "price": 0
+  },
+  "POKE_BALL": {
+    "battle_use": true,
+    "field_use": false,
+    "handler": "ItemUseBall",
+    "id": 4,
+    "key": false,
+    "name": "POKé BALL",
+    "price": 200
+  },
+  "POKE_DOLL": {
+    "battle_use": true,
+    "field_use": false,
+    "handler": "ItemUsePokeDoll",
+    "id": 51,
+    "key": false,
+    "name": "POKé DOLL",
+    "price": 1000
+  },
+  "POKE_FLUTE": {
+    "battle_use": true,
+    "field_use": true,
+    "handler": "ItemUsePokeFlute",
+    "id": 73,
+    "key": true,
+    "name": "POKé FLUTE",
+    "price": 0
+  },
+  "POTION": {
+    "battle_use": true,
+    "field_use": true,
+    "handler": "ItemUseMedicine",
+    "id": 20,
+    "key": false,
+    "name": "POTION",
+    "price": 300
+  },
+  "PP_UP": {
+    "battle_use": false,
+    "field_use": true,
+    "handler": "ItemUsePPUp",
+    "id": 79,
+    "key": false,
+    "name": "PP UP",
+    "price": 0
+  },
+  "PROTEIN": {
+    "battle_use": false,
+    "field_use": true,
+    "handler": "ItemUseVitamin",
+    "id": 36,
+    "key": false,
+    "name": "PROTEIN",
+    "price": 9800
+  },
+  "RAINBOWBADGE": {
+    "battle_use": false,
+    "field_use": false,
+    "handler": "UnusableItem",
+    "id": 24,
+    "key": true,
+    "name": "RAINBOWBADGE",
+    "price": 0
+  },
+  "RARE_CANDY": {
+    "battle_use": false,
+    "field_use": true,
+    "handler": "ItemUseVitamin",
+    "id": 40,
+    "key": false,
+    "name": "RARE CANDY",
+    "price": 4800
+  },
+  "REPEL": {
+    "battle_use": false,
+    "field_use": true,
+    "handler": "ItemUseRepel",
+    "id": 30,
+    "key": false,
+    "name": "REPEL",
+    "price": 350
+  },
+  "REVIVE": {
+    "battle_use": true,
+    "field_use": true,
+    "handler": "ItemUseMedicine",
+    "id": 53,
+    "key": false,
+    "name": "REVIVE",
+    "price": 1500
+  },
+  "SAFARI_BALL": {
+    "battle_use": true,
+    "field_use": false,
+    "handler": "ItemUseBall",
+    "id": 8,
+    "key": true,
+    "name": "SAFARI BALL",
+    "price": 1000
+  },
+  "SECRET_KEY": {
+    "battle_use": false,
+    "field_use": false,
+    "handler": "UnusableItem",
+    "id": 43,
+    "key": true,
+    "name": "SECRET KEY",
+    "price": 0
+  },
+  "SILPH_SCOPE": {
+    "battle_use": false,
+    "field_use": false,
+    "handler": "UnusableItem",
+    "id": 72,
+    "key": true,
+    "name": "SILPH SCOPE",
+    "price": 0
+  },
+  "SODA_POP": {
+    "battle_use": true,
+    "field_use": true,
+    "handler": "ItemUseMedicine",
+    "id": 61,
+    "key": false,
+    "name": "SODA POP",
+    "price": 300
+  },
+  "SOULBADGE": {
+    "battle_use": false,
+    "field_use": false,
+    "handler": "UnusableItem",
+    "id": 25,
+    "key": true,
+    "name": "SOULBADGE",
+    "price": 0
+  },
+  "SUPER_POTION": {
+    "battle_use": true,
+    "field_use": true,
+    "handler": "ItemUseMedicine",
+    "id": 19,
+    "key": false,
+    "name": "SUPER POTION",
+    "price": 700
+  },
+  "SUPER_REPEL": {
+    "battle_use": false,
+    "field_use": true,
+    "handler": "ItemUseSuperRepel",
+    "id": 56,
+    "key": false,
+    "name": "SUPER REPEL",
+    "price": 500
+  },
+  "SUPER_ROD": {
+    "battle_use": false,
+    "field_use": true,
+    "handler": "ItemUseSuperRod",
+    "id": 78,
+    "key": true,
+    "name": "SUPER ROD",
+    "price": 0
+  },
+  "SURFBOARD": {
+    "battle_use": false,
+    "field_use": true,
+    "handler": "ItemUseSurfboard",
+    "id": 7,
+    "key": true,
+    "name": "?????",
+    "price": 0
+  },
+  "S_S_TICKET": {
+    "battle_use": false,
+    "field_use": false,
+    "handler": "UnusableItem",
+    "id": 63,
+    "key": true,
+    "name": "S.S.TICKET",
+    "price": 0
+  },
+  "THUNDERBADGE": {
+    "battle_use": false,
+    "field_use": false,
+    "handler": "UnusableItem",
+    "id": 23,
+    "key": true,
+    "name": "THUNDERBADGE",
+    "price": 0
+  },
+  "THUNDER_STONE": {
+    "battle_use": false,
+    "field_use": true,
+    "handler": "ItemUseEvoStone",
+    "id": 33,
+    "key": false,
+    "name": "THUNDERSTONE",
+    "price": 2100
+  },
+  "TM_BIDE": {
+    "battle_use": false,
+    "field_use": true,
+    "handler": "ItemUseTMHM",
+    "id": 234,
+    "key": false,
+    "move": "BIDE",
+    "name": "TM34",
+    "price": 2000,
+    "tm": 34
+  },
+  "TM_BLIZZARD": {
+    "battle_use": false,
+    "field_use": true,
+    "handler": "ItemUseTMHM",
+    "id": 214,
+    "key": false,
+    "move": "BLIZZARD",
+    "name": "TM14",
+    "price": 5000,
+    "tm": 14
+  },
+  "TM_BODY_SLAM": {
+    "battle_use": false,
+    "field_use": true,
+    "handler": "ItemUseTMHM",
+    "id": 208,
+    "key": false,
+    "move": "BODY_SLAM",
+    "name": "TM08",
+    "price": 4000,
+    "tm": 8
+  },
+  "TM_BUBBLEBEAM": {
+    "battle_use": false,
+    "field_use": true,
+    "handler": "ItemUseTMHM",
+    "id": 211,
+    "key": false,
+    "move": "BUBBLEBEAM",
+    "name": "TM11",
+    "price": 2000,
+    "tm": 11
+  },
+  "TM_COUNTER": {
+    "battle_use": false,
+    "field_use": true,
+    "handler": "ItemUseTMHM",
+    "id": 218,
+    "key": false,
+    "move": "COUNTER",
+    "name": "TM18",
+    "price": 2000,
+    "tm": 18
+  },
+  "TM_DIG": {
+    "battle_use": false,
+    "field_use": true,
+    "handler": "ItemUseTMHM",
+    "id": 228,
+    "key": false,
+    "move": "DIG",
+    "name": "TM28",
+    "price": 2000,
+    "tm": 28
+  },
+  "TM_DOUBLE_EDGE": {
+    "battle_use": false,
+    "field_use": true,
+    "handler": "ItemUseTMHM",
+    "id": 210,
+    "key": false,
+    "move": "DOUBLE_EDGE",
+    "name": "TM10",
+    "price": 4000,
+    "tm": 10
+  },
+  "TM_DOUBLE_TEAM": {
+    "battle_use": false,
+    "field_use": true,
+    "handler": "ItemUseTMHM",
+    "id": 232,
+    "key": false,
+    "move": "DOUBLE_TEAM",
+    "name": "TM32",
+    "price": 1000,
+    "tm": 32
+  },
+  "TM_DRAGON_RAGE": {
+    "battle_use": false,
+    "field_use": true,
+    "handler": "ItemUseTMHM",
+    "id": 223,
+    "key": false,
+    "move": "DRAGON_RAGE",
+    "name": "TM23",
+    "price": 5000,
+    "tm": 23
+  },
+  "TM_DREAM_EATER": {
+    "battle_use": false,
+    "field_use": true,
+    "handler": "ItemUseTMHM",
+    "id": 242,
+    "key": false,
+    "move": "DREAM_EATER",
+    "name": "TM42",
+    "price": 2000,
+    "tm": 42
+  },
+  "TM_EARTHQUAKE": {
+    "battle_use": false,
+    "field_use": true,
+    "handler": "ItemUseTMHM",
+    "id": 226,
+    "key": false,
+    "move": "EARTHQUAKE",
+    "name": "TM26",
+    "price": 4000,
+    "tm": 26
+  },
+  "TM_EGG_BOMB": {
+    "battle_use": false,
+    "field_use": true,
+    "handler": "ItemUseTMHM",
+    "id": 237,
+    "key": false,
+    "move": "EGG_BOMB",
+    "name": "TM37",
+    "price": 2000,
+    "tm": 37
+  },
+  "TM_EXPLOSION": {
+    "battle_use": false,
+    "field_use": true,
+    "handler": "ItemUseTMHM",
+    "id": 247,
+    "key": false,
+    "move": "EXPLOSION",
+    "name": "TM47",
+    "price": 3000,
+    "tm": 47
+  },
+  "TM_FIRE_BLAST": {
+    "battle_use": false,
+    "field_use": true,
+    "handler": "ItemUseTMHM",
+    "id": 238,
+    "key": false,
+    "move": "FIRE_BLAST",
+    "name": "TM38",
+    "price": 5000,
+    "tm": 38
+  },
+  "TM_FISSURE": {
+    "battle_use": false,
+    "field_use": true,
+    "handler": "ItemUseTMHM",
+    "id": 227,
+    "key": false,
+    "move": "FISSURE",
+    "name": "TM27",
+    "price": 5000,
+    "tm": 27
+  },
+  "TM_HORN_DRILL": {
+    "battle_use": false,
+    "field_use": true,
+    "handler": "ItemUseTMHM",
+    "id": 207,
+    "key": false,
+    "move": "HORN_DRILL",
+    "name": "TM07",
+    "price": 2000,
+    "tm": 7
+  },
+  "TM_HYPER_BEAM": {
+    "battle_use": false,
+    "field_use": true,
+    "handler": "ItemUseTMHM",
+    "id": 215,
+    "key": false,
+    "move": "HYPER_BEAM",
+    "name": "TM15",
+    "price": 5000,
+    "tm": 15
+  },
+  "TM_ICE_BEAM": {
+    "battle_use": false,
+    "field_use": true,
+    "handler": "ItemUseTMHM",
+    "id": 213,
+    "key": false,
+    "move": "ICE_BEAM",
+    "name": "TM13",
+    "price": 4000,
+    "tm": 13
+  },
+  "TM_MEGA_DRAIN": {
+    "battle_use": false,
+    "field_use": true,
+    "handler": "ItemUseTMHM",
+    "id": 221,
+    "key": false,
+    "move": "MEGA_DRAIN",
+    "name": "TM21",
+    "price": 5000,
+    "tm": 21
+  },
+  "TM_MEGA_KICK": {
+    "battle_use": false,
+    "field_use": true,
+    "handler": "ItemUseTMHM",
+    "id": 205,
+    "key": false,
+    "move": "MEGA_KICK",
+    "name": "TM05",
+    "price": 3000,
+    "tm": 5
+  },
+  "TM_MEGA_PUNCH": {
+    "battle_use": false,
+    "field_use": true,
+    "handler": "ItemUseTMHM",
+    "id": 201,
+    "key": false,
+    "move": "MEGA_PUNCH",
+    "name": "TM01",
+    "price": 3000,
+    "tm": 1
+  },
+  "TM_METRONOME": {
+    "battle_use": false,
+    "field_use": true,
+    "handler": "ItemUseTMHM",
+    "id": 235,
+    "key": false,
+    "move": "METRONOME",
+    "name": "TM35",
+    "price": 4000,
+    "tm": 35
+  },
+  "TM_MIMIC": {
+    "battle_use": false,
+    "field_use": true,
+    "handler": "ItemUseTMHM",
+    "id": 231,
+    "key": false,
+    "move": "MIMIC",
+    "name": "TM31",
+    "price": 2000,
+    "tm": 31
+  },
+  "TM_PAY_DAY": {
+    "battle_use": false,
+    "field_use": true,
+    "handler": "ItemUseTMHM",
+    "id": 216,
+    "key": false,
+    "move": "PAY_DAY",
+    "name": "TM16",
+    "price": 5000,
+    "tm": 16
+  },
+  "TM_PSYCHIC_M": {
+    "battle_use": false,
+    "field_use": true,
+    "handler": "ItemUseTMHM",
+    "id": 229,
+    "key": false,
+    "move": "PSYCHIC_M",
+    "name": "TM29",
+    "price": 4000,
+    "tm": 29
+  },
+  "TM_PSYWAVE": {
+    "battle_use": false,
+    "field_use": true,
+    "handler": "ItemUseTMHM",
+    "id": 246,
+    "key": false,
+    "move": "PSYWAVE",
+    "name": "TM46",
+    "price": 4000,
+    "tm": 46
+  },
+  "TM_RAGE": {
+    "battle_use": false,
+    "field_use": true,
+    "handler": "ItemUseTMHM",
+    "id": 220,
+    "key": false,
+    "move": "RAGE",
+    "name": "TM20",
+    "price": 2000,
+    "tm": 20
+  },
+  "TM_RAZOR_WIND": {
+    "battle_use": false,
+    "field_use": true,
+    "handler": "ItemUseTMHM",
+    "id": 202,
+    "key": false,
+    "move": "RAZOR_WIND",
+    "name": "TM02",
+    "price": 2000,
+    "tm": 2
+  },
+  "TM_REFLECT": {
+    "battle_use": false,
+    "field_use": true,
+    "handler": "ItemUseTMHM",
+    "id": 233,
+    "key": false,
+    "move": "REFLECT",
+    "name": "TM33",
+    "price": 1000,
+    "tm": 33
+  },
+  "TM_REST": {
+    "battle_use": false,
+    "field_use": true,
+    "handler": "ItemUseTMHM",
+    "id": 244,
+    "key": false,
+    "move": "REST",
+    "name": "TM44",
+    "price": 2000,
+    "tm": 44
+  },
+  "TM_ROCK_SLIDE": {
+    "battle_use": false,
+    "field_use": true,
+    "handler": "ItemUseTMHM",
+    "id": 248,
+    "key": false,
+    "move": "ROCK_SLIDE",
+    "name": "TM48",
+    "price": 4000,
+    "tm": 48
+  },
+  "TM_SEISMIC_TOSS": {
+    "battle_use": false,
+    "field_use": true,
+    "handler": "ItemUseTMHM",
+    "id": 219,
+    "key": false,
+    "move": "SEISMIC_TOSS",
+    "name": "TM19",
+    "price": 3000,
+    "tm": 19
+  },
+  "TM_SELFDESTRUCT": {
+    "battle_use": false,
+    "field_use": true,
+    "handler": "ItemUseTMHM",
+    "id": 236,
+    "key": false,
+    "move": "SELFDESTRUCT",
+    "name": "TM36",
+    "price": 2000,
+    "tm": 36
+  },
+  "TM_SKULL_BASH": {
+    "battle_use": false,
+    "field_use": true,
+    "handler": "ItemUseTMHM",
+    "id": 240,
+    "key": false,
+    "move": "SKULL_BASH",
+    "name": "TM40",
+    "price": 4000,
+    "tm": 40
+  },
+  "TM_SKY_ATTACK": {
+    "battle_use": false,
+    "field_use": true,
+    "handler": "ItemUseTMHM",
+    "id": 243,
+    "key": false,
+    "move": "SKY_ATTACK",
+    "name": "TM43",
+    "price": 5000,
+    "tm": 43
+  },
+  "TM_SOFTBOILED": {
+    "battle_use": false,
+    "field_use": true,
+    "handler": "ItemUseTMHM",
+    "id": 241,
+    "key": false,
+    "move": "SOFTBOILED",
+    "name": "TM41",
+    "price": 2000,
+    "tm": 41
+  },
+  "TM_SOLARBEAM": {
+    "battle_use": false,
+    "field_use": true,
+    "handler": "ItemUseTMHM",
+    "id": 222,
+    "key": false,
+    "move": "SOLARBEAM",
+    "name": "TM22",
+    "price": 5000,
+    "tm": 22
+  },
+  "TM_SUBMISSION": {
+    "battle_use": false,
+    "field_use": true,
+    "handler": "ItemUseTMHM",
+    "id": 217,
+    "key": false,
+    "move": "SUBMISSION",
+    "name": "TM17",
+    "price": 3000,
+    "tm": 17
+  },
+  "TM_SUBSTITUTE": {
+    "battle_use": false,
+    "field_use": true,
+    "handler": "ItemUseTMHM",
+    "id": 250,
+    "key": false,
+    "move": "SUBSTITUTE",
+    "name": "TM50",
+    "price": 2000,
+    "tm": 50
+  },
+  "TM_SWIFT": {
+    "battle_use": false,
+    "field_use": true,
+    "handler": "ItemUseTMHM",
+    "id": 239,
+    "key": false,
+    "move": "SWIFT",
+    "name": "TM39",
+    "price": 2000,
+    "tm": 39
+  },
+  "TM_SWORDS_DANCE": {
+    "battle_use": false,
+    "field_use": true,
+    "handler": "ItemUseTMHM",
+    "id": 203,
+    "key": false,
+    "move": "SWORDS_DANCE",
+    "name": "TM03",
+    "price": 2000,
+    "tm": 3
+  },
+  "TM_TAKE_DOWN": {
+    "battle_use": false,
+    "field_use": true,
+    "handler": "ItemUseTMHM",
+    "id": 209,
+    "key": false,
+    "move": "TAKE_DOWN",
+    "name": "TM09",
+    "price": 3000,
+    "tm": 9
+  },
+  "TM_TELEPORT": {
+    "battle_use": false,
+    "field_use": true,
+    "handler": "ItemUseTMHM",
+    "id": 230,
+    "key": false,
+    "move": "TELEPORT",
+    "name": "TM30",
+    "price": 1000,
+    "tm": 30
+  },
+  "TM_THUNDER": {
+    "battle_use": false,
+    "field_use": true,
+    "handler": "ItemUseTMHM",
+    "id": 225,
+    "key": false,
+    "move": "THUNDER",
+    "name": "TM25",
+    "price": 5000,
+    "tm": 25
+  },
+  "TM_THUNDERBOLT": {
+    "battle_use": false,
+    "field_use": true,
+    "handler": "ItemUseTMHM",
+    "id": 224,
+    "key": false,
+    "move": "THUNDERBOLT",
+    "name": "TM24",
+    "price": 2000,
+    "tm": 24
+  },
+  "TM_THUNDER_WAVE": {
+    "battle_use": false,
+    "field_use": true,
+    "handler": "ItemUseTMHM",
+    "id": 245,
+    "key": false,
+    "move": "THUNDER_WAVE",
+    "name": "TM45",
+    "price": 2000,
+    "tm": 45
+  },
+  "TM_TOXIC": {
+    "battle_use": false,
+    "field_use": true,
+    "handler": "ItemUseTMHM",
+    "id": 206,
+    "key": false,
+    "move": "TOXIC",
+    "name": "TM06",
+    "price": 4000,
+    "tm": 6
+  },
+  "TM_TRI_ATTACK": {
+    "battle_use": false,
+    "field_use": true,
+    "handler": "ItemUseTMHM",
+    "id": 249,
+    "key": false,
+    "move": "TRI_ATTACK",
+    "name": "TM49",
+    "price": 4000,
+    "tm": 49
+  },
+  "TM_WATER_GUN": {
+    "battle_use": false,
+    "field_use": true,
+    "handler": "ItemUseTMHM",
+    "id": 212,
+    "key": false,
+    "move": "WATER_GUN",
+    "name": "TM12",
+    "price": 1000,
+    "tm": 12
+  },
+  "TM_WHIRLWIND": {
+    "battle_use": false,
+    "field_use": true,
+    "handler": "ItemUseTMHM",
+    "id": 204,
+    "key": false,
+    "move": "WHIRLWIND",
+    "name": "TM04",
+    "price": 1000,
+    "tm": 4
+  },
+  "TOWN_MAP": {
+    "battle_use": false,
+    "field_use": true,
+    "handler": "ItemUseTownMap",
+    "id": 5,
+    "key": true,
+    "name": "TOWN MAP",
+    "price": 0
+  },
+  "ULTRA_BALL": {
+    "battle_use": true,
+    "field_use": false,
+    "handler": "ItemUseBall",
+    "id": 2,
+    "key": false,
+    "name": "ULTRA BALL",
+    "price": 1200
+  },
+  "VOLCANOBADGE": {
+    "battle_use": false,
+    "field_use": false,
+    "handler": "UnusableItem",
+    "id": 27,
+    "key": true,
+    "name": "VOLCANOBADGE",
+    "price": 0
+  },
+  "WATER_STONE": {
+    "battle_use": false,
+    "field_use": true,
+    "handler": "ItemUseEvoStone",
+    "id": 34,
+    "key": false,
+    "name": "WATER STONE",
+    "price": 2100
+  },
+  "X_ACCURACY": {
+    "battle_use": true,
+    "field_use": false,
+    "handler": "ItemUseXAccuracy",
+    "id": 46,
+    "key": false,
+    "name": "X ACCURACY",
+    "price": 950
+  },
+  "X_ATTACK": {
+    "battle_use": true,
+    "field_use": false,
+    "handler": "ItemUseXStat",
+    "id": 65,
+    "key": false,
+    "name": "X ATTACK",
+    "price": 500
+  },
+  "X_DEFEND": {
+    "battle_use": true,
+    "field_use": false,
+    "handler": "ItemUseXStat",
+    "id": 66,
+    "key": false,
+    "name": "X DEFEND",
+    "price": 550
+  },
+  "X_SPECIAL": {
+    "battle_use": true,
+    "field_use": false,
+    "handler": "ItemUseXStat",
+    "id": 68,
+    "key": false,
+    "name": "X SPECIAL",
+    "price": 350
+  },
+  "X_SPEED": {
+    "battle_use": true,
+    "field_use": false,
+    "handler": "ItemUseXStat",
+    "id": 67,
+    "key": false,
+    "name": "X SPEED",
+    "price": 350
+  }
+}

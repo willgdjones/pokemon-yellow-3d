@@ -1,0 +1,31 @@
+{
+  "maps": [
+    "PALLET_TOWN",
+    "ROUTE_1",
+    "VIRIDIAN_CITY",
+    "ROUTE_22",
+    "ROUTE_2",
+    "PEWTER_CITY",
+    "ROUTE_3",
+    "ROUTE_4",
+    "CERULEAN_CITY",
+    "ROUTE_24",
+    "ROUTE_25"
+  ],
+  "origin_px": {
+    "x": 896,
+    "y": 3840
+  },
+  "px_per_tile": 16,
+  "ring": 6,
+  "scenery": [
+    "ROUTE_21",
+    "ROUTE_23",
+    "ROUTE_5",
+    "ROUTE_9"
+  ],
+  "size_px": {
+    "h": 5568,
+    "w": 5216
+  }
+}

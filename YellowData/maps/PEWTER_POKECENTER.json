@@ -1,0 +1,179 @@
+{
+  "blocked_edges": [],
+  "border_block": 0,
+  "cave": false,
+  "connections": {},
+  "encounter_rate": 0,
+  "height": 8,
+  "hidden": [],
+  "hidden_events": [
+    {
+      "arg": "SPRITE_FACING_LEFT",
+      "kind": "PrintBenchGuyText",
+      "x": 0,
+      "y": 4
+    },
+    {
+      "arg": "SPRITE_FACING_UP",
+      "kind": "OpenPokemonCenterPC",
+      "x": 13,
+      "y": 3
+    }
+  ],
+  "id": "PEWTER_POKECENTER",
+  "items": [],
+  "label": "PewterPokecenter",
+  "looks": [
+    "BllbBBllBBDBDB",
+    "BbbooBbboooooo",
+    "kkkkkkkkkkkokk",
+    "kooooooooooooP",
+    "tooooooooooooo",
+    "tooooooooooooo",
+    "hhoooohhoooohh",
+    "hhommohhoooohh"
+  ],
+  "looks_unknown": 0,
+  "music": "pokecenter",
+  "name": "Pewter Pokemon Center",
+  "npcs": [
+    {
+      "facing": "down",
+      "id": "PEWTERPOKECENTER_NURSE",
+      "movement": "stay",
+      "script": "script_pokecenter_nurse",
+      "sprite": "SPRITE_NURSE",
+      "text": "TEXT_PEWTERPOKECENTER_NURSE",
+      "text_handler": "PewterPokecenterNurseText",
+      "text_id": "TEXT_PEWTERPOKECENTER_NURSE",
+      "texts": [
+        "PokemonCenterWelcomeText",
+        "ShallWeHealYourPokemonText",
+        "NeedYourPokemonText",
+        "PokemonFightingFitText",
+        "PokemonCenterFarewellText",
+        "LooksContentText"
+      ],
+      "x": 3,
+      "y": 1
+    },
+    {
+      "facing": "left",
+      "id": "PEWTERPOKECENTER_GENTLEMAN",
+      "movement": "stay",
+      "sprite": "SPRITE_GENTLEMAN",
+      "text": "TEXT_PEWTERPOKECENTER_GENTLEMAN",
+      "text_handler": "PewterPokecenterGentlemanText",
+      "text_id": "TEXT_PEWTERPOKECENTER_GENTLEMAN",
+      "texts": [
+        "PewterPokecenterGentlemanText"
+      ],
+      "x": 11,
+      "y": 7
+    },
+    {
+      "facing": "down",
+      "id": "PEWTERPOKECENTER_JIGGLYPUFF",
+      "movement": "stay",
+      "sprite": "SPRITE_JIGGLYPUFF",
+      "text": "TEXT_PEWTERPOKECENTER_JIGGLYPUFF",
+      "text_handler": "PewterPokecenterJigglypuffText",
+      "text_id": "TEXT_PEWTERPOKECENTER_JIGGLYPUFF",
+      "texts": [
+        "PewterJigglypuff.Text"
+      ],
+      "x": 1,
+      "y": 3
+    },
+    {
+      "facing": "down",
+      "id": "PEWTERPOKECENTER_LINK_RECEPTIONIST",
+      "movement": "stay",
+      "script": "script_cable_club_receptionist",
+      "sprite": "SPRITE_LINK_RECEPTIONIST",
+      "text": "TEXT_PEWTERPOKECENTER_LINK_RECEPTIONIST",
+      "text_handler": "PewterPokecenterLinkReceptionistText",
+      "text_id": "TEXT_PEWTERPOKECENTER_LINK_RECEPTIONIST",
+      "texts": [
+        "CableClubNPCWelcomeText",
+        "CableClubNPCPleaseApplyHereHaveToSaveText",
+        "CableClubNPCPleaseWaitText",
+        "CableClubNPCLinkClosedBecauseOfInactivityText",
+        "CableClubNPCPleaseComeAgainText",
+        "CableClubNPCMakingPreparationsText",
+        "CableClubNPCAreaReservedFor2FriendsLinkedByCableText"
+      ],
+      "x": 11,
+      "y": 2
+    },
+    {
+      "facing": "up",
+      "id": "PEWTERPOKECENTER_COOLTRAINER_F",
+      "movement": "stay",
+      "sprite": "SPRITE_COOLTRAINER_F",
+      "text": "TEXT_PEWTERPOKECENTER_COOLTRAINER_F",
+      "text_handler": "PewterPokecenterCooltrainerFText",
+      "text_id": "TEXT_PEWTERPOKECENTER_COOLTRAINER_F",
+      "texts": [
+        "PewterPokecenterPrintCooltrainerFText.text"
+      ],
+      "x": 4,
+      "y": 3
+    },
+    {
+      "facing": "down",
+      "id": "PEWTERPOKECENTER_CHANSEY",
+      "movement": "stay",
+      "sprite": "SPRITE_CHANSEY",
+      "text": "TEXT_PEWTERPOKECENTER_CHANSEY",
+      "text_handler": "PewterPokecenterChanseyText",
+      "text_id": "TEXT_PEWTERPOKECENTER_CHANSEY",
+      "texts": [
+        "NurseChanseyText"
+      ],
+      "x": 4,
+      "y": 1
+    }
+  ],
+  "origin": {
+    "x": 74,
+    "y": 1086
+  },
+  "outdoor": false,
+  "palette": "PAL_PEWTER",
+  "signs": [],
+  "source": {
+    "blocks": "maps/PewterPokecenter.blk",
+    "header": "data/maps/headers/PewterPokecenter.asm",
+    "objects": "data/maps/objects/PewterPokecenter.asm",
+    "script": "scripts/PewterPokecenter.asm"
+  },
+  "tiles": [
+    "##########.#.#",
+    "###..###......",
+    "#====#=====.==",
+    "=............#",
+    "#.............",
+    "#.............",
+    "##....##....##",
+    "##.dd.##....##"
+  ],
+  "tileset": "POKECENTER",
+  "warps": [
+    {
+      "last_map": true,
+      "to_map": "PEWTER_CITY",
+      "to_warp": 7,
+      "x": 3,
+      "y": 7
+    },
+    {
+      "last_map": true,
+      "to_map": "PEWTER_CITY",
+      "to_warp": 7,
+      "x": 4,
+      "y": 7
+    }
+  ],
+  "width": 14
+}

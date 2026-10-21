@@ -1,0 +1,131 @@
+{
+  "blocked_edges": [],
+  "border_block": 10,
+  "cave": false,
+  "connections": {},
+  "encounter_rate": 0,
+  "height": 8,
+  "hidden": [],
+  "hidden_events": [],
+  "id": "CERULEAN_MELANIES_HOUSE",
+  "items": [],
+  "label": "CeruleanMelaniesHouse",
+  "looks": [
+    "ttBlBnBt",
+    "bbooooob",
+    "oooooooo",
+    "oottttoo",
+    "oottttoo",
+    "oooooooo",
+    "hooooooh",
+    "hommoooh"
+  ],
+  "looks_unknown": 0,
+  "music": "cities2",
+  "name": "Cerulean Melanies House",
+  "npcs": [
+    {
+      "facing": "down",
+      "id": "CERULEANMELANIESHOUSE_MELANIE",
+      "movement": "stay",
+      "sprite": "SPRITE_GIRL",
+      "text": "TEXT_CERULEANMELANIESHOUSE_MELANIE",
+      "text_handler": "CeruleanMelanieHouseMelanieText",
+      "text_id": "TEXT_CERULEANMELANIESHOUSE_MELANIE",
+      "texts": [
+        "CeruleanHouse1Text_1cfc8",
+        "CeruleanHouse1Text_1cfce",
+        "CeruleanHouse1Text_1cfd3",
+        "CeruleanHouse1Text_1cfdf",
+        "CeruleanHouse1Text_1cfd9"
+      ],
+      "x": 3,
+      "y": 1
+    },
+    {
+      "facing": "down",
+      "hidden_at_start": false,
+      "id": "CERULEANMELANIESHOUSE_BULBASAUR",
+      "movement": "stay",
+      "sprite": "SPRITE_BULBASAUR",
+      "text": "TEXT_CERULEANMELANIESHOUSE_BULBASAUR",
+      "text_handler": "CeruleanMelanieHouseBulbasaurText",
+      "text_id": "TEXT_CERULEANMELANIESHOUSE_BULBASAUR",
+      "texts": [
+        "CeruleanMelanieHouseBulbasaurText"
+      ],
+      "toggle": "CERULEANMELANIESHOUSE_BULBASAUR",
+      "x": 4,
+      "y": 1
+    },
+    {
+      "facing": "none",
+      "id": "CERULEANMELANIESHOUSE_ODDISH",
+      "movement": "stay",
+      "sprite": "SPRITE_ODDISH",
+      "text": "TEXT_CERULEANMELANIESHOUSE_ODDISH",
+      "text_handler": "CeruleanMelanieHouseOddishText",
+      "text_id": "TEXT_CERULEANMELANIESHOUSE_ODDISH",
+      "texts": [
+        "CeruleanMelanieHouseOddishText"
+      ],
+      "x": 1,
+      "y": 4
+    },
+    {
+      "facing": "left",
+      "id": "CERULEANMELANIESHOUSE_SANDSHREW",
+      "movement": "stay",
+      "sprite": "SPRITE_SANDSHREW",
+      "text": "TEXT_CERULEANMELANIESHOUSE_SANDSHREW",
+      "text_handler": "CeruleanMelanieHouseSandshrewText",
+      "text_id": "TEXT_CERULEANMELANIESHOUSE_SANDSHREW",
+      "texts": [
+        "CeruleanMelanieHouseSandshrewText"
+      ],
+      "x": 5,
+      "y": 3
+    }
+  ],
+  "origin": {
+    "x": 68,
+    "y": 1132
+  },
+  "outdoor": false,
+  "palette": "PAL_CERULEAN",
+  "signs": [],
+  "source": {
+    "blocks": "maps/CeruleanMelaniesHouse.blk",
+    "header": "data/maps/headers/CeruleanMelaniesHouse.asm",
+    "objects": "data/maps/objects/CeruleanMelaniesHouse.asm",
+    "script": "scripts/CeruleanMelaniesHouse.asm"
+  },
+  "tiles": [
+    "########",
+    "##.....#",
+    "........",
+    "...##...",
+    "...##...",
+    "........",
+    "#......#",
+    "#.dd...#"
+  ],
+  "tileset": "HOUSE",
+  "warps": [
+    {
+      "last_map": true,
+      "to_map": "CERULEAN_CITY",
+      "to_warp": 2,
+      "x": 2,
+      "y": 7
+    },
+    {
+      "last_map": true,
+      "to_map": "CERULEAN_CITY",
+      "to_warp": 2,
+      "x": 3,
+      "y": 7
+    }
+  ],
+  "width": 8
+}

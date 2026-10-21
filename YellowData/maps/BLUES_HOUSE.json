@@ -1,0 +1,140 @@
+{
+  "blocked_edges": [],
+  "border_block": 10,
+  "cave": false,
+  "connections": {},
+  "encounter_rate": 0,
+  "height": 8,
+  "hidden": [],
+  "hidden_events": [
+    {
+      "arg": "SPRITE_FACING_UP",
+      "kind": "PrintBookcaseText",
+      "x": 0,
+      "y": 1
+    },
+    {
+      "arg": "SPRITE_FACING_UP",
+      "kind": "PrintBookcaseText",
+      "x": 1,
+      "y": 1
+    },
+    {
+      "arg": "SPRITE_FACING_UP",
+      "kind": "PrintBookcaseText",
+      "x": 7,
+      "y": 1
+    }
+  ],
+  "id": "BLUES_HOUSE",
+  "items": [],
+  "label": "BluesHouse",
+  "looks": [
+    "ttBlBnBt",
+    "bbooooob",
+    "oooooooo",
+    "oottttoo",
+    "oottttoo",
+    "oooooooo",
+    "hooooooh",
+    "hommoooh"
+  ],
+  "looks_unknown": 0,
+  "music": "pallet_town",
+  "name": "Blues House",
+  "npcs": [
+    {
+      "facing": "right",
+      "hidden_at_start": false,
+      "id": "BLUESHOUSE_DAISY1",
+      "movement": "stay",
+      "sprite": "SPRITE_DAISY",
+      "text": "TEXT_BLUESHOUSE_DAISY_SITTING",
+      "text_handler": "BluesHouseDaisySittingText",
+      "text_id": "TEXT_BLUESHOUSE_DAISY_SITTING",
+      "texts": [
+        "BluesHouseDaisyRivalAtLabText",
+        "BluesHouseDaisyOfferMapText",
+        "GotMapText",
+        "BluesHouseDaisyUseMapText",
+        "BluesHouseDaisyBagFullText"
+      ],
+      "toggle": "BLUESHOUSE_DAISY1",
+      "x": 2,
+      "y": 3
+    },
+    {
+      "facing": "up_down",
+      "hidden_at_start": true,
+      "id": "BLUESHOUSE_DAISY2",
+      "movement": "walk",
+      "sprite": "SPRITE_DAISY",
+      "text": "TEXT_BLUESHOUSE_DAISY_WALKING",
+      "text_handler": "BluesHouseDaisyWalkingText",
+      "text_id": "TEXT_BLUESHOUSE_DAISY_WALKING",
+      "texts": [
+        "BluesHouseDaisyWalkingText"
+      ],
+      "toggle": "BLUESHOUSE_DAISY2",
+      "x": 6,
+      "y": 4
+    },
+    {
+      "facing": "none",
+      "hidden_at_start": false,
+      "id": "BLUESHOUSE_TOWN_MAP",
+      "movement": "stay",
+      "sprite": "SPRITE_POKEDEX",
+      "text": "TEXT_BLUESHOUSE_TOWN_MAP",
+      "text_handler": "BluesHouseTownMapText",
+      "text_id": "TEXT_BLUESHOUSE_TOWN_MAP",
+      "texts": [
+        "BluesHouseTownMapText"
+      ],
+      "toggle": "BLUESHOUSE_TOWN_MAP",
+      "x": 3,
+      "y": 3
+    }
+  ],
+  "origin": {
+    "x": 36,
+    "y": 1000
+  },
+  "outdoor": false,
+  "palette": "PAL_PALLET",
+  "signs": [],
+  "source": {
+    "blocks": "maps/BluesHouse.blk",
+    "header": "data/maps/headers/BluesHouse.asm",
+    "objects": "data/maps/objects/BluesHouse.asm",
+    "script": "scripts/BluesHouse.asm"
+  },
+  "tiles": [
+    "########",
+    "##.....#",
+    "........",
+    "...##...",
+    "...##...",
+    "........",
+    "#......#",
+    "#.dd...#"
+  ],
+  "tileset": "HOUSE",
+  "warps": [
+    {
+      "last_map": true,
+      "to_map": "PALLET_TOWN",
+      "to_warp": 2,
+      "x": 2,
+      "y": 7
+    },
+    {
+      "last_map": true,
+      "to_map": "PALLET_TOWN",
+      "to_warp": 2,
+      "x": 3,
+      "y": 7
+    }
+  ],
+  "width": 8
+}

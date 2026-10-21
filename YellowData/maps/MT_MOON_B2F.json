@@ -1,0 +1,471 @@
+{
+  "blocked_edges": [
+    {
+      "dir": "east",
+      "x": 35,
+      "y": 6
+    },
+    {
+      "dir": "west",
+      "x": 36,
+      "y": 6
+    },
+    {
+      "dir": "east",
+      "x": 35,
+      "y": 7
+    },
+    {
+      "dir": "west",
+      "x": 36,
+      "y": 7
+    },
+    {
+      "dir": "south",
+      "x": 24,
+      "y": 11
+    },
+    {
+      "dir": "south",
+      "x": 25,
+      "y": 11
+    },
+    {
+      "dir": "south",
+      "x": 26,
+      "y": 11
+    },
+    {
+      "dir": "south",
+      "x": 27,
+      "y": 11
+    },
+    {
+      "dir": "south",
+      "x": 28,
+      "y": 11
+    },
+    {
+      "dir": "south",
+      "x": 31,
+      "y": 11
+    },
+    {
+      "dir": "south",
+      "x": 32,
+      "y": 11
+    },
+    {
+      "dir": "south",
+      "x": 33,
+      "y": 11
+    },
+    {
+      "dir": "south",
+      "x": 34,
+      "y": 11
+    },
+    {
+      "dir": "south",
+      "x": 35,
+      "y": 11
+    },
+    {
+      "dir": "north",
+      "x": 24,
+      "y": 12
+    },
+    {
+      "dir": "north",
+      "x": 25,
+      "y": 12
+    },
+    {
+      "dir": "north",
+      "x": 26,
+      "y": 12
+    },
+    {
+      "dir": "north",
+      "x": 27,
+      "y": 12
+    },
+    {
+      "dir": "north",
+      "x": 28,
+      "y": 12
+    },
+    {
+      "dir": "north",
+      "x": 31,
+      "y": 12
+    },
+    {
+      "dir": "north",
+      "x": 32,
+      "y": 12
+    },
+    {
+      "dir": "north",
+      "x": 33,
+      "y": 12
+    },
+    {
+      "dir": "north",
+      "x": 34,
+      "y": 12
+    },
+    {
+      "dir": "north",
+      "x": 35,
+      "y": 12
+    }
+  ],
+  "border_block": 3,
+  "cave": true,
+  "connections": {},
+  "encounter_rate": 10,
+  "height": 36,
+  "hidden": [
+    {
+      "item": "MOON_STONE",
+      "x": 18,
+      "y": 12
+    },
+    {
+      "item": "ETHER",
+      "x": 33,
+      "y": 9
+    }
+  ],
+  "hidden_events": [],
+  "id": "MT_MOON_B2F",
+  "items": [
+    {
+      "facing": "none",
+      "hidden_at_start": false,
+      "id": "MTMOONB2F_HP_UP",
+      "item": "HP_UP",
+      "movement": "stay",
+      "script": "PickUpItemText",
+      "sprite": "SPRITE_POKE_BALL",
+      "text": "TEXT_MTMOONB2F_HP_UP",
+      "text_handler": "PickUpItemText",
+      "text_id": "TEXT_MTMOONB2F_HP_UP",
+      "texts": [
+        "FoundItemText",
+        "NoMoreRoomForItemText"
+      ],
+      "toggle": "MTMOONB2F_HP_UP",
+      "x": 25,
+      "y": 21
+    },
+    {
+      "facing": "none",
+      "hidden_at_start": false,
+      "id": "MTMOONB2F_TM_MEGA_PUNCH",
+      "item": "TM_MEGA_PUNCH",
+      "movement": "stay",
+      "script": "PickUpItemText",
+      "sprite": "SPRITE_POKE_BALL",
+      "text": "TEXT_MTMOONB2F_TM_MEGA_PUNCH",
+      "text_handler": "PickUpItemText",
+      "text_id": "TEXT_MTMOONB2F_TM_MEGA_PUNCH",
+      "texts": [
+        "FoundItemText",
+        "NoMoreRoomForItemText"
+      ],
+      "toggle": "MTMOONB2F_TM_MEGA_PUNCH",
+      "x": 29,
+      "y": 5
+    }
+  ],
+  "label": "MtMoonB2F",
+  "looks": [
+    "CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCcccc",
+    "CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCcccc",
+    "KKCccccccccccccccCKKCCCCCCCCCCCCCCCCcccc",
+    "KKCccccccccccccccCKKCCCCCCCCCCCCCCCCcccc",
+    "KKCccccccccccccccCKKCCCCCCCCCCCCCCCCcccc",
+    "KKCcCCCCCCCCccCCCCKKcccCCCCccccCCCCCcccc",
+    "KKccccccCccccccccCKKcccCccCccccCcccccccc",
+    "KKcccuccCccccccccCKKcccCccCCccCCcccccccc",
+    "KKccccccCccccccccCKKcccCccccccccccccCCCC",
+    "KKKKKKKKCCCCccCccCKKcccCcucccccccCccCCCC",
+    "CCCCCCKKccccccCccCKKcccCccccccccccccCCCC",
+    "CCCCCCKKccccccCCCCKKcccCccccccccccccCCCC",
+    "ccccccKKccccccccccKKcccccccccCCccccccccC",
+    "ccccccKKKKKKccKKKKKKcccccccccCCccccccccC",
+    "ccccccCCCCCCccCCCCKKcccccccccCCccccccccC",
+    "ccccccCCCCCCccCCCCKKccccCCccCCCCccCCcccC",
+    "ccccccCcccccccccccKKccccCccccccccccCcccC",
+    "ccccccCcccccccccccKKcuccCccccccccccCcccC",
+    "ccccccCcccccccccccKKccccCccccccccccCcccC",
+    "ccccccCcccccKKKKKKKKKKKKKKKKKKKKKKKKcccC",
+    "ccccccCcccccKKCCCCCCCCCCCCCCCCKKCCCCcccC",
+    "ccccccCcccccKKCCCCCCCCCccccCCCKKCCCCcccC",
+    "ccccccCcccccKKccccccccCccccCccKKcccccccC",
+    "ccccccCcccccKKccccccccCCccCCccKKcccccccC",
+    "ccccccCcccccKKccccccccccccccccKKcccccccC",
+    "ccccccCcccccKKccccccccccccccccKKcccCCCCC",
+    "ccccccCcccccKKccccccccccccccccKKcccCcccc",
+    "ccccccCcccccKKcuccccccccccccccKKcccCcccc",
+    "ccccccCcccccKKKKKKKKKKKKKKKKKKKKcccCcccc",
+    "ccccccCcccccCCCCCCCCCCCCCCCCCCCCcccCcccc",
+    "ccccccCcccccCCCCCCCCCCCCCCCCCCCCcccCcccc",
+    "ccccccCccccccccccccccccccccccccccccCcccc",
+    "ccccccCccccccccccccccccccccccccccccCcccc",
+    "ccccccCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCcccc",
+    "cccccccccccccccccccccccccccccccccccccccc",
+    "cccccccccccccccccccccccccccccccccccccccc"
+  ],
+  "looks_unknown": 0,
+  "music": "dungeon3",
+  "name": "Mt. Moon B2F",
+  "npcs": [
+    {
+      "facing": "right",
+      "id": "MTMOONB2F_SUPER_NERD",
+      "movement": "stay",
+      "sprite": "SPRITE_SUPER_NERD",
+      "text": "TEXT_MTMOONB2F_SUPER_NERD",
+      "text_handler": "MtMoonB2FSuperNerdText",
+      "text_id": "TEXT_MTMOONB2F_SUPER_NERD",
+      "texts": [
+        "MtMoonB2fSuperNerdEachTakeOneText",
+        "MtMoonB2FSuperNerdTheyreBothMineText",
+        "MtMoonB2FSuperNerdOkIllShareText",
+        "MtMoonB2FSuperNerdTheresAPokemonLabText"
+      ],
+      "trainer": {
+        "class": "SUPER_NERD",
+        "party": 2,
+        "sight": 0
+      },
+      "x": 12,
+      "y": 8
+    },
+    {
+      "facing": "left",
+      "hidden_at_start": true,
+      "id": "MTMOONB2F_JESSIE",
+      "movement": "stay",
+      "sprite": "SPRITE_JESSIE",
+      "text": "TEXT_MTMOONB2F_JESSIE",
+      "text_handler": "MtMoonB2FJessieJamesText",
+      "text_id": "TEXT_MTMOONB2F_JESSIE",
+      "texts": [
+        "MtMoonB2FJessieJamesText"
+      ],
+      "toggle": "MTMOONB2F_JESSIE",
+      "x": 9,
+      "y": 3
+    },
+    {
+      "facing": "down",
+      "id": "MTMOONB2F_ROCKET1",
+      "movement": "stay",
+      "sprite": "SPRITE_ROCKET",
+      "text": "TEXT_MTMOONB2F_ROCKET1",
+      "text_handler": "MtMoonB2FRocket1Text",
+      "text_id": "TEXT_MTMOONB2F_ROCKET1",
+      "texts": [
+        "MtMoonB2FRocket2BattleText",
+        "MtMoonB2FRocket2EndBattleText",
+        "MtMoonB2FRocket2AfterBattleText"
+      ],
+      "trainer": {
+        "after_text": "MtMoonB2FRocket2AfterBattleText",
+        "battle_text": "MtMoonB2FRocket2BattleText",
+        "class": "ROCKET",
+        "end_text": "MtMoonB2FRocket2EndBattleText",
+        "event": "EVENT_BEAT_MT_MOON_3_TRAINER_0",
+        "party": 2,
+        "sight": 4
+      },
+      "x": 15,
+      "y": 22
+    },
+    {
+      "facing": "up",
+      "id": "MTMOONB2F_ROCKET2",
+      "movement": "stay",
+      "sprite": "SPRITE_ROCKET",
+      "text": "TEXT_MTMOONB2F_ROCKET2",
+      "text_handler": "MtMoonB2FRocket2Text",
+      "text_id": "TEXT_MTMOONB2F_ROCKET2",
+      "texts": [
+        "MtMoonB2FRocket3BattleText",
+        "MtMoonB2FRocket3EndBattleText",
+        "MtMoonB2FRocket3AfterBattleText"
+      ],
+      "trainer": {
+        "after_text": "MtMoonB2FRocket3AfterBattleText",
+        "battle_text": "MtMoonB2FRocket3BattleText",
+        "class": "ROCKET",
+        "end_text": "MtMoonB2FRocket3EndBattleText",
+        "event": "EVENT_BEAT_MT_MOON_3_TRAINER_1",
+        "party": 3,
+        "sight": 4
+      },
+      "x": 29,
+      "y": 11
+    },
+    {
+      "facing": "left",
+      "id": "MTMOONB2F_ROCKET3",
+      "movement": "stay",
+      "sprite": "SPRITE_ROCKET",
+      "text": "TEXT_MTMOONB2F_ROCKET3",
+      "text_handler": "MtMoonB2FRocket3Text",
+      "text_id": "TEXT_MTMOONB2F_ROCKET3",
+      "texts": [
+        "MtMoonB2FRocket4BattleText",
+        "MtMoonB2FRocket4EndBattleText",
+        "MtMoonB2FRocket4AfterBattleText"
+      ],
+      "trainer": {
+        "after_text": "MtMoonB2FRocket4AfterBattleText",
+        "battle_text": "MtMoonB2FRocket4BattleText",
+        "class": "ROCKET",
+        "end_text": "MtMoonB2FRocket4EndBattleText",
+        "event": "EVENT_BEAT_MT_MOON_3_TRAINER_2",
+        "party": 1,
+        "sight": 4
+      },
+      "x": 29,
+      "y": 17
+    },
+    {
+      "facing": "left",
+      "hidden_at_start": true,
+      "id": "MTMOONB2F_JAMES",
+      "movement": "stay",
+      "sprite": "SPRITE_JAMES",
+      "text": "TEXT_MTMOONB2F_JAMES",
+      "text_handler": "MtMoonB2FJessieJamesText",
+      "text_id": "TEXT_MTMOONB2F_JAMES",
+      "texts": [
+        "MtMoonB2FJessieJamesText"
+      ],
+      "toggle": "MTMOONB2F_JAMES",
+      "x": 9,
+      "y": 4
+    },
+    {
+      "facing": "none",
+      "hidden_at_start": false,
+      "id": "MTMOONB2F_DOME_FOSSIL",
+      "movement": "stay",
+      "sprite": "SPRITE_FOSSIL",
+      "text": "TEXT_MTMOONB2F_DOME_FOSSIL",
+      "text_handler": "MtMoonB2FDomeFossilText",
+      "text_id": "TEXT_MTMOONB2F_DOME_FOSSIL",
+      "texts": [
+        "MtMoonB2FDomeFossilText.YouWantText",
+        "MtMoonB2FYouHaveNoRoomText.Text",
+        "MtMoonB2FReceivedFossilText.Text"
+      ],
+      "toggle": "MTMOONB2F_DOME_FOSSIL",
+      "x": 12,
+      "y": 6
+    },
+    {
+      "facing": "none",
+      "hidden_at_start": false,
+      "id": "MTMOONB2F_HELIX_FOSSIL",
+      "movement": "stay",
+      "sprite": "SPRITE_FOSSIL",
+      "text": "TEXT_MTMOONB2F_HELIX_FOSSIL",
+      "text_handler": "MtMoonB2FHelixFossilText",
+      "text_id": "TEXT_MTMOONB2F_HELIX_FOSSIL",
+      "texts": [
+        "MtMoonB2FHelixFossilText.YouWantText",
+        "MtMoonB2FYouHaveNoRoomText.Text",
+        "MtMoonB2FReceivedFossilText.Text"
+      ],
+      "toggle": "MTMOONB2F_HELIX_FOSSIL",
+      "x": 13,
+      "y": 6
+    }
+  ],
+  "origin": {
+    "x": 0,
+    "y": 1132
+  },
+  "outdoor": false,
+  "palette": "PAL_CAVE",
+  "signs": [],
+  "source": {
+    "blocks": "maps/MtMoonB2F.blk",
+    "header": "data/maps/headers/MtMoonB2F.asm",
+    "objects": "data/maps/objects/MtMoonB2F.asm",
+    "script": "scripts/MtMoonB2F.asm"
+  },
+  "tiles": [
+    "####################################cccc",
+    "####################################cccc",
+    "###cccccccccccccc###################cccc",
+    "###cccccccccccccc###################cccc",
+    "###cccccccccccccc###################cccc",
+    "###c########cc######ccc####cccc#####cccc",
+    "##cccccc#cccccccc###ccc#cc#cccc#cccccccc",
+    "##cccdcc#cccccccc###ccc#cc##cc##cccccccc",
+    "##cccccc#cccccccc###ccc#cccccccccccc####",
+    "############cc#cc###ccc#cdccccccc#cc####",
+    "########cccccc#cc###ccc#cccccccccccc####",
+    "########cccccc######ccc#cccccccccccc####",
+    "cccccc##cccccccccc##ccccccccc##cccccccc#",
+    "cccccc######cc######ccccccccc##cccccccc#",
+    "cccccc######cc######ccccccccc##cccccccc#",
+    "cccccc######cc######cccc##cc####cc##ccc#",
+    "cccccc#ccccccccccc##cccc#cccccccccc#ccc#",
+    "cccccc#ccccccccccc##cdcc#cccccccccc#ccc#",
+    "cccccc#ccccccccccc##cccc#cccccccccc#ccc#",
+    "cccccc#ccccc########################ccc#",
+    "cccccc#ccccc########################ccc#",
+    "cccccc#ccccc###########cccc#########ccc#",
+    "cccccc#ccccc##cccccccc#cccc#cc##ccccccc#",
+    "cccccc#ccccc##cccccccc##cc##cc##ccccccc#",
+    "cccccc#ccccc##cccccccccccccccc##ccccccc#",
+    "cccccc#ccccc##cccccccccccccccc##ccc#####",
+    "cccccc#ccccc##cccccccccccccccc##ccc#cccc",
+    "cccccc#ccccc##cdcccccccccccccc##ccc#cccc",
+    "cccccc#ccccc####################ccc#cccc",
+    "cccccc#ccccc####################ccc#cccc",
+    "cccccc#ccccc####################ccc#cccc",
+    "cccccc#cccccccccccccccccccccccccccc#cccc",
+    "cccccc#cccccccccccccccccccccccccccc#cccc",
+    "cccccc##############################cccc",
+    "cccccccccccccccccccccccccccccccccccccccc",
+    "cccccccccccccccccccccccccccccccccccccccc"
+  ],
+  "tileset": "CAVERN",
+  "warps": [
+    {
+      "to_map": "MT_MOON_B1F",
+      "to_warp": 2,
+      "x": 25,
+      "y": 9
+    },
+    {
+      "to_map": "MT_MOON_B1F",
+      "to_warp": 5,
+      "x": 21,
+      "y": 17
+    },
+    {
+      "to_map": "MT_MOON_B1F",
+      "to_warp": 6,
+      "x": 15,
+      "y": 27
+    },
+    {
+      "to_map": "MT_MOON_B1F",
+      "to_warp": 7,
+      "x": 5,
+      "y": 7
+    }
+  ],
+  "width": 40
+}

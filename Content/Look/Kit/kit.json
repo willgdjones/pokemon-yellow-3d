@@ -1,0 +1,724 @@
+{
+  "about": "m4v anime material kit: Tools/look/paint_kit.py paints T_Kit_<Surface> (paint in RGB, ink in alpha), the editor import brings them to /Game/Look/Kit/Textures, World/Editor/author_kit.py builds M_AnimeKit, MI_Kit_<Surface> and MI_KitProp_<prop> from this table. See README.md beside it.",
+  "surfaces": {
+    "WallWood": {
+      "texture": "/Game/Look/Kit/Textures/T_Kit_WallWood",
+      "tiling_cm": 200,
+      "ink_strength": 1.4,
+      "cel_steps": 0,
+      "blend_sharpness": 6,
+      "average_linear": [
+        0.71565,
+        0.68781,
+        0.62279
+      ],
+      "note": "white clapboard siding",
+      "source": {
+        "kind": "paid",
+        "file": "..\\..\\artifacts\\pokemon-yellow-reimagine\\m4v\\kit\\paid\\WallWood.png",
+        "sha256": "0489beedf55683a47b548a671c24b21a764ee959db270b0cc4c2c859d63bd34b"
+      },
+      "sha256": "1d4082d7fc13041e6849df49fabc9a155331de782092082bacf29586ce3580da",
+      "detail": 1.0,
+      "required": true
+    },
+    "WallPlaster": {
+      "texture": "/Game/Look/Kit/Textures/T_Kit_WallPlaster",
+      "tiling_cm": 300,
+      "ink_strength": 0.8,
+      "cel_steps": 0,
+      "blend_sharpness": 6,
+      "average_linear": [
+        0.91456,
+        0.85658,
+        0.70971
+      ],
+      "note": "cream plaster",
+      "source": {
+        "kind": "procedural",
+        "painter": "paint_wall_plaster"
+      },
+      "sha256": "30da72c7e4b11c0a032f3f855281ad043a98b79c081e74aad2297047a9135d7a",
+      "required": true
+    },
+    "WallStone": {
+      "texture": "/Game/Look/Kit/Textures/T_Kit_WallStone",
+      "tiling_cm": 250,
+      "ink_strength": 1.0,
+      "cel_steps": 0,
+      "blend_sharpness": 6,
+      "average_linear": [
+        0.58578,
+        0.54966,
+        0.47618
+      ],
+      "note": "cut stone blocks",
+      "source": {
+        "kind": "derived",
+        "from": "WallBrick",
+        "file": "..\\..\\artifacts\\pokemon-yellow-reimagine\\m4v\\kit\\paid\\WallBrick.png",
+        "gradient": [
+          "6a665e",
+          "bcb5a6",
+          "e6e1d6"
+        ],
+        "sha256": "7704fe6e16da46a07358944577436b4b1bac95f4880bc051b8d9d01804ba84c0"
+      },
+      "sha256": "b5489391c06ad84e958e683d9a0e953f58eaf4635a2695a556eb4b0c21eef7ca",
+      "required": true
+    },
+    "WallBrick": {
+      "texture": "/Game/Look/Kit/Textures/T_Kit_WallBrick",
+      "tiling_cm": 220,
+      "ink_strength": 1.0,
+      "cel_steps": 0,
+      "blend_sharpness": 6,
+      "average_linear": [
+        0.62906,
+        0.41223,
+        0.17795
+      ],
+      "note": "sandstone brick, running bond",
+      "source": {
+        "kind": "paid",
+        "file": "..\\..\\artifacts\\pokemon-yellow-reimagine\\m4v\\kit\\paid\\WallBrick.png",
+        "sha256": "7704fe6e16da46a07358944577436b4b1bac95f4880bc051b8d9d01804ba84c0"
+      },
+      "sha256": "1e1372dac3f74e94f07e5feb16441a2d01f3b8ed3df8a2cc9f471b2381fb4e46",
+      "required": true
+    },
+    "FloorWood": {
+      "texture": "/Game/Look/Kit/Textures/T_Kit_FloorWood",
+      "tiling_cm": 250,
+      "ink_strength": 1.6,
+      "cel_steps": 0,
+      "blend_sharpness": 6,
+      "average_linear": [
+        0.66344,
+        0.29022,
+        0.06617
+      ],
+      "note": "honey floor planks",
+      "source": {
+        "kind": "paid",
+        "file": "..\\..\\artifacts\\pokemon-yellow-reimagine\\m4v\\kit\\paid\\FloorWood.png",
+        "sha256": "c932492ab2f1a263d06c048d3cc901b37234610dcdfcf010acf3d4d4ec9c11f4"
+      },
+      "sha256": "554bf5835a94b8408511ff875b9893b0ce326ebe8edfab039f5338faa92f31fd",
+      "detail": 0.6,
+      "required": true
+    },
+    "FloorTile": {
+      "texture": "/Game/Look/Kit/Textures/T_Kit_FloorTile",
+      "tiling_cm": 200,
+      "ink_strength": 0.8,
+      "cel_steps": 0,
+      "blend_sharpness": 6,
+      "average_linear": [
+        0.84227,
+        0.84227,
+        0.84227
+      ],
+      "note": "big square tiles, two tones",
+      "source": {
+        "kind": "procedural",
+        "painter": "paint_floor_tile"
+      },
+      "sha256": "ed690da78118490af92a98c5bf3cdb470984460572c1541a493a74dbee63fa89",
+      "required": true
+    },
+    "FloorStone": {
+      "texture": "/Game/Look/Kit/Textures/T_Kit_FloorStone",
+      "tiling_cm": 450,
+      "ink_strength": 1.2,
+      "cel_steps": 0,
+      "blend_sharpness": 6,
+      "average_linear": [
+        0.71335,
+        0.40919,
+        0.12476
+      ],
+      "note": "cracked sandstone slabs",
+      "source": {
+        "kind": "paid",
+        "file": "..\\..\\artifacts\\pokemon-yellow-reimagine\\m4v\\kit\\paid\\FloorStone.png",
+        "sha256": "f3105f777d0744c64736f76fed6b0777af46aa4ea15b1c1d6c76fc9eed0fbf42"
+      },
+      "sha256": "ddf4665f0daa34484a2deb86d08338b239c9d951aad4fb44349831f6aae64a55",
+      "detail": 0.7,
+      "required": true
+    },
+    "RoofRed": {
+      "texture": "/Game/Look/Kit/Textures/T_Kit_RoofRed",
+      "tiling_cm": 200,
+      "ink_strength": 1.5,
+      "cel_steps": 0,
+      "blend_sharpness": 12,
+      "average_linear": [
+        0.51612,
+        0.08124,
+        0.03601
+      ],
+      "note": "red barrel tiles",
+      "source": {
+        "kind": "paid",
+        "file": "..\\..\\artifacts\\pokemon-yellow-reimagine\\m4v\\kit\\paid\\RoofRed.png",
+        "sha256": "69d5d803a372bcbe520e45dfdb4bbe49c3b2b9e0dee57118da2d0309cd974c2c"
+      },
+      "sha256": "a9e61b0501c2e23fe473fbf817ae7df60e5523c4ba039600ba540d7add18b3b5",
+      "detail": 0.75,
+      "required": true
+    },
+    "RoofBlue": {
+      "texture": "/Game/Look/Kit/Textures/T_Kit_RoofBlue",
+      "tiling_cm": 200,
+      "ink_strength": 1.5,
+      "cel_steps": 0,
+      "blend_sharpness": 12,
+      "average_linear": [
+        0.0736,
+        0.1477,
+        0.34429
+      ],
+      "note": "slate-blue barrel tiles",
+      "source": {
+        "kind": "derived",
+        "from": "RoofRed",
+        "file": "..\\..\\artifacts\\pokemon-yellow-reimagine\\m4v\\kit\\paid\\RoofRed.png",
+        "gradient": [
+          "243c66",
+          "4a6ca4",
+          "7290c2"
+        ],
+        "sha256": "69d5d803a372bcbe520e45dfdb4bbe49c3b2b9e0dee57118da2d0309cd974c2c"
+      },
+      "sha256": "c147af467b4c2c539e8a6d3435bc53442204a4cf68f91ead34269cbc15e9da4a",
+      "detail": 0.75,
+      "required": true
+    },
+    "RoofGrey": {
+      "texture": "/Game/Look/Kit/Textures/T_Kit_RoofGrey",
+      "tiling_cm": 200,
+      "ink_strength": 1.5,
+      "cel_steps": 0,
+      "blend_sharpness": 12,
+      "average_linear": [
+        0.26716,
+        0.2794,
+        0.30256
+      ],
+      "note": "grey barrel tiles",
+      "source": {
+        "kind": "derived",
+        "from": "RoofRed",
+        "file": "..\\..\\artifacts\\pokemon-yellow-reimagine\\m4v\\kit\\paid\\RoofRed.png",
+        "gradient": [
+          "4f525a",
+          "8c8f94",
+          "c2c5ca"
+        ],
+        "sha256": "69d5d803a372bcbe520e45dfdb4bbe49c3b2b9e0dee57118da2d0309cd974c2c"
+      },
+      "sha256": "e8e540e0222a06978355963405dcc854ca45e694bbe45790515a12c7ea90b9e4",
+      "detail": 0.75,
+      "required": true
+    },
+    "RoofBrown": {
+      "texture": "/Game/Look/Kit/Textures/T_Kit_RoofBrown",
+      "tiling_cm": 200,
+      "ink_strength": 1.5,
+      "cel_steps": 0,
+      "blend_sharpness": 12,
+      "average_linear": [
+        0.2641,
+        0.13912,
+        0.07252
+      ],
+      "note": "brown barrel tiles",
+      "source": {
+        "kind": "derived",
+        "from": "RoofRed",
+        "file": "..\\..\\artifacts\\pokemon-yellow-reimagine\\m4v\\kit\\paid\\RoofRed.png",
+        "gradient": [
+          "4e3424",
+          "8a6448",
+          "c49a74"
+        ],
+        "sha256": "69d5d803a372bcbe520e45dfdb4bbe49c3b2b9e0dee57118da2d0309cd974c2c"
+      },
+      "sha256": "3a4feb49ac31366c8f35c583ee16c5b77ff8b65fcdb28c0d9e0f93894d136f79",
+      "detail": 0.75,
+      "required": true
+    },
+    "PathDirt": {
+      "texture": "/Game/Look/Kit/Textures/T_Kit_PathDirt",
+      "tiling_cm": 700,
+      "ink_strength": 0.9,
+      "cel_steps": 0,
+      "blend_sharpness": 6,
+      "average_linear": [
+        0.63143,
+        0.37292,
+        0.12472
+      ],
+      "note": "sandy dirt with pebbles",
+      "source": {
+        "kind": "paid",
+        "file": "..\\..\\artifacts\\pokemon-yellow-reimagine\\m4v\\kit\\paid\\PathDirt.png",
+        "sha256": "47a8293ee0f39846b1aa5809807a6a1929a6fa572a354b529806dd46059facc1"
+      },
+      "sha256": "c688a88bb19b65efefa4dccbb0bcf9315f150affe63d4a02bea08de8b850033d",
+      "detail": 0.65,
+      "required": true
+    },
+    "PathPaving": {
+      "texture": "/Game/Look/Kit/Textures/T_Kit_PathPaving",
+      "tiling_cm": 200,
+      "ink_strength": 1.0,
+      "cel_steps": 0,
+      "blend_sharpness": 6,
+      "average_linear": [
+        0.60519,
+        0.52232,
+        0.36826
+      ],
+      "note": "cobbles",
+      "source": {
+        "kind": "procedural",
+        "painter": "paint_path_paving"
+      },
+      "sha256": "c3c2b2c4bf6afa1e47f2b7df4e79890634f9ac3b50fd055dca2fdacb28d21a9e",
+      "required": true
+    },
+    "GrassShort": {
+      "texture": "/Game/Look/Kit/Textures/T_Kit_GrassShort",
+      "tiling_cm": 600,
+      "ink_strength": 0.8,
+      "cel_steps": 0,
+      "blend_sharpness": 6,
+      "average_linear": [
+        0.09362,
+        0.29445,
+        0.05013
+      ],
+      "note": "short meadow grass, blade tufts",
+      "source": {
+        "kind": "paid",
+        "file": "..\\..\\artifacts\\pokemon-yellow-reimagine\\m4v\\kit\\paid\\GrassShort.png",
+        "sha256": "3944c7eef50911b700c6e5bc8e1cf8826ee06eab74b639aeb8ddb8a7c522ce8f"
+      },
+      "sha256": "45f1345ae58848bdadb4145643db4ad3215b5fc1b685facb5f4a13a9b113e3f7",
+      "detail": 0.45,
+      "required": true
+    },
+    "GrassTall": {
+      "texture": "/Game/Look/Kit/Textures/T_Kit_GrassTall",
+      "tiling_cm": 45,
+      "ink_strength": 0.6,
+      "cel_steps": 0,
+      "blend_sharpness": 6,
+      "average_linear": [
+        0.05091,
+        0.25477,
+        0.07556
+      ],
+      "note": "tall grass blades",
+      "source": {
+        "kind": "paid",
+        "file": "..\\..\\artifacts\\pokemon-yellow-reimagine\\m4v\\kit\\paid\\GrassTall.png",
+        "sha256": "10ee25a6b296dd1b18d6cbcfaa9e59be9d0f217532995ed230ad77092a3fbd8e"
+      },
+      "sha256": "c6cdf40b25c320983a062919839d80ce6eca4cd697a947bd3e7fdffa8c828dba",
+      "sway": true,
+      "rim_ink": 0.0,
+      "detail": 0.9,
+      "required": true
+    },
+    "Flowers": {
+      "texture": "/Game/Look/Kit/Textures/T_Kit_Flowers",
+      "tiling_cm": 40,
+      "ink_strength": 0.6,
+      "cel_steps": 0,
+      "blend_sharpness": 6,
+      "average_linear": [
+        0.89673,
+        0.87782,
+        0.82639
+      ],
+      "note": "petal dabs",
+      "source": {
+        "kind": "procedural",
+        "painter": "paint_flowers"
+      },
+      "sha256": "19a0a59f68323481577587390a238825d75568b92525673fc1518393240e3010",
+      "rim_ink": 0.9,
+      "required": true
+    },
+    "RockGrey": {
+      "texture": "/Game/Look/Kit/Textures/T_Kit_RockGrey",
+      "tiling_cm": 350,
+      "ink_strength": 1.0,
+      "cel_steps": 0,
+      "blend_sharpness": 6,
+      "average_linear": [
+        0.20572,
+        0.19394,
+        0.19167
+      ],
+      "note": "grey faceted rock, ink cracks",
+      "source": {
+        "kind": "paid",
+        "file": "..\\..\\artifacts\\pokemon-yellow-reimagine\\m4v\\kit\\paid\\RockGrey.png",
+        "sha256": "be339f65dae943d31c1511bb5200fc8c56d3dc0175a20d4abf33ab25ead4205b"
+      },
+      "sha256": "c6292cb37bbded2e441b2f67a366d54bcdda3619f3cabc592cb60ec05106c01d",
+      "rim_ink": 0.4,
+      "required": true
+    },
+    "RockCave": {
+      "texture": "/Game/Look/Kit/Textures/T_Kit_RockCave",
+      "tiling_cm": 700,
+      "ink_strength": 1.0,
+      "cel_steps": 0,
+      "blend_sharpness": 6,
+      "average_linear": [
+        0.10568,
+        0.15562,
+        0.22022
+      ],
+      "note": "blue-grey cave rock, ink cracks",
+      "source": {
+        "kind": "paid",
+        "file": "..\\..\\artifacts\\pokemon-yellow-reimagine\\m4v\\kit\\paid\\RockCave.png",
+        "sha256": "25bee93091378b9f45b9471eeb44b9d229e68fa362d09692b023d67ab386328f"
+      },
+      "sha256": "a43ca41177a8d1af3b686b2b71e3eef308652f67aa52c4ecce6c31abbc095b3e",
+      "rim_ink": 0.4,
+      "required": true
+    },
+    "CaveFloor": {
+      "texture": "/Game/Look/Kit/Textures/T_Kit_CaveFloor",
+      "tiling_cm": 480,
+      "ink_strength": 1.0,
+      "cel_steps": 0,
+      "blend_sharpness": 6,
+      "average_linear": [
+        0.09689,
+        0.13176,
+        0.18184
+      ],
+      "note": "blue-grey flagstones, gravel",
+      "source": {
+        "kind": "paid",
+        "file": "..\\..\\artifacts\\pokemon-yellow-reimagine\\m4v\\kit\\paid\\CaveFloor.png",
+        "sha256": "65e9496564e4839e38107087d269eb1a7b159b24e83aad1b60f763c032d52236"
+      },
+      "sha256": "76300a084553c73c41c0e3fbf6098df0567ec149590e5f6f17d12a1b1cacbff5",
+      "detail": 0.8,
+      "required": true
+    },
+    "Water": {
+      "texture": "/Game/Look/Kit/Textures/T_Kit_Water",
+      "tiling_cm": 550,
+      "ink_strength": 0.05,
+      "cel_steps": 0,
+      "blend_sharpness": 6,
+      "average_linear": [
+        0.04442,
+        0.33991,
+        0.70803
+      ],
+      "note": "painted water, caustic net",
+      "source": {
+        "kind": "paid",
+        "file": "..\\..\\artifacts\\pokemon-yellow-reimagine\\m4v\\kit\\paid\\Water.png",
+        "sha256": "7ec879396c19c33dee0459b61219dfb555da4ef9b8719b1a1e102de16b9a2d53"
+      },
+      "sha256": "6fe7cf112c90b02727584e40c178deb2cc33c5c2d7b8426eb290e8e6a7357b70",
+      "detail": 0.45,
+      "required": true
+    },
+    "Sand": {
+      "texture": "/Game/Look/Kit/Textures/T_Kit_Sand",
+      "tiling_cm": 300,
+      "ink_strength": 0.6,
+      "cel_steps": 0,
+      "blend_sharpness": 6,
+      "average_linear": [
+        0.88367,
+        0.73668,
+        0.38051
+      ],
+      "note": "sand ripples",
+      "source": {
+        "kind": "procedural",
+        "painter": "paint_sand"
+      },
+      "sha256": "8289887a83084c53725d3906fed155f123656452dab160d2f43593a972c8fbee",
+      "detail": 0.6,
+      "required": true
+    },
+    "TreeCanopy": {
+      "texture": "/Game/Look/Kit/Textures/T_Kit_TreeCanopy",
+      "tiling_cm": 200,
+      "ink_strength": 0.9,
+      "cel_steps": 0,
+      "blend_sharpness": 4,
+      "average_linear": [
+        0.06132,
+        0.23672,
+        0.05029
+      ],
+      "note": "leaf clumps",
+      "source": {
+        "kind": "paid",
+        "file": "..\\..\\artifacts\\pokemon-yellow-reimagine\\m4v\\kit\\paid\\TreeCanopy.png",
+        "sha256": "9019fddfc6c7931a73810aa0d880e7ac42fdca2fa5301cff91c595b66ca760f1"
+      },
+      "sha256": "52f498af33d84c95deae8154459a93d4777e0e09a96c0b3778df44f8e9d4a564",
+      "rim_ink": 0.0,
+      "detail": 1.0,
+      "required": true
+    },
+    "TreeTrunk": {
+      "texture": "/Game/Look/Kit/Textures/T_Kit_TreeTrunk",
+      "tiling_cm": 70,
+      "ink_strength": 1.6,
+      "cel_steps": 0,
+      "blend_sharpness": 6,
+      "average_linear": [
+        0.28948,
+        0.13415,
+        0.06039
+      ],
+      "note": "bark",
+      "source": {
+        "kind": "paid",
+        "file": "..\\..\\artifacts\\pokemon-yellow-reimagine\\m4v\\kit\\paid\\TreeTrunk.png",
+        "sha256": "b6da63f5c046a5226fae7db4e45ad747838b64aa704d109a2eb357a7fe334aac"
+      },
+      "sha256": "ad4c9e77761a8f87288d5b95341c0924e033edcbd3769fb8a10ddefa18181e2c",
+      "rim_ink": 0.5,
+      "shade_amount": 0.8,
+      "required": true
+    },
+    "Fence": {
+      "texture": "/Game/Look/Kit/Textures/T_Kit_Fence",
+      "tiling_cm": 90,
+      "ink_strength": 1.5,
+      "cel_steps": 0,
+      "blend_sharpness": 6,
+      "average_linear": [
+        0.8723,
+        0.799,
+        0.63667
+      ],
+      "note": "white painted posts",
+      "source": {
+        "kind": "procedural",
+        "painter": "paint_fence"
+      },
+      "sha256": "25c203a63d9a1a16b4a62b31212961e26195ff0828d31daec6646528588af5e5",
+      "rim_ink": 0.0,
+      "detail": 0.8,
+      "shade_amount": 1.0,
+      "required": true
+    },
+    "Ledge": {
+      "texture": "/Game/Look/Kit/Textures/T_Kit_Ledge",
+      "tiling_cm": 100,
+      "ink_strength": 1.0,
+      "cel_steps": 0,
+      "blend_sharpness": 6,
+      "average_linear": [
+        0.38694,
+        0.19387,
+        0.06607
+      ],
+      "note": "earth strata",
+      "source": {
+        "kind": "derived",
+        "from": "RockGrey",
+        "file": "..\\..\\artifacts\\pokemon-yellow-reimagine\\m4v\\kit\\paid\\RockGrey.png",
+        "gradient": [
+          "4a3422",
+          "a8743e",
+          "d8a86e"
+        ],
+        "sha256": "be339f65dae943d31c1511bb5200fc8c56d3dc0175a20d4abf33ab25ead4205b"
+      },
+      "sha256": "9ca68147829f5401155553f07616f4cc318e8722a443ff455cd68e022c07d88d",
+      "required": true
+    },
+    "Sign": {
+      "texture": "/Game/Look/Kit/Textures/T_Kit_Sign",
+      "tiling_cm": 100,
+      "ink_strength": 1.0,
+      "cel_steps": 0,
+      "blend_sharpness": 6,
+      "average_linear": [
+        0.72155,
+        0.50672,
+        0.23345
+      ],
+      "note": "signboard planks",
+      "source": {
+        "kind": "derived",
+        "from": "FloorWood",
+        "file": "..\\..\\artifacts\\pokemon-yellow-reimagine\\m4v\\kit\\paid\\FloorWood.png",
+        "gradient": [
+          "7a5228",
+          "d8b070",
+          "f4dca8"
+        ],
+        "sha256": "c932492ab2f1a263d06c048d3cc901b37234610dcdfcf010acf3d4d4ec9c11f4"
+      },
+      "sha256": "2e4db99edeb2f10164522701b5f3944e83888418cc40cea739273a190671536d",
+      "detail": 0.6,
+      "required": true
+    },
+    "Counter": {
+      "texture": "/Game/Look/Kit/Textures/T_Kit_Counter",
+      "tiling_cm": 150,
+      "ink_strength": 1.4,
+      "cel_steps": 0,
+      "blend_sharpness": 6,
+      "average_linear": [
+        0.64913,
+        0.37018,
+        0.1547
+      ],
+      "note": "wood panels",
+      "source": {
+        "kind": "derived",
+        "from": "FloorWood",
+        "file": "..\\..\\artifacts\\pokemon-yellow-reimagine\\m4v\\kit\\paid\\FloorWood.png",
+        "gradient": [
+          "6e4424",
+          "c98e52",
+          "efca94"
+        ],
+        "sha256": "c932492ab2f1a263d06c048d3cc901b37234610dcdfcf010acf3d4d4ec9c11f4"
+      },
+      "sha256": "0caed50254485bc1017de6370591f1b27df2f46cfb0d3214e761a33c02aed0a0",
+      "rim_ink": 0.0,
+      "detail": 0.6,
+      "required": true
+    },
+    "Carpet": {
+      "texture": "/Game/Look/Kit/Textures/T_Kit_Carpet",
+      "tiling_cm": 100,
+      "ink_strength": 0.0,
+      "cel_steps": 0,
+      "blend_sharpness": 6,
+      "average_linear": [
+        0.81747,
+        0.81747,
+        0.81747
+      ],
+      "note": "woven carpet",
+      "source": {
+        "kind": "procedural",
+        "painter": "paint_carpet"
+      },
+      "sha256": "4a3fb031ff73a316e843e16271159baa4667cc49ee09490d656f74ed3c0aab12",
+      "required": true
+    },
+    "Paint": {
+      "texture": "/Game/Look/Kit/Textures/T_Kit_Paint",
+      "tiling_cm": 200,
+      "ink_strength": 0.0,
+      "cel_steps": 0,
+      "blend_sharpness": 6,
+      "average_linear": [
+        0.87191,
+        0.87191,
+        0.87191
+      ],
+      "note": "plain painted colour",
+      "source": {
+        "kind": "procedural",
+        "painter": "paint_paint"
+      },
+      "sha256": "20c8f8c7c82f11c6d90e930a5640067536397d02b4d771875a1d870896cffcfb",
+      "required": false
+    },
+    "Glass": {
+      "texture": "/Game/Look/Kit/Textures/T_Kit_Glass",
+      "tiling_cm": 60,
+      "ink_strength": 0.0,
+      "cel_steps": 0,
+      "blend_sharpness": 6,
+      "average_linear": [
+        0.51935,
+        0.73679,
+        0.86386
+      ],
+      "note": "window glass with shine",
+      "source": {
+        "kind": "procedural",
+        "painter": "paint_glass"
+      },
+      "sha256": "7c1dda2056099d0bcfebf5e2816a48bded15188e8c1e27501d3ac51e859540ac",
+      "detail": 1.0,
+      "required": false
+    },
+    "Metal": {
+      "texture": "/Game/Look/Kit/Textures/T_Kit_Metal",
+      "tiling_cm": 150,
+      "ink_strength": 0.9,
+      "cel_steps": 0,
+      "blend_sharpness": 6,
+      "average_linear": [
+        0.57614,
+        0.60234,
+        0.65678
+      ],
+      "note": "painted machine panels",
+      "source": {
+        "kind": "procedural",
+        "painter": "paint_metal"
+      },
+      "sha256": "f4a9321fd027f50f8084bc6a83acbcdcf6d353f521f5d017c9c99e339a709b5a",
+      "rim_ink": 0.0,
+      "detail": 0.5,
+      "required": false
+    },
+    "Ink": {
+      "texture": "/Game/Look/Kit/Textures/T_Kit_Ink",
+      "tiling_cm": 100,
+      "ink_strength": 1.0,
+      "cel_steps": 0,
+      "blend_sharpness": 6,
+      "average_linear": [
+        0.01354,
+        0.01354,
+        0.02696
+      ],
+      "note": "outline ink",
+      "source": {
+        "kind": "procedural",
+        "painter": "paint_ink"
+      },
+      "sha256": "9113b5908fdca9e925f5933c032770f1141ae7f679ee360943c8dc33dc74ccdb",
+      "required": false
+    }
+  },
+  "props": [
+    "dome_fossil",
+    "fossil_skeleton",
+    "gym_boulder",
+    "healing_machine",
+    "helix_fossil",
+    "item_ball",
+    "league_statue",
+    "mart_shelf",
+    "moon_stone",
+    "pc_terminal",
+    "potted_plant",
+    "signpost",
+    "stalagmite_cluster",
+    "stalagmite_tall"
+  ],
+  "prop_cel_steps": 4
+}

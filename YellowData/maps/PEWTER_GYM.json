@@ -1,0 +1,159 @@
+{
+  "blocked_edges": [],
+  "border_block": 3,
+  "cave": false,
+  "connections": {},
+  "encounter_rate": 0,
+  "height": 14,
+  "hidden": [],
+  "hidden_events": [
+    {
+      "arg": "SPRITE_FACING_UP",
+      "kind": "GymStatues",
+      "x": 3,
+      "y": 10
+    },
+    {
+      "arg": "SPRITE_FACING_UP",
+      "kind": "GymStatues",
+      "x": 6,
+      "y": 10
+    }
+  ],
+  "id": "PEWTER_GYM",
+  "items": [],
+  "label": "PewterGym",
+  "looks": [
+    "rrrrrrrrrr",
+    "roooooooor",
+    "roooooooor",
+    "rrrroorrrr",
+    "roooooooor",
+    "roroorrror",
+    "roooooooor",
+    "roroorrror",
+    "roooooooor",
+    "rrrloolrrr",
+    "oooloolooo",
+    "oooooooooo",
+    "oooooooooo",
+    "oooommoooo"
+  ],
+  "looks_unknown": 0,
+  "music": "gym",
+  "name": "Pewter Gym",
+  "npcs": [
+    {
+      "facing": "down",
+      "id": "PEWTERGYM_BROCK",
+      "movement": "stay",
+      "sprite": "SPRITE_SUPER_NERD",
+      "text": "TEXT_PEWTERGYM_BROCK",
+      "text_handler": "PewterGymBrockText",
+      "text_id": "TEXT_PEWTERGYM_BROCK",
+      "texts": [
+        "PewterGymBrockText.PostBattleAdviceText",
+        "PewterGymBrockText.PreBattleText",
+        "PewterGymBrockReceivedBoulderBadgeText"
+      ],
+      "trainer": {
+        "class": "BROCK",
+        "party": 1,
+        "sight": 0
+      },
+      "x": 4,
+      "y": 1
+    },
+    {
+      "facing": "right",
+      "id": "PEWTERGYM_COOLTRAINER_M",
+      "movement": "stay",
+      "sprite": "SPRITE_COOLTRAINER_M",
+      "text": "TEXT_PEWTERGYM_COOLTRAINER_M",
+      "text_handler": "PewterGymCooltrainerMText",
+      "text_id": "TEXT_PEWTERGYM_COOLTRAINER_M",
+      "texts": [
+        "PewterGymCooltrainerMBattleText",
+        "PewterGymCooltrainerMEndBattleText",
+        "PewterGymCooltrainerMAfterBattleText"
+      ],
+      "trainer": {
+        "after_text": "PewterGymCooltrainerMAfterBattleText",
+        "battle_text": "PewterGymCooltrainerMBattleText",
+        "class": "JR_TRAINER_M",
+        "end_text": "PewterGymCooltrainerMEndBattleText",
+        "event": "EVENT_BEAT_PEWTER_GYM_TRAINER_0",
+        "party": 1,
+        "sight": 5
+      },
+      "x": 3,
+      "y": 6
+    },
+    {
+      "facing": "down",
+      "id": "PEWTERGYM_GYM_GUIDE",
+      "movement": "stay",
+      "sprite": "SPRITE_GYM_GUIDE",
+      "text": "TEXT_PEWTERGYM_GYM_GUIDE",
+      "text_handler": "PewterGymGuideText",
+      "text_id": "TEXT_PEWTERGYM_GYM_GUIDE",
+      "texts": [
+        "PewterGymGuidePreAdviceText",
+        "PewterGymGuideBeginAdviceText",
+        "PewterGymGuideFreeServiceText",
+        "PewterGymGuideAdviceText",
+        "PewterGymGuidePostBattleText",
+        "PewterGymText_5c41c"
+      ],
+      "x": 7,
+      "y": 10
+    }
+  ],
+  "origin": {
+    "x": 0,
+    "y": 1086
+  },
+  "outdoor": false,
+  "palette": "PAL_PEWTER",
+  "signs": [],
+  "source": {
+    "blocks": "maps/PewterGym.blk",
+    "header": "data/maps/headers/PewterGym.asm",
+    "objects": "data/maps/objects/PewterGym.asm",
+    "script": "scripts/PewterGym.asm"
+  },
+  "tiles": [
+    "##########",
+    "#........#",
+    "#........#",
+    "####..####",
+    "#........#",
+    "#.#..###.#",
+    "#........#",
+    "#.#..###.#",
+    "#........#",
+    "####..####",
+    "...#..#...",
+    "..........",
+    "..........",
+    "....dd...."
+  ],
+  "tileset": "GYM",
+  "warps": [
+    {
+      "last_map": true,
+      "to_map": "PEWTER_CITY",
+      "to_warp": 3,
+      "x": 4,
+      "y": 13
+    },
+    {
+      "last_map": true,
+      "to_map": "PEWTER_CITY",
+      "to_warp": 3,
+      "x": 5,
+      "y": 13
+    }
+  ],
+  "width": 10
+}

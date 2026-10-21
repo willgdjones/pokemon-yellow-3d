@@ -1,0 +1,475 @@
+{
+  "characters": [
+    {
+      "id": "red",
+      "name": "Red",
+      "role": "player",
+      "description": "An 11-year-old boy drawn like the anime's hero: a red and white cap, a blue short-sleeved vest over a black T-shirt, jeans, fingerless green gloves and a yellow backpack. Lean, quick silhouette with bold ink outlines that reads clearly from above.",
+      "height_cm": 145,
+      "rig": "humanoid",
+      "lines": [
+        "Go! Pikachu!",
+        "Hang in there, Pikachu, Potion coming!",
+        "All right! Pidgey was caught!"
+      ],
+      "card": {
+        "blurb": "A kid from Pallet Town setting out to fill Oak's Pokedex.",
+        "stats": {
+          "badges": 0,
+          "party": 1
+        }
+      },
+      "in_slice": true,
+      "sheet": {
+        "file": "concepts/character-red-1.png",
+        "sha256": "e7d313d940092a640400095863a4851c8b3c9d0d1d14823e8cbd562aa9b35d6f"
+      }
+    },
+    {
+      "id": "pikachu",
+      "name": "Pikachu",
+      "role": "partner",
+      "description": "A small yellow electric mouse with long black-tipped ears, red cheek pouches, two brown back stripes and a lightning-bolt tail. It runs on all fours in battle, stands upright when curious and sparks from its cheeks.",
+      "height_cm": 60,
+      "rig": "quadruped",
+      "lines": [
+        "Pika!",
+        "Pikachu... (turns away from the Poke Ball)",
+        "Pi-ka-CHUUU!"
+      ],
+      "card": {
+        "blurb": "An Electric runner that refuses its Poke Ball and walks beside Red.",
+        "stats": {
+          "level": 5,
+          "hp": 35,
+          "attack": 55,
+          "speed": 90
+        }
+      },
+      "in_slice": true
+    },
+    {
+      "id": "professor-oak",
+      "name": "Professor Oak",
+      "role": "npc",
+      "description": "A grey-haired professor in a long white lab coat over a red shirt and khaki trousers. Kindly and slightly stooped.",
+      "height_cm": 175,
+      "rig": "humanoid",
+      "lines": [
+        "Hey! Wait! Don't go out!",
+        "It's unsafe! Wild Pokemon live in tall grass!",
+        "Oh, Red! How is my old Pokemon?"
+      ],
+      "card": {
+        "blurb": "Kanto's Pokemon professor, who gave Red his Pikachu and the Pokedex.",
+        "stats": {
+          "pokedex": 151
+        }
+      },
+      "in_slice": true
+    },
+    {
+      "id": "gary",
+      "name": "Gary",
+      "role": "npc",
+      "description": "Oak's grandson, drawn like the anime rival: spiky brown hair, a purple shirt, black trousers and a pendant. He stands with his hands in his pockets, smirking.",
+      "height_cm": 150,
+      "rig": "humanoid",
+      "lines": [
+        "Gramps! I'm fed up with waiting!",
+        "What? Why did you pick that Pikachu?",
+        "Smell ya later!"
+      ],
+      "card": {
+        "blurb": "Red's rival, who snatched the Eevee and never stops showing off.",
+        "stats": {
+          "badges": 0,
+          "pokemon": 2
+        }
+      },
+      "in_slice": true
+    },
+    {
+      "id": "eevee",
+      "name": "Eevee",
+      "role": "creature",
+      "description": "A small brown fox-like Pokemon with long pointed ears, a bushy cream ruff and a fluffy cream-tipped tail.",
+      "height_cm": 45,
+      "rig": "quadruped",
+      "lines": [
+        "Vui!",
+        "(growls low)"
+      ],
+      "card": {
+        "blurb": "Gary's Normal runner, fast and scrappy.",
+        "stats": {
+          "level": 5,
+          "hp": 55,
+          "attack": 55,
+          "speed": 55
+        }
+      },
+      "in_slice": true
+    },
+    {
+      "id": "viridian-old-man",
+      "name": "The Old Man of Viridian",
+      "role": "npc",
+      "description": "A thin old man with a white moustache, a brown cardigan and a walking stick. At first he lies sprawled across the north road, then he stands chipper after his coffee.",
+      "height_cm": 160,
+      "rig": "humanoid",
+      "lines": [
+        "You can't go through here! This is private property!",
+        "Ahh, I've had my coffee now and I feel great!",
+        "First, you need to weaken the target Pokemon."
+      ],
+      "card": {
+        "blurb": "He blocks the north road until his coffee, then shows Red how to catch.",
+        "stats": {
+          "coffee": 1
+        }
+      },
+      "in_slice": true
+    },
+    {
+      "id": "pidgey",
+      "name": "Pidgey",
+      "role": "creature",
+      "description": "A small plump brown bird with a cream belly, a pink beak and feet, and a black and cream crest. It hovers about a metre and a half up in battle, wings beating, with a crisp shadow beneath it.",
+      "height_cm": 45,
+      "rig": "avian",
+      "lines": [
+        "Pijji!",
+        "(flaps and kicks up sand)"
+      ],
+      "card": {
+        "blurb": "A Normal and Flying flier. It hovers over ledges and dodges far, but Rock moves knock it down.",
+        "stats": {
+          "level": 3,
+          "hp": 40,
+          "attack": 45,
+          "speed": 56
+        }
+      },
+      "in_slice": true
+    },
+    {
+      "id": "rattata",
+      "name": "Rattata",
+      "role": "creature",
+      "description": "A small purple rat with a cream belly, big buck teeth, long whiskers and a curled tail.",
+      "height_cm": 45,
+      "rig": "quadruped",
+      "lines": [
+        "Rat-ta!",
+        "(chatters its teeth)"
+      ],
+      "card": {
+        "blurb": "A Normal runner that charges the moment it sees you.",
+        "stats": {
+          "level": 3,
+          "hp": 30,
+          "attack": 56,
+          "speed": 72
+        }
+      },
+      "in_slice": true
+    },
+    {
+      "id": "spearow",
+      "name": "Spearow",
+      "role": "creature",
+      "description": "A small brown bird with ruffled feathers, a short hooked beak and red-edged wings, always scowling.",
+      "height_cm": 45,
+      "rig": "avian",
+      "lines": [
+        "Spear!",
+        "(a harsh screech)"
+      ],
+      "card": {
+        "blurb": "A fierce Normal and Flying flier found on Route 22, and one of Gary's team.",
+        "stats": {
+          "level": 5,
+          "hp": 40,
+          "attack": 60,
+          "speed": 70
+        }
+      },
+      "in_slice": true
+    },
+    {
+      "id": "caterpie",
+      "name": "Caterpie",
+      "role": "creature",
+      "description": "A green caterpillar with a yellow segmented belly, a red forked antenna and big black eyes. It clings to forest trunks and hugs the ground in battle, curling tight to dodge.",
+      "height_cm": 45,
+      "rig": "serpentine",
+      "lines": [
+        "Pii-ii!",
+        "(spits sticky thread)"
+      ],
+      "card": {
+        "blurb": "A Bug crawler. Slow and low, so wide sweeps pass over it, and its String Shot slows its foes.",
+        "stats": {
+          "level": 4,
+          "hp": 45,
+          "attack": 30,
+          "speed": 45
+        }
+      },
+      "in_slice": true
+    },
+    {
+      "id": "weedle",
+      "name": "Weedle",
+      "role": "creature",
+      "description": "A tan hairy caterpillar with a pink nose, a sharp stinger on its head and another on its tail.",
+      "height_cm": 45,
+      "rig": "serpentine",
+      "lines": [
+        "Weee!",
+        "(a sharp jab)"
+      ],
+      "card": {
+        "blurb": "A Bug and Poison crawler whose Poison Sting can poison.",
+        "stats": {
+          "level": 4,
+          "hp": 40,
+          "attack": 35,
+          "speed": 50
+        }
+      },
+      "in_slice": true
+    },
+    {
+      "id": "bug-catcher-rick",
+      "name": "Bug Catcher",
+      "role": "npc",
+      "description": "One of Viridian Forest's Bug Catchers: a small boy in a straw hat, white vest and shorts, with a big butterfly net.",
+      "height_cm": 130,
+      "rig": "humanoid",
+      "lines": [
+        "Hey! You have Pokemon! Come on! Let's battle 'em!",
+        "Yo! You can't jam out if you're a Pokemon trainer!",
+        "No! Caterpie can't cut it!"
+      ],
+      "card": {
+        "blurb": "The forest's Bug Catchers, with Yellow's Caterpie, Weedle, Metapod and Kakuna.",
+        "stats": {
+          "pokemon": 2
+        }
+      },
+      "in_slice": true
+    },
+    {
+      "id": "jr-trainer",
+      "name": "Jr. Trainer",
+      "role": "npc",
+      "description": "A boy in a cap, a blue T-shirt and shorts, standing guard partway into Pewter Gym.",
+      "height_cm": 135,
+      "rig": "humanoid",
+      "lines": [
+        "Stop right there, kid! You're light years from facing Brock!",
+        "Darn! Light years isn't time! It measures distance!"
+      ],
+      "card": {
+        "blurb": "Pewter Gym's trainer, with Yellow's Diglett and Sandshrew.",
+        "stats": {
+          "pokemon": 2
+        }
+      },
+      "in_slice": true
+    },
+    {
+      "id": "brock",
+      "name": "Brock",
+      "role": "boss",
+      "description": "A tall 15-year-old with spiky brown hair, squinting eyes, an orange shirt under a green vest and brown trousers. Solid, grounded stance.",
+      "height_cm": 178,
+      "rig": "humanoid",
+      "lines": [
+        "I'm Brock! I'm Pewter's Gym Leader!",
+        "I believe in rock hard defense and determination!",
+        "I took you for granted. As proof of your victory, here's the Boulder Badge!"
+      ],
+      "card": {
+        "blurb": "Pewter City's Gym Leader, who trusts in rock-hard defence.",
+        "stats": {
+          "badge": 1,
+          "pokemon": 2
+        }
+      },
+      "in_slice": true
+    },
+    {
+      "id": "geodude",
+      "name": "Geodude",
+      "role": "creature",
+      "description": "A round grey boulder with a craggy face, heavy brows and two thick muscular arms.",
+      "height_cm": 60,
+      "rig": "none",
+      "lines": [
+        "Geo-dude!",
+        "(curls up with a grinding clunk)"
+      ],
+      "card": {
+        "blurb": "A Rock and Ground crawler that curls up and tackles. Electric does nothing to it.",
+        "stats": {
+          "level": 10,
+          "hp": 40,
+          "attack": 80,
+          "speed": 20
+        }
+      },
+      "in_slice": true
+    },
+    {
+      "id": "onix",
+      "name": "Onix",
+      "role": "boss",
+      "description": "A colossal serpent of grey boulders linked into a chain, with a horn on its craggy head. It coils and rears high over the arena, turning slowly and sweeping its tail wide.",
+      "height_cm": 880,
+      "rig": "serpentine",
+      "lines": [
+        "(a grinding rock roar)",
+        "(a ground-shaking Bide shockwave)"
+      ],
+      "card": {
+        "blurb": "Brock's Rock and Ground giant. It never dodges, Electric does nothing to it, and its Bide pays back double.",
+        "stats": {
+          "level": 12,
+          "hp": 35,
+          "attack": 45,
+          "speed": 70
+        }
+      },
+      "in_slice": true
+    },
+    {
+      "id": "jessie",
+      "name": "Jessie",
+      "role": "enemy",
+      "description": "A Team Rocket agent with long magenta hair swept into a huge curl, a white uniform with a red R, a black top and long black gloves.",
+      "height_cm": 170,
+      "rig": "humanoid",
+      "lines": [
+        "Prepare for trouble!",
+        "That Pikachu is ours!",
+        "Team Rocket's blasting off again!"
+      ],
+      "card": {
+        "blurb": "Half of Yellow's Team Rocket duo, who keep turning up after Pikachu.",
+        "stats": {
+          "pokemon": 2
+        }
+      },
+      "in_slice": false
+    },
+    {
+      "id": "james",
+      "name": "James",
+      "role": "enemy",
+      "description": "A Team Rocket agent with lavender hair, a white uniform with a red R and a rose in hand.",
+      "height_cm": 175,
+      "rig": "humanoid",
+      "lines": [
+        "Make it double!",
+        "Koffing, go!",
+        "Looks like Team Rocket's blasting off again!"
+      ],
+      "card": {
+        "blurb": "Jessie's partner, dramatic and unlucky.",
+        "stats": {
+          "pokemon": 2
+        }
+      },
+      "in_slice": false
+    },
+    {
+      "id": "meowth",
+      "name": "Meowth",
+      "role": "enemy",
+      "description": "A cream cat Pokemon with a gold coin charm on its forehead, whiskers and a curled brown-tipped tail.",
+      "height_cm": 60,
+      "rig": "quadruped",
+      "lines": [
+        "Meowth!",
+        "(hisses and bares its claws)"
+      ],
+      "card": {
+        "blurb": "Team Rocket's Normal runner, fast with its claws.",
+        "stats": {
+          "hp": 40,
+          "attack": 45,
+          "speed": 90
+        }
+      },
+      "in_slice": false
+    },
+    {
+      "id": "misty",
+      "name": "Misty",
+      "role": "boss",
+      "description": "A girl with an orange side ponytail, a yellow crop top, red braces and denim shorts.",
+      "height_cm": 155,
+      "rig": "humanoid",
+      "lines": [
+        "Hi, you're a new face!",
+        "My policy is an all out offensive with Water-type Pokemon!",
+        "Wow! You're too much!"
+      ],
+      "card": {
+        "blurb": "Cerulean's Gym Leader, who fights from the water with Staryu and Starmie.",
+        "stats": {
+          "badge": 2,
+          "pokemon": 2
+        }
+      },
+      "in_slice": false
+    },
+    {
+      "id": "starmie",
+      "name": "Starmie",
+      "role": "boss",
+      "description": "A purple ten-pointed double star with a glowing red jewel core. It spins through water like a blade.",
+      "height_cm": 110,
+      "rig": "aquatic",
+      "lines": [
+        "(a crystal hum)",
+        "(a spinning whoosh)"
+      ],
+      "card": {
+        "blurb": "Misty's ace swimmer, which dives out of reach and spins in from the water.",
+        "stats": {
+          "level": 21,
+          "hp": 60,
+          "attack": 75,
+          "speed": 115
+        }
+      },
+      "in_slice": false
+    },
+    {
+      "id": "giovanni",
+      "name": "Giovanni",
+      "role": "boss",
+      "description": "A tall, broad man in a sharp orange suit with slicked-back hair.",
+      "height_cm": 188,
+      "rig": "humanoid",
+      "lines": [
+        "So! I must say, I am impressed you got here!",
+        "Team Rocket captures Pokemon from around the world!",
+        "Blaaargh! I must leave for a while."
+      ],
+      "card": {
+        "blurb": "Team Rocket's boss, and the secret Viridian Gym Leader.",
+        "stats": {
+          "badge": 8,
+          "pokemon": 5
+        }
+      },
+      "in_slice": false
+    }
+  ],
+  "version": 1
+}

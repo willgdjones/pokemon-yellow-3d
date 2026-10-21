@@ -1,0 +1,434 @@
+{
+  "blocked_edges": [],
+  "border_block": 10,
+  "cave": false,
+  "connections": {
+    "east": {
+      "map": "ROUTE_9",
+      "offset": 8,
+      "out_of_scope": true
+    },
+    "north": {
+      "map": "ROUTE_24",
+      "offset": 10
+    },
+    "south": {
+      "map": "ROUTE_5",
+      "offset": 10,
+      "out_of_scope": true
+    },
+    "west": {
+      "map": "ROUTE_4",
+      "offset": 8
+    }
+  },
+  "encounter_rate": 0,
+  "height": 36,
+  "hidden": [
+    {
+      "item": "RARE_CANDY",
+      "x": 15,
+      "y": 8
+    }
+  ],
+  "hidden_events": [],
+  "id": "CERULEAN_CITY",
+  "items": [],
+  "label": "CeruleanCity",
+  "looks": [
+    "rrrrrrrrrrrrrrWWWWWFHHFsssFWWWWWWWWWWWWW",
+    "rrrrrrrrrrrrrrWWWWWFHHFsssFWWWWWWWWWWWWW",
+    "rrrrrrrrrrrrrrWWWWWFHHFsssFWWWWWWWWWWWWW",
+    "rrrrrrrrrrrrrrWWWWWFHHFFLLFWWWWWWWWWWWWW",
+    "rrrrrrWWWWWWWWWWWWWFssFsssFWWWWWWWWWWWWW",
+    "rrrrrrWWWWWWWWWWWWWFssFsssFWWWWWWWWWWWWW",
+    "rrrrrrWFTTTTTTTTTTTTssTssTTTTTTTTTTTTTTs",
+    "rrrrrrWFsssssssssssTssTssTssssssssTTTTTs",
+    "rrrrrrWFyyyyyyyyyysTssTssTyyyyyyyyTTTTTs",
+    "rrrrrrWFyyyyyyyyyysTssTssTyyyyyyyyTTTTTs",
+    "rrrrrrWFRRRRRRRRRRRRppppppRRRRRRppRRRRRR",
+    "rrrrDrWFRDnnnRRnnnnRppppppRDnnnRppRnnnnR",
+    "ppppppWFppppppppppppppssppssssssFpssssFs",
+    "ppppppWFppppppppppppppssppssssssFpssssFs",
+    "WWWWWWWFppssRRRRRRRRRRssppppppppFpppppFs",
+    "WWWWWWWFpLLLRDnnnRRRRRssppppppppFpppppFF",
+    "WWWWWWWFppssssssssnnnnssRRRRRRRRppssppss",
+    "FFFFFFFFppssssssssnDSnLLRRRRRRRRppssppss",
+    "ppppppppppppppppppppppppRnBBBBnRppssppFF",
+    "pppppppppppppppppppppppSnnnnnnDnLLLspLFs",
+    "FFFFFsppssffffffffffffpppppppppppppFppFs",
+    "ssssFsppssffffffffffffpppppSpppppppFppFs",
+    "ffffFsppppppRRRRppppppppRRRRffffffpFppFs",
+    "ffffFsppppppRRRRppppppppRRRRffffffpFppFs",
+    "ffffFsppssppnnnnppRRRRRRnnnnRRRRRRpFppFs",
+    "ffffFsppssFSnDnnppRnnnnRnDSnRnnnnRpFppFs",
+    "ffffFspppppppppppppppppppppppppppppFppFs",
+    "ffffFspppppppppppppppppppppppppppppFppFs",
+    "ffffFFTTTTTTTTTTppTTTTTTTTTTTTTTTTTTppFs",
+    "ffffFssssssssssTFSTsssssssssssssssssppFs",
+    "ffffFsppppppppppppppppppppppppppppppppFs",
+    "ffffFsppppppppppppppppppppppppppppppppFs",
+    "ffffFsssssTsppsTssssssssFsppsFssssssssFs",
+    "ffffFFFFFFTsppsTLLLLLLLLFsppsFFFFFFFFFFs",
+    "ffffffffffTsppsTssssssssFsppsFffffffffff",
+    "ffffffffffTsppsTssssssssFsppsFffffffffff"
+  ],
+  "looks_unknown": 0,
+  "music": "cities2",
+  "name": "CERULEAN CITY",
+  "npcs": [
+    {
+      "facing": "down",
+      "hidden_at_start": true,
+      "id": "CERULEANCITY_RIVAL",
+      "movement": "stay",
+      "sprite": "SPRITE_BLUE",
+      "text": "TEXT_CERULEANCITY_RIVAL",
+      "text_handler": "CeruleanCityRivalText",
+      "text_id": "TEXT_CERULEANCITY_RIVAL",
+      "texts": [
+        "CeruleanCityRivalIWentToBillsText",
+        "CeruleanCityRivalText.PreBattleText"
+      ],
+      "toggle": "CERULEANCITY_RIVAL",
+      "x": 20,
+      "y": 2
+    },
+    {
+      "facing": "none",
+      "hidden_at_start": false,
+      "id": "CERULEANCITY_ROCKET",
+      "movement": "stay",
+      "sprite": "SPRITE_ROCKET",
+      "text": "TEXT_CERULEANCITY_ROCKET",
+      "text_handler": "CeruleanCityRocketText",
+      "text_id": "TEXT_CERULEANCITY_ROCKET",
+      "texts": [
+        "CeruleanCityRocketText.Text",
+        "CeruleanCityRocketText.IGiveUpText",
+        "CeruleanCityRocketText.IllReturnTheTMText",
+        "CeruleanCityRocketText.TM28NoRoomText",
+        "CeruleanCityRocketText.ReceivedTM28Text",
+        "_CeruleanCityRocketIBetterGetMovingText"
+      ],
+      "toggle": "CERULEANCITY_ROCKET",
+      "trainer": {
+        "class": "ROCKET",
+        "party": 5,
+        "sight": 0
+      },
+      "x": 30,
+      "y": 8
+    },
+    {
+      "facing": "down",
+      "id": "CERULEANCITY_COOLTRAINER_M",
+      "movement": "stay",
+      "sprite": "SPRITE_COOLTRAINER_M",
+      "text": "TEXT_CERULEANCITY_COOLTRAINER_M",
+      "text_handler": "CeruleanCityCooltrainerMText",
+      "text_id": "TEXT_CERULEANCITY_COOLTRAINER_M",
+      "texts": [
+        "CeruleanCityCooltrainerMText"
+      ],
+      "x": 31,
+      "y": 20
+    },
+    {
+      "facing": "up_down",
+      "id": "CERULEANCITY_SUPER_NERD1",
+      "movement": "walk",
+      "sprite": "SPRITE_SUPER_NERD",
+      "text": "TEXT_CERULEANCITY_SUPER_NERD1",
+      "text_handler": "CeruleanCitySuperNerd1Text",
+      "text_id": "TEXT_CERULEANCITY_SUPER_NERD1",
+      "texts": [
+        "CeruleanCitySuperNerd1Text"
+      ],
+      "x": 15,
+      "y": 18
+    },
+    {
+      "facing": "left_right",
+      "id": "CERULEANCITY_SUPER_NERD2",
+      "movement": "walk",
+      "sprite": "SPRITE_SUPER_NERD",
+      "text": "TEXT_CERULEANCITY_SUPER_NERD2",
+      "text_handler": "CeruleanCitySuperNerd2Text",
+      "text_id": "TEXT_CERULEANCITY_SUPER_NERD2",
+      "texts": [
+        "CeruleanCitySuperNerd2Text"
+      ],
+      "x": 9,
+      "y": 21
+    },
+    {
+      "facing": "down",
+      "hidden_at_start": true,
+      "id": "CERULEANCITY_GUARD1",
+      "movement": "stay",
+      "sprite": "SPRITE_OFFICER_JENNY",
+      "text": "TEXT_CERULEANCITY_GUARD1",
+      "text_handler": "CeruleanCityGuardText",
+      "text_id": "TEXT_CERULEANCITY_GUARD1",
+      "texts": [
+        "CeruleanCityGuardText"
+      ],
+      "toggle": "CERULEANCITY_GUARD1",
+      "x": 28,
+      "y": 12
+    },
+    {
+      "facing": "left",
+      "id": "CERULEANCITY_COOLTRAINER_F1",
+      "movement": "stay",
+      "sprite": "SPRITE_COOLTRAINER_F",
+      "text": "TEXT_CERULEANCITY_COOLTRAINER_F1",
+      "text_handler": "CeruleanCityCooltrainerF1Text",
+      "text_id": "TEXT_CERULEANCITY_COOLTRAINER_F1",
+      "texts": [
+        "CeruleanCityCooltrainerF1Text.ElectrodeUseSonicboomText",
+        "CeruleanCityCooltrainerF1Text.ElectrodePunchText",
+        "CeruleanCityCooltrainerF1Text.ElectrodeWithdrawText"
+      ],
+      "x": 29,
+      "y": 26
+    },
+    {
+      "facing": "down",
+      "id": "CERULEANCITY_ELECTRODE",
+      "movement": "stay",
+      "sprite": "SPRITE_POKE_BALL",
+      "text": "TEXT_CERULEANCITY_ELECTRODE",
+      "text_handler": "CeruleanCityElectrodeText",
+      "text_id": "TEXT_CERULEANCITY_ELECTRODE",
+      "texts": [
+        "CeruleanCityElectrodeText.TookASnoozeText",
+        "CeruleanCityElectrodeText.IsLoafingAroundText",
+        "CeruleanCityElectrodeText.TurnedAwayText",
+        "CeruleanCityElectrodeText.IgnoredOrdersText"
+      ],
+      "x": 28,
+      "y": 26
+    },
+    {
+      "facing": "left_right",
+      "id": "CERULEANCITY_COOLTRAINER_F2",
+      "movement": "walk",
+      "sprite": "SPRITE_COOLTRAINER_F",
+      "text": "TEXT_CERULEANCITY_COOLTRAINER_F2",
+      "text_handler": "CeruleanCityCooltrainerF2Text",
+      "text_id": "TEXT_CERULEANCITY_COOLTRAINER_F2",
+      "texts": [
+        "CeruleanCityCooltrainerF2Text"
+      ],
+      "x": 9,
+      "y": 27
+    },
+    {
+      "facing": "down",
+      "hidden_at_start": false,
+      "id": "CERULEANCITY_SUPER_NERD3",
+      "movement": "stay",
+      "sprite": "SPRITE_SUPER_NERD",
+      "text": "TEXT_CERULEANCITY_SUPER_NERD3",
+      "text_handler": "CeruleanCitySuperNerd3Text",
+      "text_id": "TEXT_CERULEANCITY_SUPER_NERD3",
+      "texts": [
+        "CeruleanCitySuperNerd3Text"
+      ],
+      "toggle": "CERULEANCITY_SUPER_NERD3",
+      "x": 4,
+      "y": 12
+    },
+    {
+      "facing": "down",
+      "hidden_at_start": false,
+      "id": "CERULEANCITY_GUARD2",
+      "movement": "stay",
+      "sprite": "SPRITE_OFFICER_JENNY",
+      "text": "TEXT_CERULEANCITY_GUARD2",
+      "text_handler": "CeruleanCityGuardText",
+      "text_id": "TEXT_CERULEANCITY_GUARD2",
+      "texts": [
+        "CeruleanCityGuardText"
+      ],
+      "toggle": "CERULEANCITY_GUARD2",
+      "x": 27,
+      "y": 12
+    }
+  ],
+  "origin": {
+    "x": 170,
+    "y": -198
+  },
+  "outdoor": true,
+  "palette": "PAL_CERULEAN",
+  "signs": [
+    {
+      "text": "TEXT_CERULEANCITY_SIGN",
+      "texts": [
+        "CeruleanCitySignText"
+      ],
+      "x": 23,
+      "y": 19
+    },
+    {
+      "text": "TEXT_CERULEANCITY_TRAINER_TIPS",
+      "texts": [
+        "CeruleanCityTrainerTipsText"
+      ],
+      "x": 17,
+      "y": 29
+    },
+    {
+      "text": "TEXT_CERULEANCITY_MART_SIGN",
+      "texts": [
+        "MartSignText"
+      ],
+      "x": 26,
+      "y": 25
+    },
+    {
+      "text": "TEXT_CERULEANCITY_POKECENTER_SIGN",
+      "texts": [
+        "PokeCenterSignText"
+      ],
+      "x": 20,
+      "y": 17
+    },
+    {
+      "text": "TEXT_CERULEANCITY_BIKESHOP_SIGN",
+      "texts": [
+        "CeruleanCityBikeShopSign"
+      ],
+      "x": 11,
+      "y": 25
+    },
+    {
+      "text": "TEXT_CERULEANCITY_GYM_SIGN",
+      "texts": [
+        "CeruleanCityGymSign"
+      ],
+      "x": 27,
+      "y": 21
+    }
+  ],
+  "source": {
+    "blocks": "maps/CeruleanCity.blk",
+    "header": "data/maps/headers/CeruleanCity.asm",
+    "objects": "data/maps/objects/CeruleanCity.asm",
+    "script": "scripts/CeruleanCity.asm"
+  },
+  "tiles": [
+    "##############wwwww#..#...#wwwwwwwwwwwww",
+    "##############wwwww#..#...#wwwwwwwwwwwww",
+    "##############wwwww#..#...#wwwwwwwwwwwww",
+    "##############wwwww#..##vv#wwwwwwwwwwwww",
+    "######wwwwwwwwwwwww#..#...#wwwwwwwwwwwww",
+    "######wwwwwwwwwwwww#..#...#wwwwwwwwwwwww",
+    "######w#############..#..##############.",
+    "######w#...........#..#..#........#####.",
+    "######w#...........#..#..#........#####.",
+    "######w#.d.........#..#..#.d......#####.",
+    "######w#############......######..######",
+    "####d#w##d##########......#d####..######",
+    "......w#........................#.....#.",
+    "......w#........................#.....#.",
+    "wwwwwww#....##########..........#.....#.",
+    "wwwwwww#.vvv#d########..........#.....##",
+    "wwwwwww#..........####..########........",
+    "########..........#d##vv########........",
+    "........................########......##",
+    ".......................#######d#vvv..v#.",
+    "#####..............................#..#.",
+    "....#......................#.......#..#.",
+    "....#.......####........####.......#..#.",
+    "....#.......####........####.......#..#.",
+    "....#.......####..################.#..#.",
+    "....#.....###d##..#######d########.#..#.",
+    "....#..............................#..#.",
+    "....#..............................#..#.",
+    "....############..#x################..#.",
+    "....#..........####...................#.",
+    "....#.................................#.",
+    "....#.................................#.",
+    "....#.....#....#........#....#........#.",
+    "....#######....#vvvvvvvv#....##########.",
+    "..........#....#........#....#..........",
+    "..........#....#........#....#.........."
+  ],
+  "tileset": "OVERWORLD",
+  "warps": [
+    {
+      "door": true,
+      "to_map": "CERULEAN_TRASHED_HOUSE",
+      "to_warp": 1,
+      "x": 27,
+      "y": 11
+    },
+    {
+      "door": true,
+      "to_map": "CERULEAN_MELANIES_HOUSE",
+      "to_warp": 1,
+      "x": 13,
+      "y": 15
+    },
+    {
+      "door": true,
+      "to_map": "CERULEAN_POKECENTER",
+      "to_warp": 1,
+      "x": 19,
+      "y": 17
+    },
+    {
+      "door": true,
+      "to_map": "CERULEAN_GYM",
+      "to_warp": 1,
+      "x": 30,
+      "y": 19
+    },
+    {
+      "door": true,
+      "to_map": "BIKE_SHOP",
+      "to_warp": 1,
+      "x": 13,
+      "y": 25
+    },
+    {
+      "door": true,
+      "to_map": "CERULEAN_MART",
+      "to_warp": 1,
+      "x": 25,
+      "y": 25
+    },
+    {
+      "door": true,
+      "out_of_scope": true,
+      "to_map": "CERULEAN_CAVE_1F",
+      "to_warp": 1,
+      "x": 4,
+      "y": 11
+    },
+    {
+      "to_map": "CERULEAN_TRASHED_HOUSE",
+      "to_warp": 3,
+      "x": 27,
+      "y": 9
+    },
+    {
+      "door": true,
+      "to_map": "CERULEAN_BADGE_HOUSE",
+      "to_warp": 2,
+      "x": 9,
+      "y": 11
+    },
+    {
+      "to_map": "CERULEAN_BADGE_HOUSE",
+      "to_warp": 1,
+      "x": 9,
+      "y": 9
+    }
+  ],
+  "width": 40
+}

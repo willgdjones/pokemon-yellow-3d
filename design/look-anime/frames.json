@@ -1,0 +1,87 @@
+{
+  "pallet-town": {
+    "frame": "targets/pallet-town.png",
+    "m4": "sources/pallet-town.png",
+    "notes": "1990s Pokemon TV anime as a live 3D game: hand-painted textures with ink detail lines on every surface (brick courses, cobbles, wood grain, roof tiles, rock), clean dark outlines, hard two-tone cel shadows, a colour grade per area. Shapes, layout, characters' and Pokemon's colours and the HUD stay as the game has them. Sunny late morning, clear daylight; the big house keeps its slate-blue tiled roof, the small one red; white plank walls."
+  },
+  "route-1": {
+    "frame": "targets/route-1.png",
+    "m4": "sources/route-1.png",
+    "notes": "1990s Pokemon TV anime as a live 3D game: hand-painted textures with ink detail lines on every surface (brick courses, cobbles, wood grain, roof tiles, rock), clean dark outlines, hard two-tone cel shadows, a colour grade per area. Shapes, layout, characters' and Pokemon's colours and the HUD stay as the game has them. Warm afternoon, painted grass with blade strokes, shaded tree rows, sandy paths."
+  },
+  "viridian-city": {
+    "frame": "targets/viridian-city.png",
+    "m4": "sources/viridian-city.png",
+    "notes": "1990s Pokemon TV anime as a live 3D game: hand-painted textures with ink detail lines on every surface (brick courses, cobbles, wood grain, roof tiles, rock), clean dark outlines, hard two-tone cel shadows, a colour grade per area. Shapes, layout, characters' and Pokemon's colours and the HUD stay as the game has them. Warm afternoon town light, painted paths and lawns, the Mart and Centre roofs keep their colours."
+  },
+  "viridian-forest": {
+    "frame": "targets/viridian-forest.png",
+    "m4": "sources/viridian-forest.png",
+    "notes": "1990s Pokemon TV anime as a live 3D game: hand-painted textures with ink detail lines on every surface (brick courses, cobbles, wood grain, roof tiles, rock), clean dark outlines, hard two-tone cel shadows, a colour grade per area. Shapes, layout, characters' and Pokemon's colours and the HUD stay as the game has them. Dense forest in dappled green shade with sunbeams through the canopy; cool shadows."
+  },
+  "pewter-city": {
+    "frame": "targets/pewter-city.png",
+    "m4": "sources/pewter-city.png",
+    "notes": "1990s Pokemon TV anime as a live 3D game: hand-painted textures with ink detail lines on every surface (brick courses, cobbles, wood grain, roof tiles, rock), clean dark outlines, hard two-tone cel shadows, a colour grade per area. Shapes, layout, characters' and Pokemon's colours and the HUD stay as the game has them. Warm stone town: sandstone brick walls with drawn mortar, cobbled paths, clear light."
+  },
+  "mt-moon": {
+    "frame": "targets/mt-moon.png",
+    "m4": "sources/mt-moon.png",
+    "notes": "1990s Pokemon TV anime as a live 3D game: hand-painted textures with ink detail lines on every surface (brick courses, cobbles, wood grain, roof tiles, rock), clean dark outlines, hard two-tone cel shadows, a colour grade per area. Shapes, layout, characters' and Pokemon's colours and the HUD stay as the game has them. Dark rocky cave: rough blue-grey rock walls and ledges, gravel floor, cool dim light with a glow around the player. No wood."
+  },
+  "cerulean-city": {
+    "frame": "targets/cerulean-city.png",
+    "m4": "sources/cerulean-city.png",
+    "notes": "1990s Pokemon TV anime as a live 3D game: hand-painted textures with ink detail lines on every surface (brick courses, cobbles, wood grain, roof tiles, rock), clean dark outlines, hard two-tone cel shadows, a colour grade per area. Shapes, layout, characters' and Pokemon's colours and the HUD stay as the game has them. Bright watery town, painted canal water, teal roofs, afternoon light."
+  },
+  "pokemon-centre": {
+    "frame": "targets/pokemon-centre.png",
+    "m4": "sources/pokemon-centre.png",
+    "notes": "1990s Pokemon TV anime as a live 3D game: hand-painted textures with ink detail lines on every surface (brick courses, cobbles, wood grain, roof tiles, rock), clean dark outlines, hard two-tone cel shadows, a colour grade per area. Shapes, layout, characters' and Pokemon's colours and the HUD stay as the game has them. Bright clean interior, soft white light, pale pink and cream tiles."
+  },
+  "mart": {
+    "frame": "targets/mart.png",
+    "m4": "sources/mart.png",
+    "notes": "1990s Pokemon TV anime as a live 3D game: hand-painted textures with ink detail lines on every surface (brick courses, cobbles, wood grain, roof tiles, rock), clean dark outlines, hard two-tone cel shadows, a colour grade per area. Shapes, layout, characters' and Pokemon's colours and the HUD stay as the game has them. Bright shop interior, soft white light, pale blue and cream tiles."
+  },
+  "oaks-lab": {
+    "frame": "targets/oaks-lab.png",
+    "m4": "sources/oaks-lab.png",
+    "notes": "1990s Pokemon TV anime as a live 3D game: hand-painted textures with ink detail lines on every surface (brick courses, cobbles, wood grain, roof tiles, rock), clean dark outlines, hard two-tone cel shadows, a colour grade per area. Shapes, layout, characters' and Pokemon's colours and the HUD stay as the game has them. Bright clean lab, soft white light, pale walls and light wood floor."
+  },
+  "characters": {
+    "frame": "targets/characters.png",
+    "m4": "sources/characters.png",
+    "notes": "1990s Pokemon TV anime as a live 3D game: hand-painted textures with ink detail lines on every surface (brick courses, cobbles, wood grain, roof tiles, rock), clean dark outlines, hard two-tone cel shadows, a colour grade per area. Shapes, layout, characters' and Pokemon's colours and the HUD stay as the game has them. Town lineup: each character keeps their colours; cel-shaded with outlines."
+  },
+  "ui": {
+    "frame": "targets/ui.png",
+    "m4": "sources/ui.png",
+    "notes": "1990s Pokemon TV anime as a live 3D game: hand-painted textures with ink detail lines on every surface (brick courses, cobbles, wood grain, roof tiles, rock), clean dark outlines, hard two-tone cel shadows, a colour grade per area. Shapes, layout, characters' and Pokemon's colours and the HUD stay as the game has them. The start menu over Pallet Town; the menu itself is unchanged and readable."
+  },
+  "cutscene-oak": {
+    "frame": "targets/cutscene-oak.png",
+    "m4": "sources/cutscene-oak.png",
+    "notes": "1990s Pokemon TV anime as a live 3D game: hand-painted textures with ink detail lines on every surface (brick courses, cobbles, wood grain, roof tiles, rock), clean dark outlines, hard two-tone cel shadows, a colour grade per area. Shapes, layout, characters' and Pokemon's colours and the HUD stay as the game has them. Oak stops Red at the town edge; warm light, the dialogue box unchanged."
+  },
+  "pewter-gym-battle": {
+    "frame": "targets/pewter-gym-battle.png",
+    "m4": "sources/pewter-gym-battle.png",
+    "notes": "1990s Pokemon TV anime as a live 3D game: hand-painted textures with ink detail lines on every surface (brick courses, cobbles, wood grain, roof tiles, rock), clean dark outlines, hard two-tone cel shadows, a colour grade per area. Shapes, layout, characters' and Pokemon's colours and the HUD stay as the game has them. Brock's gym under a cool skylight: Onix and the boulders stay slate grey, sandstone arena floor."
+  },
+  "brock-battle": {
+    "frame": "targets/brock-battle.png",
+    "m4": "sources/brock-battle.png",
+    "notes": "1990s Pokemon TV anime as a live 3D game: hand-painted textures with ink detail lines on every surface (brick courses, cobbles, wood grain, roof tiles, rock), clean dark outlines, hard two-tone cel shadows, a colour grade per area. Shapes, layout, characters' and Pokemon's colours and the HUD stay as the game has them. Brock's gym under a cool skylight: Onix and the boulders stay slate grey, sandstone arena floor."
+  },
+  "route1-battle-stage": {
+    "frame": "targets/route1-battle-stage.png",
+    "m4": "sources/route1-battle-stage.png",
+    "notes": "1990s Pokemon TV anime as a live 3D game: hand-painted textures with ink detail lines on every surface (brick courses, cobbles, wood grain, roof tiles, rock), clean dark outlines, hard two-tone cel shadows, a colour grade per area. Shapes, layout, characters' and Pokemon's colours and the HUD stay as the game has them. The Route 1 battle ring in warm afternoon light, painted grass and stone ring."
+  },
+  "pewter-gym-room": {
+    "frame": "targets/pewter-gym-room.png",
+    "m4": null,
+    "notes": "1990s Pokemon TV anime as a live 3D game: hand-painted textures with ink detail lines on every surface, clean dark outlines, hard two-tone cel shadows, a colour grade per area. Shapes, layout, characters' colours and the HUD stay as the game has them. Brock's gym room under a cool skylight: rough grey stone walls with drawn cracks, warm sandstone flagstone floor, grey granite blocks, the Onix statues grey stone."
+  }
+}

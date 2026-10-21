@@ -1,0 +1,202 @@
+{
+  "palette": [
+    "#ffd733",
+    "#e3342f",
+    "#6ec6f0",
+    "#5cb85c",
+    "#fff4d6",
+    "#1f1f2e"
+  ],
+  "camera": "Follows Red on the road. In battle it sweeps low as the ring forms, then rises without a cut to a high three-quarter view from Red's side, 55 degrees down, keeping the whole ring, Red and every shadow in view. It never spins; leaves in the way fade.",
+  "ui": [
+    {
+      "id": "battle-hud",
+      "caption": "Both Pokemon's names, levels and draining HP bars, four move icons with emptying cooldown rings, the dodge pip, the swap timer and the Potion count"
+    },
+    {
+      "id": "battle-caption",
+      "caption": "A bold anime-style caption across the ring reading It's super effective! or It doesn't affect Geodude..."
+    },
+    {
+      "id": "catch-aim",
+      "caption": "Red winding up a Poke Ball throw, with the red-yellow-green catch meter circling the wild Pokemon"
+    },
+    {
+      "id": "party-wheel",
+      "caption": "A radial wheel of the six party Pokemon with HP, a runner, flier or crawler body icon, the 30-second swap cooldown and a lock on the active one"
+    },
+    {
+      "id": "move-loadout",
+      "caption": "A Pokemon learning a fifth move and choosing which of its four current moves to forget, with type and cooldown shown"
+    },
+    {
+      "id": "pokedex",
+      "caption": "Oak's Pokedex: seen and caught Pokemon with their number, type, height, body family and the routes where they live"
+    },
+    {
+      "id": "pikachu-bond",
+      "caption": "Pikachu's face when Red talks to it, happy, content or grumpy, with its friendship level and the battle ability unlocked"
+    },
+    {
+      "id": "world-map",
+      "caption": "The Town Map of Kanto with towns, routes and Red's position, in flat anime colours"
+    },
+    {
+      "id": "poke-mart",
+      "caption": "The Viridian Poke Mart counter with Poke Balls at 200 and Potions at 300, and Red's money"
+    },
+    {
+      "id": "dialogue-box",
+      "caption": "A speech box with the speaker's name and Yellow's line, over the scene"
+    }
+  ],
+  "music": [
+    {
+      "id": "pallet-town",
+      "mood": "home, gentle, hopeful",
+      "prompt": "Warm acoustic folk: fingerpicked guitar, tin whistle and soft accordion, 84 BPM, a gentle arrangement of the Pokemon Yellow Pallet Town melody, morning at home"
+    },
+    {
+      "id": "oaks-lab",
+      "mood": "curious, bright",
+      "prompt": "Light folk trio: plucked guitar, accordion and glockenspiel, 104 BPM, the Yellow Oak's Lab melody, a room full of new beginnings"
+    },
+    {
+      "id": "route-1",
+      "mood": "setting out, bright",
+      "prompt": "Bright road folk band: strummed guitar, tin whistle lead, accordion and upright bass, 116 BPM, the Yellow Route 1 melody with a walking step, written so a drum and fiddle battle layer in the same key and tempo can join it"
+    },
+    {
+      "id": "viridian-city",
+      "mood": "busy, friendly",
+      "prompt": "Cheerful folk: guitar, accordion, tin whistle and hand percussion, 112 BPM, the Yellow Viridian and Pewter town melody, a small town going about its day"
+    },
+    {
+      "id": "viridian-forest",
+      "mood": "dim, curious, a little tense",
+      "prompt": "Hushed folk: guitar harmonics, low whistle, soft accordion drones and wooden clicks, 96 BPM, the Yellow Viridian Forest melody under dappled green light, written so a drum and fiddle battle layer can join it"
+    },
+    {
+      "id": "wild-battle",
+      "mood": "sudden, energetic",
+      "prompt": "The battle layer that joins whichever route theme is playing as a ring forms: driving bodhran and frame drum, foot stomps and a racing fiddle quoting the Yellow wild battle theme, in the same key and tempo so it enters without a cut"
+    },
+    {
+      "id": "trainer-battle",
+      "mood": "focused, competitive",
+      "prompt": "Folk band with two fiddles, accordion, bodhran and stomps, 150 BPM, the Yellow trainer battle theme as a fast reel"
+    },
+    {
+      "id": "rival-theme",
+      "mood": "cocky, pushy",
+      "prompt": "Swaggering folk: accordion and fiddle trading the Yellow rival melody over strummed guitar and snare, 128 BPM, a smug grin in music"
+    },
+    {
+      "id": "gym-battle",
+      "mood": "high stakes, heroic",
+      "prompt": "The whole folk band at full tilt: two fiddles, accordion, tin whistle, bodhran, stomps and hand claps, 160 BPM, a heroic reel on the Yellow gym leader theme"
+    },
+    {
+      "id": "pokemon-centre",
+      "mood": "safe, restful",
+      "prompt": "A soft accordion waltz on the Yellow Pokemon Centre melody, with brushed guitar and a music box, 90 BPM, warm and sleepy"
+    },
+    {
+      "id": "victory",
+      "mood": "triumphant, short",
+      "prompt": "A bright folk fanfare on the Yellow victory jingle: fiddle, whistle and accordion with a final stomp, 8 seconds"
+    }
+  ],
+  "sfx": [
+    {
+      "id": "grass-rustle",
+      "prompt": "Tall grass swishing and parting as something small moves through it"
+    },
+    {
+      "id": "ring-forms",
+      "prompt": "A low rush of wind flattening grass outward, a rising hum as the view lifts, then a drum roll and fiddle pickup as the ring settles and the world dims"
+    },
+    {
+      "id": "battle-return",
+      "prompt": "A soft shimmer as colour floods back, grass springing upright and birdsong returning as the drums fall away"
+    },
+    {
+      "id": "dodge-dash",
+      "prompt": "A quick anime air swish with a faint sparkle for a perfect dodge"
+    },
+    {
+      "id": "flier-dodge",
+      "prompt": "A strong double wingbeat and a long whoosh of air as a bird darts sideways"
+    },
+    {
+      "id": "crawler-tuck",
+      "prompt": "A soft squishy tuck and a quick rustle as a small bug curls up tight"
+    },
+    {
+      "id": "flier-grounded",
+      "prompt": "A startled squawk, a flurry of feathers and a light thump on the ground"
+    },
+    {
+      "id": "hit-impact",
+      "prompt": "A heavy, punchy anime impact thump with a short crunch, cut off sharply to match a brief freeze frame"
+    },
+    {
+      "id": "thundershock",
+      "prompt": "A sharp electric crackle and snap, bright and short"
+    },
+    {
+      "id": "no-effect",
+      "prompt": "A dull fizzle and a hollow thunk as an attack does nothing"
+    },
+    {
+      "id": "cooldown-ready",
+      "prompt": "A small soft chime as a move comes off cooldown"
+    },
+    {
+      "id": "swap-call",
+      "prompt": "A Poke Ball popping open with a red-light zip and a thud as the Pokemon lands"
+    },
+    {
+      "id": "potion-spray",
+      "prompt": "A fizzy aerosol hiss followed by a gentle healing shimmer"
+    },
+    {
+      "id": "ball-throw",
+      "prompt": "A wind-up grunt, a whistle through the air and a metallic snap shut"
+    },
+    {
+      "id": "ball-wobble",
+      "prompt": "Three tense clicking wobbles, then a bright ding for a catch or a pop for a break-out"
+    },
+    {
+      "id": "pikachu-cry",
+      "prompt": "A short cheerful Pika-pi voice cry, playful and bright"
+    },
+    {
+      "id": "trainer-spot",
+      "prompt": "A sharp exclamation sting as a trainer notices you"
+    },
+    {
+      "id": "bide-release",
+      "prompt": "A rising orange hum that builds for three seconds, then a deep boom and a rolling shockwave of rock"
+    },
+    {
+      "id": "level-up",
+      "prompt": "A quick bright rising arpeggio, like Yellow's level-up jingle"
+    },
+    {
+      "id": "blackout-fade",
+      "prompt": "The music draining to one held accordion note, a slow heartbeat, then silence and a gentle Pokemon Centre chime"
+    },
+    {
+      "id": "old-man-grumble",
+      "prompt": "A grumpy old man's low harrumph and the creak of him shifting on the ground"
+    }
+  ],
+  "version": 1,
+  "style": {
+    "file": "concepts/style-2.png",
+    "sha256": "e01deb443c88e5d345cfecee731f1b9fd23b388a36370d1efe6d697d3996186f",
+    "notes": "the original 1990s Pokemon TV anime as approved on 7 Oct 2026 (design/look-anime/targets): hand-painted textured surfaces with drawn ink detail (brick courses, cobbles, stone, wood grain on posts and planks, roof tiles, blade-drawn grass, leafy painted tree crowns), dark ink outlines, hard two-tone cel shadows, and a light and colour grade per area (warm afternoon outdoors, dappled green with sunbeams in forests, cool blue-grey in caves, bright soft light indoors). Painted texture and brushwork are part of the style, not noise; flat untextured fills now read as unfinished. Bright saturated colours, friendly rounded shapes, painted-background skies with white cartoon clouds"
+  }
+}

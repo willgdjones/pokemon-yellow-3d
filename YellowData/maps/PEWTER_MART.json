@@ -1,0 +1,123 @@
+{
+  "blocked_edges": [],
+  "border_block": 0,
+  "cave": false,
+  "connections": {},
+  "encounter_rate": 0,
+  "height": 8,
+  "hidden": [],
+  "hidden_events": [],
+  "id": "PEWTER_MART",
+  "items": [],
+  "label": "PewterMart",
+  "looks": [
+    "llbbbbll",
+    "bbbbbbbb",
+    "kkoooooo",
+    "bboobbbb",
+    "Bkoobbbb",
+    "okoooooo",
+    "kkoooooo",
+    "ooommooo"
+  ],
+  "looks_unknown": 0,
+  "music": "pokecenter",
+  "name": "Pewter Mart",
+  "npcs": [
+    {
+      "facing": "right",
+      "id": "PEWTERMART_CLERK",
+      "movement": "stay",
+      "script": "script_mart",
+      "sprite": "SPRITE_CLERK",
+      "text": "TEXT_PEWTERMART_CLERK",
+      "text_handler": "PewterMartClerkText",
+      "text_id": "TEXT_PEWTERMART_CLERK",
+      "texts": [
+        "PokemartGreetingText",
+        "PokemartBuyingGreetingText",
+        "PokemartTellBuyPriceText",
+        "PokemartBoughtItemText",
+        "PokemartNotEnoughMoneyText",
+        "PokemartItemBagFullText",
+        "PokemonSellingGreetingText",
+        "PokemartTellSellPriceText",
+        "PokemartItemBagEmptyText",
+        "PokemartUnsellableItemText",
+        "PokemartThankYouText",
+        "PokemartAnythingElseText"
+      ],
+      "x": 0,
+      "y": 5
+    },
+    {
+      "facing": "up_down",
+      "id": "PEWTERMART_YOUNGSTER",
+      "movement": "walk",
+      "sprite": "SPRITE_YOUNGSTER",
+      "text": "TEXT_PEWTERMART_YOUNGSTER",
+      "text_handler": "PewterMartYoungsterText",
+      "text_id": "TEXT_PEWTERMART_YOUNGSTER",
+      "texts": [
+        "PewterMartYoungsterText.Text"
+      ],
+      "x": 3,
+      "y": 3
+    },
+    {
+      "facing": "none",
+      "id": "PEWTERMART_SUPER_NERD",
+      "movement": "stay",
+      "sprite": "SPRITE_SUPER_NERD",
+      "text": "TEXT_PEWTERMART_SUPER_NERD",
+      "text_handler": "PewterMartSuperNerdText",
+      "text_id": "TEXT_PEWTERMART_SUPER_NERD",
+      "texts": [
+        "PewterMartSuperNerdText.Text"
+      ],
+      "x": 5,
+      "y": 5
+    }
+  ],
+  "origin": {
+    "x": 38,
+    "y": 1086
+  },
+  "outdoor": false,
+  "palette": "PAL_PEWTER",
+  "signs": [],
+  "source": {
+    "blocks": "maps/PewterMart.blk",
+    "header": "data/maps/headers/PewterMart.asm",
+    "objects": "data/maps/objects/PewterMart.asm",
+    "script": "scripts/PewterMart.asm"
+  },
+  "tiles": [
+    "########",
+    "########",
+    "==......",
+    "##..####",
+    "##..####",
+    ".=......",
+    "==......",
+    "...dd..."
+  ],
+  "tileset": "MART",
+  "warps": [
+    {
+      "last_map": true,
+      "to_map": "PEWTER_CITY",
+      "to_warp": 5,
+      "x": 3,
+      "y": 7
+    },
+    {
+      "last_map": true,
+      "to_map": "PEWTER_CITY",
+      "to_warp": 5,
+      "x": 4,
+      "y": 7
+    }
+  ],
+  "width": 8
+}

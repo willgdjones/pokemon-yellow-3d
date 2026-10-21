@@ -1,0 +1,125 @@
+{
+  "blocked_edges": [],
+  "border_block": 10,
+  "cave": false,
+  "connections": {},
+  "encounter_rate": 0,
+  "height": 8,
+  "hidden": [],
+  "hidden_events": [],
+  "id": "VIRIDIAN_NICKNAME_HOUSE",
+  "items": [],
+  "label": "ViridianNicknameHouse",
+  "looks": [
+    "ttBlBnBt",
+    "bbooooob",
+    "oooooooo",
+    "oottttoo",
+    "oottttoo",
+    "oooooooo",
+    "hooooooh",
+    "hommoooh"
+  ],
+  "looks_unknown": 0,
+  "music": "cities1",
+  "name": "Viridian Nickname House",
+  "npcs": [
+    {
+      "facing": "none",
+      "id": "VIRIDIANNICKNAMEHOUSE_BALDING_GUY",
+      "movement": "stay",
+      "sprite": "SPRITE_BALDING_GUY",
+      "text": "TEXT_VIRIDIANNICKNAMEHOUSE_BALDING_GUY",
+      "text_handler": "ViridianNicknameHouseBaldingGuyText",
+      "text_id": "TEXT_VIRIDIANNICKNAMEHOUSE_BALDING_GUY",
+      "texts": [
+        "ViridianNicknameHouseBaldingGuyText"
+      ],
+      "x": 5,
+      "y": 3
+    },
+    {
+      "facing": "up_down",
+      "id": "VIRIDIANNICKNAMEHOUSE_LITTLE_GIRL",
+      "movement": "walk",
+      "sprite": "SPRITE_LITTLE_GIRL",
+      "text": "TEXT_VIRIDIANNICKNAMEHOUSE_LITTLE_GIRL",
+      "text_handler": "ViridianNicknameHouseLittleGirlText",
+      "text_id": "TEXT_VIRIDIANNICKNAMEHOUSE_LITTLE_GIRL",
+      "texts": [
+        "ViridianNicknameHouseLittleGirlText"
+      ],
+      "x": 1,
+      "y": 4
+    },
+    {
+      "facing": "left_right",
+      "id": "VIRIDIANNICKNAMEHOUSE_SPEAROW",
+      "movement": "walk",
+      "sprite": "SPRITE_BIRD",
+      "text": "TEXT_VIRIDIANNICKNAMEHOUSE_SPEAROW",
+      "text_handler": "ViridianNicknameHouseSpearowText",
+      "text_id": "TEXT_VIRIDIANNICKNAMEHOUSE_SPEAROW",
+      "texts": [
+        "ViridianNicknameHouseSpearowText.Text"
+      ],
+      "x": 5,
+      "y": 5
+    },
+    {
+      "facing": "none",
+      "id": "VIRIDIANNICKNAMEHOUSE_SPEARY_SIGN",
+      "movement": "stay",
+      "sprite": "SPRITE_CLIPBOARD",
+      "text": "TEXT_VIRIDIANNICKNAMEHOUSE_SPEARY_SIGN",
+      "text_handler": "ViridianNicknameHouseSpearySignText",
+      "text_id": "TEXT_VIRIDIANNICKNAMEHOUSE_SPEARY_SIGN",
+      "texts": [
+        "ViridianNicknameHouseSpearySignText"
+      ],
+      "x": 4,
+      "y": 0
+    }
+  ],
+  "origin": {
+    "x": 134,
+    "y": 1000
+  },
+  "outdoor": false,
+  "palette": "PAL_VIRIDIAN",
+  "signs": [],
+  "source": {
+    "blocks": "maps/ViridianNicknameHouse.blk",
+    "header": "data/maps/headers/ViridianNicknameHouse.asm",
+    "objects": "data/maps/objects/ViridianNicknameHouse.asm",
+    "script": "scripts/ViridianNicknameHouse.asm"
+  },
+  "tiles": [
+    "########",
+    "##.....#",
+    "........",
+    "...##...",
+    "...##...",
+    "........",
+    "#......#",
+    "#.dd...#"
+  ],
+  "tileset": "HOUSE",
+  "warps": [
+    {
+      "last_map": true,
+      "to_map": "VIRIDIAN_CITY",
+      "to_warp": 4,
+      "x": 2,
+      "y": 7
+    },
+    {
+      "last_map": true,
+      "to_map": "VIRIDIAN_CITY",
+      "to_warp": 4,
+      "x": 3,
+      "y": 7
+    }
+  ],
+  "width": 8
+}

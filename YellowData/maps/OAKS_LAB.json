@@ -1,0 +1,256 @@
+{
+  "blocked_edges": [],
+  "border_block": 3,
+  "cave": false,
+  "connections": {},
+  "encounter_rate": 0,
+  "height": 12,
+  "hidden": [],
+  "hidden_events": [
+    {
+      "arg": "SPRITE_FACING_UP",
+      "kind": "DisplayOakLabLeftPoster",
+      "x": 4,
+      "y": 0
+    },
+    {
+      "arg": "SPRITE_FACING_UP",
+      "kind": "DisplayOakLabRightPoster",
+      "x": 5,
+      "y": 0
+    },
+    {
+      "arg": "SPRITE_FACING_UP",
+      "kind": "DisplayOakLabEmailText",
+      "x": 0,
+      "y": 1
+    },
+    {
+      "arg": "SPRITE_FACING_UP",
+      "kind": "DisplayOakLabEmailText",
+      "x": 1,
+      "y": 1
+    }
+  ],
+  "id": "OAKS_LAB",
+  "items": [],
+  "label": "OaksLab",
+  "looks": [
+    "BBBBlltttt",
+    "PPttoobbbb",
+    "oooooooooo",
+    "oooooottth",
+    "oooooooooo",
+    "oooooooooo",
+    "ttttootttt",
+    "bbbboobbbb",
+    "oooooooooo",
+    "oooooooooo",
+    "oooooooooo",
+    "oooommoooo"
+  ],
+  "looks_unknown": 0,
+  "music": "oaks_lab",
+  "name": "Oaks Lab",
+  "npcs": [
+    {
+      "facing": "none",
+      "hidden_at_start": false,
+      "id": "OAKSLAB_RIVAL",
+      "movement": "stay",
+      "sprite": "SPRITE_BLUE",
+      "text": "TEXT_OAKSLAB_RIVAL",
+      "text_handler": "OaksLabRivalText",
+      "text_id": "TEXT_OAKSLAB_RIVAL",
+      "texts": [
+        "OaksLabRivalText.GrampsIsntAroundText",
+        "OaksLabRivalText.IllGetABetterPokemonThanYou",
+        "OaksLabRivalText.MyPokemonLooksStrongerText"
+      ],
+      "toggle": "OAKSLAB_RIVAL",
+      "trainer": {
+        "class": "RIVAL1",
+        "party": 1,
+        "sight": 0
+      },
+      "x": 4,
+      "y": 3
+    },
+    {
+      "facing": "none",
+      "hidden_at_start": false,
+      "id": "OAKSLAB_EEVEE_POKE_BALL",
+      "movement": "stay",
+      "sprite": "SPRITE_POKE_BALL",
+      "text": "TEXT_OAKSLAB_EEVEE_POKE_BALL",
+      "text_handler": "OaksLabEeveePokeBallText",
+      "text_id": "TEXT_OAKSLAB_EEVEE_POKE_BALL",
+      "texts": [
+        "OaksLabEeveePokeBallText.Text"
+      ],
+      "toggle": "OAKSLAB_EEVEE_POKE_BALL",
+      "x": 7,
+      "y": 3
+    },
+    {
+      "facing": "down",
+      "hidden_at_start": true,
+      "id": "OAKSLAB_OAK1",
+      "movement": "stay",
+      "sprite": "SPRITE_OAK",
+      "text": "TEXT_OAKSLAB_OAK1",
+      "text_handler": "OaksLabOak1Text",
+      "text_id": "TEXT_OAKSLAB_OAK1",
+      "texts": [
+        "OaksLabOak1Text.HowIsYourPokedexComingText",
+        "OaksLabOak1Text.GoAheadItsYours",
+        "OaksLabOak1Text.YourPokemonCanFightText",
+        "OaksLabOak1Text.YouShouldTalkToIt",
+        "OaksLabOak1Text.DeliverParcelText",
+        "OaksLabOak1Text.PokemonAroundTheWorldText",
+        "OaksLabOak1Text.GivePokeballsText",
+        "OaksLabOak1Text.ComeSeeMeSometimesText",
+        "_OaksLabOak1ParcelThanksText",
+        "_OaksLabGivePokeballsExplanationText"
+      ],
+      "toggle": "OAKSLAB_OAK1",
+      "x": 5,
+      "y": 2
+    },
+    {
+      "facing": "none",
+      "hidden_at_start": false,
+      "id": "OAKSLAB_POKEDEX1",
+      "movement": "stay",
+      "sprite": "SPRITE_POKEDEX",
+      "text": "TEXT_OAKSLAB_POKEDEX1",
+      "text_handler": "OaksLabPokedexText",
+      "text_id": "TEXT_OAKSLAB_POKEDEX1",
+      "texts": [
+        "OaksLabPokedexText.Text"
+      ],
+      "toggle": "OAKSLAB_POKEDEX1",
+      "x": 2,
+      "y": 1
+    },
+    {
+      "facing": "none",
+      "hidden_at_start": false,
+      "id": "OAKSLAB_POKEDEX2",
+      "movement": "stay",
+      "sprite": "SPRITE_POKEDEX",
+      "text": "TEXT_OAKSLAB_POKEDEX2",
+      "text_handler": "OaksLabPokedexText",
+      "text_id": "TEXT_OAKSLAB_POKEDEX2",
+      "texts": [
+        "OaksLabPokedexText.Text"
+      ],
+      "toggle": "OAKSLAB_POKEDEX2",
+      "x": 3,
+      "y": 1
+    },
+    {
+      "facing": "up",
+      "hidden_at_start": true,
+      "id": "OAKSLAB_OAK2",
+      "movement": "stay",
+      "sprite": "SPRITE_OAK",
+      "text": "TEXT_OAKSLAB_OAK2",
+      "text_handler": "OaksLabOak2Text",
+      "text_id": "TEXT_OAKSLAB_OAK2",
+      "texts": [
+        "OaksLabOak2Text"
+      ],
+      "toggle": "OAKSLAB_OAK2",
+      "x": 5,
+      "y": 10
+    },
+    {
+      "facing": "up_down",
+      "id": "OAKSLAB_GIRL",
+      "movement": "walk",
+      "sprite": "SPRITE_GIRL",
+      "text": "TEXT_OAKSLAB_GIRL",
+      "text_handler": "OaksLabGirlText",
+      "text_id": "TEXT_OAKSLAB_GIRL",
+      "texts": [
+        "OaksLabGirlText.Text"
+      ],
+      "x": 1,
+      "y": 9
+    },
+    {
+      "facing": "none",
+      "id": "OAKSLAB_SCIENTIST1",
+      "movement": "stay",
+      "sprite": "SPRITE_SCIENTIST",
+      "text": "TEXT_OAKSLAB_SCIENTIST1",
+      "text_handler": "OaksLabScientistText",
+      "text_id": "TEXT_OAKSLAB_SCIENTIST1",
+      "texts": [
+        "OaksLabScientistText.Text"
+      ],
+      "x": 2,
+      "y": 10
+    },
+    {
+      "facing": "none",
+      "id": "OAKSLAB_SCIENTIST2",
+      "movement": "stay",
+      "sprite": "SPRITE_SCIENTIST",
+      "text": "TEXT_OAKSLAB_SCIENTIST2",
+      "text_handler": "OaksLabScientistText",
+      "text_id": "TEXT_OAKSLAB_SCIENTIST2",
+      "texts": [
+        "OaksLabScientistText.Text"
+      ],
+      "x": 8,
+      "y": 10
+    }
+  ],
+  "origin": {
+    "x": 54,
+    "y": 1000
+  },
+  "outdoor": false,
+  "palette": "PAL_PALLET",
+  "signs": [],
+  "source": {
+    "blocks": "maps/OaksLab.blk",
+    "header": "data/maps/headers/OaksLab.asm",
+    "objects": "data/maps/objects/OaksLab.asm",
+    "script": "scripts/OaksLab.asm"
+  },
+  "tiles": [
+    "##########",
+    "####..####",
+    "..........",
+    "......####",
+    "..........",
+    "..........",
+    "####..####",
+    "####..####",
+    "..........",
+    "..........",
+    "..........",
+    "....dd...."
+  ],
+  "tileset": "DOJO",
+  "warps": [
+    {
+      "last_map": true,
+      "to_map": "PALLET_TOWN",
+      "to_warp": 3,
+      "x": 4,
+      "y": 11
+    },
+    {
+      "last_map": true,
+      "to_map": "PALLET_TOWN",
+      "to_warp": 3,
+      "x": 5,
+      "y": 11
+    }
+  ],
+  "width": 10
+}

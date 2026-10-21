@@ -1,0 +1,150 @@
+{
+  "blocked_edges": [],
+  "border_block": 10,
+  "cave": false,
+  "connections": {},
+  "encounter_rate": 0,
+  "height": 8,
+  "hidden": [],
+  "hidden_events": [],
+  "id": "MUSEUM_2F",
+  "items": [],
+  "label": "Museum2F",
+  "looks": [
+    "BBBBBBBBBBBBBB",
+    "oooooooooolllo",
+    "ooooooooookkko",
+    "oooooooooooooo",
+    "ollllooooooooo",
+    "okkkkoookooooo",
+    "ooooooookooooo",
+    "oooooooukooooo"
+  ],
+  "looks_unknown": 0,
+  "music": "cities1",
+  "name": "Museum 2F",
+  "npcs": [
+    {
+      "facing": "left_right",
+      "id": "MUSEUM2F_YOUNGSTER",
+      "movement": "walk",
+      "sprite": "SPRITE_YOUNGSTER",
+      "text": "TEXT_MUSEUM2F_YOUNGSTER",
+      "text_handler": "Museum2FYoungsterText",
+      "text_id": "TEXT_MUSEUM2F_YOUNGSTER",
+      "texts": [
+        "Museum2FYoungsterText"
+      ],
+      "x": 1,
+      "y": 7
+    },
+    {
+      "facing": "down",
+      "id": "MUSEUM2F_GRAMPS",
+      "movement": "stay",
+      "sprite": "SPRITE_GRAMPS",
+      "text": "TEXT_MUSEUM2F_GRAMPS",
+      "text_handler": "Museum2FGrampsText",
+      "text_id": "TEXT_MUSEUM2F_GRAMPS",
+      "texts": [
+        "Museum2FGrampsText"
+      ],
+      "x": 0,
+      "y": 5
+    },
+    {
+      "facing": "down",
+      "id": "MUSEUM2F_SCIENTIST",
+      "movement": "stay",
+      "sprite": "SPRITE_SCIENTIST",
+      "text": "TEXT_MUSEUM2F_SCIENTIST",
+      "text_handler": "Museum2FScientistText",
+      "text_id": "TEXT_MUSEUM2F_SCIENTIST",
+      "texts": [
+        "Museum2FScientistText"
+      ],
+      "x": 7,
+      "y": 5
+    },
+    {
+      "facing": "none",
+      "id": "MUSEUM2F_BRUNETTE_GIRL",
+      "movement": "stay",
+      "sprite": "SPRITE_BRUNETTE_GIRL",
+      "text": "TEXT_MUSEUM2F_BRUNETTE_GIRL",
+      "text_handler": "Museum2FBrunetteGirlText",
+      "text_id": "TEXT_MUSEUM2F_BRUNETTE_GIRL",
+      "texts": [
+        "Museum2FBrunetteGirlText"
+      ],
+      "x": 11,
+      "y": 5
+    },
+    {
+      "facing": "down",
+      "id": "MUSEUM2F_HIKER",
+      "movement": "stay",
+      "sprite": "SPRITE_HIKER",
+      "text": "TEXT_MUSEUM2F_HIKER",
+      "text_handler": "Museum2FHikerText",
+      "text_id": "TEXT_MUSEUM2F_HIKER",
+      "texts": [
+        "Museum2FText_5c20e",
+        "Museum2FText_5c218",
+        "Museum2FText_5c213"
+      ],
+      "x": 12,
+      "y": 5
+    }
+  ],
+  "origin": {
+    "x": 170,
+    "y": 1028
+  },
+  "outdoor": false,
+  "palette": "PAL_PEWTER",
+  "signs": [
+    {
+      "text": "TEXT_MUSEUM2F_SPACE_SHUTTLE_SIGN",
+      "texts": [
+        "Museum2FSpaceShuttleSignText"
+      ],
+      "x": 11,
+      "y": 2
+    },
+    {
+      "text": "TEXT_MUSEUM2F_MOON_STONE_SIGN",
+      "texts": [
+        "Museum2FMoonStoneSignText"
+      ],
+      "x": 2,
+      "y": 5
+    }
+  ],
+  "source": {
+    "blocks": "maps/Museum2F.blk",
+    "header": "data/maps/headers/Museum2F.asm",
+    "objects": "data/maps/objects/Museum2F.asm",
+    "script": "scripts/Museum2F.asm"
+  },
+  "tiles": [
+    "##############",
+    "..........###.",
+    "..........===.",
+    "..............",
+    ".####.........",
+    ".====...=.....",
+    "........=.....",
+    ".......d=....."
+  ],
+  "tileset": "MUSEUM",
+  "warps": [
+    {
+      "to_map": "MUSEUM_1F",
+      "to_warp": 5,
+      "x": 7,
+      "y": 7
+    }
+  ],
+  "width": 14
+}

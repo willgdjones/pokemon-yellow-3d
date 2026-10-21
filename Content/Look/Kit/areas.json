@@ -1,0 +1,847 @@
+{
+ "about": "m4v: the light and colour grade per area (World/PYRAreaLook, Content/Look/Kit/README.md). Each area layers over its base and the defaults (the m4u look). post: M_ToonPost's parameters (numbers, or colours as [r, g, b] linear or \"#rrggbb\" sRGB); sun: rotation [pitch, yaw, roll], color, intensity; sky_light (intensity) and sky_light_color; sky: M_Sky's top and horizon; volume: vignette, bloom. maps: which area each Game Boy map is (first match; * matches the rest of an id). stages: which area each battle stage is.",
+ "version": 1,
+ "blend_seconds": 1.2,
+ "defaults": {
+  "post": {
+   "Threshold": 0.42,
+   "LitTone": 1.0,
+   "ShadeTone": 0.66,
+   "OutlineWidth": 1.0,
+   "DepthEdge": 0.06,
+   "NormalEdge": 0.45,
+   "FxKeep": 3.0,
+   "HazeStart": 12000.0,
+   "HazeEnd": 140000.0,
+   "HazeAmount": 0.45,
+   "ShadeTint": [
+    0.8,
+    0.86,
+    1.0
+   ],
+   "Ink": "#1f1f2e",
+   "Haze": "#e9f6fc",
+   "GradeTint": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "ShadowTint": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "SkyTint": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "Saturation": 1.0,
+   "Contrast": 1.0,
+   "Warmth": 0.0,
+   "InkWidth": 1.0,
+   "InkStrength": 1.0,
+   "DappleAmount": 0.0,
+   "DappleScale": 220.0,
+   "GlowAmount": 0.0,
+   "GlowRadius": 450.0,
+   "RayAmount": 0.0,
+   "RayColor": [
+    1.0,
+    0.95,
+    0.8
+   ],
+   "RaySource": [
+    0.5,
+    -0.3,
+    0.0
+   ],
+   "Vignette": 0.0,
+   "Grain": 0.0,
+   "ToneColor": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "ToneAmount": 0.0,
+   "GrassLit": 0.6,
+   "GrassInk": 0.0,
+   "DappleCover": 0.5,
+   "RayEdge": 0.3
+  },
+  "sun": {
+   "rotation": [
+    -52.0,
+    -125.0,
+    0.0
+   ],
+   "color": [
+    1.0,
+    0.95,
+    0.86
+   ],
+   "intensity": 3.14159
+  },
+  "sky_light": 1.0,
+  "sky_light_color": [
+   1.0,
+   1.0,
+   1.0
+  ],
+  "sky": {
+   "top": "#6ec6f0",
+   "horizon": "#e2f3fc",
+   "painted": 0.0,
+   "painted_tint": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "painted_offset": 0.0,
+   "painted_scale": 1.0
+  },
+  "volume": {
+   "vignette": 0.12,
+   "bloom": 0.15
+  }
+ },
+ "areas": {
+  "anime": {
+   "post": {
+    "Threshold": 0.6,
+    "ShadeTone": 0.62,
+    "ShadeTint": [
+     0.78,
+     0.82,
+     1.0
+    ],
+    "Saturation": 1.0,
+    "Contrast": 1.06,
+    "Grain": 0.03,
+    "Vignette": 0.12,
+    "InkWidth": 1.6,
+    "GrassLit": 0.0,
+    "GrassInk": 1.0
+   },
+   "sky_light": 0.85
+  },
+  "outdoor": {
+   "base": "anime",
+   "post": {
+    "ToneColor": [
+     1.28,
+     1.06,
+     0.38
+    ],
+    "ShadowTint": [
+     1.0,
+     1.0,
+     1.0
+    ],
+    "Saturation": 1.12,
+    "Warmth": 0.22,
+    "ShadeTone": 0.58,
+    "ShadeTint": [
+     0.84,
+     0.8,
+     0.92
+    ],
+    "GroundInk": 0.9,
+    "GroundInkThreshold": 0.55
+   },
+   "sky_light": 0.45,
+   "sky": {
+    "painted": 1.0,
+    "painted_tint": [
+     1.0,
+     1.0,
+     1.0
+    ],
+    "painted_offset": 0.2
+   }
+  },
+  "pallet-town": {
+   "base": "outdoor",
+   "post": {
+    "ToneAmount": 0.25,
+    "Warmth": 0.15,
+    "GradeTint": [
+     1.35,
+     1.28,
+     1.12
+    ],
+    "Saturation": 1.15,
+    "ToneColor": [
+     1.2,
+     1.06,
+     0.78
+    ]
+   },
+   "sun": {
+    "rotation": [
+     -32.0,
+     -130.0,
+     0.0
+    ],
+    "color": [
+     1.0,
+     0.94,
+     0.84
+    ],
+    "intensity": 3.3
+   },
+   "sky": {
+    "painted": 1.0,
+    "painted_tint": [
+     1.0,
+     1.0,
+     1.0
+    ],
+    "top": "#5fbdf0",
+    "horizon": "#fff2d8",
+    "painted_offset": 0.2
+   }
+  },
+  "route": {
+   "base": "outdoor",
+   "post": {
+    "ToneAmount": 0.42,
+    "Warmth": 0.25,
+    "GradeTint": [
+     1.0,
+     0.96,
+     0.9
+    ],
+    "Saturation": 1.06,
+    "Vignette": 0.2,
+    "ShadowTint": [
+     1.1,
+     0.95,
+     0.86
+    ],
+    "Threshold": 0.42,
+    "ToneColor": [
+     1.42,
+     1.0,
+     0.36
+    ]
+   },
+   "sun": {
+    "rotation": [
+     -26.0,
+     135.0,
+     0.0
+    ],
+    "color": [
+     1.0,
+     0.82,
+     0.58
+    ],
+    "intensity": 5.5
+   },
+   "sky": {
+    "painted": 1.0,
+    "painted_tint": [
+     1.06,
+     0.97,
+     0.84
+    ],
+    "top": "#7cc4e8",
+    "horizon": "#ffe6b8",
+    "painted_offset": 0.2
+   }
+  },
+  "route-1": {
+   "base": "route",
+   "post": {
+    "RayAmount": 0.08,
+    "RayColor": [
+     1.0,
+     0.85,
+     0.5
+    ],
+    "RaySource": [
+     0.85,
+     -0.25,
+     0.0
+    ],
+    "GradeTint": [
+     1.5,
+     1.22,
+     1.02
+    ],
+    "ToneColor": [
+     1.3,
+     1.0,
+     0.5
+    ],
+    "Saturation": 0.95,
+    "ShadeTone": 0.52,
+    "InkWidth": 1.8
+   }
+  },
+  "town": {
+   "base": "outdoor",
+   "post": {
+    "ToneAmount": 0.42,
+    "Warmth": 0.25,
+    "GradeTint": [
+     1.0,
+     0.96,
+     0.9
+    ],
+    "Vignette": 0.16,
+    "Saturation": 1.06,
+    "Threshold": 0.42,
+    "ToneColor": [
+     1.42,
+     1.0,
+     0.36
+    ],
+    "ShadowTint": [
+     1.1,
+     0.95,
+     0.86
+    ]
+   },
+   "sun": {
+    "rotation": [
+     -26.0,
+     135.0,
+     0.0
+    ],
+    "color": [
+     1.0,
+     0.85,
+     0.65
+    ],
+    "intensity": 5.5
+   },
+   "sky": {
+    "painted": 1.0,
+    "painted_tint": [
+     1.08,
+     0.98,
+     0.85
+    ],
+    "top": "#72c2ec",
+    "horizon": "#ffe9c0",
+    "painted_offset": 0.2
+   }
+  },
+  "viridian-city": {
+   "base": "town",
+   "post": {
+    "GradeTint": [
+     1.45,
+     1.28,
+     1.05
+    ]
+   }
+  },
+  "pewter-city": {
+   "base": "town",
+   "post": {
+    "ToneAmount": 0.22,
+    "GradeTint": [
+     1.18,
+     1.12,
+     1.06
+    ],
+    "Vignette": 0.3,
+    "Saturation": 1.1
+   },
+   "sun": {
+    "rotation": [
+     -30.0,
+     -125.0,
+     0.0
+    ],
+    "color": [
+     1.0,
+     0.88,
+     0.7
+    ],
+    "intensity": 4.2
+   }
+  },
+  "cerulean-city": {
+   "base": "town",
+   "post": {
+    "ToneAmount": 0.55,
+    "GradeTint": [
+     1.45,
+     1.3,
+     1.06
+    ]
+   }
+  },
+  "viridian-forest": {
+   "base": "anime",
+   "post": {
+    "GradeTint": [
+     0.95,
+     1.1,
+     0.95
+    ],
+    "Saturation": 0.78,
+    "Warmth": 0.0,
+    "ToneColor": [
+     1.15,
+     1.08,
+     0.55
+    ],
+    "ToneAmount": 0.35,
+    "ShadowTint": [
+     0.62,
+     0.85,
+     0.9
+    ],
+    "DappleAmount": 1.0,
+    "DappleScale": 90.0,
+    "RayAmount": 0.2,
+    "RayColor": [
+     0.9,
+     1.0,
+     0.6
+    ],
+    "RaySource": [
+     0.42,
+     -0.25,
+     0.0
+    ],
+    "Vignette": 0.3,
+    "SkyTint": [
+     1.0,
+     1.0,
+     1.0
+    ],
+    "Haze": "#3a6a40",
+    "HazeStart": 1500.0,
+    "HazeEnd": 6000.0,
+    "HazeAmount": 1.0,
+    "DappleCover": 0.42,
+    "RayEdge": 0.07,
+    "DepthEdge": 0.6
+   },
+   "sun": {
+    "rotation": [
+     -60.0,
+     150.0,
+     0.0
+    ],
+    "color": [
+     0.95,
+     1.0,
+     0.85
+    ],
+    "intensity": 3.6
+   },
+   "sky_light": 0.6,
+   "sky_light_color": [
+    0.75,
+    0.95,
+    0.75
+   ],
+   "sky": {
+    "painted": 1.0,
+    "texture": "/Game/Look/Kit/Textures/T_Kit_TreeCanopy",
+    "painted_tint": [
+     0.75,
+     0.95,
+     0.7
+    ],
+    "painted_offset": 0.35,
+    "painted_scale": 14.0,
+    "horizon": "#3a6a40",
+    "top": "#3a6a40"
+   }
+  },
+  "cave": {
+   "base": "anime",
+   "post": {
+    "GradeTint": [
+     0.8,
+     0.95,
+     1.05
+    ],
+    "Saturation": 0.62,
+    "Warmth": -0.25,
+    "ShadowTint": [
+     0.72,
+     0.82,
+     1.0
+    ],
+    "ShadeTone": 0.5,
+    "GlowAmount": 0.55,
+    "GlowRadius": 650.0,
+    "Vignette": 0.3,
+    "Haze": "#1a2236",
+    "HazeStart": 800.0,
+    "HazeEnd": 3500.0,
+    "HazeAmount": 0.25,
+    "Contrast": 1.04
+   },
+   "sun": {
+    "rotation": [
+     -70.0,
+     150.0,
+     0.0
+    ],
+    "color": [
+     0.8,
+     0.88,
+     1.0
+    ],
+    "intensity": 2.6
+   },
+   "sky_light": 0.7,
+   "sky_light_color": [
+    0.65,
+    0.75,
+    1.0
+   ]
+  },
+  "mt-moon": {
+   "base": "cave"
+  },
+  "indoor": {
+   "base": "anime",
+   "post": {
+    "ToneColor": [
+     1.3,
+     1.0,
+     0.7
+    ],
+    "ToneAmount": 0.25,
+    "Warmth": 0.1,
+    "GradeTint": [
+     1.25,
+     1.2,
+     1.12
+    ],
+    "ShadowTint": [
+     0.95,
+     0.85,
+     1.0
+    ],
+    "Saturation": 1.12,
+    "Vignette": 0.08,
+    "HazeAmount": 0.0,
+    "ShadeTone": 0.72,
+    "GroundInk": 0.0
+   },
+   "sun": {
+    "rotation": [
+     -70.0,
+     140.0,
+     0.0
+    ],
+    "color": [
+     1.0,
+     0.95,
+     0.88
+    ],
+    "intensity": 3.2
+   },
+   "sky_light": 0.7
+  },
+  "pokemon-centre": {
+   "base": "indoor",
+   "post": {
+    "ToneAmount": 0.0,
+    "Warmth": 0.0,
+    "GradeTint": [
+     1.36,
+     1.28,
+     1.2
+    ],
+    "ShadowTint": [
+     1.0,
+     0.82,
+     1.0
+    ],
+    "Saturation": 1.12,
+    "InkWidth": 1.15
+   },
+   "sun": {
+    "color": [
+     1.0,
+     0.98,
+     0.96
+    ]
+   }
+  },
+  "mart": {
+   "base": "indoor",
+   "post": {
+    "ToneAmount": 0.0,
+    "Warmth": -0.05,
+    "GradeTint": [
+     1.3,
+     1.31,
+     1.3
+    ],
+    "ShadowTint": [
+     0.85,
+     0.9,
+     1.0
+    ],
+    "Saturation": 1.0,
+    "InkWidth": 1.15
+   },
+   "sun": {
+    "color": [
+     1.0,
+     0.99,
+     0.98
+    ]
+   }
+  },
+  "oaks-lab": {
+   "base": "indoor",
+   "post": {
+    "ToneAmount": 0.0,
+    "Warmth": -0.05,
+    "GradeTint": [
+     1.36,
+     1.34,
+     1.32
+    ],
+    "ShadowTint": [
+     0.92,
+     0.92,
+     1.0
+    ],
+    "Saturation": 1.0,
+    "InkWidth": 1.2
+   },
+   "sun": {
+    "color": [
+     0.98,
+     0.99,
+     1.0
+    ]
+   }
+  },
+  "museum": {
+   "base": "indoor",
+   "post": {
+    "Warmth": 0.1
+   }
+  },
+  "gate": {
+   "base": "indoor"
+  },
+  "gym": {
+   "base": "indoor",
+   "post": {
+    "Warmth": 0.0,
+    "GradeTint": [
+     0.96,
+     1.0,
+     1.04
+    ],
+    "ShadeTone": 0.88,
+    "ShadeTint": [
+     0.96,
+     0.95,
+     0.92
+    ]
+   },
+   "sun": {
+    "rotation": [
+     -89.9,
+     140.0,
+     0.0
+    ]
+   }
+  },
+  "pewter-gym": {
+   "base": "gym"
+  },
+  "cerulean-gym": {
+   "base": "gym",
+   "post": {
+    "GradeTint": [
+     0.95,
+     1.02,
+     1.06
+    ]
+   }
+  },
+  "pewter-gym-battle": {
+   "base": "anime",
+   "post": {
+    "GradeTint": [
+     1.0,
+     1.12,
+     1.12
+    ],
+    "Saturation": 1.0,
+    "Warmth": -0.08,
+    "ShadeTint": [
+     0.88,
+     0.9,
+     0.98
+    ],
+    "ShadowTint": [
+     0.78,
+     0.84,
+     1.05
+    ],
+    "GlowAmount": 0.45,
+    "GlowRadius": 900.0,
+    "RayAmount": 0.2,
+    "RayColor": [
+     0.7,
+     0.95,
+     1.0
+    ],
+    "RaySource": [
+     0.55,
+     -0.15,
+     0.0
+    ],
+    "Vignette": 0.42,
+    "HazeAmount": 0.0,
+    "RayEdge": 0.1
+   },
+   "sun": {
+    "rotation": [
+     -75.0,
+     160.0,
+     0.0
+    ],
+    "color": [
+     0.92,
+     0.97,
+     1.0
+    ],
+    "intensity": 3.0
+   },
+   "sky_light": 0.8
+  },
+  "route1-battle-stage": {
+   "base": "route",
+   "post": {
+    "DappleAmount": 0.0,
+    "DappleScale": 260.0,
+    "GradeTint": [
+     1.2,
+     1.08,
+     0.95
+    ],
+    "Saturation": 1.0,
+    "Vignette": 0.28,
+    "ShadeTone": 0.55,
+    "ToneColor": [
+     1.3,
+     1.0,
+     0.55
+    ]
+   }
+  },
+  "forest-battle": {
+   "base": "viridian-forest",
+   "post": {
+    "RayAmount": 0.15
+   }
+  },
+  "cave-battle": {
+   "base": "cave",
+   "post": {
+    "GlowRadius": 900.0
+   }
+  },
+  "indoor-battle": {
+   "base": "oaks-lab"
+  }
+ },
+ "maps": [
+  [
+   "PALLET_TOWN",
+   "pallet-town"
+  ],
+  [
+   "ROUTE_1",
+   "route-1"
+  ],
+  [
+   "VIRIDIAN_CITY",
+   "viridian-city"
+  ],
+  [
+   "VIRIDIAN_FOREST",
+   "viridian-forest"
+  ],
+  [
+   "PEWTER_CITY",
+   "pewter-city"
+  ],
+  [
+   "CERULEAN_CITY",
+   "cerulean-city"
+  ],
+  [
+   "OAKS_LAB",
+   "oaks-lab"
+  ],
+  [
+   "PEWTER_GYM",
+   "pewter-gym"
+  ],
+  [
+   "CERULEAN_GYM",
+   "cerulean-gym"
+  ],
+  [
+   "VIRIDIAN_GYM",
+   "gym"
+  ],
+  [
+   "MT_MOON_POKECENTER",
+   "pokemon-centre"
+  ],
+  [
+   "MT_MOON_*",
+   "mt-moon"
+  ],
+  [
+   "DIGLETTS_CAVE*",
+   "cave"
+  ],
+  [
+   "*_POKECENTER",
+   "pokemon-centre"
+  ],
+  [
+   "*_MART",
+   "mart"
+  ],
+  [
+   "MUSEUM_*",
+   "museum"
+  ],
+  [
+   "*_GATE",
+   "gate"
+  ],
+  [
+   "ROUTE_*",
+   "route"
+  ],
+  [
+   "*",
+   "indoor"
+  ]
+ ],
+ "stages": {
+  "grass": "route1-battle-stage",
+  "forest": "forest-battle",
+  "cave": "cave-battle",
+  "indoor": "indoor-battle",
+  "pewter-gym": "pewter-gym-battle",
+  "cerulean-gym": "cerulean-gym"
+ }
+}

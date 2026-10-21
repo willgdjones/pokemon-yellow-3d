@@ -1,0 +1,9 @@
+Binaries/
+Intermediate/
+Saved/
+DerivedDataCache/
+.cache/
+*.sln
+*.slnx
+.vsconfig
+__pycache__/

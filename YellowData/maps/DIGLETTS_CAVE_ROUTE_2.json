@@ -1,0 +1,90 @@
+{
+  "blocked_edges": [],
+  "border_block": 125,
+  "cave": true,
+  "connections": {},
+  "encounter_rate": 0,
+  "height": 8,
+  "hidden": [],
+  "hidden_events": [],
+  "id": "DIGLETTS_CAVE_ROUTE_2",
+  "items": [],
+  "label": "DiglettsCaveRoute2",
+  "looks": [
+    "CCCCCCCC",
+    "CCCCCCCC",
+    "CcccccCC",
+    "CcccccCC",
+    "CcccucCC",
+    "CcccccCC",
+    "CcccccCC",
+    "CCmmCCCC"
+  ],
+  "looks_unknown": 0,
+  "music": "dungeon2",
+  "name": "Digletts Cave Route 2",
+  "npcs": [
+    {
+      "facing": "none",
+      "id": "DIGLETTSCAVEROUTE2_FISHING_GURU",
+      "movement": "stay",
+      "sprite": "SPRITE_FISHING_GURU",
+      "text": "TEXT_DIGLETTSCAVEROUTE2_FISHING_GURU",
+      "text_handler": "DiglettsCaveRoute2FishingGuruText",
+      "text_id": "TEXT_DIGLETTSCAVEROUTE2_FISHING_GURU",
+      "texts": [
+        "DiglettsCaveRoute2FishingGuruText"
+      ],
+      "x": 3,
+      "y": 3
+    }
+  ],
+  "origin": {
+    "x": 38,
+    "y": 1028
+  },
+  "outdoor": false,
+  "palette": "PAL_CAVE",
+  "signs": [],
+  "source": {
+    "blocks": "maps/DiglettsCaveRoute2.blk",
+    "header": "data/maps/headers/DiglettsCaveRoute2.asm",
+    "objects": "data/maps/objects/DiglettsCaveRoute2.asm",
+    "script": "scripts/DiglettsCaveRoute2.asm"
+  },
+  "tiles": [
+    "########",
+    "########",
+    "#ccccc##",
+    "#ccccc##",
+    "#cccdc##",
+    "#ccccc##",
+    "#ccccc##",
+    "##dd####"
+  ],
+  "tileset": "CAVERN",
+  "warps": [
+    {
+      "last_map": true,
+      "to_map": "ROUTE_2",
+      "to_warp": 1,
+      "x": 2,
+      "y": 7
+    },
+    {
+      "last_map": true,
+      "to_map": "ROUTE_2",
+      "to_warp": 1,
+      "x": 3,
+      "y": 7
+    },
+    {
+      "out_of_scope": true,
+      "to_map": "DIGLETTS_CAVE",
+      "to_warp": 1,
+      "x": 4,
+      "y": 4
+    }
+  ],
+  "width": 8
+}

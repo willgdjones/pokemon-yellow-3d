@@ -1,0 +1,1036 @@
+[
+  {
+    "gives": [
+      {
+        "count": 1,
+        "item": "POTION"
+      }
+    ],
+    "id": "route1_potion_sample",
+    "map": "ROUTE_1",
+    "notes": "CheckAndSetEvent sets the flag before GiveItem, so it is set even if the bag is full (then Route1PrintYoungster1Text.NoRoomText). Once set: Route1PrintYoungster1Text.AlsoGotPokeballsText.",
+    "npc": "ROUTE1_YOUNGSTER1",
+    "requires": [],
+    "requires_not": [
+      "EVENT_GOT_POTION_SAMPLE"
+    ],
+    "sets": [
+      "EVENT_GOT_POTION_SAMPLE"
+    ],
+    "source": "scripts/Route1.asm:11-14; scripts/Route1_2.asm:1-35",
+    "takes": [],
+    "texts": [
+      "Route1PrintYoungster1Text.MartSampleText",
+      "Route1PrintYoungster1Text.GotPotionText"
+    ]
+  },
+  {
+    "gives": [
+      {
+        "level": 5,
+        "pokemon": "PIKACHU"
+      }
+    ],
+    "id": "oaks_lab_receive_pikachu",
+    "map": "OAKS_LAB",
+    "notes": "Interacting with OAKSLAB_EEVEE_POKE_BALL after EVENT_OAK_ASKED_TO_CHOOSE_MON makes the rival take it: EEVEE, wRivalStarter = RIVAL_STARTER_JOLTEON (lines 218-243). The player is walked to Oak and given STARTER_PIKACHU (= PIKACHU) at level 5. Also sets wStatusFlags4 BIT_GOT_STARTER. Before choosing the ball: OaksLabEeveePokeBallText.Text.",
+    "npc": "OAKSLAB_OAK1",
+    "requires": [
+      "EVENT_FOLLOWED_OAK_INTO_LAB",
+      "EVENT_OAK_ASKED_TO_CHOOSE_MON"
+    ],
+    "requires_not": [
+      "EVENT_GOT_STARTER"
+    ],
+    "sets": [
+      "EVENT_OAK_ASKED_TO_CHOOSE_MON",
+      "EVENT_GOT_STARTER"
+    ],
+    "source": "scripts/OaksLab.asm:113-160,202-303,781-805,944-1054",
+    "takes": [],
+    "texts": [
+      "OaksLabRivalFedUpWithWaitingText.Text",
+      "OaksLabOakChooseMonText.Text",
+      "OaksLabRivalWhatAboutMeText.Text",
+      "OaksLabOakBePatientText.Text",
+      "OaksLabRivalTakesText1",
+      "OaksLabRivalTakesText2",
+      "OaksLabRivalTakesText3",
+      "OaksLabRivalTakesText4",
+      "OaksLabRivalTakesText5",
+      "OaksLabOakGivesText",
+      "OaksLabReceivedText"
+    ]
+  },
+  {
+    "battle": {
+      "class": "RIVAL1",
+      "trainer_no": 1
+    },
+    "gives": [],
+    "id": "oaks_lab_rival_battle",
+    "map": "OAKS_LAB",
+    "notes": "Triggers when wYCoord == 6 after receiving Pikachu. End texts: IPickedTheWrongPokemon if the player wins, AmIGreatOrWhat if the player loses. The flag is set whatever the result and the party is healed. wRivalStarter becomes RIVAL_STARTER_FLAREON if the player won, else RIVAL_STARTER_VAPOREON (lines 370-381).",
+    "npc": "OAKSLAB_RIVAL",
+    "requires": [
+      "EVENT_GOT_STARTER"
+    ],
+    "requires_not": [
+      "EVENT_BATTLED_RIVAL_IN_OAKS_LAB"
+    ],
+    "sets": [
+      "EVENT_BATTLED_RIVAL_IN_OAKS_LAB"
+    ],
+    "source": "scripts/OaksLab.asm:305-496,1066-1114",
+    "takes": [],
+    "texts": [
+      "OaksLabRivalIllTakeYouOnText.Text",
+      "OaksLabRivalIPickedTheWrongPokemonText",
+      "OaksLabRivalAmIGreatOrWhatText",
+      "OaksLabRivalSmellYouLaterText.Text",
+      "OaksLabPikachuDislikesPokeballsText1.Text",
+      "OaksLabPikachuDislikesPokeballsText2.Text"
+    ]
+  },
+  {
+    "gives": [
+      {
+        "count": 1,
+        "item": "OAKS_PARCEL"
+      }
+    ],
+    "id": "viridian_mart_oaks_parcel",
+    "map": "VIRIDIAN_MART",
+    "notes": "Runs automatically on the first entry. The player is walked left 1 and up 2, then gets the parcel; the map script moves on so it never repeats. Until EVENT_OAK_GOT_PARCEL, talking to the clerk shows ViridianMartClerkSayHiToOakText and there is no shop (ViridianMart_TextPointers vs ViridianMart_TextPointers2).",
+    "npc": "VIRIDIANMART_CLERK",
+    "requires": [],
+    "requires_not": [
+      "EVENT_GOT_OAKS_PARCEL"
+    ],
+    "sets": [
+      "EVENT_GOT_OAKS_PARCEL"
+    ],
+    "source": "scripts/ViridianMart.asm:1-62,77-103",
+    "takes": [],
+    "texts": [
+      "ViridianMartClerkYouCameFromPalletTownText",
+      "ViridianMartClerkParcelQuestText"
+    ]
+  },
+  {
+    "gives": [],
+    "id": "oaks_lab_deliver_parcel_pokedex",
+    "map": "OAKS_LAB",
+    "notes": "The Pokedex is not an item: it is EVENT_GOT_POKEDEX, and the Pokedex objects are hidden (TOGGLE_POKEDEX_1/2). No Poke Balls are given here. Side effects: Viridian City moves to its after-Pokedex script; TOGGLE_LYING_OLD_MAN hidden and TOGGLE_OLD_MAN_2 shown; TOGGLE_ROUTE_22_RIVAL_1 shown. With the rival battle done but no parcel: OaksLabOak1Text.YouShouldTalkToIt.",
+    "npc": "OAKSLAB_OAK1",
+    "requires": [
+      "EVENT_BATTLED_RIVAL_IN_OAKS_LAB",
+      {
+        "item_in_bag": "OAKS_PARCEL"
+      },
+      {
+        "item_not_in_bag": "POKE_BALL"
+      },
+      {
+        "pokedex_owned_less_than": 2
+      }
+    ],
+    "requires_not": [
+      "EVENT_PALLET_AFTER_GETTING_POKEBALLS",
+      "EVENT_BEAT_ROUTE22_RIVAL_1ST_BATTLE",
+      "EVENT_GOT_POKEDEX"
+    ],
+    "resets": [
+      "EVENT_2ND_ROUTE22_RIVAL_BATTLE"
+    ],
+    "sets": [
+      "EVENT_GOT_POKEDEX",
+      "EVENT_OAK_GOT_PARCEL",
+      "EVENT_1ST_ROUTE22_RIVAL_BATTLE",
+      "EVENT_ROUTE22_RIVAL_WANTS_BATTLE"
+    ],
+    "source": "scripts/OaksLab.asm:497-658,807-866,896-900,1116-1143",
+    "takes": [
+      {
+        "count": 1,
+        "item": "OAKS_PARCEL"
+      }
+    ],
+    "texts": [
+      "OaksLabOak1Text.DeliverParcelText",
+      "OaksLabRivalGrampsText",
+      "OaksLabRivalMyPokemonHasGrownStrongerText",
+      "OaksLabOakIHaveARequestText",
+      "OaksLabOakMyInventionPokedexText",
+      "OaksLabOakGotPokedexText",
+      "OaksLabOakThatWasMyDreamText",
+      "OaksLabRivalLeaveItAllToMeText"
+    ]
+  },
+  {
+    "gives": [
+      {
+        "count": 5,
+        "item": "POKE_BALL"
+      }
+    ],
+    "id": "oaks_lab_poke_balls",
+    "map": "OAKS_LAB",
+    "notes": "Yellow gives the 5 Poke Balls only after the Route 22 rival battle is won (line 836). With the Pokedex but not that win: OaksLabOak1Text.PokemonAroundTheWorldText. After the gift, with a Poke Ball in the bag, or with 2+ species owned: OaksLabOak1Text.ComeSeeMeSometimesText. Pallet Town then sets EVENT_PALLET_AFTER_GETTING_POKEBALLS(_2); after that Oak says OaksLabOak1Text.HowIsYourPokedexComingText and rates the Pokedex. The flag is set before GiveItem, so it is set even if the bag is full.",
+    "npc": "OAKSLAB_OAK1",
+    "requires": [
+      "EVENT_BEAT_ROUTE22_RIVAL_1ST_BATTLE",
+      {
+        "item_not_in_bag": "POKE_BALL"
+      },
+      {
+        "pokedex_owned_less_than": 2
+      }
+    ],
+    "requires_not": [
+      "EVENT_PALLET_AFTER_GETTING_POKEBALLS",
+      "EVENT_GOT_POKEBALLS_FROM_OAK"
+    ],
+    "sets": [
+      "EVENT_GOT_POKEBALLS_FROM_OAK"
+    ],
+    "source": "scripts/OaksLab.asm:807-837,870-877,906-910; scripts/PalletTown.asm:1-5,216-218",
+    "takes": [],
+    "texts": [
+      "OaksLabOak1Text.GivePokeballsText"
+    ]
+  },
+  {
+    "gives": [
+      {
+        "count": 1,
+        "item": "TOWN_MAP"
+      }
+    ],
+    "id": "daisy_town_map",
+    "map": "BLUES_HOUSE",
+    "notes": "Before the Pokedex: BluesHouseDaisyRivalAtLabText. Bag full: BluesHouseDaisyBagFullText (flag not set). Afterwards: BluesHouseDaisyUseMapText. On success the Town Map object (TOGGLE_TOWN_MAP) is hidden.",
+    "npc": "BLUESHOUSE_DAISY1",
+    "requires": [
+      "EVENT_GOT_POKEDEX"
+    ],
+    "requires_not": [
+      "EVENT_GOT_TOWN_MAP"
+    ],
+    "sets": [
+      "EVENT_GOT_TOWN_MAP"
+    ],
+    "source": "scripts/BluesHouse.asm:26-80",
+    "takes": [],
+    "texts": [
+      "BluesHouseDaisyOfferMapText",
+      "GotMapText"
+    ]
+  },
+  {
+    "gives": [],
+    "id": "viridian_old_man_sleepy_blocks_north",
+    "map": "VIRIDIAN_CITY",
+    "notes": "Active until Oak gives the Pokedex (OaksLab.asm:587-589 moves Viridian City to its after-Pokedex script and hides this NPC, TOGGLE_LYING_OLD_MAN). Stepping on (19,9) or talking to him shows the text and pushes the player 1 step down.",
+    "npc": "VIRIDIANCITY_OLD_MAN_SLEEPY",
+    "requires": [],
+    "requires_not": [
+      "EVENT_GOT_POKEDEX"
+    ],
+    "sets": [],
+    "source": "scripts/ViridianCity.asm:22-25,73-88,148-166,297-300; scripts/ViridianCity_2.asm:72-86",
+    "takes": [],
+    "texts": [
+      "ViridianCityPrintOldManSleepyText.PrivatePropertyText"
+    ],
+    "trigger_coords": [
+      {
+        "x": 19,
+        "y": 9
+      }
+    ]
+  },
+  {
+    "gives": [],
+    "id": "viridian_old_man_catch_demo_first",
+    "map": "VIRIDIAN_CITY",
+    "notes": "After the Pokedex, stepping on (19,9) makes OLD_MAN2 face the player and speak; talking to him does the same. Afterwards he walks down 6 tiles and is hidden (TOGGLE_OLD_MAN_2).",
+    "npc": "VIRIDIANCITY_OLD_MAN2",
+    "requires": [
+      "EVENT_GOT_POKEDEX"
+    ],
+    "requires_not": [
+      "EVENT_COMPLETED_CATCH_TRAINING"
+    ],
+    "sets": [
+      "EVENT_INITIAL_CATCH_TRAINING",
+      "EVENT_COMPLETED_CATCH_TRAINING"
+    ],
+    "source": "scripts/ViridianCity.asm:27-31,98-107,168-256,316-340; scripts/OaksLab.asm:587-596",
+    "takes": [],
+    "texts": [
+      "ViridianCityOldMan2Text.HadMyCoffeeNowText",
+      "ViridianCityOldMan2Text.LosingMyTouchText"
+    ],
+    "trigger_coords": [
+      {
+        "x": 19,
+        "y": 9
+      }
+    ],
+    "wild_battle": {
+      "battle_type": "BATTLE_TYPE_OLD_MAN",
+      "level": 5,
+      "species": "RATTATA"
+    }
+  },
+  {
+    "gives": [],
+    "id": "viridian_old_man_catch_demo_repeat",
+    "map": "VIRIDIAN_CITY",
+    "notes": "This NPC starts hidden. Viridian Mart's script shows TOGGLE_OLD_MAN_1 once EVENT_COMPLETED_CATCH_TRAINING is set and sets EVENT_SPAWNED_OLD_MAN_1. Answering No: ViridianCityPrintOldManText.NotGoodEnoughForYouText.",
+    "npc": "VIRIDIANCITY_OLD_MAN",
+    "requires": [
+      "EVENT_COMPLETED_CATCH_TRAINING",
+      "EVENT_SPAWNED_OLD_MAN_1"
+    ],
+    "requires_not": [],
+    "resets": [
+      "EVENT_INITIAL_CATCH_TRAINING"
+    ],
+    "sets": [
+      "EVENT_COMPLETED_CATCH_TRAINING_AGAIN"
+    ],
+    "source": "scripts/ViridianCity.asm:90-146,307-314; scripts/ViridianCity_2.asm:126-156; scripts/ViridianMart.asm:64-75",
+    "takes": [],
+    "texts": [
+      "ViridianCityPrintOldManText.WantMeToShowYouAgainText",
+      "ViridianCityPrintOldManText.WatchCloselyText",
+      "ViridianCityOldManYouNeedToWeakenTheTargetText"
+    ],
+    "wild_battle": {
+      "battle_type": "BATTLE_TYPE_OLD_MAN",
+      "level": 5,
+      "species": "RATTATA"
+    }
+  },
+  {
+    "gives": [
+      {
+        "count": 1,
+        "item": "TM_DREAM_EATER"
+      }
+    ],
+    "id": "viridian_fisher_tm42",
+    "map": "VIRIDIAN_CITY",
+    "notes": "Bag full: ViridianCityPrintFisherText.TM42NoRoomText (flag not set). After: ViridianCityPrintFisherText.TM42ExplanationText.",
+    "npc": "VIRIDIANCITY_FISHER",
+    "requires": [],
+    "requires_not": [
+      "EVENT_GOT_TM42"
+    ],
+    "sets": [
+      "EVENT_GOT_TM42"
+    ],
+    "source": "scripts/ViridianCity.asm:302-305; scripts/ViridianCity_2.asm:88-124",
+    "takes": [],
+    "texts": [
+      "ViridianCityPrintFisherText.YouCanHaveThisText",
+      "ViridianCityPrintFisherText.ReceivedTM42Text"
+    ]
+  },
+  {
+    "battle": {
+      "class": "RIVAL1",
+      "trainer_no": 2
+    },
+    "gives": [],
+    "id": "route22_rival_battle_1",
+    "map": "ROUTE_22",
+    "notes": "Flags are set when the Pokedex is given. Defeated = the player wins, Victory = the player loses. On a loss nothing is set and the battle can be retried. On a win wRivalStarter FLAREON becomes JOLTEON (lines 151-155) and the rival walks off. Beating Brock hides this rival and resets both trigger flags, so the battle can be missed for good.",
+    "npc": "ROUTE22_RIVAL1",
+    "requires": [
+      "EVENT_ROUTE22_RIVAL_WANTS_BATTLE",
+      "EVENT_1ST_ROUTE22_RIVAL_BATTLE"
+    ],
+    "requires_not": [],
+    "resets": [
+      "EVENT_1ST_ROUTE22_RIVAL_BATTLE",
+      "EVENT_ROUTE22_RIVAL_WANTS_BATTLE"
+    ],
+    "sets": [
+      "EVENT_BEAT_ROUTE22_RIVAL_1ST_BATTLE"
+    ],
+    "source": "scripts/Route22.asm:25-30,59-236,382-385; scripts/Route22_2.asm:1-19; scripts/PewterGym.asm:73-77",
+    "takes": [],
+    "texts": [
+      "Route22RivalBeforeBattleText1",
+      "Route22Rival1DefeatedText",
+      "Route22Rival1VictoryText",
+      "Route22RivalAfterBattleText1"
+    ],
+    "trigger_coords": [
+      {
+        "x": 29,
+        "y": 4
+      },
+      {
+        "x": 29,
+        "y": 5
+      }
+    ]
+  },
+  {
+    "gives": [],
+    "id": "pewter_museum_ticket",
+    "map": "MUSEUM_1F",
+    "notes": "Price is BCD $000050 = 50. No: Museum1FPrintScientist1Text.ComeAgainText and a push down. Not enough money: .DontHaveEnoughMoneyText then .ComeAgainText. Pewter City's default script resets EVENT_BOUGHT_MUSEUM_TICKET, so the ticket is bought on every visit.",
+    "npc": "MUSEUM1F_SCIENTIST1",
+    "requires": [
+      {
+        "money_at_least": 50
+      }
+    ],
+    "requires_not": [
+      "EVENT_BOUGHT_MUSEUM_TICKET"
+    ],
+    "sets": [
+      "EVENT_BOUGHT_MUSEUM_TICKET"
+    ],
+    "source": "scripts/Museum1F.asm:16-31,44-47; scripts/Museum1F_2.asm:1-135; scripts/PewterCity.asm:20-25",
+    "takes": [
+      {
+        "money": 50
+      }
+    ],
+    "texts": [
+      "Museum1FPrintScientist1Text.WouldYouLikeToComeInText",
+      "Museum1FPrintScientist1Text.ThankYouText"
+    ],
+    "trigger_coords": [
+      {
+        "x": 9,
+        "y": 4
+      },
+      {
+        "x": 10,
+        "y": 4
+      }
+    ]
+  },
+  {
+    "gives": [
+      {
+        "count": 1,
+        "item": "OLD_AMBER"
+      }
+    ],
+    "id": "pewter_old_amber",
+    "map": "MUSEUM_1F",
+    "notes": "On success the Old Amber object (MUSEUM1F_OLD_AMBER, TOGGLE_OLD_AMBER) is hidden. Bag full: .YouDontHaveSpaceText. After: .GetTheOldAmberCheckText.",
+    "npc": "MUSEUM1F_SCIENTIST2",
+    "requires": [],
+    "requires_not": [
+      "EVENT_GOT_OLD_AMBER"
+    ],
+    "sets": [
+      "EVENT_GOT_OLD_AMBER"
+    ],
+    "source": "scripts/Museum1F.asm:54-57; scripts/Museum1F_2.asm:146-184",
+    "takes": [],
+    "texts": [
+      "Museum1FPrintScientist2Text.TakeThisToAPokemonLabText",
+      "Museum1FPrintScientist2Text.ReceivedOldAmberText"
+    ]
+  },
+  {
+    "gives": [],
+    "id": "pewter_youngster_leads_to_gym",
+    "map": "PEWTER_CITY",
+    "notes": "The condition is EVENT_BEAT_BROCK, not the badge bit. He leads the player to the gym, walks right 5 and is hidden then re-shown (TOGGLE_GYM_GUY). Beating Brock hides him for good.",
+    "npc": "PEWTERCITY_YOUNGSTER",
+    "requires": [],
+    "requires_not": [
+      "EVENT_BEAT_BROCK"
+    ],
+    "sets": [],
+    "source": "scripts/PewterCity.asm:20-48,118-182,284-308; scripts/PewterGym.asm:70-72",
+    "takes": [],
+    "texts": [
+      "PewterCityYoungsterText.YoureATrainerFollowMeText",
+      "PewterCityYoungsterGoTakeOnBrockText"
+    ],
+    "trigger_coords": [
+      {
+        "x": 35,
+        "y": 17
+      },
+      {
+        "x": 36,
+        "y": 17
+      },
+      {
+        "x": 37,
+        "y": 18
+      },
+      {
+        "x": 37,
+        "y": 19
+      }
+    ]
+  },
+  {
+    "battle": {
+      "class": "BROCK",
+      "trainer_no": 1
+    },
+    "gives": [
+      {
+        "count": 1,
+        "item": "TM_BIDE"
+      }
+    ],
+    "id": "pewter_gym_brock_tm34",
+    "map": "PEWTER_GYM",
+    "notes": "The badge is set even if the bag is full; then PewterGymTM34NoRoomText and talking to Brock later retries TM34. After TM34: PewterGymBrockText.PostBattleAdviceText. Also hides TOGGLE_GYM_GUY and TOGGLE_ROUTE_22_RIVAL_1.",
+    "npc": "PEWTERGYM_BROCK",
+    "requires": [],
+    "requires_not": [
+      "EVENT_BEAT_BROCK"
+    ],
+    "resets": [
+      "EVENT_1ST_ROUTE22_RIVAL_BATTLE",
+      "EVENT_ROUTE22_RIVAL_WANTS_BATTLE"
+    ],
+    "sets": [
+      "EVENT_BEAT_BROCK",
+      "EVENT_GOT_TM34",
+      "EVENT_BEAT_PEWTER_GYM_TRAINER_0",
+      {
+        "badge": "BOULDERBADGE"
+      }
+    ],
+    "source": "scripts/PewterGym.asm:40-82,99-161; data/maps/objects/PewterGym.asm:16",
+    "takes": [],
+    "texts": [
+      "PewterGymBrockText.PreBattleText",
+      "PewterGymBrockReceivedBoulderBadgeText",
+      "PewterGymBrockWaitTakeThisText",
+      "PewterGymReceivedTM34Text"
+    ]
+  },
+  {
+    "gives": [],
+    "id": "route22_gate_blocked",
+    "map": "ROUTE_22_GATE",
+    "notes": "Checks the BIT_BOULDERBADGE bit of wObtainedBadges. Without it the player is pushed 1 step down.",
+    "npc": "ROUTE22GATE_GUARD",
+    "requires": [
+      {
+        "badge_not": "BOULDERBADGE"
+      }
+    ],
+    "requires_not": [],
+    "sets": [],
+    "source": "scripts/Route22Gate.asm:21-93",
+    "takes": [],
+    "texts": [
+      "Route22GateGuardNoBoulderbadgeText",
+      "Route22GateGuardICantLetYouPassText"
+    ],
+    "trigger_coords": [
+      {
+        "x": 4,
+        "y": 2
+      },
+      {
+        "x": 5,
+        "y": 2
+      }
+    ]
+  },
+  {
+    "gives": [],
+    "id": "route22_gate_pass",
+    "map": "ROUTE_22_GATE",
+    "notes": "Sets the gate's map script to NOOP (no event flag).",
+    "npc": "ROUTE22GATE_GUARD",
+    "requires": [
+      {
+        "badge": "BOULDERBADGE"
+      }
+    ],
+    "requires_not": [],
+    "sets": [],
+    "source": "scripts/Route22Gate.asm:64-80,95-98",
+    "takes": [],
+    "texts": [
+      "Route22GateGuardGoRightAheadText"
+    ],
+    "trigger_coords": [
+      {
+        "x": 4,
+        "y": 2
+      },
+      {
+        "x": 5,
+        "y": 2
+      }
+    ]
+  },
+  {
+    "battle": {
+      "class": "SUPER_NERD",
+      "trainer_no": 2
+    },
+    "gives": [],
+    "id": "mt_moon_b2f_super_nerd_battle",
+    "map": "MT_MOON_B2F",
+    "notes": "After the win, with no fossil yet: MtMoonB2fSuperNerdEachTakeOneText; with a fossil: MtMoonB2FSuperNerdTheresAPokemonLabText. After the win, battles are disabled inside the fossil area (MtMoonB2F.asm:8-38).",
+    "npc": "MTMOONB2F_SUPER_NERD",
+    "requires": [],
+    "requires_not": [
+      "EVENT_BEAT_MT_MOON_EXIT_SUPER_NERD",
+      "EVENT_GOT_DOME_FOSSIL",
+      "EVENT_GOT_HELIX_FOSSIL"
+    ],
+    "sets": [
+      "EVENT_BEAT_MT_MOON_EXIT_SUPER_NERD"
+    ],
+    "source": "scripts/MtMoonB2F.asm:76-119,477-506,599-605; data/maps/objects/MtMoonB2F.asm:25",
+    "takes": [],
+    "texts": [
+      "MtMoonB2FSuperNerdTheyreBothMineText",
+      "MtMoonB2FSuperNerdOkIllShareText"
+    ],
+    "trigger_coords": [
+      {
+        "x": 13,
+        "y": 8
+      }
+    ]
+  },
+  {
+    "gives": [
+      {
+        "count": 1,
+        "item": "DOME_FOSSIL"
+      }
+    ],
+    "id": "mt_moon_dome_fossil",
+    "map": "MT_MOON_B2F",
+    "notes": "Availability comes from the objects: the nerd blocks (13,8) until beaten. After Yes the nerd takes the Helix Fossil (TOGGLE_MT_MOON_B2F_FOSSIL_2 hidden). Bag full: MtMoonB2FYouHaveNoRoomText.Text.",
+    "npc": "MTMOONB2F_DOME_FOSSIL",
+    "requires": [],
+    "requires_not": [
+      "EVENT_GOT_DOME_FOSSIL",
+      "EVENT_GOT_HELIX_FOSSIL"
+    ],
+    "sets": [
+      "EVENT_GOT_DOME_FOSSIL"
+    ],
+    "source": "scripts/MtMoonB2F.asm:121-223,525-550,579-597,615-618",
+    "takes": [],
+    "texts": [
+      "MtMoonB2FDomeFossilText.YouWantText",
+      "MtMoonB2FReceivedFossilText.Text",
+      "MtMoonB2FSuperNerdThenThisIsMineText"
+    ]
+  },
+  {
+    "gives": [
+      {
+        "count": 1,
+        "item": "HELIX_FOSSIL"
+      }
+    ],
+    "id": "mt_moon_helix_fossil",
+    "map": "MT_MOON_B2F",
+    "notes": "Mirror of the Dome Fossil: the nerd takes the Dome Fossil (TOGGLE_MT_MOON_B2F_FOSSIL_1 hidden).",
+    "npc": "MTMOONB2F_HELIX_FOSSIL",
+    "requires": [],
+    "requires_not": [
+      "EVENT_GOT_DOME_FOSSIL",
+      "EVENT_GOT_HELIX_FOSSIL"
+    ],
+    "sets": [
+      "EVENT_GOT_HELIX_FOSSIL"
+    ],
+    "source": "scripts/MtMoonB2F.asm:121-223,552-597,615-618",
+    "takes": [],
+    "texts": [
+      "MtMoonB2FHelixFossilText.YouWantText",
+      "MtMoonB2FReceivedFossilText.Text",
+      "MtMoonB2FSuperNerdThenThisIsMineText"
+    ]
+  },
+  {
+    "battle": {
+      "class": "ROCKET",
+      "trainer_no": 42
+    },
+    "gives": [],
+    "id": "mt_moon_jessie_james",
+    "map": "MT_MOON_B2F",
+    "notes": "wCurOpponent = OPP_ROCKET, wTrainerNo = $2a (42). Jessie and James (MTMOONB2F_JESSIE and MTMOONB2F_JAMES) are shown and walk in. A loss resets the scripts and hides them; a win sets EVENT_BEAT_MT_MOON_3_JESSIE_JAMES after a fade-out. The same end text is used for win and loss.",
+    "npc": "MTMOONB2F_JESSIE",
+    "requires": [],
+    "requires_not": [
+      "EVENT_BEAT_MT_MOON_3_JESSIE_JAMES"
+    ],
+    "sets": [
+      "EVENT_BEAT_MT_MOON_3_JESSIE_JAMES"
+    ],
+    "source": "scripts/MtMoonB2F.asm:40-55,76-85,225-402,443-475",
+    "takes": [],
+    "texts": [
+      "MtMoonB2FText12",
+      "MtMoonB2FText13",
+      "MtMoonB2FJessieJamesEndBattleText",
+      "MtMoonB2FText14"
+    ],
+    "trigger_coords": [
+      {
+        "x": 3,
+        "y": 5
+      }
+    ]
+  },
+  {
+    "gives": [
+      {
+        "level": 5,
+        "pokemon": "MAGIKARP"
+      }
+    ],
+    "id": "mt_moon_magikarp_salesman",
+    "map": "MT_MOON_POKECENTER",
+    "notes": "Price is BCD 00 05 00 = 500. Money is taken only if GivePokemon succeeds. No: MagikarpSalesman.NoText. Not enough money: .NoMoneyText. Already bought: .NoRefundsText.",
+    "npc": "MTMOONPOKECENTER_MAGIKARP_SALESMAN",
+    "requires": [
+      {
+        "money_at_least": 500
+      }
+    ],
+    "requires_not": [
+      "EVENT_BOUGHT_MAGIKARP"
+    ],
+    "sets": [
+      "EVENT_BOUGHT_MAGIKARP"
+    ],
+    "source": "scripts/MtMoonPokecenter.asm:26-29; scripts/MtMoonPokecenter_2.asm:1-64",
+    "takes": [
+      {
+        "money": 500
+      }
+    ],
+    "texts": [
+      "MagikarpSalesman.IGotADealText"
+    ]
+  },
+  {
+    "battle": {
+      "class": "RIVAL1",
+      "trainer_no": 3
+    },
+    "gives": [],
+    "id": "cerulean_rival_battle",
+    "map": "CERULEAN_CITY",
+    "notes": "Defeated = the player wins, Victory = the player loses. On a loss the rival is hidden and the script cleared, so it retriggers. On a win: IWentToBills, then he walks off and is hidden.",
+    "npc": "CERULEANCITY_RIVAL",
+    "requires": [],
+    "requires_not": [
+      "EVENT_BEAT_CERULEAN_RIVAL"
+    ],
+    "sets": [
+      "EVENT_BEAT_CERULEAN_RIVAL"
+    ],
+    "source": "scripts/CeruleanCity.asm:7-13,38-100,107-265",
+    "takes": [],
+    "texts": [
+      "CeruleanCityRivalText.PreBattleText",
+      "CeruleanCityRivalDefeatedText",
+      "CeruleanCityRivalVictoryText",
+      "CeruleanCityRivalIWentToBillsText"
+    ],
+    "trigger_coords": [
+      {
+        "x": 20,
+        "y": 6
+      },
+      {
+        "x": 21,
+        "y": 6
+      }
+    ]
+  },
+  {
+    "battle": {
+      "class": "ROCKET",
+      "trainer_no": 5
+    },
+    "gives": [],
+    "id": "cerulean_rocket_thief_battle",
+    "map": "CERULEAN_CITY",
+    "notes": "The Rocket stands at (30,8) and triggers when the player is directly above or below him. On a win his text runs again at once, which gives TM28.",
+    "npc": "CERULEANCITY_ROCKET",
+    "requires": [],
+    "requires_not": [
+      "EVENT_BEAT_CERULEAN_ROCKET_THIEF"
+    ],
+    "sets": [
+      "EVENT_BEAT_CERULEAN_ROCKET_THIEF"
+    ],
+    "source": "scripts/CeruleanCity.asm:23-62,102-105,267-285,304-306,319-321; data/maps/objects/CeruleanCity.asm:39",
+    "takes": [],
+    "texts": [
+      "CeruleanCityRocketText.Text",
+      "CeruleanCityRocketText.IGiveUpText"
+    ],
+    "trigger_coords": [
+      {
+        "x": 30,
+        "y": 7
+      },
+      {
+        "x": 30,
+        "y": 9
+      }
+    ]
+  },
+  {
+    "gives": [
+      {
+        "count": 1,
+        "item": "TM_DIG"
+      }
+    ],
+    "id": "cerulean_rocket_tm28",
+    "map": "CERULEAN_CITY",
+    "notes": "In Yellow TM28 comes from this Rocket, not from the trashed house; no flag records it. Success fades out, hides the Rocket (TOGGLE_CERULEAN_ROCKET), shows TOGGLE_CERULEAN_GUARD_1 and hides TOGGLE_CERULEAN_GUARD_2. Bag full: CeruleanCityRocketText.TM28NoRoomText and he stays. The trashed-house fishing guru only checks whether TM_DIG is in the bag (TheyStoleATMText without it, WhatsLostIsLostText with it) and gives nothing.",
+    "npc": "CERULEANCITY_ROCKET",
+    "requires": [
+      "EVENT_BEAT_CERULEAN_ROCKET_THIEF"
+    ],
+    "requires_not": [],
+    "sets": [],
+    "source": "scripts/CeruleanCity.asm:286-317,323-325; scripts/CeruleanCity_2.asm:1-16; scripts/CeruleanTrashedHouse.asm:11-32",
+    "takes": [],
+    "texts": [
+      "CeruleanCityRocketText.IllReturnTheTMText",
+      "CeruleanCityRocketText.ReceivedTM28Text"
+    ]
+  },
+  {
+    "battle": {
+      "class": "MISTY",
+      "trainer_no": 1
+    },
+    "gives": [
+      {
+        "count": 1,
+        "item": "TM_BUBBLEBEAM"
+      }
+    ],
+    "id": "cerulean_gym_misty_tm11",
+    "map": "CERULEAN_GYM",
+    "notes": "Bag full: CeruleanGymMistyTM11NoRoomText (the badge is still set) and talking to Misty later retries TM11. After: CeruleanGymMistyText.TM11ExplanationText.",
+    "npc": "CERULEANGYM_MISTY",
+    "requires": [],
+    "requires_not": [
+      "EVENT_BEAT_MISTY"
+    ],
+    "sets": [
+      "EVENT_BEAT_MISTY",
+      "EVENT_GOT_TM11",
+      "EVENT_BEAT_CERULEAN_GYM_TRAINER_0",
+      "EVENT_BEAT_CERULEAN_GYM_TRAINER_1",
+      {
+        "badge": "CASCADEBADGE"
+      }
+    ],
+    "source": "scripts/CeruleanGym.asm:39-72,92-150; data/maps/objects/CeruleanGym.asm:17",
+    "takes": [],
+    "texts": [
+      "CeruleanGymMistyText.PreBattleText",
+      "CeruleanGymMistyReceivedCascadeBadgeText",
+      "CeruleanGymMistyCascadeBadgeInfoText",
+      "CeruleanGymMistyReceivedTM11Text"
+    ]
+  },
+  {
+    "gives": [
+      {
+        "level": 10,
+        "pokemon": "BULBASAUR"
+      }
+    ],
+    "id": "cerulean_bulbasaur_gift",
+    "map": "CERULEAN_MELANIES_HOUSE",
+    "notes": "ld a, [wPikachuHappiness] / cp 147 / jr c: 147 or more passes. Below 147 only CeruleanHouse1Text_1cfc8 is shown. Declining: CeruleanHouse1Text_1cfdf. If GivePokemon fails nothing is set. On success the Bulbasaur object is hidden (TOGGLE_CERULEAN_BULBASAUR). After: CeruleanHouse1Text_1cfd9.",
+    "npc": "CERULEANMELANIESHOUSE_MELANIE",
+    "requires": [
+      {
+        "pikachu_happiness_at_least": 147
+      }
+    ],
+    "requires_not": [
+      "EVENT_GOT_BULBASAUR_IN_CERULEAN"
+    ],
+    "sets": [
+      "EVENT_GOT_BULBASAUR_IN_CERULEAN"
+    ],
+    "source": "scripts/CeruleanMelaniesHouse.asm:12-86",
+    "takes": [],
+    "texts": [
+      "CeruleanHouse1Text_1cfc8",
+      "CeruleanHouse1Text_1cfce",
+      "CeruleanHouse1Text_1cfd3"
+    ]
+  },
+  {
+    "battle": {
+      "class": "ROCKET",
+      "trainer_no": 6
+    },
+    "gives": [
+      {
+        "count": 1,
+        "item": "NUGGET"
+      }
+    ],
+    "id": "route24_nugget_bridge_prize",
+    "map": "ROUTE_24",
+    "notes": "The script does not check the five bridge trainers. The Nugget and EVENT_GOT_NUGGET come before the battle, so losing keeps it; EVENT_BEAT_ROUTE24_ROCKET is set only on a win. Bag full: .NoRoomText, EVENT_NUGGET_REWARD_AVAILABLE set, player pushed down. He is TOGGLE_NUGGET_BRIDGE_GUY; Route 25 hides him once EVENT_LEFT_BILLS_HOUSE_AFTER_HELPING is set.",
+    "npc": "ROUTE24_COOLTRAINER_M1",
+    "requires": [],
+    "requires_not": [
+      "EVENT_GOT_NUGGET"
+    ],
+    "sets": [
+      "EVENT_GOT_NUGGET",
+      "EVENT_BEAT_ROUTE24_ROCKET"
+    ],
+    "source": "scripts/Route24.asm:25-78,108-175; data/maps/objects/Route24.asm:20; scripts/Route25.asm:32-38",
+    "takes": [],
+    "texts": [
+      "Route24CooltrainerM1Text.YouBeatOurContestText",
+      "Route24CooltrainerM1Text.ReceivedNuggetText",
+      "Route24CooltrainerM1Text.JoinTeamRocketText",
+      "Route24CooltrainerM1Text.DefeatedText",
+      "Route24CooltrainerM1Text.YouCouldBecomeATopLeaderText"
+    ],
+    "trigger_coords": [
+      {
+        "x": 10,
+        "y": 15
+      }
+    ]
+  },
+  {
+    "gives": [
+      {
+        "level": 10,
+        "pokemon": "CHARMANDER"
+      }
+    ],
+    "id": "route24_charmander_gift",
+    "map": "ROUTE_24",
+    "notes": "No badge or Pikachu-happiness check: the only gate is EVENT_54F (unnamed in pokeyellow). Decline: Route24Text_515e9. After: Route24Text_515ee. If GivePokemon fails nothing is set.",
+    "npc": "ROUTE24_COOLTRAINER_M4",
+    "requires": [],
+    "requires_not": [
+      "EVENT_54F"
+    ],
+    "sets": [
+      "EVENT_54F"
+    ],
+    "source": "scripts/Route24.asm:285-339; data/maps/objects/Route24.asm:28",
+    "takes": [],
+    "texts": [
+      "Route24Text_515de",
+      "Route24Text_515e3"
+    ]
+  },
+  {
+    "gives": [],
+    "id": "bills_house_bill_asks_help",
+    "map": "BILLS_HOUSE",
+    "notes": "No: BillsHousePrintBillPokemonText.NoYouGottaHelpText, then UseSeparationSystemText anyway. Bill-as-Pokemon walks into the cell separator and is hidden (TOGGLE_BILL_POKEMON). Route 25 resets EVENT_BILL_SAID_USE_CELL_SEPARATOR and re-shows him if the player leaves before meeting Bill.",
+    "npc": "BILLSHOUSE_BILL_POKEMON",
+    "requires": [],
+    "requires_not": [
+      "EVENT_MET_BILL_2"
+    ],
+    "sets": [
+      "EVENT_BILL_SAID_USE_CELL_SEPARATOR"
+    ],
+    "source": "scripts/BillsHouse.asm:22-116,268-271; scripts/BillsHouse_2.asm:1-29",
+    "takes": [],
+    "texts": [
+      "BillsHousePrintBillPokemonText.ImNotAPokemonText",
+      "BillsHousePrintBillPokemonText.UseSeparationSystemText"
+    ]
+  },
+  {
+    "gives": [],
+    "id": "bills_house_cell_separator_pc",
+    "map": "BILLS_HOUSE",
+    "notes": "The hidden event BillsHousePC at (1,4), facing up. Before the flag: BillsHouseMonitorText. Then Bill (BILLSHOUSE_BILL1) walks out and EVENT_MET_BILL_2 and EVENT_MET_BILL are set (BillsHouse.asm:135-209).",
+    "npc": null,
+    "requires": [
+      "EVENT_BILL_SAID_USE_CELL_SEPARATOR",
+      {
+        "player_facing": "UP"
+      }
+    ],
+    "requires_not": [
+      "EVENT_USED_CELL_SEPARATOR_ON_BILL",
+      "EVENT_LEFT_BILLS_HOUSE_AFTER_HELPING"
+    ],
+    "sets": [
+      "EVENT_USED_CELL_SEPARATOR_ON_BILL"
+    ],
+    "source": "engine/events/hidden_events/bills_house_pc.asm:1-64; data/events/hidden_events.asm:267",
+    "takes": [],
+    "texts": [
+      "BillsHouseInitiatedText"
+    ],
+    "trigger_coords": [
+      {
+        "x": 1,
+        "y": 4
+      }
+    ]
+  },
+  {
+    "gives": [
+      {
+        "count": 1,
+        "item": "S_S_TICKET"
+      }
+    ],
+    "id": "bills_house_ss_ticket",
+    "map": "BILLS_HOUSE",
+    "notes": "Shown automatically after Bill steps out and the player is walked right 3. Success also shows TOGGLE_CERULEAN_GUARD_1 and hides TOGGLE_CERULEAN_GUARD_2. Bag full: .SSTicketNoRoomText. Entering Route 25 afterwards sets EVENT_LEFT_BILLS_HOUSE_AFTER_HELPING and hides the Nugget Bridge Rocket and BILL1 (shows BILL2). The later Bill (BILLSHOUSE_BILL2) says BillsHousePrintBillCheckOutMyRarePokemonText.text.",
+    "npc": "BILLSHOUSE_BILL1",
+    "requires": [
+      "EVENT_USED_CELL_SEPARATOR_ON_BILL"
+    ],
+    "requires_not": [
+      "EVENT_GOT_SS_TICKET"
+    ],
+    "sets": [
+      "EVENT_MET_BILL_2",
+      "EVENT_MET_BILL",
+      "EVENT_GOT_SS_TICKET"
+    ],
+    "source": "scripts/BillsHouse.asm:135-255,273-276; scripts/BillsHouse_2.asm:31-73; scripts/Route25.asm:32-44",
+    "takes": [],
+    "texts": [
+      "BillsHousePrintBillSSTicketText.ThankYouText",
+      "BillsHousePrintBillSSTicketText.SSTicketReceivedText",
+      "BillsHousePrintBillSSTicketText.WhyDontYouGoInsteadOfMeText"
+    ]
+  }
+]

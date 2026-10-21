@@ -1,0 +1,111 @@
+{
+  "blocked_edges": [],
+  "border_block": 10,
+  "cave": false,
+  "connections": {},
+  "encounter_rate": 0,
+  "height": 8,
+  "hidden": [],
+  "hidden_events": [],
+  "id": "PEWTER_NIDORAN_HOUSE",
+  "items": [],
+  "label": "PewterNidoranHouse",
+  "looks": [
+    "ttBlBnBt",
+    "bbooooob",
+    "oooooooo",
+    "oottttoo",
+    "oottttoo",
+    "oooooooo",
+    "hooooooh",
+    "hommoooh"
+  ],
+  "looks_unknown": 0,
+  "music": "cities1",
+  "name": "Pewter Nidoran House",
+  "npcs": [
+    {
+      "facing": "left",
+      "id": "PEWTERNIDORANHOUSE_NIDORAN",
+      "movement": "stay",
+      "sprite": "SPRITE_MONSTER",
+      "text": "TEXT_PEWTERNIDORANHOUSE_NIDORAN",
+      "text_handler": "PewterNidoranHouseNidoranText",
+      "text_id": "TEXT_PEWTERNIDORANHOUSE_NIDORAN",
+      "texts": [
+        "PewterNidoranHouseNidoranText"
+      ],
+      "x": 4,
+      "y": 5
+    },
+    {
+      "facing": "right",
+      "id": "PEWTERNIDORANHOUSE_LITTLE_BOY",
+      "movement": "stay",
+      "sprite": "SPRITE_LITTLE_BOY",
+      "text": "TEXT_PEWTERNIDORANHOUSE_LITTLE_BOY",
+      "text_handler": "PewterNidoranHouseLittleBoyText",
+      "text_id": "TEXT_PEWTERNIDORANHOUSE_LITTLE_BOY",
+      "texts": [
+        "PewterNidoranHouseLittleBoyText"
+      ],
+      "x": 3,
+      "y": 5
+    },
+    {
+      "facing": "none",
+      "id": "PEWTERNIDORANHOUSE_MIDDLE_AGED_MAN",
+      "movement": "stay",
+      "sprite": "SPRITE_MIDDLE_AGED_MAN",
+      "text": "TEXT_PEWTERNIDORANHOUSE_MIDDLE_AGED_MAN",
+      "text_handler": "PewterNidoranHouseMiddleAgedManText",
+      "text_id": "TEXT_PEWTERNIDORANHOUSE_MIDDLE_AGED_MAN",
+      "texts": [
+        "PewterNidoranHouseMiddleAgedManText"
+      ],
+      "x": 1,
+      "y": 2
+    }
+  ],
+  "origin": {
+    "x": 20,
+    "y": 1086
+  },
+  "outdoor": false,
+  "palette": "PAL_PEWTER",
+  "signs": [],
+  "source": {
+    "blocks": "maps/PewterNidoranHouse.blk",
+    "header": "data/maps/headers/PewterNidoranHouse.asm",
+    "objects": "data/maps/objects/PewterNidoranHouse.asm",
+    "script": "scripts/PewterNidoranHouse.asm"
+  },
+  "tiles": [
+    "########",
+    "##.....#",
+    "........",
+    "...##...",
+    "...##...",
+    "........",
+    "#......#",
+    "#.dd...#"
+  ],
+  "tileset": "HOUSE",
+  "warps": [
+    {
+      "last_map": true,
+      "to_map": "PEWTER_CITY",
+      "to_warp": 4,
+      "x": 2,
+      "y": 7
+    },
+    {
+      "last_map": true,
+      "to_map": "PEWTER_CITY",
+      "to_warp": 4,
+      "x": 3,
+      "y": 7
+    }
+  ],
+  "width": 8
+}

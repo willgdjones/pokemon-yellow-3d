@@ -1,0 +1,158 @@
+{
+  "blocked_edges": [],
+  "border_block": 14,
+  "cave": false,
+  "connections": {},
+  "encounter_rate": 0,
+  "height": 8,
+  "hidden": [],
+  "hidden_events": [
+    {
+      "arg": "ANY_FACING",
+      "kind": "PrintNewBikeText",
+      "x": 1,
+      "y": 0
+    },
+    {
+      "arg": "ANY_FACING",
+      "kind": "PrintNewBikeText",
+      "x": 2,
+      "y": 1
+    },
+    {
+      "arg": "ANY_FACING",
+      "kind": "PrintNewBikeText",
+      "x": 1,
+      "y": 2
+    },
+    {
+      "arg": "ANY_FACING",
+      "kind": "PrintNewBikeText",
+      "x": 3,
+      "y": 2
+    },
+    {
+      "arg": "ANY_FACING",
+      "kind": "PrintNewBikeText",
+      "x": 0,
+      "y": 4
+    },
+    {
+      "arg": "ANY_FACING",
+      "kind": "PrintNewBikeText",
+      "x": 1,
+      "y": 5
+    }
+  ],
+  "id": "BIKE_SHOP",
+  "items": [],
+  "label": "BikeShop",
+  "looks": [
+    "llBllkBB",
+    "llllokoo",
+    "llllokoo",
+    "oooookkk",
+    "lloooooo",
+    "lloooooo",
+    "oooooolo",
+    "oommoool"
+  ],
+  "looks_unknown": 0,
+  "music": "cities2",
+  "name": "Bike Shop",
+  "npcs": [
+    {
+      "facing": "none",
+      "id": "BIKESHOP_CLERK",
+      "movement": "stay",
+      "sprite": "SPRITE_BIKE_SHOP_CLERK",
+      "text": "TEXT_BIKESHOP_CLERK",
+      "text_handler": "BikeShopClerkText",
+      "text_id": "TEXT_BIKESHOP_CLERK",
+      "texts": [
+        "BikeShopClerkHowDoYouLikeYourBicycleText",
+        "BikeShopClerkOhThatsAVoucherText",
+        "BikeShopExchangedVoucherText",
+        "BikeShopBagFullText",
+        "BikeShopClerkWelcomeText",
+        "BikeShopMenuText",
+        "BikeShopMenuPrice",
+        "BikeShopClerkDoYouLikeItText",
+        "BikeShopCantAffordText",
+        "BikeShopComeAgainText"
+      ],
+      "x": 6,
+      "y": 2
+    },
+    {
+      "facing": "up_down",
+      "id": "BIKESHOP_MIDDLE_AGED_WOMAN",
+      "movement": "walk",
+      "sprite": "SPRITE_MIDDLE_AGED_WOMAN",
+      "text": "TEXT_BIKESHOP_MIDDLE_AGED_WOMAN",
+      "text_handler": "BikeShopMiddleAgedWomanText",
+      "text_id": "TEXT_BIKESHOP_MIDDLE_AGED_WOMAN",
+      "texts": [
+        "BikeShopMiddleAgedWomanText.Text"
+      ],
+      "x": 5,
+      "y": 6
+    },
+    {
+      "facing": "up",
+      "id": "BIKESHOP_YOUNGSTER",
+      "movement": "stay",
+      "sprite": "SPRITE_YOUNGSTER",
+      "text": "TEXT_BIKESHOP_YOUNGSTER",
+      "text_handler": "BikeShopYoungsterText",
+      "text_id": "TEXT_BIKESHOP_YOUNGSTER",
+      "texts": [
+        "BikeShopYoungsterText.CoolBikeText",
+        "BikeShopYoungsterText.TheseBikesAreExpensiveText"
+      ],
+      "x": 1,
+      "y": 3
+    }
+  ],
+  "origin": {
+    "x": 130,
+    "y": 1132
+  },
+  "outdoor": false,
+  "palette": "PAL_CERULEAN",
+  "signs": [],
+  "source": {
+    "blocks": "maps/BikeShop.blk",
+    "header": "data/maps/headers/BikeShop.asm",
+    "objects": "data/maps/objects/BikeShop.asm",
+    "script": "scripts/BikeShop.asm"
+  },
+  "tiles": [
+    "#####=##",
+    "####.=..",
+    "####.=..",
+    ".....===",
+    "##......",
+    "##......",
+    "......#.",
+    "..dd...#"
+  ],
+  "tileset": "CLUB",
+  "warps": [
+    {
+      "last_map": true,
+      "to_map": "CERULEAN_CITY",
+      "to_warp": 5,
+      "x": 2,
+      "y": 7
+    },
+    {
+      "last_map": true,
+      "to_map": "CERULEAN_CITY",
+      "to_warp": 5,
+      "x": 3,
+      "y": 7
+    }
+  ],
+  "width": 8
+}

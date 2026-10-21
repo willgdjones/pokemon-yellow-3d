@@ -1,0 +1,185 @@
+{
+  "blocked_edges": [],
+  "border_block": 11,
+  "cave": false,
+  "connections": {
+    "north": {
+      "map": "ROUTE_1",
+      "offset": 0
+    },
+    "south": {
+      "map": "ROUTE_21",
+      "offset": 0,
+      "out_of_scope": true
+    }
+  },
+  "encounter_rate": 0,
+  "height": 18,
+  "hidden": [],
+  "hidden_events": [],
+  "id": "PALLET_TOWN",
+  "items": [],
+  "label": "PalletTown",
+  "looks": [
+    "sssFsssssFGGFsssssFs",
+    "FFFFFFFFFFGGFFFFFFFF",
+    "FsppppppppppppppppsF",
+    "FsppRRRRppppRRRRppsF",
+    "FsppRnnRppppRnnRppsF",
+    "FspSBDnBpppSBDnBppsF",
+    "FsppppppppppppppppsF",
+    "FsppppppppppppppppsF",
+    "FsppppppppRRRRRRppsF",
+    "FsppFFFSppRRRRRRppsF",
+    "FsppffffppRnnnnnppsF",
+    "FsppffffppnnDnnnppsF",
+    "FsppppppppppppppppsF",
+    "FsppppppppFFFSFFppsF",
+    "FsssWWWWppffffssppsF",
+    "FsssWWWWppffffssppsF",
+    "FsssWWWWppppppppppsF",
+    "FFssWWWWFFFFFFFFFFFF"
+  ],
+  "looks_unknown": 0,
+  "music": "pallet_town",
+  "name": "PALLET TOWN",
+  "npcs": [
+    {
+      "facing": "none",
+      "hidden_at_start": true,
+      "id": "PALLETTOWN_OAK",
+      "movement": "stay",
+      "sprite": "SPRITE_OAK",
+      "text": "TEXT_PALLETTOWN_OAK",
+      "text_handler": "PalletTownOakText",
+      "text_id": "TEXT_PALLETTOWN_OAK",
+      "texts": [
+        "PalletTownOakText.HeyWaitDontGoOutText",
+        "PalletTownOakText.ThatWasCloseText",
+        "PalletTownOakText.WhewText"
+      ],
+      "toggle": "PALLETTOWN_OAK",
+      "x": 10,
+      "y": 4
+    },
+    {
+      "facing": "any_dir",
+      "id": "PALLETTOWN_GIRL",
+      "movement": "walk",
+      "sprite": "SPRITE_GIRL",
+      "text": "TEXT_PALLETTOWN_GIRL",
+      "text_handler": "PalletTownGirlText",
+      "text_id": "TEXT_PALLETTOWN_GIRL",
+      "texts": [
+        "PalletTownGirlText"
+      ],
+      "x": 3,
+      "y": 8
+    },
+    {
+      "facing": "any_dir",
+      "id": "PALLETTOWN_FISHER",
+      "movement": "walk",
+      "sprite": "SPRITE_FISHER",
+      "text": "TEXT_PALLETTOWN_FISHER",
+      "text_handler": "PalletTownFisherText",
+      "text_id": "TEXT_PALLETTOWN_FISHER",
+      "texts": [
+        "PalletTownFisherText"
+      ],
+      "x": 11,
+      "y": 14
+    }
+  ],
+  "origin": {
+    "x": 0,
+    "y": 0
+  },
+  "outdoor": true,
+  "palette": "PAL_PALLET",
+  "signs": [
+    {
+      "text": "TEXT_PALLETTOWN_OAKSLAB_SIGN",
+      "texts": [
+        "PalletTownOaksLabSignText"
+      ],
+      "x": 13,
+      "y": 13
+    },
+    {
+      "text": "TEXT_PALLETTOWN_SIGN",
+      "texts": [
+        "PalletTownSignText"
+      ],
+      "x": 7,
+      "y": 9
+    },
+    {
+      "text": "TEXT_PALLETTOWN_PLAYERSHOUSE_SIGN",
+      "texts": [
+        "PalletTownPlayersHouseSignText"
+      ],
+      "x": 3,
+      "y": 5
+    },
+    {
+      "text": "TEXT_PALLETTOWN_RIVALSHOUSE_SIGN",
+      "texts": [
+        "PalletTownRivalsHouseSignText"
+      ],
+      "x": 11,
+      "y": 5
+    }
+  ],
+  "source": {
+    "blocks": "maps/PalletTown.blk",
+    "header": "data/maps/headers/PalletTown.asm",
+    "objects": "data/maps/objects/PalletTown.asm",
+    "script": "scripts/PalletTown.asm"
+  },
+  "tiles": [
+    "...#.....#gg#.....#.",
+    "##########gg########",
+    "#..................#",
+    "#...####....####...#",
+    "#...####....####...#",
+    "#..##d##...##d##...#",
+    "#..................#",
+    "#..................#",
+    "#.........######...#",
+    "#...####..######...#",
+    "#.........######...#",
+    "#.........##d###...#",
+    "#..................#",
+    "#.........######...#",
+    "#...wwww...........#",
+    "#...wwww...........#",
+    "#...wwww...........#",
+    "##..wwww############"
+  ],
+  "tileset": "OVERWORLD",
+  "warps": [
+    {
+      "door": true,
+      "to_map": "REDS_HOUSE_1F",
+      "to_warp": 1,
+      "x": 5,
+      "y": 5
+    },
+    {
+      "door": true,
+      "to_map": "BLUES_HOUSE",
+      "to_warp": 1,
+      "x": 13,
+      "y": 5
+    },
+    {
+      "door": true,
+      "to_map": "OAKS_LAB",
+      "to_warp": 2,
+      "x": 12,
+      "y": 11
+    }
+  ],
+  "width": 20
+}

@@ -1,0 +1,110 @@
+{
+  "blocked_edges": [],
+  "border_block": 10,
+  "cave": false,
+  "connections": {},
+  "encounter_rate": 0,
+  "height": 8,
+  "hidden": [],
+  "hidden_events": [],
+  "id": "VIRIDIAN_FOREST_SOUTH_GATE",
+  "items": [],
+  "label": "ViridianForestSouthGate",
+  "looks": [
+    "BBBBDDBBBB",
+    "oooooooooo",
+    "hoooookokh",
+    "hoooookokh",
+    "hooooooooh",
+    "hoooookokh",
+    "hoooookokh",
+    "hooommoooh"
+  ],
+  "looks_unknown": 0,
+  "music": "cities1",
+  "name": "Viridian Forest South Gate",
+  "npcs": [
+    {
+      "facing": "left",
+      "id": "VIRIDIANFORESTSOUTHGATE_GIRL",
+      "movement": "stay",
+      "sprite": "SPRITE_GIRL",
+      "text": "TEXT_VIRIDIANFORESTSOUTHGATE_GIRL",
+      "text_handler": "ViridianForestSouthGateGirlText",
+      "text_id": "TEXT_VIRIDIANFORESTSOUTHGATE_GIRL",
+      "texts": [
+        "ViridianForestSouthGateGirlText"
+      ],
+      "x": 8,
+      "y": 4
+    },
+    {
+      "facing": "up_down",
+      "id": "VIRIDIANFORESTSOUTHGATE_LITTLE_GIRL",
+      "movement": "walk",
+      "sprite": "SPRITE_LITTLE_GIRL",
+      "text": "TEXT_VIRIDIANFORESTSOUTHGATE_LITTLE_GIRL",
+      "text_handler": "ViridianForestSouthGateLittleGirlText",
+      "text_id": "TEXT_VIRIDIANFORESTSOUTHGATE_LITTLE_GIRL",
+      "texts": [
+        "ViridianForestSouthGateLittleGirlText"
+      ],
+      "x": 2,
+      "y": 4
+    }
+  ],
+  "origin": {
+    "x": 56,
+    "y": 1028
+  },
+  "outdoor": false,
+  "palette": "PAL_ROUTE",
+  "signs": [],
+  "source": {
+    "blocks": "maps/ViridianForestSouthGate.blk",
+    "header": "data/maps/headers/ViridianForestSouthGate.asm",
+    "objects": "data/maps/objects/ViridianForestSouthGate.asm",
+    "script": "scripts/ViridianForestSouthGate.asm"
+  },
+  "tiles": [
+    "####dd####",
+    "..........",
+    "#.....=.=#",
+    "#.....=.=#",
+    "#........#",
+    "#.....=.=#",
+    "#.....=.=#",
+    "#...dd...#"
+  ],
+  "tileset": "FOREST_GATE",
+  "warps": [
+    {
+      "to_map": "VIRIDIAN_FOREST",
+      "to_warp": 4,
+      "x": 4,
+      "y": 0
+    },
+    {
+      "door": true,
+      "to_map": "VIRIDIAN_FOREST",
+      "to_warp": 4,
+      "x": 5,
+      "y": 0
+    },
+    {
+      "last_map": true,
+      "to_map": "ROUTE_2",
+      "to_warp": 6,
+      "x": 4,
+      "y": 7
+    },
+    {
+      "last_map": true,
+      "to_map": "ROUTE_2",
+      "to_warp": 6,
+      "x": 5,
+      "y": 7
+    }
+  ],
+  "width": 10
+}

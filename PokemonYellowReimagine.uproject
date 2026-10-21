@@ -1,0 +1,15 @@
+{
+  "FileVersion": 3,
+  "EngineAssociation": "5.8",
+  "Category": "Games",
+  "Description": "Pokemon Yellow: Live Battle",
+  "Modules": [
+    { "Name": "PokemonYellowReimagine", "Type": "Runtime", "LoadingPhase": "Default" }
+  ],
+  "Plugins": [
+    { "Name": "PythonScriptPlugin", "Enabled": true },
+    { "Name": "EditorScriptingUtilities", "Enabled": true },
+    { "Name": "Niagara", "Enabled": true },
+    { "Name": "ProceduralMeshComponent", "Enabled": true }
+  ]
+}

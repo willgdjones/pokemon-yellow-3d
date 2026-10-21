@@ -1,0 +1,333 @@
+{
+  "blocked_edges": [],
+  "border_block": 44,
+  "cave": false,
+  "connections": {
+    "east": {
+      "map": "ROUTE_25",
+      "offset": 0
+    },
+    "south": {
+      "map": "CERULEAN_CITY",
+      "offset": -10
+    }
+  },
+  "encounter_rate": 25,
+  "height": 36,
+  "hidden": [],
+  "hidden_events": [],
+  "id": "ROUTE_24",
+  "items": [
+    {
+      "facing": "none",
+      "hidden_at_start": false,
+      "id": "ROUTE24_TM_THUNDER_WAVE",
+      "item": "TM_THUNDER_WAVE",
+      "movement": "stay",
+      "script": "PickUpItemText",
+      "sprite": "SPRITE_POKE_BALL",
+      "text": "TEXT_ROUTE24_TM_THUNDER_WAVE",
+      "text_handler": "PickUpItemText",
+      "text_id": "TEXT_ROUTE24_TM_THUNDER_WAVE",
+      "texts": [
+        "FoundItemText",
+        "NoMoreRoomForItemText"
+      ],
+      "toggle": "ROUTE24_TM_THUNDER_WAVE",
+      "x": 10,
+      "y": 5
+    }
+  ],
+  "label": "Route24",
+  "looks": [
+    "rrrrrrrrrrrrrrrrrrrr",
+    "rrrrrrrrrrrrrrrrrrrr",
+    "rrrrrrrrrrrrrrrrrrrr",
+    "rrrrrrrrrrrrrrrrrrrr",
+    "rrrrpppppppppLppLsss",
+    "rrrrpppppppppLppLsss",
+    "rrrrpppppppppLppLsss",
+    "rrrrLLpLLLLLLrpprLLL",
+    "rrrrpppppppppppppppp",
+    "rrrrpppppppppppppppp",
+    "rrrrssssssppFFFFFFFF",
+    "rrrrssssssppFsssssss",
+    "rrrrffffssppFsssrrrr",
+    "rrrrffffssppFsssrrrr",
+    "rrrrffffssppFsssrrrr",
+    "rrrrffffssppFsssrrrr",
+    "rrrrssWWWFHHFsssrrrr",
+    "rrrrssWWWFHHFsssrrrr",
+    "rrrrGGWWWFHHFsssrrrr",
+    "rrrrGGWWWFHHFsssrrrr",
+    "rrrrGGWWWFHHFsssrrrr",
+    "rrrrGGWWWFHHFsssrrrr",
+    "rrrrGGWWWFHHFssFWWWW",
+    "rrrrGGWWWFHHFssFWWWW",
+    "rrrrGGWWWFHHFssFWWWW",
+    "rrrrGGWWWFHHFssFWWWW",
+    "rrrrGGWWWFHHFssFWWWW",
+    "rrrrGGWWWFHHFssFWWWW",
+    "rrrrGGWWWFHHFssFWWWW",
+    "rrrrGGWWWFHHFssFWWWW",
+    "rrrrGGWWWFHHFssFWWWW",
+    "rrrrGGWWWFHHFssFWWWW",
+    "rrrrWWWWWFHHFssFWWWW",
+    "rrrrWWWWWFHHFssFWWWW",
+    "rrrrWWWWWFHHFssFWWWW",
+    "rrrrWWWWWFHHFssFWWWW"
+  ],
+  "looks_unknown": 0,
+  "music": "routes2",
+  "name": "ROUTE 24",
+  "npcs": [
+    {
+      "facing": "left",
+      "hidden_at_start": false,
+      "id": "ROUTE24_COOLTRAINER_M1",
+      "movement": "stay",
+      "sprite": "SPRITE_COOLTRAINER_M",
+      "text": "TEXT_ROUTE24_COOLTRAINER_M1",
+      "text_handler": "Route24CooltrainerM1Text",
+      "text_id": "TEXT_ROUTE24_COOLTRAINER_M1",
+      "texts": [
+        "Route24CooltrainerM1Text.YouBeatOurContestText",
+        "Route24CooltrainerM1Text.ReceivedNuggetText",
+        "Route24CooltrainerM1Text.JoinTeamRocketText",
+        "Route24CooltrainerM1Text.DefeatedText",
+        "Route24CooltrainerM1Text.YouCouldBecomeATopLeaderText",
+        "Route24CooltrainerM1Text.NoRoomText",
+        "_Route24CooltrainerM1YouJustEarnedAPrizeText"
+      ],
+      "toggle": "ROUTE24_COOLTRAINER_M1",
+      "trainer": {
+        "class": "ROCKET",
+        "party": 6,
+        "sight": 0
+      },
+      "x": 11,
+      "y": 15
+    },
+    {
+      "facing": "up",
+      "id": "ROUTE24_COOLTRAINER_M2",
+      "movement": "stay",
+      "sprite": "SPRITE_COOLTRAINER_M",
+      "text": "TEXT_ROUTE24_COOLTRAINER_M2",
+      "text_handler": "Route24CooltrainerM2Text",
+      "text_id": "TEXT_ROUTE24_COOLTRAINER_M2",
+      "texts": [
+        "Route24CooltrainerM2BattleText",
+        "Route24CooltrainerM2EndBattleText",
+        "Route24CooltrainerM2AfterBattleText"
+      ],
+      "trainer": {
+        "after_text": "Route24CooltrainerM2AfterBattleText",
+        "battle_text": "Route24CooltrainerM2BattleText",
+        "class": "JR_TRAINER_M",
+        "end_text": "Route24CooltrainerM2EndBattleText",
+        "event": "EVENT_BEAT_ROUTE_24_TRAINER_0",
+        "party": 2,
+        "sight": 4
+      },
+      "x": 5,
+      "y": 20
+    },
+    {
+      "facing": "left",
+      "id": "ROUTE24_COOLTRAINER_M3",
+      "movement": "stay",
+      "sprite": "SPRITE_COOLTRAINER_M",
+      "text": "TEXT_ROUTE24_COOLTRAINER_M3",
+      "text_handler": "Route24CooltrainerM3Text",
+      "text_id": "TEXT_ROUTE24_COOLTRAINER_M3",
+      "texts": [
+        "Route24CooltrainerM3BattleText",
+        "Route24CooltrainerM3EndBattleText",
+        "Route24CooltrainerM3AfterBattleText"
+      ],
+      "trainer": {
+        "after_text": "Route24CooltrainerM3AfterBattleText",
+        "battle_text": "Route24CooltrainerM3BattleText",
+        "class": "JR_TRAINER_M",
+        "end_text": "Route24CooltrainerM3EndBattleText",
+        "event": "EVENT_BEAT_ROUTE_24_TRAINER_1",
+        "party": 3,
+        "sight": 1
+      },
+      "x": 11,
+      "y": 19
+    },
+    {
+      "facing": "right",
+      "id": "ROUTE24_COOLTRAINER_F1",
+      "movement": "stay",
+      "sprite": "SPRITE_COOLTRAINER_F",
+      "text": "TEXT_ROUTE24_COOLTRAINER_F1",
+      "text_handler": "Route24CooltrainerF1Text",
+      "text_id": "TEXT_ROUTE24_COOLTRAINER_F1",
+      "texts": [
+        "Route24CooltrainerF1BattleText",
+        "Route24CooltrainerF1EndBattleText",
+        "Route24CooltrainerF1AfterBattleText"
+      ],
+      "trainer": {
+        "after_text": "Route24CooltrainerF1AfterBattleText",
+        "battle_text": "Route24CooltrainerF1BattleText",
+        "class": "LASS",
+        "end_text": "Route24CooltrainerF1EndBattleText",
+        "event": "EVENT_BEAT_ROUTE_24_TRAINER_2",
+        "party": 7,
+        "sight": 1
+      },
+      "x": 10,
+      "y": 22
+    },
+    {
+      "facing": "left",
+      "id": "ROUTE24_YOUNGSTER1",
+      "movement": "stay",
+      "sprite": "SPRITE_YOUNGSTER",
+      "text": "TEXT_ROUTE24_YOUNGSTER1",
+      "text_handler": "Route24Youngster1Text",
+      "text_id": "TEXT_ROUTE24_YOUNGSTER1",
+      "texts": [
+        "Route24Youngster1BattleText",
+        "Route24Youngster1EndBattleText",
+        "Route24Youngster1AfterBattleText"
+      ],
+      "trainer": {
+        "after_text": "Route24Youngster1AfterBattleText",
+        "battle_text": "Route24Youngster1BattleText",
+        "class": "YOUNGSTER",
+        "end_text": "Route24Youngster1EndBattleText",
+        "event": "EVENT_BEAT_ROUTE_24_TRAINER_3",
+        "party": 4,
+        "sight": 1
+      },
+      "x": 11,
+      "y": 25
+    },
+    {
+      "facing": "right",
+      "id": "ROUTE24_COOLTRAINER_F2",
+      "movement": "stay",
+      "sprite": "SPRITE_COOLTRAINER_F",
+      "text": "TEXT_ROUTE24_COOLTRAINER_F2",
+      "text_handler": "Route24CooltrainerF2Text",
+      "text_id": "TEXT_ROUTE24_COOLTRAINER_F2",
+      "texts": [
+        "Route24CooltrainerF2BattleText",
+        "Route24CooltrainerF2EndBattleText",
+        "Route24CooltrainerF2AfterBattleText"
+      ],
+      "trainer": {
+        "after_text": "Route24CooltrainerF2AfterBattleText",
+        "battle_text": "Route24CooltrainerF2BattleText",
+        "class": "LASS",
+        "end_text": "Route24CooltrainerF2EndBattleText",
+        "event": "EVENT_BEAT_ROUTE_24_TRAINER_4",
+        "party": 8,
+        "sight": 1
+      },
+      "x": 10,
+      "y": 28
+    },
+    {
+      "facing": "left",
+      "id": "ROUTE24_YOUNGSTER2",
+      "movement": "stay",
+      "sprite": "SPRITE_YOUNGSTER",
+      "text": "TEXT_ROUTE24_YOUNGSTER2",
+      "text_handler": "Route24Youngster2Text",
+      "text_id": "TEXT_ROUTE24_YOUNGSTER2",
+      "texts": [
+        "Route24Youngster2BattleText",
+        "Route24Youngster2EndBattleText",
+        "Route24Youngster2AfterBattleText"
+      ],
+      "trainer": {
+        "after_text": "Route24Youngster2AfterBattleText",
+        "battle_text": "Route24Youngster2BattleText",
+        "class": "BUG_CATCHER",
+        "end_text": "Route24Youngster2EndBattleText",
+        "event": "EVENT_BEAT_ROUTE_24_TRAINER_5",
+        "party": 9,
+        "sight": 1
+      },
+      "x": 11,
+      "y": 31
+    },
+    {
+      "facing": "down",
+      "id": "ROUTE24_COOLTRAINER_M4",
+      "movement": "stay",
+      "sprite": "SPRITE_COOLTRAINER_M",
+      "text": "TEXT_ROUTE24_COOLTRAINER_M4",
+      "text_handler": "Route24CooltrainerM4Text",
+      "text_id": "TEXT_ROUTE24_COOLTRAINER_M4",
+      "texts": [
+        "Route24Text_515de",
+        "Route24Text_515e3",
+        "Route24Text_515e9",
+        "Route24Text_515ee"
+      ],
+      "x": 6,
+      "y": 5
+    }
+  ],
+  "origin": {
+    "x": 180,
+    "y": -234
+  },
+  "outdoor": true,
+  "palette": "PAL_ROUTE",
+  "signs": [],
+  "source": {
+    "blocks": "maps/Route24.blk",
+    "header": "data/maps/headers/Route24.asm",
+    "objects": "data/maps/objects/Route24.asm",
+    "script": "scripts/Route24.asm"
+  },
+  "tiles": [
+    "####################",
+    "####################",
+    "####################",
+    "####################",
+    "####.........>..<...",
+    "####.........>..<...",
+    "####.........>..<...",
+    "####vv.vvvvvv#..#vvv",
+    "####................",
+    "####................",
+    "####........########",
+    "####........#.......",
+    "####........#...####",
+    "####........#...####",
+    "####........#...####",
+    "####........#...####",
+    "####..www#..#...####",
+    "####..www#..#...####",
+    "####ggwww#..#...####",
+    "####ggwww#..#...####",
+    "####ggwww#..#...####",
+    "####ggwww#..#...####",
+    "####ggwww#..#..#wwww",
+    "####ggwww#..#..#wwww",
+    "####ggwww#..#..#wwww",
+    "####ggwww#..#..#wwww",
+    "####ggwww#..#..#wwww",
+    "####ggwww#..#..#wwww",
+    "####ggwww#..#..#wwww",
+    "####ggwww#..#..#wwww",
+    "####ggwww#..#..#wwww",
+    "####ggwww#..#..#wwww",
+    "####wwwww#..#..#wwww",
+    "####wwwww#..#..#wwww",
+    "####wwwww#..#..#wwww",
+    "####wwwww#..#..#wwww"
+  ],
+  "tileset": "OVERWORLD",
+  "warps": [],
+  "width": 20
+}

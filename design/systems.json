@@ -1,0 +1,330 @@
+{
+  "systems": [
+    {
+      "id": "roaming",
+      "name": "Roaming Kanto",
+      "what": "Seamless walking, running and ledge-hopping through cel-shaded towns and routes, with doors opening straight into interiors and no loading.",
+      "player_verbs": [
+        "walk",
+        "run",
+        "hop ledges",
+        "crouch",
+        "talk",
+        "enter buildings"
+      ],
+      "checks": [
+        "The player can walk from Pallet Town to Pewter Gym without a loading screen",
+        "Jumping down a ledge works and climbing back up it does not",
+        "Crouching in tall grass slows Red and lowers his outline",
+        "Walking through a door of Oak's lab, a Pokemon Centre or a Mart leads straight into the room"
+      ],
+      "in_slice": true,
+      "library": "",
+      "prototype": {
+        "status": "building",
+        "slug": "pokemon-yellow-reimagine-proto-roaming",
+        "notes": ""
+      }
+    },
+    {
+      "id": "roadblocks",
+      "name": "Story roadblocks",
+      "what": "Yellow's own people and events set the order of the journey. Each is a character with a line, never an invisible wall, and each steps aside once Yellow's condition is met.",
+      "player_verbs": [
+        "talk",
+        "deliver",
+        "pass"
+      ],
+      "checks": [
+        "Oak stops Red at the Route 1 grass before he has a Pokemon",
+        "The Viridian Mart gives Oak's Parcel and sells nothing until it has been delivered",
+        "The old man blocks the north road of Viridian until Red has the Pokedex, then shows how to catch",
+        "The boy at Pewter's east exit leads Red to the gym until he holds the Boulder Badge"
+      ],
+      "in_slice": true,
+      "library": "",
+      "prototype": {
+        "status": "none",
+        "slug": "",
+        "notes": ""
+      }
+    },
+    {
+      "id": "wild-encounters",
+      "name": "Wild encounters",
+      "what": "Wild Pokemon from Yellow's tables for each route are visible in the world and each species behaves in its own way. Touching one turns the spot into a battle ring with no cut, and the ground stays part of the fight.",
+      "player_verbs": [
+        "spot",
+        "sneak",
+        "approach",
+        "flee"
+      ],
+      "checks": [
+        "Only the species Yellow lists for a route appear there, within Yellow's level ranges",
+        "Pidgey fly away when Red runs near them but stay when he walks",
+        "Touching a wild Pokemon flattens the grass into a ring, raises the camera and dims the world beyond it, with no cut or loading screen",
+        "A ledge or tree trunk where the battle starts stays inside the ring and changes the fight",
+        "Reaching a wild Pokemon while crouched starts the battle with it stunned for 2 seconds",
+        "Standing in the ring's worn gap for 3 seconds ends a wild battle, and the colour returns with Red on the same spot"
+      ],
+      "in_slice": true,
+      "library": "",
+      "prototype": {
+        "status": "none",
+        "slug": "",
+        "notes": ""
+      }
+    },
+    {
+      "id": "live-battles",
+      "name": "Live battles",
+      "what": "Real-time fights in a ring or arena, seen from a high three-quarter view. The player steers the active Pokemon directly, uses its four Yellow moves on cooldowns and dodges readable attacks. Damage, types and status follow Yellow, shown with anime effects and Yellow's captions.",
+      "player_verbs": [
+        "move",
+        "attack",
+        "dodge",
+        "time moves",
+        "take cover"
+      ],
+      "checks": [
+        "Pressing a move button fires the move at once, and a used move shows an emptying ring until it can be used again",
+        "A dodge during an attack's hit window takes no damage",
+        "Every enemy attack shows a tell, such as a glow or a ground shadow, before it lands",
+        "Throughout a fight the whole ring, both Pokemon and Red stay on screen, and the camera never spins",
+        "Thundershock on Geodude or Onix does no damage and shows a caption that it doesn't affect them",
+        "A super-effective hit shows the It's super effective! caption"
+      ],
+      "in_slice": true,
+      "library": "",
+      "prototype": {
+        "status": "none",
+        "slug": "",
+        "notes": ""
+      }
+    },
+    {
+      "id": "body-families",
+      "name": "Body families",
+      "what": "Every Pokemon belongs to a body family that sets how it moves and dodges. Runners dash. Fliers hover, cross ledges both ways and dodge far, but Rock moves ground them. Crawlers are slow and low and tuck to dodge. Giants turn slowly and never dodge.",
+      "player_verbs": [
+        "run",
+        "hover",
+        "crawl",
+        "tuck"
+      ],
+      "checks": [
+        "In a Route 1 ring, Pidgey can cross a ledge in both directions while Pikachu can only hop down it",
+        "Pidgey's sideways dodge covers about twice the distance of Pikachu's dash",
+        "Onix's wide tail sweep passes over Caterpie without hitting it",
+        "A Rock move that hits a hovering Pidgey knocks it to the ground for about a second",
+        "Pikachu, Pidgey and Caterpie visibly move at different speeds in the same ring"
+      ],
+      "in_slice": true,
+      "library": "",
+      "prototype": {
+        "status": "none",
+        "slug": "",
+        "notes": ""
+      }
+    },
+    {
+      "id": "swapping",
+      "name": "Swapping",
+      "what": "Calling a different party Pokemon mid-battle, limited by a 30-second cooldown. A swap changes the body as well as the type and moves.",
+      "player_verbs": [
+        "swap"
+      ],
+      "checks": [
+        "Swapping from the party wheel brings the chosen Pokemon into the ring",
+        "A second swap is blocked for 30 seconds and the timer is visible",
+        "The incoming Pokemon avoids an attack that lands as it enters",
+        "A fainted Pokemon forces a swap even while the cooldown is running"
+      ],
+      "in_slice": true,
+      "library": "",
+      "prototype": {
+        "status": "building",
+        "slug": "pokemon-yellow-reimagine-proto-swapping",
+        "notes": ""
+      }
+    },
+    {
+      "id": "field-healing",
+      "name": "Healing and shopping",
+      "what": "Potions thrown mid-battle that heal over time, full heals at Pokemon Centres, and Yellow's items bought at Yellow's prices with prize money.",
+      "player_verbs": [
+        "throw potion",
+        "heal at centre",
+        "buy"
+      ],
+      "checks": [
+        "A Potion heals 20 HP over 2 seconds, and a hit during it stops the rest of the heal",
+        "Potions cannot be used again for 10 seconds",
+        "The Viridian Pokemon Centre restores the whole party to full",
+        "Buying a Poke Ball at the Viridian Mart costs 200 and a Potion costs 300"
+      ],
+      "in_slice": true,
+      "library": "",
+      "prototype": {
+        "status": "none",
+        "slug": "",
+        "notes": ""
+      }
+    },
+    {
+      "id": "blackout",
+      "name": "Blackout",
+      "what": "When the last party Pokemon faints, the world fades and Red wakes at the last Pokemon Centre he used, or at home, with the party healed, half his money gone and Pikachu worried at his side. The lab battle never causes a blackout.",
+      "player_verbs": [
+        "lose",
+        "retry"
+      ],
+      "checks": [
+        "When the last party Pokemon faints, the blackout caption shows and Red wakes inside the last Pokemon Centre he used",
+        "After a blackout Red's money is half what it was and his party is at full HP",
+        "Losing the lab battle to Gary lets the story carry on without a blackout",
+        "A gym leader who beat Red is still there and can be challenged again"
+      ],
+      "in_slice": true,
+      "library": "",
+      "prototype": {
+        "status": "building",
+        "slug": "pokemon-yellow-reimagine-proto-blackout",
+        "notes": ""
+      }
+    },
+    {
+      "id": "catching",
+      "name": "Catching",
+      "what": "Red throws Poke Balls at weakened wild Pokemon, with a visible catch meter and a three-wobble result. Caught Pokemon fill the Pokedex.",
+      "player_verbs": [
+        "aim",
+        "throw ball"
+      ],
+      "checks": [
+        "The catch meter goes from red to green as the wild Pokemon's HP drops",
+        "A throw at a Pokemon that is not stunned can be dodged",
+        "A caught Pokemon joins the party, or goes to Bill's storage when the party is full, and appears in the Pokedex",
+        "A ball thrown at a trainer's Pokemon is blocked"
+      ],
+      "in_slice": true,
+      "library": "",
+      "prototype": {
+        "status": "building",
+        "slug": "pokemon-yellow-reimagine-proto-catching",
+        "notes": ""
+      }
+    },
+    {
+      "id": "trainer-challenges",
+      "name": "Trainer challenges",
+      "what": "Yellow's trainers, standing where Yellow put them, spot Red, walk over and fight in a closed ring with Yellow's teams, then pay Yellow's prize money.",
+      "player_verbs": [
+        "accept",
+        "battle"
+      ],
+      "checks": [
+        "A trainer shows an exclamation mark and walks to Red when he enters their sightline",
+        "A trainer battle's ring has no exit gap and cannot be fled",
+        "Each trainer uses Yellow's team for that trainer and sends out the next Pokemon when one faints",
+        "Beating a trainer raises Red's money, and a beaten trainer never challenges again"
+      ],
+      "in_slice": true,
+      "library": "",
+      "prototype": {
+        "status": "none",
+        "slug": "",
+        "notes": ""
+      }
+    },
+    {
+      "id": "pikachu-bond",
+      "name": "Pikachu friendship",
+      "what": "Pikachu always walks beside Red and shows its mood when he talks to it. Friendship rises and falls as in Yellow and unlocks two battle abilities.",
+      "player_verbs": [
+        "talk to pikachu",
+        "fight together"
+      ],
+      "checks": [
+        "Pikachu follows Red outside and never enters a Poke Ball",
+        "Talking to Pikachu shows its face, and the face changes with friendship",
+        "Pikachu fainting lowers its friendship",
+        "At Close friendship, Pikachu dodges one attack by itself in a battle"
+      ],
+      "in_slice": true,
+      "library": "",
+      "prototype": {
+        "status": "none",
+        "slug": "",
+        "notes": ""
+      }
+    },
+    {
+      "id": "growth",
+      "name": "Growth and types",
+      "what": "Experience, levels, learned moves and evolutions as in Yellow. Evolution can change a Pokemon's body family, and a fifth move means forgetting one.",
+      "player_verbs": [
+        "level up",
+        "learn moves",
+        "evolve"
+      ],
+      "checks": [
+        "Winning a battle gives experience to the Pokemon that fought",
+        "Pikachu learns Tail Whip at level 6 and Thunder Wave at level 8",
+        "Learning a fifth move asks which of the four to forget",
+        "Caterpie evolves into Metapod at level 7 and Metapod into a flying Butterfree at level 10"
+      ],
+      "in_slice": true,
+      "library": "",
+      "prototype": {
+        "status": "building",
+        "slug": "pokemon-yellow-reimagine-proto-growth",
+        "notes": ""
+      }
+    },
+    {
+      "id": "badges-and-obedience",
+      "name": "Badges and obedience",
+      "what": "Badges give Yellow's stat boosts and raise the level up to which traded Pokemon obey. Traded Pokemon above that level sometimes ignore a move press.",
+      "player_verbs": [
+        "earn badges"
+      ],
+      "checks": [
+        "A traded Pokemon above the obedience level sometimes ignores a move press",
+        "Earning a badge raises the obedience level",
+        "The badge case shows every badge earned"
+      ],
+      "in_slice": false,
+      "library": "",
+      "prototype": {
+        "status": "none",
+        "slug": "",
+        "notes": ""
+      }
+    },
+    {
+      "id": "field-partners",
+      "name": "Field moves",
+      "what": "Cut, Surf, Strength and Fly, obtained where Yellow gives them, let party Pokemon clear trees, cross water, push boulders and fly between towns.",
+      "player_verbs": [
+        "cut",
+        "surf",
+        "push",
+        "fly"
+      ],
+      "checks": [
+        "Cut clears the small trees that block paths",
+        "A Pokemon that knows Surf carries Red across water",
+        "Fly takes Red to any visited town"
+      ],
+      "in_slice": false,
+      "library": "",
+      "prototype": {
+        "status": "none",
+        "slug": "",
+        "notes": ""
+      }
+    }
+  ],
+  "version": 1
+}

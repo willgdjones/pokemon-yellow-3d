@@ -1,0 +1,207 @@
+{
+  "places": [
+    {
+      "id": "pallet-town",
+      "name": "Pallet Town",
+      "kind": "home town",
+      "description": "Red's house, Gary's house and Professor Oak's white lab behind picket fences, flower beds and the sea to the south, under a big painted summer sky. Quiet, warm and safe.",
+      "connects": [
+        "route-1",
+        "cinnabar-island"
+      ],
+      "in_slice": true
+    },
+    {
+      "id": "route-1",
+      "name": "Route 1",
+      "kind": "route",
+      "description": "A lush grassy slope north of Pallet with one-way ledges, round trees and meadows of tall grass where Pidgey and Rattata roam at Yellow's levels. Rings form in its sunny meadows, often with a ledge running through them.",
+      "connects": [
+        "pallet-town",
+        "viridian-city"
+      ],
+      "in_slice": true
+    },
+    {
+      "id": "viridian-city",
+      "name": "Viridian City",
+      "kind": "town",
+      "description": "A crossroads town with a red-roofed Pokemon Centre, a blue-roofed Poke Mart, a pond and a gym locked until late in the journey. An old man lies across the north road until Red has the Pokedex.",
+      "connects": [
+        "route-1",
+        "route-2",
+        "route-22"
+      ],
+      "in_slice": true
+    },
+    {
+      "id": "route-22",
+      "name": "Route 22",
+      "kind": "route",
+      "description": "A grassy road running west from Viridian toward the Pokemon League gate, with ponds, ledges and Yellow's Rattata, Spearow, Nidoran and Mankey. Gary waits here for a battle.",
+      "connects": [
+        "viridian-city",
+        "indigo-plateau"
+      ],
+      "in_slice": true
+    },
+    {
+      "id": "route-2",
+      "name": "Route 2",
+      "kind": "route",
+      "description": "A short, flower-lined road north from Viridian to the edge of the forest, with tall grass and Yellow's Pidgey, Rattata and Nidoran.",
+      "connects": [
+        "viridian-city",
+        "viridian-forest"
+      ],
+      "in_slice": true
+    },
+    {
+      "id": "viridian-forest",
+      "name": "Viridian Forest",
+      "kind": "forest",
+      "description": "Huge trunks over dim green light, winding paths and Bug Catchers waiting in the undergrowth, with Caterpie, Weedle, Metapod and Kakuna in the grass. Trunks inside a ring become pillars, trunks on its edge become its wall and the canopy above fades.",
+      "connects": [
+        "route-2",
+        "pewter-city"
+      ],
+      "in_slice": true
+    },
+    {
+      "id": "pewter-city",
+      "name": "Pewter City",
+      "kind": "town",
+      "description": "A grey stone town at the foot of the mountains, with a Pokemon Centre, a Mart, the Museum of Science and its fossils, and a boy at the east exit who marches Red to the gym until he holds the Boulder Badge.",
+      "connects": [
+        "viridian-forest",
+        "pewter-gym",
+        "mt-moon"
+      ],
+      "in_slice": true
+    },
+    {
+      "id": "pewter-gym",
+      "name": "Pewter Gym",
+      "kind": "gym arena",
+      "description": "Yellow's rock gym: a stone-floored hall with boulders, a Jr. Trainer on the way in and Brock waiting at the far end. The floor is the stage, so no ring forms.",
+      "connects": [
+        "pewter-city"
+      ],
+      "in_slice": true
+    },
+    {
+      "id": "mt-moon",
+      "name": "Mt. Moon",
+      "kind": "cave",
+      "description": "Moonlit caverns full of Zubat, Geodude and Clefairy, with fossils and Jessie and James of Team Rocket. Rings are hemmed in by stalagmites and low ceilings limit how high fliers hover.",
+      "connects": [
+        "pewter-city",
+        "cerulean-city"
+      ],
+      "in_slice": false
+    },
+    {
+      "id": "cerulean-city",
+      "name": "Cerulean City",
+      "kind": "town",
+      "description": "A bright waterside town of canals and bridges, with Nugget Bridge to the north and Bill's cottage beyond.",
+      "connects": [
+        "mt-moon",
+        "cerulean-gym",
+        "saffron-city"
+      ],
+      "in_slice": false
+    },
+    {
+      "id": "cerulean-gym",
+      "name": "Cerulean Gym",
+      "kind": "gym arena",
+      "description": "A pool arena with floating platforms, where Misty's Staryu and Starmie dive under and strike from the water.",
+      "connects": [
+        "cerulean-city"
+      ],
+      "in_slice": false
+    },
+    {
+      "id": "saffron-city",
+      "name": "Saffron City",
+      "kind": "city",
+      "description": "The walled heart of Kanto, dominated by the Silph Co. tower. Thirsty guards block its gates until Red brings them a drink.",
+      "connects": [
+        "cerulean-city",
+        "vermilion-city",
+        "lavender-town",
+        "celadon-city"
+      ],
+      "in_slice": false
+    },
+    {
+      "id": "vermilion-city",
+      "name": "Vermilion City",
+      "kind": "port town",
+      "description": "A harbour town with cargo cranes, Lt. Surge's gym and the S.S. Anne at the dock.",
+      "connects": [
+        "saffron-city"
+      ],
+      "in_slice": false
+    },
+    {
+      "id": "lavender-town",
+      "name": "Lavender Town",
+      "kind": "town",
+      "description": "A hushed purple-grey town under the haunted Pokemon Tower, where floating ghost Pokemon drift through the ring's walls. South of it, a sleeping Snorlax blocks Route 12.",
+      "connects": [
+        "saffron-city"
+      ],
+      "in_slice": false
+    },
+    {
+      "id": "celadon-city",
+      "name": "Celadon City",
+      "kind": "city",
+      "description": "A busy city with a department store, the Game Corner hiding Team Rocket's base, and Erika's flower-filled gym.",
+      "connects": [
+        "saffron-city",
+        "fuchsia-city"
+      ],
+      "in_slice": false
+    },
+    {
+      "id": "fuchsia-city",
+      "name": "Fuchsia City",
+      "kind": "town",
+      "description": "A coastal town with Koga's gym and the Safari Zone, where rare Pokemon roam free and Surf is found.",
+      "connects": [
+        "celadon-city",
+        "cinnabar-island"
+      ],
+      "in_slice": false
+    },
+    {
+      "id": "cinnabar-island",
+      "name": "Cinnabar Island",
+      "kind": "volcanic island",
+      "description": "A volcanic island with a burned-out mansion, a lab that revives fossils and Blaine's fire gym.",
+      "connects": [
+        "fuchsia-city",
+        "pallet-town"
+      ],
+      "in_slice": false
+    },
+    {
+      "id": "indigo-plateau",
+      "name": "Indigo Plateau",
+      "kind": "league",
+      "description": "The Pokemon League at the top of Victory Road, home of the Elite Four and the Champion.",
+      "connects": [
+        "route-22"
+      ],
+      "in_slice": false
+    }
+  ],
+  "version": 1,
+  "map": {
+    "file": "concepts/map-1.png",
+    "sha256": "f1eba43698f1c9a2d86eb5e59a18705a0923b013c9b60ed6b1432c8a552ee40c"
+  }
+}

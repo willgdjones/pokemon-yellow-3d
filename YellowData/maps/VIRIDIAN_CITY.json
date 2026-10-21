@@ -1,0 +1,342 @@
+{
+  "blocked_edges": [],
+  "border_block": 15,
+  "cave": false,
+  "connections": {
+    "north": {
+      "map": "ROUTE_2",
+      "offset": 10
+    },
+    "south": {
+      "map": "ROUTE_1",
+      "offset": 10
+    },
+    "west": {
+      "map": "ROUTE_22",
+      "offset": 8
+    }
+  },
+  "encounter_rate": 0,
+  "height": 36,
+  "hidden": [
+    {
+      "item": "POTION",
+      "x": 14,
+      "y": 4
+    }
+  ],
+  "hidden_events": [],
+  "id": "VIRIDIAN_CITY",
+  "items": [],
+  "label": "ViridianCity",
+  "looks": [
+    "rrrrrrTTTTTTTTTTFpppTTTTTTTTTTTTTTTTTTTT",
+    "rrrrrrTTTTTTTTTTFppSTTTTTTTTTTTTTTTTTTTT",
+    "rrrrrrTTTTTTTTTTFpppTTTTppppppppppppTTTT",
+    "rrrrrrTTTTTTTTTTFpppTTTTppppppppppppTTTT",
+    "rrrrrrssssssssTsppppppppppppRRRRRRppTTTT",
+    "rrrrrrssFFFFFFTTppppppppppppRRRRRRppTTTT",
+    "rrrrrrsFTTTTTTTTFpppFpppppppRnBBnRppTTTT",
+    "rrrrrrsFTTTTTTTTFpppFppppppSnnnnDnppTTTT",
+    "rrrrrrsFTTTTTTTTFpppRRRRppppssssssppTTTT",
+    "rrrrrrsFTTTTTTTTFpppRDnRLLLLLLLLLLLLTTTT",
+    "rrrrrrsFTTTTTTTTFpppppppppppppppppppTTTT",
+    "rrrrrrsFTTTTTTTTFpppppppppppppppppppTTTT",
+    "rrrrrrsFTTTTTTTTFpppppppppppppppppppTTTT",
+    "rrrrrrsFTTTTTTTTFpppFFFFFFFFFFFFFFFFTTTT",
+    "sssssssFTTTTTTTTFpppRRRRppppppppppppTTTT",
+    "sssssssFTTTTTTTTFpppRDnRppppppppppppTTTT",
+    "ppppppssTTTTTTTTppppppppppssRRRRssppTTTT",
+    "ppppppsssssssssspSppFFFFppssRRRRssppTTTT",
+    "rrrrppppppppppppppppffffppssnnnnssppTTTT",
+    "rrrrppppppppppppppppffffppssnDSnssppTTTT",
+    "rrrrppssssssssssppppppppppppppppppppTTTT",
+    "rrrrTTTTssssssssppppppppppppppppppppTTTT",
+    "rrrrppssTsffffssppffppRRRRppffssssppTTTT",
+    "rrrrppssTTffffssppffppRRRRppffssssppTTTT",
+    "rrrrppssWWWWWWssppssppnnnnppssssffppTTTT",
+    "rrrrppssWWWWWWssppssppnDSnppssssffppTTTT",
+    "rrrrppssWWWWWWssppssppppppppppppppppTTTT",
+    "rrrrLLLLWWWWWWLsLLLsLLLLLLLLLLLLLLLLTTTT",
+    "sssFppffssssssssppssppssffffppffffppTTTT",
+    "sssFppffssssssssppsspSssffffppffffppTTTT",
+    "sssFppppppppppppppppppppppppppppppppTTTT",
+    "sssFFFFFFFFFFFFFFFFFppFFFFFFFFFFFFFFTTTT",
+    "sssssssssssssFsssssFppFsssssFsssssssssss",
+    "sssssssssssssFsssssFppFsssssFsssssssssss",
+    "sssssssssssssFsssssFppFsssssFsssssssssss",
+    "sssssssssssssFsssssFppFsssssFsssssssssss"
+  ],
+  "looks_unknown": 0,
+  "music": "cities1",
+  "name": "VIRIDIAN CITY",
+  "npcs": [
+    {
+      "facing": "any_dir",
+      "id": "VIRIDIANCITY_YOUNGSTER1",
+      "movement": "walk",
+      "sprite": "SPRITE_YOUNGSTER",
+      "text": "TEXT_VIRIDIANCITY_YOUNGSTER1",
+      "text_handler": "ViridianCityYoungster1Text",
+      "text_id": "TEXT_VIRIDIANCITY_YOUNGSTER1",
+      "texts": [
+        "ViridianCityPrintYoungster1Text.text"
+      ],
+      "x": 13,
+      "y": 20
+    },
+    {
+      "facing": "none",
+      "id": "VIRIDIANCITY_GAMBLER1",
+      "movement": "stay",
+      "sprite": "SPRITE_GAMBLER",
+      "text": "TEXT_VIRIDIANCITY_GAMBLER1",
+      "text_handler": "ViridianCityGambler1Text",
+      "text_id": "TEXT_VIRIDIANCITY_GAMBLER1",
+      "texts": [
+        "ViridianCityPrintGambler1Text.GymLeaderReturnedText",
+        "ViridianCityPrintGambler1Text.GymAlwaysClosedText"
+      ],
+      "x": 30,
+      "y": 8
+    },
+    {
+      "facing": "any_dir",
+      "id": "VIRIDIANCITY_YOUNGSTER2",
+      "movement": "walk",
+      "sprite": "SPRITE_YOUNGSTER",
+      "text": "TEXT_VIRIDIANCITY_YOUNGSTER2",
+      "text_handler": "ViridianCityYoungster2Text",
+      "text_id": "TEXT_VIRIDIANCITY_YOUNGSTER2",
+      "texts": [
+        "ViridianCityPrintYoungster2Text.YouWantToKnowAboutText",
+        "ViridianCityPrintYoungster2Text.OkThenText",
+        "ViridianCityPrintYoungster2Text.CaterpieAndWeedleDescriptionText"
+      ],
+      "x": 30,
+      "y": 25
+    },
+    {
+      "facing": "right",
+      "id": "VIRIDIANCITY_GIRL",
+      "movement": "stay",
+      "sprite": "SPRITE_GIRL",
+      "text": "TEXT_VIRIDIANCITY_GIRL",
+      "text_handler": "ViridianCityGirlText",
+      "text_id": "TEXT_VIRIDIANCITY_GIRL",
+      "texts": [
+        "ViridianCityPrintGirlText.WhenIGoShopText",
+        "ViridianCityPrintGirlText.HasntHadHisCoffeeYetText"
+      ],
+      "x": 17,
+      "y": 9
+    },
+    {
+      "facing": "none",
+      "hidden_at_start": false,
+      "id": "VIRIDIANCITY_OLD_MAN_SLEEPY",
+      "movement": "stay",
+      "sprite": "SPRITE_GAMBLER_ASLEEP",
+      "text": "TEXT_VIRIDIANCITY_OLD_MAN_SLEEPY",
+      "text_handler": "ViridianCityOldManSleepyText",
+      "text_id": "TEXT_VIRIDIANCITY_OLD_MAN_SLEEPY",
+      "texts": [
+        "ViridianCityPrintOldManSleepyText.PrivatePropertyText"
+      ],
+      "toggle": "VIRIDIANCITY_OLD_MAN_SLEEPY",
+      "x": 18,
+      "y": 9
+    },
+    {
+      "facing": "down",
+      "id": "VIRIDIANCITY_FISHER",
+      "movement": "stay",
+      "sprite": "SPRITE_FISHER",
+      "text": "TEXT_VIRIDIANCITY_FISHER",
+      "text_handler": "ViridianCityFisherText",
+      "text_id": "TEXT_VIRIDIANCITY_FISHER",
+      "texts": [
+        "ViridianCityPrintFisherText.YouCanHaveThisText",
+        "ViridianCityPrintFisherText.ReceivedTM42Text",
+        "ViridianCityPrintFisherText.TM42NoRoomText",
+        "ViridianCityPrintFisherText.TM42ExplanationText"
+      ],
+      "x": 6,
+      "y": 23
+    },
+    {
+      "facing": "left_right",
+      "hidden_at_start": true,
+      "id": "VIRIDIANCITY_OLD_MAN",
+      "movement": "walk",
+      "sprite": "SPRITE_GAMBLER",
+      "text": "TEXT_VIRIDIANCITY_OLD_MAN",
+      "text_handler": "ViridianCityOldManText",
+      "text_id": "TEXT_VIRIDIANCITY_OLD_MAN",
+      "texts": [
+        "ViridianCityPrintOldManText.WantMeToShowYouAgainText",
+        "ViridianCityPrintOldManText.WatchCloselyText",
+        "ViridianCityPrintOldManText.NotGoodEnoughForYouText"
+      ],
+      "toggle": "VIRIDIANCITY_OLD_MAN",
+      "x": 17,
+      "y": 5
+    },
+    {
+      "facing": "none",
+      "hidden_at_start": true,
+      "id": "VIRIDIANCITY_OLD_MAN2",
+      "movement": "stay",
+      "sprite": "SPRITE_GAMBLER",
+      "text": "TEXT_VIRIDIANCITY_OLD_MAN2",
+      "text_handler": "ViridianCityOldMan2Text",
+      "text_id": "TEXT_VIRIDIANCITY_OLD_MAN2",
+      "texts": [
+        "ViridianCityOldMan2Text.HadMyCoffeeNowText",
+        "ViridianCityOldMan2Text.LosingMyTouchText"
+      ],
+      "toggle": "VIRIDIANCITY_OLD_MAN2",
+      "x": 18,
+      "y": 9
+    }
+  ],
+  "origin": {
+    "x": -10,
+    "y": -72
+  },
+  "outdoor": true,
+  "palette": "PAL_VIRIDIAN",
+  "signs": [
+    {
+      "text": "TEXT_VIRIDIANCITY_SIGN",
+      "texts": [
+        "ViridianCityPrintSignText.text"
+      ],
+      "x": 17,
+      "y": 17
+    },
+    {
+      "text": "TEXT_VIRIDIANCITY_TRAINER_TIPS1",
+      "texts": [
+        "ViridianCityPrintTrainerTips1Text.text"
+      ],
+      "x": 19,
+      "y": 1
+    },
+    {
+      "text": "TEXT_VIRIDIANCITY_TRAINER_TIPS2",
+      "texts": [
+        "ViridianCityPrintTrainerTips2Text.text"
+      ],
+      "x": 21,
+      "y": 29
+    },
+    {
+      "text": "TEXT_VIRIDIANCITY_MART_SIGN",
+      "texts": [
+        "MartSignText"
+      ],
+      "x": 30,
+      "y": 19
+    },
+    {
+      "text": "TEXT_VIRIDIANCITY_POKECENTER_SIGN",
+      "texts": [
+        "PokeCenterSignText"
+      ],
+      "x": 24,
+      "y": 25
+    },
+    {
+      "text": "TEXT_VIRIDIANCITY_GYM_SIGN",
+      "texts": [
+        "ViridianCityPrintGymSignText.text"
+      ],
+      "x": 27,
+      "y": 7
+    }
+  ],
+  "source": {
+    "blocks": "maps/ViridianCity.blk",
+    "header": "data/maps/headers/ViridianCity.asm",
+    "objects": "data/maps/objects/ViridianCity.asm",
+    "script": "scripts/ViridianCity.asm"
+  },
+  "tiles": [
+    "#################...####################",
+    "#################..#####################",
+    "#################...####............####",
+    "#################...####............####",
+    "######........x.............######..####",
+    "######..########............######..####",
+    "######.##########...#.......######..####",
+    "######.##########...#......#####d#..####",
+    "######.##########...####............####",
+    "######.##########...#d##vvvvvvvvvvvv####",
+    "######.##########...................####",
+    "######.##########...................####",
+    "######.##########...................####",
+    "######.##########...####################",
+    ".......##########...####............####",
+    ".......##########...#d##............####",
+    "........########............####....####",
+    ".................#..####....####....####",
+    "####........................####....####",
+    "####........................#d##....####",
+    "####................................####",
+    "########............................####",
+    "####....x.............####..........####",
+    "####....##............####..........####",
+    "####....wwwwww........####..........####",
+    "####....wwwwww........#d##..........####",
+    "####....wwwwww......................####",
+    "####vvvvwwwwwwv.vvv.vvvvvvvvvvvvvvvv####",
+    "...#................................####",
+    "...#.................#..............####",
+    "...#................................####",
+    "...#################..##################",
+    ".............#.....#..#.....#...........",
+    ".............#.....#..#.....#...........",
+    ".............#.....#..#.....#...........",
+    ".............#.....#..#.....#..........."
+  ],
+  "tileset": "OVERWORLD",
+  "warps": [
+    {
+      "door": true,
+      "to_map": "VIRIDIAN_POKECENTER",
+      "to_warp": 1,
+      "x": 23,
+      "y": 25
+    },
+    {
+      "door": true,
+      "to_map": "VIRIDIAN_MART",
+      "to_warp": 1,
+      "x": 29,
+      "y": 19
+    },
+    {
+      "door": true,
+      "to_map": "VIRIDIAN_SCHOOL_HOUSE",
+      "to_warp": 1,
+      "x": 21,
+      "y": 15
+    },
+    {
+      "door": true,
+      "to_map": "VIRIDIAN_NICKNAME_HOUSE",
+      "to_warp": 1,
+      "x": 21,
+      "y": 9
+    },
+    {
+      "door": true,
+      "to_map": "VIRIDIAN_GYM",
+      "to_warp": 1,
+      "x": 32,
+      "y": 7
+    }
+  ],
+  "width": 40
+}

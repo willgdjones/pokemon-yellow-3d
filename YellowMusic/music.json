@@ -1,0 +1,266 @@
+{
+  "caught_mon": {
+    "file": "caught_mon.wav",
+    "loop_start": 0,
+    "loop_end": 0,
+    "jingle": true
+  },
+  "cities1": {
+    "file": "cities1.wav",
+    "loop_start": 231451,
+    "loop_end": 2083060,
+    "jingle": false
+  },
+  "cities2": {
+    "file": "cities2.wav",
+    "loop_start": 118940,
+    "loop_end": 1070461,
+    "jingle": false
+  },
+  "defeated_gym_leader": {
+    "file": "defeated_gym_leader.wav",
+    "loop_start": 90009,
+    "loop_end": 1170115,
+    "jingle": false
+  },
+  "defeated_trainer": {
+    "file": "defeated_trainer.wav",
+    "loop_start": 45004,
+    "loop_end": 405039,
+    "jingle": false
+  },
+  "defeated_wild_mon": {
+    "file": "defeated_wild_mon.wav",
+    "loop_start": 45004,
+    "loop_end": 405039,
+    "jingle": false
+  },
+  "dex_evaluation": {
+    "file": "dex_evaluation.wav",
+    "loop_start": 0,
+    "loop_end": 0,
+    "jingle": true
+  },
+  "dungeon1": {
+    "file": "dungeon1.wav",
+    "loop_start": 57863,
+    "loop_end": 2198786,
+    "jingle": false
+  },
+  "dungeon2": {
+    "file": "dungeon2.wav",
+    "loop_start": 0,
+    "loop_end": 3240317,
+    "jingle": false
+  },
+  "dungeon3": {
+    "file": "dungeon3.wav",
+    "loop_start": 755431,
+    "loop_end": 3425156,
+    "jingle": false
+  },
+  "evolution": {
+    "file": "safari_zone.wav",
+    "loop_start": 0,
+    "loop_end": 0,
+    "jingle": true
+  },
+  "get_item_1": {
+    "file": "get_item_1.wav",
+    "loop_start": 0,
+    "loop_end": 0,
+    "jingle": true
+  },
+  "get_item_2": {
+    "file": "get_item_2.wav",
+    "loop_start": 0,
+    "loop_end": 0,
+    "jingle": true
+  },
+  "get_key_item": {
+    "file": "get_key_item.wav",
+    "loop_start": 0,
+    "loop_end": 0,
+    "jingle": true
+  },
+  "gym": {
+    "file": "gym.wav",
+    "loop_start": 110904,
+    "loop_end": 998134,
+    "jingle": false
+  },
+  "gym_leader_battle": {
+    "file": "gym_leader_battle.wav",
+    "loop_start": 1263873,
+    "loop_end": 2684726,
+    "jingle": false
+  },
+  "level_up": {
+    "file": "level_up.wav",
+    "loop_start": 0,
+    "loop_end": 0,
+    "jingle": true
+  },
+  "meet_evil_trainer": {
+    "file": "meet_evil_trainer.wav",
+    "loop_start": 36968,
+    "loop_end": 236273,
+    "jingle": false
+  },
+  "meet_female_trainer": {
+    "file": "meet_female_trainer.wav",
+    "loop_start": 43397,
+    "loop_end": 242702,
+    "jingle": false
+  },
+  "meet_jessie_james": {
+    "file": "meet_jessie_james.wav",
+    "loop_start": 115726,
+    "loop_end": 578628,
+    "jingle": false
+  },
+  "meet_male_trainer": {
+    "file": "meet_male_trainer.wav",
+    "loop_start": 90009,
+    "loop_end": 270027,
+    "jingle": false
+  },
+  "meet_prof_oak": {
+    "file": "meet_prof_oak.wav",
+    "loop_start": 540053,
+    "loop_end": 900088,
+    "jingle": false
+  },
+  "meet_rival": {
+    "file": "meet_rival.wav",
+    "loop_start": 95366,
+    "loop_end": 545410,
+    "jingle": false
+  },
+  "museum_guy": {
+    "file": "museum_guy.wav",
+    "loop_start": 315031,
+    "loop_end": 520766,
+    "jingle": false
+  },
+  "oaks_lab": {
+    "file": "oaks_lab.wav",
+    "loop_start": 27860,
+    "loop_end": 927948,
+    "jingle": false
+  },
+  "pallet_town": {
+    "file": "pallet_town.wav",
+    "loop_start": 578628,
+    "loop_end": 1607300,
+    "jingle": false
+  },
+  "pkmn_healed": {
+    "file": "pkmn_healed.wav",
+    "loop_start": 0,
+    "loop_end": 0,
+    "jingle": true
+  },
+  "pokecenter": {
+    "file": "pokecenter.wav",
+    "loop_start": 57863,
+    "loop_end": 983668,
+    "jingle": false
+  },
+  "routes1": {
+    "file": "routes1.wav",
+    "loop_start": 15001,
+    "loop_end": 747930,
+    "jingle": false
+  },
+  "routes2": {
+    "file": "routes2.wav",
+    "loop_start": 0,
+    "loop_end": 610774,
+    "jingle": false
+  },
+  "routes3": {
+    "file": "routes3.wav",
+    "loop_start": 155908,
+    "loop_end": 869549,
+    "jingle": false
+  },
+  "safari_zone": {
+    "file": "safari_zone.wav",
+    "loop_start": 26253,
+    "loop_end": 238417,
+    "jingle": false
+  },
+  "sfx_ball_poof": {
+    "file": "sfx_ball_poof.wav",
+    "loop_start": 0,
+    "loop_end": 0,
+    "jingle": true
+  },
+  "sfx_go_inside": {
+    "file": "sfx_go_inside.wav",
+    "loop_start": 0,
+    "loop_end": 0,
+    "jingle": true
+  },
+  "sfx_go_outside": {
+    "file": "sfx_go_outside.wav",
+    "loop_start": 0,
+    "loop_end": 0,
+    "jingle": true
+  },
+  "sfx_heal_machine": {
+    "file": "sfx_heal_machine.wav",
+    "loop_start": 0,
+    "loop_end": 0,
+    "jingle": true
+  },
+  "sfx_ledge": {
+    "file": "sfx_ledge.wav",
+    "loop_start": 0,
+    "loop_end": 0,
+    "jingle": true
+  },
+  "sfx_press_ab": {
+    "file": "sfx_press_ab.wav",
+    "loop_start": 0,
+    "loop_end": 0,
+    "jingle": true
+  },
+  "sfx_purchase": {
+    "file": "sfx_purchase.wav",
+    "loop_start": 0,
+    "loop_end": 0,
+    "jingle": true
+  },
+  "sfx_save": {
+    "file": "sfx_save.wav",
+    "loop_start": 0,
+    "loop_end": 0,
+    "jingle": true
+  },
+  "sfx_start_menu": {
+    "file": "sfx_start_menu.wav",
+    "loop_start": 0,
+    "loop_end": 0,
+    "jingle": true
+  },
+  "title_screen": {
+    "file": "title_screen.wav",
+    "loop_start": 188054,
+    "loop_end": 1576761,
+    "jingle": false
+  },
+  "trainer_battle": {
+    "file": "trainer_battle.wav",
+    "loop_start": 450044,
+    "loop_end": 3105303,
+    "jingle": false
+  },
+  "wild_battle": {
+    "file": "wild_battle.wav",
+    "loop_start": 501478,
+    "loop_end": 1504433,
+    "jingle": false
+  }
+}

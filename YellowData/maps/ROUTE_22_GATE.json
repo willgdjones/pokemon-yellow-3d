@@ -1,0 +1,102 @@
+{
+  "blocked_edges": [],
+  "border_block": 10,
+  "cave": false,
+  "connections": {},
+  "encounter_rate": 0,
+  "height": 8,
+  "hidden": [],
+  "hidden_events": [],
+  "id": "ROUTE_22_GATE",
+  "items": [],
+  "label": "Route22Gate",
+  "looks": [
+    "BBBkDDkBBB",
+    "oookookooo",
+    "oooooooooo",
+    "oooooooooo",
+    "oooooooooo",
+    "oooooooooo",
+    "oookookooo",
+    "oookookooo"
+  ],
+  "looks_unknown": 0,
+  "music": "dungeon2",
+  "name": "Route 22 Gate",
+  "npcs": [
+    {
+      "facing": "left",
+      "id": "ROUTE22GATE_GUARD",
+      "movement": "stay",
+      "sprite": "SPRITE_GUARD",
+      "text": "TEXT_ROUTE22GATE_GUARD",
+      "text_handler": "Route22GateGuardText",
+      "text_id": "TEXT_ROUTE22GATE_GUARD",
+      "texts": [
+        "Route22GateGuardNoBoulderbadgeText",
+        "Route22GateGuardGoRightAheadText"
+      ],
+      "x": 6,
+      "y": 2
+    }
+  ],
+  "origin": {
+    "x": 182,
+    "y": 1000
+  },
+  "outdoor": false,
+  "palette": "PAL_ROUTE",
+  "signs": [],
+  "source": {
+    "blocks": "maps/Route22Gate.blk",
+    "header": "data/maps/headers/Route22Gate.asm",
+    "objects": "data/maps/objects/Route22Gate.asm",
+    "script": "scripts/Route22Gate.asm"
+  },
+  "tiles": [
+    "####dd####",
+    "...=..=...",
+    "..........",
+    "..........",
+    "..........",
+    "..........",
+    "...#..#...",
+    "...=dd=..."
+  ],
+  "tileset": "GATE",
+  "warps": [
+    {
+      "last_map": true,
+      "to_map": "ROUTE_22",
+      "to_warp": 1,
+      "x": 4,
+      "y": 7
+    },
+    {
+      "last_map": true,
+      "to_map": "ROUTE_22",
+      "to_warp": 1,
+      "x": 5,
+      "y": 7
+    },
+    {
+      "door": true,
+      "last_map": true,
+      "out_of_scope": true,
+      "to_map": "ROUTE_23",
+      "to_warp": 1,
+      "x": 4,
+      "y": 0
+    },
+    {
+      "door": true,
+      "last_map": true,
+      "out_of_scope": true,
+      "to_map": "ROUTE_23",
+      "to_warp": 1,
+      "x": 5,
+      "y": 0
+    }
+  ],
+  "width": 10
+}

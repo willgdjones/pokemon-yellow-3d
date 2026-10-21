@@ -1,0 +1,123 @@
+{
+  "blocked_edges": [],
+  "border_block": 0,
+  "cave": false,
+  "connections": {},
+  "encounter_rate": 0,
+  "height": 8,
+  "hidden": [],
+  "hidden_events": [],
+  "id": "CERULEAN_MART",
+  "items": [],
+  "label": "CeruleanMart",
+  "looks": [
+    "llbbbbll",
+    "bbbbbbbb",
+    "kkoooooo",
+    "bboobbbb",
+    "Bkoobbbb",
+    "okoooooo",
+    "kkoooooo",
+    "ooommooo"
+  ],
+  "looks_unknown": 0,
+  "music": "pokecenter",
+  "name": "Cerulean Mart",
+  "npcs": [
+    {
+      "facing": "right",
+      "id": "CERULEANMART_CLERK",
+      "movement": "stay",
+      "script": "script_mart",
+      "sprite": "SPRITE_CLERK",
+      "text": "TEXT_CERULEANMART_CLERK",
+      "text_handler": "CeruleanMartClerkText",
+      "text_id": "TEXT_CERULEANMART_CLERK",
+      "texts": [
+        "PokemartGreetingText",
+        "PokemartBuyingGreetingText",
+        "PokemartTellBuyPriceText",
+        "PokemartBoughtItemText",
+        "PokemartNotEnoughMoneyText",
+        "PokemartItemBagFullText",
+        "PokemonSellingGreetingText",
+        "PokemartTellSellPriceText",
+        "PokemartItemBagEmptyText",
+        "PokemartUnsellableItemText",
+        "PokemartThankYouText",
+        "PokemartAnythingElseText"
+      ],
+      "x": 0,
+      "y": 5
+    },
+    {
+      "facing": "up_down",
+      "id": "CERULEANMART_COOLTRAINER_M",
+      "movement": "walk",
+      "sprite": "SPRITE_COOLTRAINER_M",
+      "text": "TEXT_CERULEANMART_COOLTRAINER_M",
+      "text_handler": "CeruleanMartCooltrainerMText",
+      "text_id": "TEXT_CERULEANMART_COOLTRAINER_M",
+      "texts": [
+        "CeruleanMartCooltrainerMText"
+      ],
+      "x": 3,
+      "y": 4
+    },
+    {
+      "facing": "left_right",
+      "id": "CERULEANMART_COOLTRAINER_F",
+      "movement": "walk",
+      "sprite": "SPRITE_COOLTRAINER_F",
+      "text": "TEXT_CERULEANMART_COOLTRAINER_F",
+      "text_handler": "CeruleanMartCooltrainerFText",
+      "text_id": "TEXT_CERULEANMART_COOLTRAINER_F",
+      "texts": [
+        "CeruleanMartCooltrainerFText"
+      ],
+      "x": 6,
+      "y": 2
+    }
+  ],
+  "origin": {
+    "x": 148,
+    "y": 1132
+  },
+  "outdoor": false,
+  "palette": "PAL_CERULEAN",
+  "signs": [],
+  "source": {
+    "blocks": "maps/CeruleanMart.blk",
+    "header": "data/maps/headers/CeruleanMart.asm",
+    "objects": "data/maps/objects/CeruleanMart.asm",
+    "script": "scripts/CeruleanMart.asm"
+  },
+  "tiles": [
+    "########",
+    "########",
+    "==......",
+    "##..####",
+    "##..####",
+    ".=......",
+    "==......",
+    "...dd..."
+  ],
+  "tileset": "MART",
+  "warps": [
+    {
+      "last_map": true,
+      "to_map": "CERULEAN_CITY",
+      "to_warp": 6,
+      "x": 3,
+      "y": 7
+    },
+    {
+      "last_map": true,
+      "to_map": "CERULEAN_CITY",
+      "to_warp": 6,
+      "x": 4,
+      "y": 7
+    }
+  ],
+  "width": 8
+}

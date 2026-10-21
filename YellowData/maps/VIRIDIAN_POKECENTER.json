@@ -1,0 +1,165 @@
+{
+  "blocked_edges": [],
+  "border_block": 0,
+  "cave": false,
+  "connections": {},
+  "encounter_rate": 0,
+  "height": 8,
+  "hidden": [],
+  "hidden_events": [
+    {
+      "arg": "SPRITE_FACING_LEFT",
+      "kind": "PrintBenchGuyText",
+      "x": 0,
+      "y": 4
+    },
+    {
+      "arg": "SPRITE_FACING_UP",
+      "kind": "OpenPokemonCenterPC",
+      "x": 13,
+      "y": 3
+    }
+  ],
+  "id": "VIRIDIAN_POKECENTER",
+  "items": [],
+  "label": "ViridianPokecenter",
+  "looks": [
+    "BllbBBllBBDBDB",
+    "BbbooBbboooooo",
+    "kkkkkkkkkkkokk",
+    "kooooooooooooP",
+    "tooooooooooooo",
+    "tooooooooooooo",
+    "hhoooohhoooohh",
+    "hhommohhoooohh"
+  ],
+  "looks_unknown": 0,
+  "music": "pokecenter",
+  "name": "Viridian Pokemon Center",
+  "npcs": [
+    {
+      "facing": "down",
+      "id": "VIRIDIANPOKECENTER_NURSE",
+      "movement": "stay",
+      "script": "script_pokecenter_nurse",
+      "sprite": "SPRITE_NURSE",
+      "text": "TEXT_VIRIDIANPOKECENTER_NURSE",
+      "text_handler": "ViridianPokecenterNurseText",
+      "text_id": "TEXT_VIRIDIANPOKECENTER_NURSE",
+      "texts": [
+        "PokemonCenterWelcomeText",
+        "ShallWeHealYourPokemonText",
+        "NeedYourPokemonText",
+        "PokemonFightingFitText",
+        "PokemonCenterFarewellText",
+        "LooksContentText"
+      ],
+      "x": 3,
+      "y": 1
+    },
+    {
+      "facing": "up_down",
+      "id": "VIRIDIANPOKECENTER_GENTLEMAN",
+      "movement": "walk",
+      "sprite": "SPRITE_GENTLEMAN",
+      "text": "TEXT_VIRIDIANPOKECENTER_GENTLEMAN",
+      "text_handler": "ViridianPokecenterGentlemanText",
+      "text_id": "TEXT_VIRIDIANPOKECENTER_GENTLEMAN",
+      "texts": [
+        "ViridianPokecenterGentlemanText"
+      ],
+      "x": 10,
+      "y": 5
+    },
+    {
+      "facing": "up",
+      "id": "VIRIDIANPOKECENTER_COOLTRAINER_M",
+      "movement": "stay",
+      "sprite": "SPRITE_COOLTRAINER_M",
+      "text": "TEXT_VIRIDIANPOKECENTER_COOLTRAINER_M",
+      "text_handler": "ViridianPokecenterCooltrainerMText",
+      "text_id": "TEXT_VIRIDIANPOKECENTER_COOLTRAINER_M",
+      "texts": [
+        "ViridianPokecenterCooltrainerMText"
+      ],
+      "x": 4,
+      "y": 3
+    },
+    {
+      "facing": "down",
+      "id": "VIRIDIANPOKECENTER_LINK_RECEPTIONIST",
+      "movement": "stay",
+      "script": "script_cable_club_receptionist",
+      "sprite": "SPRITE_LINK_RECEPTIONIST",
+      "text": "TEXT_VIRIDIANPOKECENTER_LINK_RECEPTIONIST",
+      "text_handler": "ViridianPokecenterLinkReceptionistText",
+      "text_id": "TEXT_VIRIDIANPOKECENTER_LINK_RECEPTIONIST",
+      "texts": [
+        "CableClubNPCWelcomeText",
+        "CableClubNPCPleaseApplyHereHaveToSaveText",
+        "CableClubNPCPleaseWaitText",
+        "CableClubNPCLinkClosedBecauseOfInactivityText",
+        "CableClubNPCPleaseComeAgainText",
+        "CableClubNPCMakingPreparationsText",
+        "CableClubNPCAreaReservedFor2FriendsLinkedByCableText"
+      ],
+      "x": 11,
+      "y": 2
+    },
+    {
+      "facing": "down",
+      "id": "VIRIDIANPOKECENTER_CHANSEY",
+      "movement": "stay",
+      "sprite": "SPRITE_CHANSEY",
+      "text": "TEXT_VIRIDIANPOKECENTER_CHANSEY",
+      "text_handler": "ViridianPokeCenterChanseyText",
+      "text_id": "TEXT_VIRIDIANPOKECENTER_CHANSEY",
+      "texts": [
+        "NurseChanseyText"
+      ],
+      "x": 4,
+      "y": 1
+    }
+  ],
+  "origin": {
+    "x": 74,
+    "y": 1000
+  },
+  "outdoor": false,
+  "palette": "PAL_VIRIDIAN",
+  "signs": [],
+  "source": {
+    "blocks": "maps/ViridianPokecenter.blk",
+    "header": "data/maps/headers/ViridianPokecenter.asm",
+    "objects": "data/maps/objects/ViridianPokecenter.asm",
+    "script": "scripts/ViridianPokecenter.asm"
+  },
+  "tiles": [
+    "##########.#.#",
+    "###..###......",
+    "#====#=====.==",
+    "=............#",
+    "#.............",
+    "#.............",
+    "##....##....##",
+    "##.dd.##....##"
+  ],
+  "tileset": "POKECENTER",
+  "warps": [
+    {
+      "last_map": true,
+      "to_map": "VIRIDIAN_CITY",
+      "to_warp": 1,
+      "x": 3,
+      "y": 7
+    },
+    {
+      "last_map": true,
+      "to_map": "VIRIDIAN_CITY",
+      "to_warp": 1,
+      "x": 4,
+      "y": 7
+    }
+  ],
+  "width": 14
+}

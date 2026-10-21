@@ -1,0 +1,63 @@
+{
+  "about": "m4v step 0: the frame-rate baseline of the untouched m4u look (commit db91e57, package-6579e0819aee). M4vFrameRateBudget measures EdgeSceneryFrameRate's six views (1280x720, 3 s each) and passes when its total frame time is at most total_frame_ms / 0.9, i.e. at least 90% of the frame rate; over budget it measures again, up to three passes, best per view.",
+  "conditions": "best_frame_ms: measured inside a full test run (other tests render on the same GPU at the same time, as they do whenever the whole suite runs), so the test compares like with like. alone_best_frame_ms: the same package with nothing else running, best of two passes; frame times are about half, the honest figure for a player.",
+  "best_frame_ms": {
+    "pallet": 9.28953746708554,
+    "route 22 north-west": 6.555800004882584,
+    "route 4 west": 7.891989765283004,
+    "route 4 north": 5.683896025981415,
+    "route 24 west": 4.98740680738541,
+    "route 25 north": 3.363012879552927
+  },
+  "best_gpu_ms": {
+    "pallet": 9.288267188766055,
+    "route 22 north-west": 6.538035807130639,
+    "route 4 west": 7.885561149577144,
+    "route 4 north": 5.628663827524041,
+    "route 24 west": 4.9553066527724665,
+    "route 25 north": 2.96787122542754
+  },
+  "total_frame_ms": 37.77164295017088,
+  "rate_fps_sum_of_frames": 158.8493253501131,
+  "alone_best_frame_ms": {
+    "pallet": 4.319624029260745,
+    "route 22 north-west": 3.1572232369556787,
+    "route 4 west": 3.2965275494772306,
+    "route 4 north": 2.4169919481455993,
+    "route 24 west": 4.424355227352066,
+    "route 25 north": 2.2810139045073994
+  },
+  "alone_best_gpu_ms": {
+    "pallet": 4.3190890607216375,
+    "route 22 north-west": 3.030561091395959,
+    "route 4 west": 3.2875298508959205,
+    "route 4 north": 2.3799248843569303,
+    "route 24 west": 4.418809276617329,
+    "route 25 north": 2.184296197804274
+  },
+  "alone_total_frame_ms": 19.89573589569872,
+  "m4u_edge_scenery_frame_rate": {
+    "log": "EdgeSceneryFrameRate test log (m4u, full suite)",
+    "frame_ms": {
+      "pallet (baseline)": 10.0,
+      "route 22 north-west": 7.5,
+      "route 4 west": 7.5,
+      "route 4 north": 5.8,
+      "route 24 west": 9.2,
+      "route 25 north": 5.2
+    },
+    "total_frame_ms": 45.2
+  },
+  "step0_all_edge_scenery_frame_rate": {
+    "log": "EdgeSceneryFrameRate test log (m4v step 0, full suite on the untouched tree)",
+    "frame_ms": {
+      "pallet (baseline)": 9.39,
+      "route 22 north-west": 8.27,
+      "route 4 west": 7.66,
+      "route 4 north": 6.64,
+      "route 24 west": 10.44,
+      "route 25 north": 5.84
+    },
+    "total_frame_ms": 48.24
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "blocked_edges": [],
+  "border_block": 10,
+  "cave": false,
+  "connections": {},
+  "encounter_rate": 0,
+  "height": 8,
+  "hidden": [],
+  "hidden_events": [],
+  "id": "ROUTE_2_GATE",
+  "items": [],
+  "label": "Route2Gate",
+  "looks": [
+    "BBBBDDBBBB",
+    "oooooooooo",
+    "hoooookokh",
+    "hoooookokh",
+    "hooooooooh",
+    "hoooookokh",
+    "hoooookokh",
+    "hooommoooh"
+  ],
+  "looks_unknown": 0,
+  "music": "cities1",
+  "name": "Route 2 Gate",
+  "npcs": [
+    {
+      "facing": "left",
+      "id": "ROUTE2GATE_OAKS_AIDE",
+      "movement": "stay",
+      "sprite": "SPRITE_SCIENTIST",
+      "text": "TEXT_ROUTE2GATE_OAKS_AIDE",
+      "text_handler": "Route2GateOaksAideText",
+      "text_id": "TEXT_ROUTE2GATE_OAKS_AIDE",
+      "texts": [
+        "Route2GateOaksAideText.FlashExplanationText"
+      ],
+      "x": 1,
+      "y": 4
+    },
+    {
+      "facing": "left_right",
+      "id": "ROUTE2GATE_YOUNGSTER",
+      "movement": "walk",
+      "sprite": "SPRITE_YOUNGSTER",
+      "text": "TEXT_ROUTE2GATE_YOUNGSTER",
+      "text_handler": "Route2GateYoungsterText",
+      "text_id": "TEXT_ROUTE2GATE_YOUNGSTER",
+      "texts": [
+        "Route2GateYoungsterText"
+      ],
+      "x": 5,
+      "y": 4
+    }
+  ],
+  "origin": {
+    "x": 0,
+    "y": 1028
+  },
+  "outdoor": false,
+  "palette": "PAL_ROUTE",
+  "signs": [],
+  "source": {
+    "blocks": "maps/Route2Gate.blk",
+    "header": "data/maps/headers/Route2Gate.asm",
+    "objects": "data/maps/objects/Route2Gate.asm",
+    "script": "scripts/Route2Gate.asm"
+  },
+  "tiles": [
+    "####dd####",
+    "..........",
+    "#.....=.=#",
+    "#.....=.=#",
+    "#........#",
+    "#.....=.=#",
+    "#.....=.=#",
+    "#...dd...#"
+  ],
+  "tileset": "GATE",
+  "warps": [
+    {
+      "last_map": true,
+      "to_map": "ROUTE_2",
+      "to_warp": 4,
+      "x": 4,
+      "y": 0
+    },
+    {
+      "door": true,
+      "last_map": true,
+      "to_map": "ROUTE_2",
+      "to_warp": 4,
+      "x": 5,
+      "y": 0
+    },
+    {
+      "last_map": true,
+      "to_map": "ROUTE_2",
+      "to_warp": 5,
+      "x": 4,
+      "y": 7
+    },
+    {
+      "last_map": true,
+      "to_map": "ROUTE_2",
+      "to_warp": 5,
+      "x": 5,
+      "y": 7
+    }
+  ],
+  "width": 10
+}

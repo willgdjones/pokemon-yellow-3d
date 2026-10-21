@@ -1,0 +1,360 @@
+{
+  "blocked_edges": [],
+  "border_block": 3,
+  "cave": false,
+  "connections": {},
+  "encounter_rate": 0,
+  "height": 18,
+  "hidden": [],
+  "hidden_events": [
+    {
+      "arg": "SPRITE_FACING_UP",
+      "kind": "GymStatues",
+      "x": 15,
+      "y": 15
+    },
+    {
+      "arg": "SPRITE_FACING_UP",
+      "kind": "GymStatues",
+      "x": 18,
+      "y": 15
+    }
+  ],
+  "id": "VIRIDIAN_GYM",
+  "items": [
+    {
+      "facing": "none",
+      "hidden_at_start": false,
+      "id": "VIRIDIANGYM_REVIVE",
+      "item": "REVIVE",
+      "movement": "stay",
+      "script": "PickUpItemText",
+      "sprite": "SPRITE_POKE_BALL",
+      "text": "TEXT_VIRIDIANGYM_REVIVE",
+      "text_handler": "PickUpItemText",
+      "text_id": "TEXT_VIRIDIANGYM_REVIVE",
+      "texts": [
+        "FoundItemText",
+        "NoMoreRoomForItemText"
+      ],
+      "toggle": "VIRIDIANGYM_REVIVE",
+      "x": 16,
+      "y": 9
+    }
+  ],
+  "label": "ViridianGym",
+  "looks": [
+    "BBBBBBBBBBBBBBBBBBBB",
+    "BooooBooooomooooooom",
+    "BooooBooooomooooommm",
+    "BooooBBoBBoBBBBBBBoo",
+    "BoooooooBooBoooooBoo",
+    "BBBBBBoBoBoooooooBoo",
+    "oooomBoBoBBBBBBooBoo",
+    "mooooBoBoooooooooBoo",
+    "ooBBoBoBooooooBBoBoo",
+    "omBBoBoBoooooooBoBoo",
+    "ooBBoBoBoooooooBmBoo",
+    "ooBBoooBoooooooBoBmm",
+    "ooBBoBBBBBBBBBoomooo",
+    "ooBBmmooooooomoooooo",
+    "ooBBmoooooooomoloolo",
+    "mmBBBBBBBBBBBBoloolo",
+    "ooooooomooooomoooooo",
+    "omooooooooooomoommoo"
+  ],
+  "looks_unknown": 0,
+  "music": "gym",
+  "name": "Viridian Gym",
+  "npcs": [
+    {
+      "facing": "down",
+      "hidden_at_start": false,
+      "id": "VIRIDIANGYM_GIOVANNI",
+      "movement": "stay",
+      "sprite": "SPRITE_GIOVANNI",
+      "text": "TEXT_VIRIDIANGYM_GIOVANNI",
+      "text_handler": "ViridianGymGiovanniText",
+      "text_id": "TEXT_VIRIDIANGYM_GIOVANNI",
+      "texts": [
+        "ViridianGymGiovanniText.PostBattleAdviceText",
+        "ViridianGymGiovanniText.PreBattleText",
+        "ViridianGymGiovanniText.ReceivedEarthBadgeText"
+      ],
+      "toggle": "VIRIDIANGYM_GIOVANNI",
+      "trainer": {
+        "class": "GIOVANNI",
+        "party": 3,
+        "sight": 0
+      },
+      "x": 2,
+      "y": 1
+    },
+    {
+      "facing": "down",
+      "id": "VIRIDIANGYM_COOLTRAINER_M1",
+      "movement": "stay",
+      "sprite": "SPRITE_COOLTRAINER_M",
+      "text": "TEXT_VIRIDIANGYM_COOLTRAINER_M1",
+      "text_handler": "ViridianGymCooltrainerM1Text",
+      "text_id": "TEXT_VIRIDIANGYM_COOLTRAINER_M1",
+      "texts": [
+        "ViridianGymCooltrainerM1BattleText",
+        "ViridianGymCooltrainerM1EndBattleText",
+        "ViridianGymCooltrainerM1AfterBattleText"
+      ],
+      "trainer": {
+        "after_text": "ViridianGymCooltrainerM1AfterBattleText",
+        "battle_text": "ViridianGymCooltrainerM1BattleText",
+        "class": "COOLTRAINER_M",
+        "end_text": "ViridianGymCooltrainerM1EndBattleText",
+        "event": "EVENT_BEAT_VIRIDIAN_GYM_TRAINER_0",
+        "party": 9,
+        "sight": 4
+      },
+      "x": 12,
+      "y": 7
+    },
+    {
+      "facing": "up",
+      "id": "VIRIDIANGYM_HIKER1",
+      "movement": "stay",
+      "sprite": "SPRITE_HIKER",
+      "text": "TEXT_VIRIDIANGYM_HIKER1",
+      "text_handler": "ViridianGymHiker1Text",
+      "text_id": "TEXT_VIRIDIANGYM_HIKER1",
+      "texts": [
+        "ViridianGymHiker1BattleText",
+        "ViridianGymHiker1EndBattleText",
+        "ViridianGymHiker1AfterBattleText"
+      ],
+      "trainer": {
+        "after_text": "ViridianGymHiker1AfterBattleText",
+        "battle_text": "ViridianGymHiker1BattleText",
+        "class": "BLACKBELT",
+        "end_text": "ViridianGymHiker1EndBattleText",
+        "event": "EVENT_BEAT_VIRIDIAN_GYM_TRAINER_1",
+        "party": 6,
+        "sight": 4
+      },
+      "x": 11,
+      "y": 11
+    },
+    {
+      "facing": "down",
+      "id": "VIRIDIANGYM_ROCKER1",
+      "movement": "stay",
+      "sprite": "SPRITE_ROCKER",
+      "text": "TEXT_VIRIDIANGYM_ROCKER1",
+      "text_handler": "ViridianGymRocker1Text",
+      "text_id": "TEXT_VIRIDIANGYM_ROCKER1",
+      "texts": [
+        "ViridianGymRocker1BattleText",
+        "ViridianGymRocker1EndBattleText",
+        "ViridianGymRocker1AfterBattleText"
+      ],
+      "trainer": {
+        "after_text": "ViridianGymRocker1AfterBattleText",
+        "battle_text": "ViridianGymRocker1BattleText",
+        "class": "TAMER",
+        "end_text": "ViridianGymRocker1EndBattleText",
+        "event": "EVENT_BEAT_VIRIDIAN_GYM_TRAINER_2",
+        "party": 3,
+        "sight": 4
+      },
+      "x": 10,
+      "y": 7
+    },
+    {
+      "facing": "left",
+      "id": "VIRIDIANGYM_HIKER2",
+      "movement": "stay",
+      "sprite": "SPRITE_HIKER",
+      "text": "TEXT_VIRIDIANGYM_HIKER2",
+      "text_handler": "ViridianGymHiker2Text",
+      "text_id": "TEXT_VIRIDIANGYM_HIKER2",
+      "texts": [
+        "ViridianGymHiker2BattleText",
+        "ViridianGymHiker2EndBattleText",
+        "ViridianGymHiker2AfterBattleText"
+      ],
+      "trainer": {
+        "after_text": "ViridianGymHiker2AfterBattleText",
+        "battle_text": "ViridianGymHiker2BattleText",
+        "class": "BLACKBELT",
+        "end_text": "ViridianGymHiker2EndBattleText",
+        "event": "EVENT_BEAT_VIRIDIAN_GYM_TRAINER_3",
+        "party": 7,
+        "sight": 2
+      },
+      "x": 3,
+      "y": 7
+    },
+    {
+      "facing": "right",
+      "id": "VIRIDIANGYM_COOLTRAINER_M2",
+      "movement": "stay",
+      "sprite": "SPRITE_COOLTRAINER_M",
+      "text": "TEXT_VIRIDIANGYM_COOLTRAINER_M2",
+      "text_handler": "ViridianGymCooltrainerM2Text",
+      "text_id": "TEXT_VIRIDIANGYM_COOLTRAINER_M2",
+      "texts": [
+        "ViridianGymCooltrainerM2BattleText",
+        "ViridianGymCooltrainerM2EndBattleText",
+        "ViridianGymCooltrainerM2AfterBattleText"
+      ],
+      "trainer": {
+        "after_text": "ViridianGymCooltrainerM2AfterBattleText",
+        "battle_text": "ViridianGymCooltrainerM2BattleText",
+        "class": "COOLTRAINER_M",
+        "end_text": "ViridianGymCooltrainerM2EndBattleText",
+        "event": "EVENT_BEAT_VIRIDIAN_GYM_TRAINER_4",
+        "party": 10,
+        "sight": 3
+      },
+      "x": 13,
+      "y": 5
+    },
+    {
+      "facing": "down",
+      "id": "VIRIDIANGYM_HIKER3",
+      "movement": "stay",
+      "sprite": "SPRITE_HIKER",
+      "text": "TEXT_VIRIDIANGYM_HIKER3",
+      "text_handler": "ViridianGymHiker3Text",
+      "text_id": "TEXT_VIRIDIANGYM_HIKER3",
+      "texts": [
+        "ViridianGymHiker3BattleText",
+        "ViridianGymHiker3EndBattleText",
+        "ViridianGymHiker3AfterBattleText"
+      ],
+      "trainer": {
+        "after_text": "ViridianGymHiker3AfterBattleText",
+        "battle_text": "ViridianGymHiker3BattleText",
+        "class": "BLACKBELT",
+        "end_text": "ViridianGymHiker3EndBattleText",
+        "event": "EVENT_BEAT_VIRIDIAN_GYM_TRAINER_5",
+        "party": 8,
+        "sight": 4
+      },
+      "x": 10,
+      "y": 1
+    },
+    {
+      "facing": "right",
+      "id": "VIRIDIANGYM_ROCKER2",
+      "movement": "stay",
+      "sprite": "SPRITE_ROCKER",
+      "text": "TEXT_VIRIDIANGYM_ROCKER2",
+      "text_handler": "ViridianGymRocker2Text",
+      "text_id": "TEXT_VIRIDIANGYM_ROCKER2",
+      "texts": [
+        "ViridianGymRocker2BattleText",
+        "ViridianGymRocker2EndBattleText",
+        "ViridianGymRocker2AfterBattleText"
+      ],
+      "trainer": {
+        "after_text": "ViridianGymRocker2AfterBattleText",
+        "battle_text": "ViridianGymRocker2BattleText",
+        "class": "TAMER",
+        "end_text": "ViridianGymRocker2EndBattleText",
+        "event": "EVENT_BEAT_VIRIDIAN_GYM_TRAINER_6",
+        "party": 4,
+        "sight": 3
+      },
+      "x": 2,
+      "y": 16
+    },
+    {
+      "facing": "down",
+      "id": "VIRIDIANGYM_COOLTRAINER_M3",
+      "movement": "stay",
+      "sprite": "SPRITE_COOLTRAINER_M",
+      "text": "TEXT_VIRIDIANGYM_COOLTRAINER_M3",
+      "text_handler": "ViridianGymCooltrainerM3Text",
+      "text_id": "TEXT_VIRIDIANGYM_COOLTRAINER_M3",
+      "texts": [
+        "ViridianGymCooltrainerM3BattleText",
+        "ViridianGymCooltrainerM3EndBattleText",
+        "ViridianGymCooltrainerM3AfterBattleText"
+      ],
+      "trainer": {
+        "after_text": "ViridianGymCooltrainerM3AfterBattleText",
+        "battle_text": "ViridianGymCooltrainerM3BattleText",
+        "class": "COOLTRAINER_M",
+        "end_text": "ViridianGymCooltrainerM3EndBattleText",
+        "event": "EVENT_BEAT_VIRIDIAN_GYM_TRAINER_7",
+        "party": 1,
+        "sight": 4
+      },
+      "x": 6,
+      "y": 5
+    },
+    {
+      "facing": "down",
+      "id": "VIRIDIANGYM_GYM_GUIDE",
+      "movement": "stay",
+      "sprite": "SPRITE_GYM_GUIDE",
+      "text": "TEXT_VIRIDIANGYM_GYM_GUIDE",
+      "text_handler": "ViridianGymGymGuideText",
+      "text_id": "TEXT_VIRIDIANGYM_GYM_GUIDE",
+      "texts": [
+        "ViridianGymGuidePreBattleText",
+        "ViridianGymGuidePostBattleText"
+      ],
+      "x": 16,
+      "y": 15
+    }
+  ],
+  "origin": {
+    "x": 152,
+    "y": 1000
+  },
+  "outdoor": false,
+  "palette": "PAL_VIRIDIAN",
+  "signs": [],
+  "source": {
+    "blocks": "maps/ViridianGym.blk",
+    "header": "data/maps/headers/ViridianGym.asm",
+    "objects": "data/maps/objects/ViridianGym.asm",
+    "script": "scripts/ViridianGym.asm"
+  },
+  "tiles": [
+    "####################",
+    "#....#..............",
+    "#....#..............",
+    "#....##.##.#######..",
+    "#.......#..#.....#..",
+    "######.#.#.......#..",
+    ".....#.#.######..#..",
+    ".....#.#.........#..",
+    "..##.#.#......##.#..",
+    "..##.#.#.......#.#..",
+    "..##.#.#.......#.#..",
+    "..##...#.......#.#..",
+    "..##.#########......",
+    "..##................",
+    "..##...........#..#.",
+    "..############.#..#.",
+    "....................",
+    "................dd.."
+  ],
+  "tileset": "GYM",
+  "warps": [
+    {
+      "last_map": true,
+      "to_map": "VIRIDIAN_CITY",
+      "to_warp": 5,
+      "x": 16,
+      "y": 17
+    },
+    {
+      "last_map": true,
+      "to_map": "VIRIDIAN_CITY",
+      "to_warp": 5,
+      "x": 17,
+      "y": 17
+    }
+  ],
+  "width": 20
+}

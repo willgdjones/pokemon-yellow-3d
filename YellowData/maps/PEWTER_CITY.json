@@ -1,0 +1,304 @@
+{
+  "blocked_edges": [],
+  "border_block": 10,
+  "cave": false,
+  "connections": {
+    "east": {
+      "map": "ROUTE_3",
+      "offset": 8
+    },
+    "south": {
+      "map": "ROUTE_2",
+      "offset": 10
+    }
+  },
+  "encounter_rate": 0,
+  "height": 36,
+  "hidden": [],
+  "hidden_events": [],
+  "id": "PEWTER_CITY",
+  "items": [],
+  "label": "PewterCity",
+  "looks": [
+    "ssssssssssssssssssssssssssssssssssssssss",
+    "ssssFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFTTTTTT",
+    "rrrrppffffRRRRRRRRRRRRRRssssssffffsTTTTT",
+    "rrrrppffffRRRRRRRRRRRRRRTTTTssffffsTTTTT",
+    "rrrrppffffRRRRRRRRnnnnnnssTsssffffsTTTTT",
+    "rrrrppffffRRRRRRRRnDnnnnssTTssffffsTTTTT",
+    "rrrrppssssnnnnnnnnppsssssssTsssssssTTTTT",
+    "rrrrLLLsLLnnnnDnnnLLLLLLLLLTLLLsLLLTTTTT",
+    "rrrrppppppppppppppppsssssssssssssssTTTTT",
+    "rrrrpppppppppppSppppsssssssssssssssTTTTT",
+    "rrrrppffffffffffffpppppppppppppppprrrrrr",
+    "rrrrppffffffffffffpppppppppppppppprrrrrr",
+    "rrrrppppppppppppppppssssssssRRRRpprrrrrr",
+    "rrrrppppppppppppppppssssssssRDnRpprrrrrr",
+    "rrrrppssssppRRRRRRppppRRRRpppppppprrrrrr",
+    "rrrrppssssppRRRRRRppppRRRRpppppppprrrrrr",
+    "rrrrppssssppRnBBnRppssnnnnsssssspppppppp",
+    "rrrrppsssspSnnnnDnppssnDSnsssssspppppppp",
+    "rrrrppppppppppppppFppppppppppppppppppppp",
+    "rrrrppppppppppppppFppppppppppppppSpppppp",
+    "rrrrppssssppssssssFpsssssssssssspprrrrrr",
+    "rrrrTTTTTTTTTTTTTTFpsssssssssssspprrrrrr",
+    "rrrrppppppppRRRRpppppppppppppppppprrrrrr",
+    "rrrrppppppppRRRRppppppFFFSFFFFpppprrrrrr",
+    "rrrrppssssssnnnnffppsTffffffffTspprrrrrr",
+    "rrrrppssssssnDSnffppsTffffffffTspprrrrrr",
+    "rrrrppppppppppppppppsTffffffffTsppsFssss",
+    "rrrrppppppppppppppppsTffffffffTsppsFssss",
+    "rrrrppRRRRffssssssppsTssssssssTsppsFssss",
+    "rrrrppRDnRffsssssspSsTLLLsLLLLTsppsFssss",
+    "rrFFppppppppppppppppppppppppppppppsFssss",
+    "rrFFppppppppppppppppppppppppppppppsFssss",
+    "rrFFFFFFFFFFTTTTTTppTTTTTTFFFFFFFFFFssss",
+    "rrssssssssssTTTTTTppTTTTTTssssssssssssss",
+    "ssssssssssssTTTTTTppTTTTTTssssssssssssss",
+    "ssssssssssssTTTTTTppTTTTTTssssssssssssss"
+  ],
+  "looks_unknown": 0,
+  "music": "cities1",
+  "name": "PEWTER CITY",
+  "npcs": [
+    {
+      "facing": "none",
+      "id": "PEWTERCITY_COOLTRAINER_F",
+      "movement": "stay",
+      "sprite": "SPRITE_COOLTRAINER_F",
+      "text": "TEXT_PEWTERCITY_COOLTRAINER_F",
+      "text_handler": "PewterCityCooltrainerFText",
+      "text_id": "TEXT_PEWTERCITY_COOLTRAINER_F",
+      "texts": [
+        "PewterCityCooltrainerFText"
+      ],
+      "x": 8,
+      "y": 15
+    },
+    {
+      "facing": "none",
+      "id": "PEWTERCITY_COOLTRAINER_M",
+      "movement": "stay",
+      "sprite": "SPRITE_COOLTRAINER_M",
+      "text": "TEXT_PEWTERCITY_COOLTRAINER_M",
+      "text_handler": "PewterCityCooltrainerMText",
+      "text_id": "TEXT_PEWTERCITY_COOLTRAINER_M",
+      "texts": [
+        "PewterCityCooltrainerMText"
+      ],
+      "x": 17,
+      "y": 25
+    },
+    {
+      "facing": "none",
+      "hidden_at_start": false,
+      "id": "PEWTERCITY_SUPER_NERD1",
+      "movement": "stay",
+      "sprite": "SPRITE_SUPER_NERD",
+      "text": "TEXT_PEWTERCITY_SUPER_NERD1",
+      "text_handler": "PewterCitySuperNerd1Text",
+      "text_id": "TEXT_PEWTERCITY_SUPER_NERD1",
+      "texts": [
+        "PewterCitySuperNerd1Text.DidYouCheckOutMuseumText",
+        "PewterCitySuperNerd1Text.WerentThoseFossilsAmazingText",
+        "PewterCitySuperNerd1Text.YouHaveToGoText"
+      ],
+      "toggle": "PEWTERCITY_SUPER_NERD1",
+      "x": 27,
+      "y": 17
+    },
+    {
+      "facing": "left_right",
+      "id": "PEWTERCITY_SUPER_NERD2",
+      "movement": "walk",
+      "sprite": "SPRITE_SUPER_NERD",
+      "text": "TEXT_PEWTERCITY_SUPER_NERD2",
+      "text_handler": "PewterCitySuperNerd2Text",
+      "text_id": "TEXT_PEWTERCITY_SUPER_NERD2",
+      "texts": [
+        "PewterCitySuperNerd2Text.DoYouKnowWhatImDoingText",
+        "PewterCitySuperNerd2Text.ThatsRightText",
+        "PewterCitySuperNerd2Text.ImSprayingRepelText"
+      ],
+      "x": 26,
+      "y": 25
+    },
+    {
+      "facing": "down",
+      "hidden_at_start": false,
+      "id": "PEWTERCITY_YOUNGSTER",
+      "movement": "stay",
+      "sprite": "SPRITE_YOUNGSTER",
+      "text": "TEXT_PEWTERCITY_YOUNGSTER",
+      "text_handler": "PewterCityYoungsterText",
+      "text_id": "TEXT_PEWTERCITY_YOUNGSTER",
+      "texts": [
+        "PewterCityYoungsterText.YoureATrainerFollowMeText"
+      ],
+      "toggle": "PEWTERCITY_YOUNGSTER",
+      "x": 35,
+      "y": 16
+    }
+  ],
+  "origin": {
+    "x": -10,
+    "y": -180
+  },
+  "outdoor": true,
+  "palette": "PAL_PEWTER",
+  "signs": [
+    {
+      "text": "TEXT_PEWTERCITY_TRAINER_TIPS",
+      "texts": [
+        "PewterCityTrainerTipsText"
+      ],
+      "x": 19,
+      "y": 29
+    },
+    {
+      "text": "TEXT_PEWTERCITY_POLICE_NOTICE_SIGN",
+      "texts": [
+        "PewterCityPoliceNoticeSignText"
+      ],
+      "x": 33,
+      "y": 19
+    },
+    {
+      "text": "TEXT_PEWTERCITY_MART_SIGN",
+      "texts": [
+        "MartSignText"
+      ],
+      "x": 24,
+      "y": 17
+    },
+    {
+      "text": "TEXT_PEWTERCITY_POKECENTER_SIGN",
+      "texts": [
+        "PokeCenterSignText"
+      ],
+      "x": 14,
+      "y": 25
+    },
+    {
+      "text": "TEXT_PEWTERCITY_MUSEUM_SIGN",
+      "texts": [
+        "PewterCityMuseumSignText"
+      ],
+      "x": 15,
+      "y": 9
+    },
+    {
+      "text": "TEXT_PEWTERCITY_GYM_SIGN",
+      "texts": [
+        "PewterCityGymSignText"
+      ],
+      "x": 11,
+      "y": 17
+    },
+    {
+      "text": "TEXT_PEWTERCITY_SIGN",
+      "texts": [
+        "PewterCitySignText"
+      ],
+      "x": 25,
+      "y": 23
+    }
+  ],
+  "source": {
+    "blocks": "maps/PewterCity.blk",
+    "header": "data/maps/headers/PewterCity.asm",
+    "objects": "data/maps/objects/PewterCity.asm",
+    "script": "scripts/PewterCity.asm"
+  },
+  "tiles": [
+    "........................................",
+    "....####################################",
+    "####......##############...........#####",
+    "####......##################.......#####",
+    "####......##############..x........#####",
+    "####......#########d####..##.......#####",
+    "####......########.........#.......#####",
+    "####vvv.vv####d###vvvvvvvvv#vvv.vvv#####",
+    "####...............................#####",
+    "####...........#...................#####",
+    "####..............................######",
+    "####..............................######",
+    "####........................####..######",
+    "####........................#d##..######",
+    "####........######....####........######",
+    "####........######....####........######",
+    "####........######....####..............",
+    "####.......#####d#....#d##..............",
+    "####..............#.....................",
+    "####..............#..............#......",
+    "####..............#...............######",
+    "###################...............######",
+    "####........####..................######",
+    "####........####......########....######",
+    "####........####.....#........#...######",
+    "####........#d##.....#........#...######",
+    "####.................#........#....#....",
+    "####.................#........#....#....",
+    "####..####...........#........#....#....",
+    "####..#d##.........#.#vvv.vvvv#....#....",
+    "####...............................#....",
+    "####...............................#....",
+    "##################..################....",
+    "##..........######..######..............",
+    "............######..######..............",
+    "............######..######.............."
+  ],
+  "tileset": "OVERWORLD",
+  "warps": [
+    {
+      "door": true,
+      "to_map": "MUSEUM_1F",
+      "to_warp": 1,
+      "x": 14,
+      "y": 7
+    },
+    {
+      "door": true,
+      "to_map": "MUSEUM_1F",
+      "to_warp": 3,
+      "x": 19,
+      "y": 5
+    },
+    {
+      "door": true,
+      "to_map": "PEWTER_GYM",
+      "to_warp": 1,
+      "x": 16,
+      "y": 17
+    },
+    {
+      "door": true,
+      "to_map": "PEWTER_NIDORAN_HOUSE",
+      "to_warp": 1,
+      "x": 29,
+      "y": 13
+    },
+    {
+      "door": true,
+      "to_map": "PEWTER_MART",
+      "to_warp": 1,
+      "x": 23,
+      "y": 17
+    },
+    {
+      "door": true,
+      "to_map": "PEWTER_SPEECH_HOUSE",
+      "to_warp": 1,
+      "x": 7,
+      "y": 29
+    },
+    {
+      "door": true,
+      "to_map": "PEWTER_POKECENTER",
+      "to_warp": 1,
+      "x": 13,
+      "y": 25
+    }
+  ],
+  "width": 40
+}

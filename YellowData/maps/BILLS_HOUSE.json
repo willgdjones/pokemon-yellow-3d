@@ -1,0 +1,129 @@
+{
+  "blocked_edges": [],
+  "border_block": 13,
+  "cave": false,
+  "connections": {},
+  "encounter_rate": 0,
+  "height": 8,
+  "hidden": [],
+  "hidden_events": [
+    {
+      "arg": "SPRITE_FACING_UP",
+      "kind": "BillsHousePC",
+      "x": 1,
+      "y": 4
+    }
+  ],
+  "id": "BILLS_HOUSE",
+  "items": [],
+  "label": "BillsHouse",
+  "looks": [
+    "bbbBBbbb",
+    "bbbbbbbb",
+    "oboooobo",
+    "oooooooo",
+    "oPtooooo",
+    "otoooooo",
+    "oooooooo",
+    "oommoooo"
+  ],
+  "looks_unknown": 0,
+  "music": "cities2",
+  "name": "Bills House",
+  "npcs": [
+    {
+      "facing": "none",
+      "hidden_at_start": false,
+      "id": "BILLSHOUSE_BILL_POKEMON",
+      "movement": "stay",
+      "sprite": "SPRITE_MONSTER",
+      "text": "TEXT_BILLSHOUSE_BILL_POKEMON",
+      "text_handler": "BillsHouseBillPokemonText",
+      "text_id": "TEXT_BILLSHOUSE_BILL_POKEMON",
+      "texts": [
+        "BillsHousePrintBillPokemonText.ImNotAPokemonText",
+        "BillsHousePrintBillPokemonText.UseSeparationSystemText",
+        "BillsHousePrintBillPokemonText.NoYouGottaHelpText"
+      ],
+      "toggle": "BILLSHOUSE_BILL_POKEMON",
+      "x": 6,
+      "y": 5
+    },
+    {
+      "facing": "none",
+      "hidden_at_start": true,
+      "id": "BILLSHOUSE_BILL1",
+      "movement": "stay",
+      "sprite": "SPRITE_SUPER_NERD",
+      "text": "TEXT_BILLSHOUSE_BILL_SS_TICKET",
+      "text_handler": "BillsHouseBillSSTicketText",
+      "text_id": "TEXT_BILLSHOUSE_BILL_SS_TICKET",
+      "texts": [
+        "BillsHousePrintBillSSTicketText.ThankYouText",
+        "BillsHousePrintBillSSTicketText.SSTicketReceivedText",
+        "BillsHousePrintBillSSTicketText.WhyDontYouGoInsteadOfMeText",
+        "BillsHousePrintBillSSTicketText.SSTicketNoRoomText"
+      ],
+      "toggle": "BILLSHOUSE_BILL1",
+      "x": 4,
+      "y": 4
+    },
+    {
+      "facing": "none",
+      "hidden_at_start": true,
+      "id": "BILLSHOUSE_BILL2",
+      "movement": "stay",
+      "sprite": "SPRITE_SUPER_NERD",
+      "text": "TEXT_BILLSHOUSE_BILL_CHECK_OUT_MY_RARE_POKEMON",
+      "text_handler": "BillsHouseBillCheckOutMyRarePokemonText",
+      "text_id": "TEXT_BILLSHOUSE_BILL_CHECK_OUT_MY_RARE_POKEMON",
+      "texts": [
+        "BillsHousePrintBillCheckOutMyRarePokemonText.text"
+      ],
+      "toggle": "BILLSHOUSE_BILL2",
+      "x": 6,
+      "y": 5
+    }
+  ],
+  "origin": {
+    "x": 184,
+    "y": 1132
+  },
+  "outdoor": false,
+  "palette": "PAL_ROUTE",
+  "signs": [],
+  "source": {
+    "blocks": "maps/BillsHouse.blk",
+    "header": "data/maps/headers/BillsHouse.asm",
+    "objects": "data/maps/objects/BillsHouse.asm",
+    "script": "scripts/BillsHouse.asm"
+  },
+  "tiles": [
+    "########",
+    "########",
+    ".#....#.",
+    "........",
+    ".##.....",
+    "........",
+    "........",
+    "..dd...."
+  ],
+  "tileset": "INTERIOR",
+  "warps": [
+    {
+      "last_map": true,
+      "to_map": "ROUTE_25",
+      "to_warp": 1,
+      "x": 2,
+      "y": 7
+    },
+    {
+      "last_map": true,
+      "to_map": "ROUTE_25",
+      "to_warp": 1,
+      "x": 3,
+      "y": 7
+    }
+  ],
+  "width": 8
+}

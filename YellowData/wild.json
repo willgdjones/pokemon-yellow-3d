@@ -1,0 +1,662 @@
+{
+  "MT_MOON_1F": {
+    "grass": [
+      [
+        8,
+        "ZUBAT"
+      ],
+      [
+        9,
+        "ZUBAT"
+      ],
+      [
+        10,
+        "GEODUDE"
+      ],
+      [
+        6,
+        "ZUBAT"
+      ],
+      [
+        7,
+        "ZUBAT"
+      ],
+      [
+        10,
+        "ZUBAT"
+      ],
+      [
+        10,
+        "GEODUDE"
+      ],
+      [
+        11,
+        "ZUBAT"
+      ],
+      [
+        12,
+        "SANDSHREW"
+      ],
+      [
+        11,
+        "CLEFAIRY"
+      ]
+    ],
+    "grass_rate": 10,
+    "slot_chances_256": [
+      51,
+      51,
+      39,
+      25,
+      25,
+      25,
+      13,
+      13,
+      11,
+      3
+    ],
+    "source": "data/wild/maps/MtMoon1F.asm",
+    "water": [],
+    "water_rate": 0
+  },
+  "MT_MOON_B1F": {
+    "grass": [
+      [
+        8,
+        "ZUBAT"
+      ],
+      [
+        9,
+        "ZUBAT"
+      ],
+      [
+        10,
+        "ZUBAT"
+      ],
+      [
+        10,
+        "GEODUDE"
+      ],
+      [
+        11,
+        "GEODUDE"
+      ],
+      [
+        11,
+        "ZUBAT"
+      ],
+      [
+        9,
+        "PARAS"
+      ],
+      [
+        11,
+        "PARAS"
+      ],
+      [
+        10,
+        "CLEFAIRY"
+      ],
+      [
+        12,
+        "CLEFAIRY"
+      ]
+    ],
+    "grass_rate": 10,
+    "slot_chances_256": [
+      51,
+      51,
+      39,
+      25,
+      25,
+      25,
+      13,
+      13,
+      11,
+      3
+    ],
+    "source": "data/wild/maps/MtMoonB1F.asm",
+    "water": [],
+    "water_rate": 0
+  },
+  "MT_MOON_B2F": {
+    "grass": [
+      [
+        10,
+        "ZUBAT"
+      ],
+      [
+        11,
+        "GEODUDE"
+      ],
+      [
+        13,
+        "PARAS"
+      ],
+      [
+        11,
+        "ZUBAT"
+      ],
+      [
+        11,
+        "ZUBAT"
+      ],
+      [
+        12,
+        "ZUBAT"
+      ],
+      [
+        13,
+        "ZUBAT"
+      ],
+      [
+        9,
+        "CLEFAIRY"
+      ],
+      [
+        11,
+        "CLEFAIRY"
+      ],
+      [
+        13,
+        "CLEFAIRY"
+      ]
+    ],
+    "grass_rate": 10,
+    "slot_chances_256": [
+      51,
+      51,
+      39,
+      25,
+      25,
+      25,
+      13,
+      13,
+      11,
+      3
+    ],
+    "source": "data/wild/maps/MtMoonB2F.asm",
+    "water": [],
+    "water_rate": 0
+  },
+  "ROUTE_1": {
+    "grass": [
+      [
+        3,
+        "PIDGEY"
+      ],
+      [
+        4,
+        "PIDGEY"
+      ],
+      [
+        2,
+        "RATTATA"
+      ],
+      [
+        3,
+        "RATTATA"
+      ],
+      [
+        2,
+        "PIDGEY"
+      ],
+      [
+        3,
+        "PIDGEY"
+      ],
+      [
+        5,
+        "PIDGEY"
+      ],
+      [
+        4,
+        "RATTATA"
+      ],
+      [
+        6,
+        "PIDGEY"
+      ],
+      [
+        7,
+        "PIDGEY"
+      ]
+    ],
+    "grass_rate": 25,
+    "slot_chances_256": [
+      51,
+      51,
+      39,
+      25,
+      25,
+      25,
+      13,
+      13,
+      11,
+      3
+    ],
+    "source": "data/wild/maps/Route1.asm",
+    "water": [],
+    "water_rate": 0
+  },
+  "ROUTE_2": {
+    "grass": [
+      [
+        3,
+        "RATTATA"
+      ],
+      [
+        3,
+        "PIDGEY"
+      ],
+      [
+        4,
+        "RATTATA"
+      ],
+      [
+        4,
+        "NIDORAN_M"
+      ],
+      [
+        4,
+        "NIDORAN_F"
+      ],
+      [
+        5,
+        "PIDGEY"
+      ],
+      [
+        6,
+        "NIDORAN_M"
+      ],
+      [
+        6,
+        "NIDORAN_F"
+      ],
+      [
+        7,
+        "PIDGEY"
+      ],
+      [
+        7,
+        "PIDGEY"
+      ]
+    ],
+    "grass_rate": 25,
+    "slot_chances_256": [
+      51,
+      51,
+      39,
+      25,
+      25,
+      25,
+      13,
+      13,
+      11,
+      3
+    ],
+    "source": "data/wild/maps/Route2.asm",
+    "water": [],
+    "water_rate": 0
+  },
+  "ROUTE_22": {
+    "grass": [
+      [
+        2,
+        "NIDORAN_M"
+      ],
+      [
+        2,
+        "NIDORAN_F"
+      ],
+      [
+        3,
+        "MANKEY"
+      ],
+      [
+        3,
+        "RATTATA"
+      ],
+      [
+        4,
+        "NIDORAN_M"
+      ],
+      [
+        4,
+        "NIDORAN_F"
+      ],
+      [
+        5,
+        "MANKEY"
+      ],
+      [
+        2,
+        "SPEAROW"
+      ],
+      [
+        4,
+        "SPEAROW"
+      ],
+      [
+        6,
+        "SPEAROW"
+      ]
+    ],
+    "grass_rate": 25,
+    "slot_chances_256": [
+      51,
+      51,
+      39,
+      25,
+      25,
+      25,
+      13,
+      13,
+      11,
+      3
+    ],
+    "source": "data/wild/maps/Route22.asm",
+    "water": [],
+    "water_rate": 0
+  },
+  "ROUTE_24": {
+    "grass": [
+      [
+        12,
+        "ODDISH"
+      ],
+      [
+        12,
+        "BELLSPROUT"
+      ],
+      [
+        13,
+        "PIDGEY"
+      ],
+      [
+        14,
+        "ODDISH"
+      ],
+      [
+        14,
+        "BELLSPROUT"
+      ],
+      [
+        15,
+        "PIDGEY"
+      ],
+      [
+        13,
+        "VENONAT"
+      ],
+      [
+        16,
+        "VENONAT"
+      ],
+      [
+        17,
+        "PIDGEY"
+      ],
+      [
+        17,
+        "PIDGEOTTO"
+      ]
+    ],
+    "grass_rate": 25,
+    "slot_chances_256": [
+      51,
+      51,
+      39,
+      25,
+      25,
+      25,
+      13,
+      13,
+      11,
+      3
+    ],
+    "source": "data/wild/maps/Route24.asm",
+    "water": [],
+    "water_rate": 0
+  },
+  "ROUTE_25": {
+    "grass": [
+      [
+        12,
+        "ODDISH"
+      ],
+      [
+        12,
+        "BELLSPROUT"
+      ],
+      [
+        13,
+        "PIDGEY"
+      ],
+      [
+        14,
+        "ODDISH"
+      ],
+      [
+        14,
+        "BELLSPROUT"
+      ],
+      [
+        15,
+        "PIDGEY"
+      ],
+      [
+        13,
+        "VENONAT"
+      ],
+      [
+        16,
+        "VENONAT"
+      ],
+      [
+        17,
+        "PIDGEY"
+      ],
+      [
+        17,
+        "PIDGEOTTO"
+      ]
+    ],
+    "grass_rate": 15,
+    "slot_chances_256": [
+      51,
+      51,
+      39,
+      25,
+      25,
+      25,
+      13,
+      13,
+      11,
+      3
+    ],
+    "source": "data/wild/maps/Route25.asm",
+    "water": [],
+    "water_rate": 0
+  },
+  "ROUTE_3": {
+    "grass": [
+      [
+        8,
+        "SPEAROW"
+      ],
+      [
+        9,
+        "SPEAROW"
+      ],
+      [
+        9,
+        "MANKEY"
+      ],
+      [
+        10,
+        "SPEAROW"
+      ],
+      [
+        8,
+        "SANDSHREW"
+      ],
+      [
+        10,
+        "RATTATA"
+      ],
+      [
+        10,
+        "SANDSHREW"
+      ],
+      [
+        12,
+        "RATTATA"
+      ],
+      [
+        11,
+        "SPEAROW"
+      ],
+      [
+        12,
+        "SPEAROW"
+      ]
+    ],
+    "grass_rate": 20,
+    "slot_chances_256": [
+      51,
+      51,
+      39,
+      25,
+      25,
+      25,
+      13,
+      13,
+      11,
+      3
+    ],
+    "source": "data/wild/maps/Route3.asm",
+    "water": [],
+    "water_rate": 0
+  },
+  "ROUTE_4": {
+    "grass": [
+      [
+        8,
+        "SPEAROW"
+      ],
+      [
+        9,
+        "SPEAROW"
+      ],
+      [
+        9,
+        "MANKEY"
+      ],
+      [
+        10,
+        "SPEAROW"
+      ],
+      [
+        8,
+        "SANDSHREW"
+      ],
+      [
+        10,
+        "RATTATA"
+      ],
+      [
+        10,
+        "SANDSHREW"
+      ],
+      [
+        12,
+        "RATTATA"
+      ],
+      [
+        11,
+        "SPEAROW"
+      ],
+      [
+        12,
+        "SPEAROW"
+      ]
+    ],
+    "grass_rate": 20,
+    "slot_chances_256": [
+      51,
+      51,
+      39,
+      25,
+      25,
+      25,
+      13,
+      13,
+      11,
+      3
+    ],
+    "source": "data/wild/maps/Route4.asm",
+    "water": [],
+    "water_rate": 0
+  },
+  "VIRIDIAN_FOREST": {
+    "grass": [
+      [
+        3,
+        "CATERPIE"
+      ],
+      [
+        4,
+        "METAPOD"
+      ],
+      [
+        4,
+        "CATERPIE"
+      ],
+      [
+        5,
+        "CATERPIE"
+      ],
+      [
+        4,
+        "PIDGEY"
+      ],
+      [
+        6,
+        "PIDGEY"
+      ],
+      [
+        6,
+        "CATERPIE"
+      ],
+      [
+        6,
+        "METAPOD"
+      ],
+      [
+        8,
+        "PIDGEY"
+      ],
+      [
+        9,
+        "PIDGEOTTO"
+      ]
+    ],
+    "grass_rate": 25,
+    "slot_chances_256": [
+      51,
+      51,
+      39,
+      25,
+      25,
+      25,
+      13,
+      13,
+      11,
+      3
+    ],
+    "source": "data/wild/maps/ViridianForest.asm",
+    "water": [],
+    "water_rate": 0
+  }
+}

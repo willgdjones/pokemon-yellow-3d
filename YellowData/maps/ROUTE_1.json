@@ -1,0 +1,159 @@
+{
+  "blocked_edges": [],
+  "border_block": 11,
+  "cave": false,
+  "connections": {
+    "north": {
+      "map": "VIRIDIAN_CITY",
+      "offset": -10
+    },
+    "south": {
+      "map": "PALLET_TOWN",
+      "offset": 0
+    }
+  },
+  "encounter_rate": 25,
+  "height": 36,
+  "hidden": [],
+  "hidden_events": [],
+  "id": "ROUTE_1",
+  "items": [],
+  "label": "Route1",
+  "looks": [
+    "sssFsssssFppFsssssFs",
+    "sssFFFFFFFppFFFFFFFs",
+    "sssFssssssppssssffFs",
+    "sssFssssssppssssffFs",
+    "sssFsssssTppppppppFs",
+    "sssFLLLLLTLLLLppppFs",
+    "sssTffffsTGGGGGGGGTs",
+    "sssTffffsTGGGGGGGGTs",
+    "sssTsssssTGGGGGGGGTs",
+    "sssTLLLLLTGGGGGGGGTs",
+    "sssTssffffssppppppTs",
+    "sssTssffffssppppppTs",
+    "sssTssssssssppGGGGTs",
+    "sssTTTLLLLTTTTGGGGTs",
+    "sssFssssffffppGGGGFs",
+    "sssFssssffffppGGGGFs",
+    "sssFssppppppppffffFs",
+    "sssFssppppppppffffFs",
+    "sssFssppssssssssssFs",
+    "sssFLsLLLsLLLLLLLLFs",
+    "sssFssppppppppppppFs",
+    "sssFssppppppppppppFs",
+    "sssFssssssssGGGGppFs",
+    "sssFTTTTTTTTGGGGLLFs",
+    "sssFssssffffGGGGppFs",
+    "sssFssssffffGGGGppFs",
+    "sssFppppppppppppppFs",
+    "sssFLLpppSLLLLLLLLFs",
+    "sssTssGGGGppssGGGGTs",
+    "sssTssGGGGppssGGGGTs",
+    "sssTGGGGffppGGGGffTs",
+    "sssTGGGGffppGGGGffTs",
+    "sssTFFFFFFGGFFFFFFTs",
+    "sssTsssssFGGFsssssTs",
+    "sssTsssssFGGFsssssTs",
+    "sssTsssssFGGFsssssTs"
+  ],
+  "looks_unknown": 0,
+  "music": "routes1",
+  "name": "ROUTE 1",
+  "npcs": [
+    {
+      "facing": "up_down",
+      "id": "ROUTE1_YOUNGSTER1",
+      "movement": "walk",
+      "sprite": "SPRITE_YOUNGSTER",
+      "text": "TEXT_ROUTE1_YOUNGSTER1",
+      "text_handler": "Route1Youngster1Text",
+      "text_id": "TEXT_ROUTE1_YOUNGSTER1",
+      "texts": [
+        "Route1PrintYoungster1Text.MartSampleText",
+        "Route1PrintYoungster1Text.GotPotionText",
+        "Route1PrintYoungster1Text.NoRoomText",
+        "Route1PrintYoungster1Text.AlsoGotPokeballsText"
+      ],
+      "x": 5,
+      "y": 24
+    },
+    {
+      "facing": "left_right",
+      "id": "ROUTE1_YOUNGSTER2",
+      "movement": "walk",
+      "sprite": "SPRITE_YOUNGSTER",
+      "text": "TEXT_ROUTE1_YOUNGSTER2",
+      "text_handler": "Route1Youngster2Text",
+      "text_id": "TEXT_ROUTE1_YOUNGSTER2",
+      "texts": [
+        "Route1PrintYoungster2Text.text"
+      ],
+      "x": 15,
+      "y": 13
+    }
+  ],
+  "origin": {
+    "x": 0,
+    "y": -36
+  },
+  "outdoor": true,
+  "palette": "PAL_ROUTE",
+  "signs": [
+    {
+      "text": "TEXT_ROUTE1_SIGN",
+      "texts": [
+        "Route1PrintSignText.text"
+      ],
+      "x": 9,
+      "y": 27
+    }
+  ],
+  "source": {
+    "blocks": "maps/Route1.blk",
+    "header": "data/maps/headers/Route1.asm",
+    "objects": "data/maps/objects/Route1.asm",
+    "script": "scripts/Route1.asm"
+  },
+  "tiles": [
+    "...#.....#..#.....#.",
+    "...#######..#######.",
+    "...#..............#.",
+    "...#..............#.",
+    "...#.....#........#.",
+    "...#vvvvv#vvvv....#.",
+    "...#.....#gggggggg#.",
+    "...#.....#gggggggg#.",
+    "...#.....#gggggggg#.",
+    "...#vvvvv#gggggggg#.",
+    "...#..............#.",
+    "...#..............#.",
+    "...#..........gggg#.",
+    "...###vvvv####gggg#.",
+    "...#..........gggg#.",
+    "...#..........gggg#.",
+    "...#..............#.",
+    "...#..............#.",
+    "...#..............#.",
+    "...#v.vvv.vvvvvvvv#.",
+    "...#..............#.",
+    "...#..............#.",
+    "...#........gggg..#.",
+    "...#########ggggvv#.",
+    "...#........gggg..#.",
+    "...#........gggg..#.",
+    "...#..............#.",
+    "...#vv...#vvvvvvvv#.",
+    "...#..gggg....gggg#.",
+    "...#..gggg....gggg#.",
+    "...#gggg....gggg..#.",
+    "...#gggg....gggg..#.",
+    "...#######gg#######.",
+    "...#.....#gg#.....#.",
+    "...#.....#gg#.....#.",
+    "...#.....#gg#.....#."
+  ],
+  "tileset": "OVERWORLD",
+  "warps": [],
+  "width": 20
+}

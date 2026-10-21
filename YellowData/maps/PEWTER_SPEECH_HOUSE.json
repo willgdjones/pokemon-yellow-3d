@@ -1,0 +1,97 @@
+{
+  "blocked_edges": [],
+  "border_block": 10,
+  "cave": false,
+  "connections": {},
+  "encounter_rate": 0,
+  "height": 8,
+  "hidden": [],
+  "hidden_events": [],
+  "id": "PEWTER_SPEECH_HOUSE",
+  "items": [],
+  "label": "PewterSpeechHouse",
+  "looks": [
+    "ttBlBnBt",
+    "bbooooob",
+    "oooooooo",
+    "oottttoo",
+    "oottttoo",
+    "oooooooo",
+    "hooooooh",
+    "hommoooh"
+  ],
+  "looks_unknown": 0,
+  "music": "cities1",
+  "name": "Pewter Speech House",
+  "npcs": [
+    {
+      "facing": "right",
+      "id": "PEWTERSPEECHHOUSE_GAMBLER",
+      "movement": "stay",
+      "sprite": "SPRITE_GAMBLER",
+      "text": "TEXT_PEWTERSPEECHHOUSE_GAMBLER",
+      "text_handler": "PewterSpeechHouseGamblerText",
+      "text_id": "TEXT_PEWTERSPEECHHOUSE_GAMBLER",
+      "texts": [
+        "PewterSpeechHouseGamblerText"
+      ],
+      "x": 2,
+      "y": 3
+    },
+    {
+      "facing": "none",
+      "id": "PEWTERSPEECHHOUSE_YOUNGSTER",
+      "movement": "stay",
+      "sprite": "SPRITE_YOUNGSTER",
+      "text": "TEXT_PEWTERSPEECHHOUSE_YOUNGSTER",
+      "text_handler": "PewterSpeechHouseYoungsterText",
+      "text_id": "TEXT_PEWTERSPEECHHOUSE_YOUNGSTER",
+      "texts": [
+        "PewterSpeechHouseYoungsterText"
+      ],
+      "x": 4,
+      "y": 5
+    }
+  ],
+  "origin": {
+    "x": 56,
+    "y": 1086
+  },
+  "outdoor": false,
+  "palette": "PAL_PEWTER",
+  "signs": [],
+  "source": {
+    "blocks": "maps/PewterSpeechHouse.blk",
+    "header": "data/maps/headers/PewterSpeechHouse.asm",
+    "objects": "data/maps/objects/PewterSpeechHouse.asm",
+    "script": "scripts/PewterSpeechHouse.asm"
+  },
+  "tiles": [
+    "########",
+    "##.....#",
+    "........",
+    "...##...",
+    "...##...",
+    "........",
+    "#......#",
+    "#.dd...#"
+  ],
+  "tileset": "HOUSE",
+  "warps": [
+    {
+      "last_map": true,
+      "to_map": "PEWTER_CITY",
+      "to_warp": 6,
+      "x": 2,
+      "y": 7
+    },
+    {
+      "last_map": true,
+      "to_map": "PEWTER_CITY",
+      "to_warp": 6,
+      "x": 3,
+      "y": 7
+    }
+  ],
+  "width": 8
+}

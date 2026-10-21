@@ -1,0 +1,73 @@
+{
+  "blocked_edges": [],
+  "border_block": 10,
+  "cave": false,
+  "connections": {},
+  "encounter_rate": 0,
+  "height": 8,
+  "hidden": [],
+  "hidden_events": [
+    {
+      "arg": "SPRITE_FACING_UP",
+      "kind": "OpenRedsPC",
+      "x": 0,
+      "y": 1
+    },
+    {
+      "arg": "ANY_FACING",
+      "kind": "PrintRedSNESText",
+      "x": 3,
+      "y": 5
+    }
+  ],
+  "id": "REDS_HOUSE_2F",
+  "items": [],
+  "label": "RedsHouse2F",
+  "looks": [
+    "PttBBnBn",
+    "Pttoooou",
+    "oooooooo",
+    "oooooooo",
+    "oooboooo",
+    "oooboooo",
+    "toooooho",
+    "toooooho"
+  ],
+  "looks_unknown": 0,
+  "music": "pallet_town",
+  "name": "Reds House 2F",
+  "npcs": [],
+  "origin": {
+    "x": 18,
+    "y": 1000
+  },
+  "outdoor": false,
+  "palette": "PAL_PALLET",
+  "signs": [],
+  "source": {
+    "blocks": "maps/RedsHouse2F.blk",
+    "header": "data/maps/headers/RedsHouse2F.asm",
+    "objects": "data/maps/objects/RedsHouse2F.asm",
+    "script": "scripts/RedsHouse2F.asm"
+  },
+  "tiles": [
+    "########",
+    "###....d",
+    "........",
+    "........",
+    "...#....",
+    "...#....",
+    "#.....#.",
+    "#.....#."
+  ],
+  "tileset": "REDS_HOUSE_2",
+  "warps": [
+    {
+      "to_map": "REDS_HOUSE_1F",
+      "to_warp": 3,
+      "x": 7,
+      "y": 1
+    }
+  ],
+  "width": 8
+}

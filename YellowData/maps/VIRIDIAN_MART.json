@@ -1,0 +1,123 @@
+{
+  "blocked_edges": [],
+  "border_block": 0,
+  "cave": false,
+  "connections": {},
+  "encounter_rate": 0,
+  "height": 8,
+  "hidden": [],
+  "hidden_events": [],
+  "id": "VIRIDIAN_MART",
+  "items": [],
+  "label": "ViridianMart",
+  "looks": [
+    "llbbbbll",
+    "bbbbbbbb",
+    "kkoooooo",
+    "bboobbbb",
+    "Bkoobbbb",
+    "okoooooo",
+    "kkoooooo",
+    "ooommooo"
+  ],
+  "looks_unknown": 0,
+  "music": "pokecenter",
+  "name": "Viridian Mart",
+  "npcs": [
+    {
+      "facing": "right",
+      "id": "VIRIDIANMART_CLERK",
+      "movement": "stay",
+      "sprite": "SPRITE_CLERK",
+      "text": "TEXT_VIRIDIANMART_CLERK",
+      "text_handler": "ViridianMartClerkSayHiToOakText",
+      "text_id": "TEXT_VIRIDIANMART_CLERK",
+      "texts": [
+        "ViridianMartClerkSayHiToOakText",
+        "PokemartGreetingText",
+        "PokemartBuyingGreetingText",
+        "PokemartTellBuyPriceText",
+        "PokemartBoughtItemText",
+        "PokemartNotEnoughMoneyText",
+        "PokemartItemBagFullText",
+        "PokemonSellingGreetingText",
+        "PokemartTellSellPriceText",
+        "PokemartItemBagEmptyText",
+        "PokemartUnsellableItemText",
+        "PokemartThankYouText",
+        "PokemartAnythingElseText"
+      ],
+      "x": 0,
+      "y": 5
+    },
+    {
+      "facing": "up_down",
+      "id": "VIRIDIANMART_YOUNGSTER",
+      "movement": "walk",
+      "sprite": "SPRITE_YOUNGSTER",
+      "text": "TEXT_VIRIDIANMART_YOUNGSTER",
+      "text_handler": "ViridianMartYoungsterText",
+      "text_id": "TEXT_VIRIDIANMART_YOUNGSTER",
+      "texts": [
+        "ViridianMartYoungsterText"
+      ],
+      "x": 5,
+      "y": 5
+    },
+    {
+      "facing": "none",
+      "id": "VIRIDIANMART_COOLTRAINER_M",
+      "movement": "stay",
+      "sprite": "SPRITE_COOLTRAINER_M",
+      "text": "TEXT_VIRIDIANMART_COOLTRAINER_M",
+      "text_handler": "ViridianMartCooltrainerMText",
+      "text_id": "TEXT_VIRIDIANMART_COOLTRAINER_M",
+      "texts": [
+        "ViridianMartCooltrainerMText"
+      ],
+      "x": 3,
+      "y": 3
+    }
+  ],
+  "origin": {
+    "x": 98,
+    "y": 1000
+  },
+  "outdoor": false,
+  "palette": "PAL_VIRIDIAN",
+  "signs": [],
+  "source": {
+    "blocks": "maps/ViridianMart.blk",
+    "header": "data/maps/headers/ViridianMart.asm",
+    "objects": "data/maps/objects/ViridianMart.asm",
+    "script": "scripts/ViridianMart.asm"
+  },
+  "tiles": [
+    "########",
+    "########",
+    "==......",
+    "##..####",
+    "##..####",
+    ".=......",
+    "==......",
+    "...dd..."
+  ],
+  "tileset": "MART",
+  "warps": [
+    {
+      "last_map": true,
+      "to_map": "VIRIDIAN_CITY",
+      "to_warp": 2,
+      "x": 3,
+      "y": 7
+    },
+    {
+      "last_map": true,
+      "to_map": "VIRIDIAN_CITY",
+      "to_warp": 2,
+      "x": 4,
+      "y": 7
+    }
+  ],
+  "width": 8
+}

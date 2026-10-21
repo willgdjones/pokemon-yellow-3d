@@ -1,0 +1,186 @@
+{
+  "BIKE_SHOP": {
+    "x": 10,
+    "y": 2
+  },
+  "BILLS_HOUSE": {
+    "x": 12,
+    "y": 0
+  },
+  "BLUES_HOUSE": {
+    "x": 2,
+    "y": 11
+  },
+  "CERULEAN_BADGE_HOUSE": {
+    "x": 10,
+    "y": 2
+  },
+  "CERULEAN_CITY": {
+    "x": 10,
+    "y": 2
+  },
+  "CERULEAN_GYM": {
+    "x": 10,
+    "y": 2
+  },
+  "CERULEAN_MART": {
+    "x": 10,
+    "y": 2
+  },
+  "CERULEAN_MELANIES_HOUSE": {
+    "x": 10,
+    "y": 2
+  },
+  "CERULEAN_POKECENTER": {
+    "x": 10,
+    "y": 2
+  },
+  "CERULEAN_TRASHED_HOUSE": {
+    "x": 10,
+    "y": 2
+  },
+  "DIGLETTS_CAVE_ROUTE_2": {
+    "x": 2,
+    "y": 6
+  },
+  "MT_MOON_1F": {
+    "x": 6,
+    "y": 2
+  },
+  "MT_MOON_B1F": {
+    "x": 6,
+    "y": 2
+  },
+  "MT_MOON_B2F": {
+    "x": 6,
+    "y": 2
+  },
+  "MT_MOON_POKECENTER": {
+    "x": 5,
+    "y": 2
+  },
+  "MUSEUM_1F": {
+    "x": 2,
+    "y": 3
+  },
+  "MUSEUM_2F": {
+    "x": 2,
+    "y": 3
+  },
+  "OAKS_LAB": {
+    "x": 2,
+    "y": 11
+  },
+  "PALLET_TOWN": {
+    "x": 2,
+    "y": 11
+  },
+  "PEWTER_CITY": {
+    "x": 2,
+    "y": 3
+  },
+  "PEWTER_GYM": {
+    "x": 2,
+    "y": 3
+  },
+  "PEWTER_MART": {
+    "x": 2,
+    "y": 3
+  },
+  "PEWTER_NIDORAN_HOUSE": {
+    "x": 2,
+    "y": 3
+  },
+  "PEWTER_POKECENTER": {
+    "x": 2,
+    "y": 3
+  },
+  "PEWTER_SPEECH_HOUSE": {
+    "x": 2,
+    "y": 3
+  },
+  "REDS_HOUSE_1F": {
+    "x": 2,
+    "y": 11
+  },
+  "REDS_HOUSE_2F": {
+    "x": 2,
+    "y": 11
+  },
+  "ROUTE_1": {
+    "x": 2,
+    "y": 10
+  },
+  "ROUTE_2": {
+    "x": 2,
+    "y": 6
+  },
+  "ROUTE_22": {
+    "x": 0,
+    "y": 8
+  },
+  "ROUTE_22_GATE": {
+    "x": 0,
+    "y": 7
+  },
+  "ROUTE_24": {
+    "x": 10,
+    "y": 1
+  },
+  "ROUTE_25": {
+    "x": 11,
+    "y": 0
+  },
+  "ROUTE_2_GATE": {
+    "x": 2,
+    "y": 6
+  },
+  "ROUTE_2_TRADE_HOUSE": {
+    "x": 2,
+    "y": 6
+  },
+  "ROUTE_3": {
+    "x": 4,
+    "y": 3
+  },
+  "ROUTE_4": {
+    "x": 8,
+    "y": 2
+  },
+  "VIRIDIAN_CITY": {
+    "x": 2,
+    "y": 8
+  },
+  "VIRIDIAN_FOREST": {
+    "x": 2,
+    "y": 4
+  },
+  "VIRIDIAN_FOREST_NORTH_GATE": {
+    "x": 2,
+    "y": 6
+  },
+  "VIRIDIAN_FOREST_SOUTH_GATE": {
+    "x": 2,
+    "y": 6
+  },
+  "VIRIDIAN_GYM": {
+    "x": 2,
+    "y": 8
+  },
+  "VIRIDIAN_MART": {
+    "x": 2,
+    "y": 8
+  },
+  "VIRIDIAN_NICKNAME_HOUSE": {
+    "x": 2,
+    "y": 8
+  },
+  "VIRIDIAN_POKECENTER": {
+    "x": 2,
+    "y": 8
+  },
+  "VIRIDIAN_SCHOOL_HOUSE": {
+    "x": 2,
+    "y": 8
+  }
+}

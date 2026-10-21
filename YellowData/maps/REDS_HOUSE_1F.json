@@ -1,0 +1,101 @@
+{
+  "blocked_edges": [],
+  "border_block": 10,
+  "cave": false,
+  "connections": {},
+  "encounter_rate": 0,
+  "height": 8,
+  "hidden": [],
+  "hidden_events": [],
+  "id": "REDS_HOUSE_1F",
+  "items": [],
+  "label": "RedsHouse1F",
+  "looks": [
+    "ttBnBnBn",
+    "bbobooou",
+    "oooooooo",
+    "oooooooo",
+    "oottttoo",
+    "oottttoo",
+    "oooooooo",
+    "oommoooo"
+  ],
+  "looks_unknown": 0,
+  "music": "pallet_town",
+  "name": "Reds House 1F",
+  "npcs": [
+    {
+      "facing": "left",
+      "id": "REDSHOUSE1F_MOM",
+      "movement": "stay",
+      "sprite": "SPRITE_MOM",
+      "text": "TEXT_REDSHOUSE1F_MOM",
+      "text_handler": "RedsHouse1FMomText",
+      "text_id": "TEXT_REDSHOUSE1F_MOM",
+      "texts": [
+        "RedsHouse1FMomYouShouldRestText",
+        "RedsHouse1FMomLookingGreatText",
+        "RedsHouse1FPrintMomText.WakeUpText"
+      ],
+      "x": 5,
+      "y": 4
+    }
+  ],
+  "origin": {
+    "x": 0,
+    "y": 1000
+  },
+  "outdoor": false,
+  "palette": "PAL_PALLET",
+  "signs": [
+    {
+      "text": "TEXT_REDSHOUSE1F_TV",
+      "texts": [
+        "RedsHouse1FPrintTVText.WrongSideText",
+        "RedsHouse1FPrintTVText.StandByMeMovieText"
+      ],
+      "x": 3,
+      "y": 1
+    }
+  ],
+  "source": {
+    "blocks": "maps/RedsHouse1F.blk",
+    "header": "data/maps/headers/RedsHouse1F.asm",
+    "objects": "data/maps/objects/RedsHouse1F.asm",
+    "script": "scripts/RedsHouse1F.asm"
+  },
+  "tiles": [
+    "########",
+    "##.#...d",
+    "........",
+    "........",
+    "...##...",
+    "...##...",
+    "........",
+    "..dd...."
+  ],
+  "tileset": "REDS_HOUSE_1",
+  "warps": [
+    {
+      "last_map": true,
+      "to_map": "PALLET_TOWN",
+      "to_warp": 1,
+      "x": 2,
+      "y": 7
+    },
+    {
+      "last_map": true,
+      "to_map": "PALLET_TOWN",
+      "to_warp": 1,
+      "x": 3,
+      "y": 7
+    },
+    {
+      "to_map": "REDS_HOUSE_2F",
+      "to_warp": 1,
+      "x": 7,
+      "y": 1
+    }
+  ],
+  "width": 8
+}

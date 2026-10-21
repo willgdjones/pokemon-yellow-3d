@@ -1,0 +1,124 @@
+{
+  "blocked_edges": [],
+  "border_block": 10,
+  "cave": false,
+  "connections": {},
+  "encounter_rate": 0,
+  "height": 8,
+  "hidden": [],
+  "hidden_events": [
+    {
+      "arg": "ViridianSchoolNotebook",
+      "kind": "PrintNotebookText",
+      "x": 3,
+      "y": 4
+    },
+    {
+      "arg": "ViridianSchoolBlackboard",
+      "kind": "PrintBlackboardLinkCableText",
+      "x": 3,
+      "y": 0
+    }
+  ],
+  "id": "VIRIDIAN_SCHOOL_HOUSE",
+  "items": [],
+  "label": "ViridianSchoolHouse",
+  "looks": [
+    "BnBllBBt",
+    "ooooooob",
+    "oooooooo",
+    "ooottooo",
+    "ooottooo",
+    "oootoooo",
+    "hooooooh",
+    "hommoooh"
+  ],
+  "looks_unknown": 0,
+  "music": "cities1",
+  "name": "Viridian School House",
+  "npcs": [
+    {
+      "facing": "up",
+      "id": "VIRIDIANSCHOOLHOUSE_BRUNETTE_GIRL",
+      "movement": "stay",
+      "sprite": "SPRITE_BRUNETTE_GIRL",
+      "text": "TEXT_VIRIDIANSCHOOLHOUSE_BRUNETTE_GIRL",
+      "text_handler": "ViridianSchoolHouseBrunetteGirlText",
+      "text_id": "TEXT_VIRIDIANSCHOOLHOUSE_BRUNETTE_GIRL",
+      "texts": [
+        "ViridianSchoolHouseBrunetteGirlText"
+      ],
+      "x": 3,
+      "y": 5
+    },
+    {
+      "facing": "down",
+      "id": "VIRIDIANSCHOOLHOUSE_COOLTRAINER_F",
+      "movement": "stay",
+      "sprite": "SPRITE_COOLTRAINER_F",
+      "text": "TEXT_VIRIDIANSCHOOLHOUSE_COOLTRAINER_F",
+      "text_handler": "ViridianSchoolHouseCooltrainerFText",
+      "text_id": "TEXT_VIRIDIANSCHOOLHOUSE_COOLTRAINER_F",
+      "texts": [
+        "ViridianSchoolHousePrintCooltrainerFText.text"
+      ],
+      "x": 4,
+      "y": 1
+    },
+    {
+      "facing": "up",
+      "id": "VIRIDIANSCHOOLHOUSE_LITTLE_GIRL",
+      "movement": "stay",
+      "sprite": "SPRITE_LITTLE_GIRL",
+      "text": "TEXT_VIRIDIANSCHOOLHOUSE_LITTLE_GIRL",
+      "text_handler": "ViridianSchoolHouseLittleGirlText",
+      "text_id": "TEXT_VIRIDIANSCHOOLHOUSE_LITTLE_GIRL",
+      "texts": [
+        "ViridianSchoolHousePrintLittleGirlText.text"
+      ],
+      "x": 4,
+      "y": 5
+    }
+  ],
+  "origin": {
+    "x": 116,
+    "y": 1000
+  },
+  "outdoor": false,
+  "palette": "PAL_VIRIDIAN",
+  "signs": [],
+  "source": {
+    "blocks": "maps/ViridianSchoolHouse.blk",
+    "header": "data/maps/headers/ViridianSchoolHouse.asm",
+    "objects": "data/maps/objects/ViridianSchoolHouse.asm",
+    "script": "scripts/ViridianSchoolHouse.asm"
+  },
+  "tiles": [
+    "########",
+    ".......#",
+    "........",
+    "...##...",
+    "...##...",
+    "........",
+    "#......#",
+    "#.dd...#"
+  ],
+  "tileset": "HOUSE",
+  "warps": [
+    {
+      "last_map": true,
+      "to_map": "VIRIDIAN_CITY",
+      "to_warp": 3,
+      "x": 2,
+      "y": 7
+    },
+    {
+      "last_map": true,
+      "to_map": "VIRIDIAN_CITY",
+      "to_warp": 3,
+      "x": 3,
+      "y": 7
+    }
+  ],
+  "width": 8
+}

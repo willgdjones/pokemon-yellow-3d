@@ -1,0 +1,115 @@
+{
+  "blocked_edges": [],
+  "border_block": 10,
+  "cave": false,
+  "connections": {},
+  "encounter_rate": 0,
+  "height": 8,
+  "hidden": [],
+  "hidden_events": [],
+  "id": "CERULEAN_TRASHED_HOUSE",
+  "items": [],
+  "label": "CeruleanTrashedHouse",
+  "looks": [
+    "ttBDnBBB",
+    "bboooooo",
+    "oooooooo",
+    "oottttoo",
+    "oottttoo",
+    "oooooooo",
+    "hooooooo",
+    "hommoohh"
+  ],
+  "looks_unknown": 0,
+  "music": "cities2",
+  "name": "Cerulean Trashed House",
+  "npcs": [
+    {
+      "facing": "down",
+      "id": "CERULEANTRASHEDHOUSE_FISHING_GURU",
+      "movement": "stay",
+      "sprite": "SPRITE_FISHING_GURU",
+      "text": "TEXT_CERULEANTRASHEDHOUSE_FISHING_GURU",
+      "text_handler": "CeruleanTrashedHouseFishingGuruText",
+      "text_id": "TEXT_CERULEANTRASHEDHOUSE_FISHING_GURU",
+      "texts": [
+        "CeruleanTrashedHouseFishingGuruText.WhatsLostIsLostText",
+        "CeruleanTrashedHouseFishingGuruText.TheyStoleATMText"
+      ],
+      "x": 2,
+      "y": 1
+    },
+    {
+      "facing": "left_right",
+      "id": "CERULEANTRASHEDHOUSE_GIRL",
+      "movement": "walk",
+      "sprite": "SPRITE_GIRL",
+      "text": "TEXT_CERULEANTRASHEDHOUSE_GIRL",
+      "text_handler": "CeruleanTrashedHouseGirlText",
+      "text_id": "TEXT_CERULEANTRASHEDHOUSE_GIRL",
+      "texts": [
+        "CeruleanTrashedHouseGirlText"
+      ],
+      "x": 5,
+      "y": 6
+    }
+  ],
+  "origin": {
+    "x": 50,
+    "y": 1132
+  },
+  "outdoor": false,
+  "palette": "PAL_CERULEAN",
+  "signs": [
+    {
+      "text": "TEXT_CERULEANTRASHEDHOUSE_WALL_HOLE",
+      "texts": [
+        "CeruleanTrashedHouseWallHoleText"
+      ],
+      "x": 3,
+      "y": 0
+    }
+  ],
+  "source": {
+    "blocks": "maps/CeruleanTrashedHouse.blk",
+    "header": "data/maps/headers/CeruleanTrashedHouse.asm",
+    "objects": "data/maps/objects/CeruleanTrashedHouse.asm",
+    "script": "scripts/CeruleanTrashedHouse.asm"
+  },
+  "tiles": [
+    "###d####",
+    "##......",
+    "........",
+    "...##...",
+    "...##...",
+    "........",
+    "#.......",
+    "#.dd..##"
+  ],
+  "tileset": "HOUSE",
+  "warps": [
+    {
+      "last_map": true,
+      "to_map": "CERULEAN_CITY",
+      "to_warp": 1,
+      "x": 2,
+      "y": 7
+    },
+    {
+      "last_map": true,
+      "to_map": "CERULEAN_CITY",
+      "to_warp": 1,
+      "x": 3,
+      "y": 7
+    },
+    {
+      "door": true,
+      "last_map": true,
+      "to_map": "CERULEAN_CITY",
+      "to_warp": 8,
+      "x": 3,
+      "y": 0
+    }
+  ],
+  "width": 8
+}

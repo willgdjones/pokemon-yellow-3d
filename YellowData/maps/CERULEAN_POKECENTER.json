@@ -1,0 +1,165 @@
+{
+  "blocked_edges": [],
+  "border_block": 0,
+  "cave": false,
+  "connections": {},
+  "encounter_rate": 0,
+  "height": 8,
+  "hidden": [],
+  "hidden_events": [
+    {
+      "arg": "SPRITE_FACING_LEFT",
+      "kind": "PrintBenchGuyText",
+      "x": 0,
+      "y": 4
+    },
+    {
+      "arg": "SPRITE_FACING_UP",
+      "kind": "OpenPokemonCenterPC",
+      "x": 13,
+      "y": 3
+    }
+  ],
+  "id": "CERULEAN_POKECENTER",
+  "items": [],
+  "label": "CeruleanPokecenter",
+  "looks": [
+    "BllbBBllBBDBDB",
+    "BbbooBbboooooo",
+    "kkkkkkkkkkkokk",
+    "kooooooooooooP",
+    "tooooooooooooo",
+    "tooooooooooooo",
+    "hhoooohhoooohh",
+    "hhommohhoooohh"
+  ],
+  "looks_unknown": 0,
+  "music": "pokecenter",
+  "name": "Cerulean Pokemon Center",
+  "npcs": [
+    {
+      "facing": "down",
+      "id": "CERULEANPOKECENTER_NURSE",
+      "movement": "stay",
+      "script": "script_pokecenter_nurse",
+      "sprite": "SPRITE_NURSE",
+      "text": "TEXT_CERULEANPOKECENTER_NURSE",
+      "text_handler": "CeruleanPokecenterNurseText",
+      "text_id": "TEXT_CERULEANPOKECENTER_NURSE",
+      "texts": [
+        "PokemonCenterWelcomeText",
+        "ShallWeHealYourPokemonText",
+        "NeedYourPokemonText",
+        "PokemonFightingFitText",
+        "PokemonCenterFarewellText",
+        "LooksContentText"
+      ],
+      "x": 3,
+      "y": 1
+    },
+    {
+      "facing": "any_dir",
+      "id": "CERULEANPOKECENTER_SUPER_NERD",
+      "movement": "walk",
+      "sprite": "SPRITE_SUPER_NERD",
+      "text": "TEXT_CERULEANPOKECENTER_SUPER_NERD",
+      "text_handler": "CeruleanPokecenterSuperNerdText",
+      "text_id": "TEXT_CERULEANPOKECENTER_SUPER_NERD",
+      "texts": [
+        "CeruleanPokecenterSuperNerdText"
+      ],
+      "x": 10,
+      "y": 5
+    },
+    {
+      "facing": "up",
+      "id": "CERULEANPOKECENTER_GENTLEMAN",
+      "movement": "stay",
+      "sprite": "SPRITE_GENTLEMAN",
+      "text": "TEXT_CERULEANPOKECENTER_GENTLEMAN",
+      "text_handler": "CeruleanPokecenterGentlemanText",
+      "text_id": "TEXT_CERULEANPOKECENTER_GENTLEMAN",
+      "texts": [
+        "CeruleanPokecenterGentlemanText"
+      ],
+      "x": 4,
+      "y": 3
+    },
+    {
+      "facing": "down",
+      "id": "CERULEANPOKECENTER_LINK_RECEPTIONIST",
+      "movement": "stay",
+      "script": "script_cable_club_receptionist",
+      "sprite": "SPRITE_LINK_RECEPTIONIST",
+      "text": "TEXT_CERULEANPOKECENTER_LINK_RECEPTIONIST",
+      "text_handler": "CeruleanPokecenterLinkReceptionistText",
+      "text_id": "TEXT_CERULEANPOKECENTER_LINK_RECEPTIONIST",
+      "texts": [
+        "CableClubNPCWelcomeText",
+        "CableClubNPCPleaseApplyHereHaveToSaveText",
+        "CableClubNPCPleaseWaitText",
+        "CableClubNPCLinkClosedBecauseOfInactivityText",
+        "CableClubNPCPleaseComeAgainText",
+        "CableClubNPCMakingPreparationsText",
+        "CableClubNPCAreaReservedFor2FriendsLinkedByCableText"
+      ],
+      "x": 11,
+      "y": 2
+    },
+    {
+      "facing": "down",
+      "id": "CERULEANPOKECENTER_CHANSEY",
+      "movement": "stay",
+      "sprite": "SPRITE_CHANSEY",
+      "text": "TEXT_CERULEANPOKECENTER_CHANSEY",
+      "text_handler": "CeruleanPokecenterChanseyText",
+      "text_id": "TEXT_CERULEANPOKECENTER_CHANSEY",
+      "texts": [
+        "NurseChanseyText"
+      ],
+      "x": 4,
+      "y": 1
+    }
+  ],
+  "origin": {
+    "x": 86,
+    "y": 1132
+  },
+  "outdoor": false,
+  "palette": "PAL_CERULEAN",
+  "signs": [],
+  "source": {
+    "blocks": "maps/CeruleanPokecenter.blk",
+    "header": "data/maps/headers/CeruleanPokecenter.asm",
+    "objects": "data/maps/objects/CeruleanPokecenter.asm",
+    "script": "scripts/CeruleanPokecenter.asm"
+  },
+  "tiles": [
+    "##########.#.#",
+    "###..###......",
+    "#====#=====.==",
+    "=............#",
+    "#.............",
+    "#.............",
+    "##....##....##",
+    "##.dd.##....##"
+  ],
+  "tileset": "POKECENTER",
+  "warps": [
+    {
+      "last_map": true,
+      "to_map": "CERULEAN_CITY",
+      "to_warp": 3,
+      "x": 3,
+      "y": 7
+    },
+    {
+      "last_map": true,
+      "to_map": "CERULEAN_CITY",
+      "to_warp": 3,
+      "x": 4,
+      "y": 7
+    }
+  ],
+  "width": 14
+}

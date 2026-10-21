@@ -1,0 +1,942 @@
+{
+  "songs": {
+    "caught_mon": {
+      "constant": "SFX_CAUGHT_MON",
+      "header": "SFX_Caught_Mon",
+      "kind": "jingle",
+      "channels": [
+        5,
+        6,
+        7
+      ],
+      "seconds": 4.252,
+      "lufs": -14.0,
+      "peak_dbfs": -1.6,
+      "maps": [],
+      "events": [
+        "a wild Pokemon is caught"
+      ],
+      "warnings": []
+    },
+    "cities1": {
+      "constant": "MUSIC_CITIES1",
+      "header": "Music_Cities1",
+      "kind": "song",
+      "channels": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "seconds": 67.09,
+      "lufs": -14.0,
+      "peak_dbfs": -1.06,
+      "maps": [
+        "VIRIDIAN_CITY",
+        "VIRIDIAN_SCHOOL_HOUSE",
+        "VIRIDIAN_NICKNAME_HOUSE",
+        "ROUTE_2_GATE",
+        "ROUTE_2_TRADE_HOUSE",
+        "VIRIDIAN_FOREST_SOUTH_GATE",
+        "VIRIDIAN_FOREST_NORTH_GATE",
+        "PEWTER_CITY",
+        "MUSEUM_1F",
+        "MUSEUM_2F",
+        "PEWTER_NIDORAN_HOUSE",
+        "PEWTER_SPEECH_HOUSE",
+        "CERULEAN_BADGE_HOUSE"
+      ],
+      "events": [],
+      "warnings": [],
+      "intro_frames": 432,
+      "loop_frames": 3456,
+      "intro_seconds": 7.233,
+      "loop_seconds": 57.863,
+      "loop_channel": 1
+    },
+    "cities2": {
+      "constant": "MUSIC_CITIES2",
+      "header": "Music_Cities2",
+      "kind": "song",
+      "channels": [
+        1,
+        2,
+        3
+      ],
+      "seconds": 35.422,
+      "lufs": -14.0,
+      "peak_dbfs": -1.0,
+      "maps": [
+        "CERULEAN_CITY",
+        "CERULEAN_TRASHED_HOUSE",
+        "CERULEAN_MELANIES_HOUSE",
+        "BIKE_SHOP",
+        "BILLS_HOUSE"
+      ],
+      "events": [],
+      "warnings": [],
+      "intro_frames": 222,
+      "loop_frames": 1776,
+      "intro_seconds": 3.717,
+      "loop_seconds": 29.735,
+      "loop_channel": 1
+    },
+    "defeated_gym_leader": {
+      "constant": "MUSIC_DEFEATED_GYM_LEADER",
+      "header": "Music_DefeatedGymLeader",
+      "kind": "song",
+      "channels": [
+        1,
+        2,
+        3
+      ],
+      "seconds": 38.512,
+      "lufs": -14.0,
+      "peak_dbfs": -1.24,
+      "maps": [],
+      "events": [
+        "victory over a gym leader"
+      ],
+      "warnings": [],
+      "intro_frames": 168,
+      "loop_frames": 2016,
+      "intro_seconds": 2.813,
+      "loop_seconds": 33.753,
+      "loop_channel": 1
+    },
+    "defeated_trainer": {
+      "constant": "MUSIC_DEFEATED_TRAINER",
+      "header": "Music_DefeatedTrainer",
+      "kind": "song",
+      "channels": [
+        1,
+        2,
+        3
+      ],
+      "seconds": 14.474,
+      "lufs": -14.02,
+      "peak_dbfs": -1.0,
+      "maps": [],
+      "events": [
+        "victory over a trainer"
+      ],
+      "warnings": [],
+      "intro_frames": 84,
+      "loop_frames": 672,
+      "intro_seconds": 1.406,
+      "loop_seconds": 11.251,
+      "loop_channel": 1
+    },
+    "defeated_wild_mon": {
+      "constant": "MUSIC_DEFEATED_WILD_MON",
+      "header": "Music_DefeatedWildMon",
+      "kind": "song",
+      "channels": [
+        1,
+        2,
+        3
+      ],
+      "seconds": 14.517,
+      "lufs": -14.02,
+      "peak_dbfs": -1.0,
+      "maps": [],
+      "events": [
+        "victory over a wild Pokemon"
+      ],
+      "warnings": [],
+      "intro_frames": 84,
+      "loop_frames": 672,
+      "intro_seconds": 1.406,
+      "loop_seconds": 11.251,
+      "loop_channel": 1
+    },
+    "dex_evaluation": {
+      "constant": "SFX_POKEDEX_RATING",
+      "header": "SFX_Pokedex_Rating_1",
+      "kind": "jingle",
+      "channels": [
+        5,
+        6,
+        7
+      ],
+      "seconds": 4.171,
+      "lufs": -14.0,
+      "peak_dbfs": -2.31,
+      "maps": [],
+      "events": [
+        "audio/pokedex_rating_sfx.asm: Oak rates the Pokedex"
+      ],
+      "warnings": []
+    },
+    "dungeon1": {
+      "constant": "MUSIC_DUNGEON1",
+      "header": "Music_Dungeon1",
+      "kind": "song",
+      "channels": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "seconds": 70.636,
+      "lufs": -13.97,
+      "peak_dbfs": -1.0,
+      "maps": [],
+      "events": [],
+      "warnings": [],
+      "intro_frames": 108,
+      "loop_frames": 3996,
+      "intro_seconds": 1.808,
+      "loop_seconds": 66.904,
+      "loop_channel": 1
+    },
+    "dungeon2": {
+      "constant": "MUSIC_DUNGEON2",
+      "header": "Music_Dungeon2",
+      "kind": "song",
+      "channels": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "seconds": 103.104,
+      "lufs": -13.97,
+      "peak_dbfs": -1.0,
+      "maps": [
+        "ROUTE_22_GATE",
+        "DIGLETTS_CAVE_ROUTE_2",
+        "VIRIDIAN_FOREST"
+      ],
+      "events": [],
+      "warnings": [],
+      "intro_frames": 0,
+      "loop_frames": 6048,
+      "intro_seconds": 0.0,
+      "loop_seconds": 101.26,
+      "loop_channel": 1
+    },
+    "dungeon3": {
+      "constant": "MUSIC_DUNGEON3",
+      "header": "Music_Dungeon3",
+      "kind": "song",
+      "channels": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "seconds": 108.924,
+      "lufs": -14.0,
+      "peak_dbfs": -1.0,
+      "maps": [
+        "MT_MOON_1F",
+        "MT_MOON_B1F",
+        "MT_MOON_B2F"
+      ],
+      "events": [],
+      "warnings": [],
+      "intro_frames": 1410,
+      "loop_frames": 4983,
+      "intro_seconds": 23.607,
+      "loop_seconds": 83.429,
+      "loop_channel": 3
+    },
+    "evolution": {
+      "alias_of": "safari_zone",
+      "events": [
+        "engine/movie/evolution.asm: the evolution scene plays MUSIC_SAFARI_ZONE; this id plays it once"
+      ]
+    },
+    "get_item_1": {
+      "constant": "SFX_GET_ITEM_1",
+      "header": "SFX_Get_Item1_1",
+      "kind": "jingle",
+      "channels": [
+        5,
+        6,
+        7
+      ],
+      "seconds": 3.057,
+      "lufs": -14.0,
+      "peak_dbfs": -1.36,
+      "maps": [],
+      "events": [
+        "text sound: an item is received"
+      ],
+      "warnings": []
+    },
+    "get_item_2": {
+      "constant": "SFX_GET_ITEM_2",
+      "header": "SFX_Get_Item2_1",
+      "kind": "jingle",
+      "channels": [
+        5,
+        6,
+        7
+      ],
+      "seconds": 5.005,
+      "lufs": -13.96,
+      "peak_dbfs": -2.76,
+      "maps": [],
+      "events": [
+        "text sound: a special item is received"
+      ],
+      "warnings": []
+    },
+    "get_key_item": {
+      "constant": "SFX_GET_KEY_ITEM",
+      "header": "SFX_Get_Key_Item_1",
+      "kind": "jingle",
+      "channels": [
+        5,
+        6,
+        7
+      ],
+      "seconds": 3.907,
+      "lufs": -14.0,
+      "peak_dbfs": -1.42,
+      "maps": [],
+      "events": [
+        "text sound: a key item is received"
+      ],
+      "warnings": []
+    },
+    "gym": {
+      "constant": "MUSIC_GYM",
+      "header": "Music_Gym",
+      "kind": "song",
+      "channels": [
+        1,
+        2,
+        3
+      ],
+      "seconds": 33.005,
+      "lufs": -14.0,
+      "peak_dbfs": -1.42,
+      "maps": [
+        "VIRIDIAN_GYM",
+        "PEWTER_GYM",
+        "CERULEAN_GYM"
+      ],
+      "events": [],
+      "warnings": [],
+      "intro_frames": 207,
+      "loop_frames": 1656,
+      "intro_seconds": 3.466,
+      "loop_seconds": 27.726,
+      "loop_channel": 1
+    },
+    "gym_leader_battle": {
+      "constant": "MUSIC_GYM_LEADER_BATTLE",
+      "header": "Music_GymLeaderBattle",
+      "kind": "song",
+      "channels": [
+        1,
+        2,
+        3
+      ],
+      "seconds": 85.75,
+      "lufs": -14.0,
+      "peak_dbfs": -1.0,
+      "maps": [],
+      "events": [
+        "engine/battle: gym leaders and the rival"
+      ],
+      "warnings": [],
+      "intro_frames": 2359,
+      "loop_frames": 2652,
+      "intro_seconds": 39.496,
+      "loop_seconds": 44.402,
+      "loop_channel": 1
+    },
+    "level_up": {
+      "constant": "SFX_LEVEL_UP",
+      "header": "SFX_Level_Up",
+      "kind": "jingle",
+      "channels": [
+        5,
+        6,
+        7
+      ],
+      "seconds": 4.06,
+      "lufs": -14.0,
+      "peak_dbfs": -2.06,
+      "maps": [],
+      "events": [
+        "a Pokemon grows a level"
+      ],
+      "warnings": []
+    },
+    "meet_evil_trainer": {
+      "constant": "MUSIC_MEET_EVIL_TRAINER",
+      "header": "Music_MeetEvilTrainer",
+      "kind": "song",
+      "channels": [
+        1,
+        2,
+        3
+      ],
+      "seconds": 9.354,
+      "lufs": -13.99,
+      "peak_dbfs": -1.0,
+      "maps": [],
+      "events": [
+        "a Rocket or rough trainer spots Red"
+      ],
+      "warnings": [],
+      "intro_frames": 69,
+      "loop_frames": 372,
+      "intro_seconds": 1.155,
+      "loop_seconds": 6.228,
+      "loop_channel": 1
+    },
+    "meet_female_trainer": {
+      "constant": "MUSIC_MEET_FEMALE_TRAINER",
+      "header": "Music_MeetFemaleTrainer",
+      "kind": "song",
+      "channels": [
+        1,
+        2,
+        3
+      ],
+      "seconds": 9.52,
+      "lufs": -14.01,
+      "peak_dbfs": -1.0,
+      "maps": [],
+      "events": [
+        "a female trainer spots Red"
+      ],
+      "warnings": [],
+      "intro_frames": 81,
+      "loop_frames": 372,
+      "intro_seconds": 1.356,
+      "loop_seconds": 6.228,
+      "loop_channel": 1
+    },
+    "meet_jessie_james": {
+      "constant": "MUSIC_MEET_JESSIE_JAMES",
+      "header": "Music_MeetJessieJames",
+      "kind": "song",
+      "channels": [
+        1,
+        2,
+        3
+      ],
+      "seconds": 20.031,
+      "lufs": -14.0,
+      "peak_dbfs": -1.0,
+      "maps": [],
+      "events": [
+        "MtMoonB2F.asm: Jessie and James"
+      ],
+      "warnings": [],
+      "intro_frames": 216,
+      "loop_frames": 864,
+      "intro_seconds": 3.616,
+      "loop_seconds": 14.466,
+      "loop_channel": 1
+    },
+    "meet_male_trainer": {
+      "constant": "MUSIC_MEET_MALE_TRAINER",
+      "header": "Music_MeetMaleTrainer",
+      "kind": "song",
+      "channels": [
+        1,
+        2,
+        3
+      ],
+      "seconds": 10.374,
+      "lufs": -14.0,
+      "peak_dbfs": -1.0,
+      "maps": [],
+      "events": [
+        "a male trainer spots Red (engine/overworld/trainer_sight.asm, trainer class table)"
+      ],
+      "warnings": [],
+      "intro_frames": 168,
+      "loop_frames": 336,
+      "intro_seconds": 2.813,
+      "loop_seconds": 5.626,
+      "loop_channel": 1
+    },
+    "meet_prof_oak": {
+      "constant": "MUSIC_MEET_PROF_OAK",
+      "header": "Music_MeetProfOak",
+      "kind": "song",
+      "channels": [
+        1,
+        2,
+        3
+      ],
+      "seconds": 30.128,
+      "lufs": -13.96,
+      "peak_dbfs": -1.0,
+      "maps": [],
+      "events": [
+        "PalletTown.asm: Oak stops Red at the edge of the grass"
+      ],
+      "warnings": [],
+      "intro_frames": 1008,
+      "loop_frames": 672,
+      "intro_seconds": 16.877,
+      "loop_seconds": 11.251,
+      "loop_channel": 2
+    },
+    "meet_rival": {
+      "constant": "MUSIC_MEET_RIVAL",
+      "header": "Music_MeetRival",
+      "kind": "song",
+      "channels": [
+        1,
+        2,
+        3
+      ],
+      "seconds": 19.044,
+      "lufs": -14.0,
+      "peak_dbfs": -1.05,
+      "maps": [],
+      "events": [
+        "OaksLab.asm, Route22.asm, CeruleanCity.asm: the rival appears"
+      ],
+      "warnings": [],
+      "intro_frames": 178,
+      "loop_frames": 840,
+      "intro_seconds": 2.98,
+      "loop_seconds": 14.064,
+      "loop_channel": 3
+    },
+    "museum_guy": {
+      "constant": "MUSIC_MUSEUM_GUY",
+      "header": "Music_MuseumGuy",
+      "kind": "song",
+      "channels": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "seconds": 18.225,
+      "lufs": -13.97,
+      "peak_dbfs": -1.0,
+      "maps": [],
+      "events": [
+        "PewterCity.asm (engine/overworld/auto_movement.asm): the boys who lead Red to the museum and gym"
+      ],
+      "warnings": [],
+      "intro_frames": 588,
+      "loop_frames": 384,
+      "intro_seconds": 9.845,
+      "loop_seconds": 6.429,
+      "loop_channel": 1
+    },
+    "oaks_lab": {
+      "constant": "MUSIC_OAKS_LAB",
+      "header": "Music_OaksLab",
+      "kind": "song",
+      "channels": [
+        1,
+        2,
+        3
+      ],
+      "seconds": 30.881,
+      "lufs": -14.0,
+      "peak_dbfs": -1.42,
+      "maps": [
+        "OAKS_LAB"
+      ],
+      "events": [],
+      "warnings": [],
+      "intro_frames": 52,
+      "loop_frames": 1680,
+      "intro_seconds": 0.871,
+      "loop_seconds": 28.128,
+      "loop_channel": 1
+    },
+    "pallet_town": {
+      "constant": "MUSIC_PALLET_TOWN",
+      "header": "Music_PalletTown",
+      "kind": "song",
+      "channels": [
+        1,
+        2,
+        3
+      ],
+      "seconds": 52.16,
+      "lufs": -14.0,
+      "peak_dbfs": -1.76,
+      "maps": [
+        "PALLET_TOWN",
+        "REDS_HOUSE_1F",
+        "REDS_HOUSE_2F",
+        "BLUES_HOUSE"
+      ],
+      "events": [],
+      "warnings": [],
+      "intro_frames": 1080,
+      "loop_frames": 1920,
+      "intro_seconds": 18.082,
+      "loop_seconds": 32.146,
+      "loop_channel": 1
+    },
+    "pkmn_healed": {
+      "constant": "MUSIC_PKMN_HEALED",
+      "header": "Music_PkmnHealed",
+      "kind": "jingle",
+      "channels": [
+        1,
+        2,
+        3
+      ],
+      "seconds": 4.085,
+      "lufs": -14.0,
+      "peak_dbfs": -3.04,
+      "maps": [],
+      "events": [
+        "engine/overworld/healing_machine.asm: Nurse Joy heals the party"
+      ],
+      "warnings": [
+        "audio/music/pkmnhealed.asm:9: no octave set, assuming 4"
+      ]
+    },
+    "pokecenter": {
+      "constant": "MUSIC_POKECENTER",
+      "header": "Music_Pokecenter",
+      "kind": "song",
+      "channels": [
+        1,
+        2,
+        3
+      ],
+      "seconds": 32.651,
+      "lufs": -14.0,
+      "peak_dbfs": -1.66,
+      "maps": [
+        "VIRIDIAN_POKECENTER",
+        "VIRIDIAN_MART",
+        "PEWTER_MART",
+        "PEWTER_POKECENTER",
+        "MT_MOON_POKECENTER",
+        "CERULEAN_POKECENTER",
+        "CERULEAN_MART"
+      ],
+      "events": [],
+      "warnings": [],
+      "intro_frames": 108,
+      "loop_frames": 1728,
+      "intro_seconds": 1.808,
+      "loop_seconds": 28.931,
+      "loop_channel": 3
+    },
+    "routes1": {
+      "constant": "MUSIC_ROUTES1",
+      "header": "Music_Routes1",
+      "kind": "song",
+      "channels": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "seconds": 25.269,
+      "lufs": -13.98,
+      "peak_dbfs": -1.0,
+      "maps": [
+        "ROUTE_1",
+        "ROUTE_2"
+      ],
+      "events": [],
+      "warnings": [],
+      "intro_frames": 28,
+      "loop_frames": 1368,
+      "intro_seconds": 0.469,
+      "loop_seconds": 22.904,
+      "loop_channel": 1
+    },
+    "routes2": {
+      "constant": "MUSIC_ROUTES2",
+      "header": "Music_Routes2",
+      "kind": "song",
+      "channels": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "seconds": 20.85,
+      "lufs": -14.0,
+      "peak_dbfs": -1.0,
+      "maps": [
+        "ROUTE_24",
+        "ROUTE_25"
+      ],
+      "events": [],
+      "warnings": [],
+      "intro_frames": 0,
+      "loop_frames": 1140,
+      "intro_seconds": 0.0,
+      "loop_seconds": 19.087,
+      "loop_channel": 1
+    },
+    "routes3": {
+      "constant": "MUSIC_ROUTES3",
+      "header": "Music_Routes3",
+      "kind": "song",
+      "channels": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "seconds": 29.103,
+      "lufs": -14.0,
+      "peak_dbfs": -1.0,
+      "maps": [
+        "ROUTE_22",
+        "ROUTE_3",
+        "ROUTE_4"
+      ],
+      "events": [],
+      "warnings": [],
+      "intro_frames": 291,
+      "loop_frames": 1332,
+      "intro_seconds": 4.872,
+      "loop_seconds": 22.301,
+      "loop_channel": 1
+    },
+    "safari_zone": {
+      "constant": "MUSIC_SAFARI_ZONE",
+      "header": "Music_SafariZone",
+      "kind": "song",
+      "channels": [
+        1,
+        2,
+        3
+      ],
+      "seconds": 9.451,
+      "lufs": -13.99,
+      "peak_dbfs": -1.0,
+      "maps": [],
+      "events": [
+        "engine/movie/evolution.asm: the evolution scene"
+      ],
+      "warnings": [],
+      "intro_frames": 49,
+      "loop_frames": 396,
+      "intro_seconds": 0.82,
+      "loop_seconds": 6.63,
+      "loop_channel": 1
+    },
+    "sfx_ball_poof": {
+      "constant": "SFX_BALL_POOF",
+      "header": "SFX_Ball_Poof",
+      "kind": "sfx",
+      "channels": [
+        5,
+        8
+      ],
+      "seconds": 0.47,
+      "lufs": -16.0,
+      "peak_dbfs": -6.61,
+      "maps": [],
+      "events": [],
+      "warnings": []
+    },
+    "sfx_go_inside": {
+      "constant": "SFX_GO_INSIDE",
+      "header": "SFX_Go_Inside_1",
+      "kind": "sfx",
+      "channels": [
+        8
+      ],
+      "seconds": 0.675,
+      "lufs": -16.0,
+      "peak_dbfs": -6.66,
+      "maps": [],
+      "events": [],
+      "warnings": []
+    },
+    "sfx_go_outside": {
+      "constant": "SFX_GO_OUTSIDE",
+      "header": "SFX_Go_Outside_1",
+      "kind": "sfx",
+      "channels": [
+        8
+      ],
+      "seconds": 0.886,
+      "lufs": -16.0,
+      "peak_dbfs": -2.03,
+      "maps": [],
+      "events": [],
+      "warnings": []
+    },
+    "sfx_heal_machine": {
+      "constant": "SFX_HEALING_MACHINE",
+      "header": "SFX_Healing_Machine_1",
+      "kind": "sfx",
+      "channels": [
+        5
+      ],
+      "seconds": 0.294,
+      "lufs": -16.0,
+      "peak_dbfs": -8.56,
+      "maps": [],
+      "events": [],
+      "warnings": []
+    },
+    "sfx_ledge": {
+      "constant": "SFX_LEDGE",
+      "header": "SFX_Ledge_1",
+      "kind": "sfx",
+      "channels": [
+        5
+      ],
+      "seconds": 0.318,
+      "lufs": -16.0,
+      "peak_dbfs": -8.62,
+      "maps": [],
+      "events": [],
+      "warnings": []
+    },
+    "sfx_press_ab": {
+      "constant": "SFX_PRESS_AB",
+      "header": "SFX_Press_AB_1",
+      "kind": "sfx",
+      "channels": [
+        5
+      ],
+      "seconds": 0.318,
+      "lufs": -16.0,
+      "peak_dbfs": -10.78,
+      "maps": [],
+      "events": [],
+      "warnings": []
+    },
+    "sfx_purchase": {
+      "constant": "SFX_PURCHASE",
+      "header": "SFX_Purchase_1",
+      "kind": "sfx",
+      "channels": [
+        5,
+        6
+      ],
+      "seconds": 0.603,
+      "lufs": -16.0,
+      "peak_dbfs": -10.83,
+      "maps": [],
+      "events": [],
+      "warnings": []
+    },
+    "sfx_save": {
+      "constant": "SFX_SAVE",
+      "header": "SFX_Save_1",
+      "kind": "sfx",
+      "channels": [
+        5,
+        6
+      ],
+      "seconds": 0.854,
+      "lufs": -16.0,
+      "peak_dbfs": -11.99,
+      "maps": [],
+      "events": [],
+      "warnings": []
+    },
+    "sfx_start_menu": {
+      "constant": "SFX_START_MENU",
+      "header": "SFX_Start_Menu_1",
+      "kind": "sfx",
+      "channels": [
+        8
+      ],
+      "seconds": 0.386,
+      "lufs": -16.0,
+      "peak_dbfs": -7.02,
+      "maps": [],
+      "events": [],
+      "warnings": []
+    },
+    "title_screen": {
+      "constant": "MUSIC_TITLE_SCREEN",
+      "header": "Music_TitleScreen",
+      "kind": "song",
+      "channels": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "seconds": 51.204,
+      "lufs": -13.97,
+      "peak_dbfs": -1.0,
+      "maps": [],
+      "events": [
+        "engine/movie/title.asm: the title screen"
+      ],
+      "warnings": [],
+      "intro_frames": 351,
+      "loop_frames": 2592,
+      "intro_seconds": 5.877,
+      "loop_seconds": 43.397,
+      "loop_channel": 4
+    },
+    "trainer_battle": {
+      "constant": "MUSIC_TRAINER_BATTLE",
+      "header": "Music_TrainerBattle",
+      "kind": "song",
+      "channels": [
+        1,
+        2,
+        3
+      ],
+      "seconds": 99.041,
+      "lufs": -14.0,
+      "peak_dbfs": -1.31,
+      "maps": [],
+      "events": [
+        "engine/battle: trainer battles"
+      ],
+      "warnings": [],
+      "intro_frames": 840,
+      "loop_frames": 4956,
+      "intro_seconds": 14.064,
+      "loop_seconds": 82.977,
+      "loop_channel": 1
+    },
+    "wild_battle": {
+      "constant": "MUSIC_WILD_BATTLE",
+      "header": "Music_WildBattle",
+      "kind": "song",
+      "channels": [
+        1,
+        2,
+        3
+      ],
+      "seconds": 49.003,
+      "lufs": -14.0,
+      "peak_dbfs": -1.0,
+      "maps": [],
+      "events": [
+        "engine/battle/core.asm: wild battles"
+      ],
+      "warnings": [],
+      "intro_frames": 936,
+      "loop_frames": 1872,
+      "intro_seconds": 15.671,
+      "loop_seconds": 31.342,
+      "loop_channel": 2
+    }
+  },
+  "source": {
+    "repo": "https://github.com/pret/pokeyellow",
+    "commit": "e89ead154b9968aa50eed9328ff2b38b6c194382"
+  },
+  "format": {
+    "rate": 32000,
+    "channels": 1,
+    "bits": 16,
+    "song_lufs": -14.0,
+    "sfx_max_momentary_lufs": -16.0,
+    "tail_seconds": 2.0
+  }
+}
